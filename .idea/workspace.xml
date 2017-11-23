@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="delete obj.name 删除对象中某个属性&#10;name in obj 判断对象中是否有这个属性">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171123/test14.html" />
+    <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171123/test15.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,16 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test5.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20171123/test5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test6.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20171123/test6.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test14.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test14.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20171123/test14.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test15.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/20171123/test15.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -151,6 +151,7 @@
         <option value="$PROJECT_DIR$/20171123/test12.html" />
         <option value="$PROJECT_DIR$/20171123/test13.html" />
         <option value="$PROJECT_DIR$/20171123/test14.html" />
+        <option value="$PROJECT_DIR$/20171123/test15.html" />
       </list>
     </option>
   </component>
@@ -240,7 +241,7 @@
       <workItem from="1510890106843" duration="745000" />
       <workItem from="1510896248366" duration="7635000" />
       <workItem from="1511407215973" duration="12417000" />
-      <workItem from="1511434246342" duration="1289000" />
+      <workItem from="1511434246342" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="深入理解sort">
       <created>1510906827405</created>
@@ -326,11 +327,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511434604917</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="查找属性的原型链">
+      <created>1511436334311</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1511436334311</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22086000" />
+    <option name="totallyTimeSpent" value="22418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -370,7 +378,8 @@
     <MESSAGE value="当属性名为字符串拼接时，使用中括号表示法更有优势。" />
     <MESSAGE value="当属性名为原始值或关键词时，只能使用中括号表示法，使用点号会报错。" />
     <MESSAGE value="delete obj.name 删除对象中某个属性&#10;name in obj 判断对象中是否有这个属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete obj.name 删除对象中某个属性&#10;name in obj 判断对象中是否有这个属性" />
+    <MESSAGE value="查找属性的原型链" />
+    <option name="LAST_COMMIT_MESSAGE" value="查找属性的原型链" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -626,6 +635,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20171123/test15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
           <folding />
         </state>
       </provider>
