@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var myF = new Function('x', 'y', 'return x * y');
+    console.log(myF.constructor);
+    console.log(myF);
+    var myE = new Error('123');
+    console.log(myE.constructor);
+
+    var str1 = new String('mmm');
+    var str2 = 'mmm';
+    console.log(str1);
+    console.log(str2);
+</script>
+</body>
+</html>

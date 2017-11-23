@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var p1 = 10;
+    var p2 = 10;
+    var p3 = new Number('10');
+    var p4 = p3;
+
+    console.log(p1 === p2);
+    console.log(p1 === p3);
+    console.log(p4 === p3);
+
+    p4 = 10;
+    console.log(p4 === p3);
+    console.log(p3);
+    console.log(p1.toString())
+</script>
+</body>
+</html>
