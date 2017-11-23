@@ -37,7 +37,13 @@
 
     var obj1 = {'123': 'mazey', 'class': 'foo'};
     console.log(obj1['123'], obj1['class']);
-    console.log(obj1.123, obj1.class);
+    // console.log(obj1.123, obj1.class);
+
+    var obj2 = {barN: 'barV'};
+    console.log('barN' in obj2);
+    delete obj2.barN;
+    console.log('barN' in obj2);
+
 </script>
 </body>
 </html>
