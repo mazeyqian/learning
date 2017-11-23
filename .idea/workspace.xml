@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171123/test10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171123/test11.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test5.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20171123/test9.html" afterPath="$PROJECT_DIR$/20171123/test9.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,16 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test0.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20171123/test0.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20171123/test1.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,11 +90,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test9.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test9.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20171123/test9.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="460">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test10.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20171123/test10.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test11.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/20171123/test11.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -135,6 +149,8 @@
         <option value="$PROJECT_DIR$/20171123/test7.html" />
         <option value="$PROJECT_DIR$/20171123/test8.html" />
         <option value="$PROJECT_DIR$/20171123/test9.html" />
+        <option value="$PROJECT_DIR$/20171123/test10.html" />
+        <option value="$PROJECT_DIR$/20171123/test11.html" />
       </list>
     </option>
   </component>
@@ -223,7 +239,7 @@
       <updated>1510890104349</updated>
       <workItem from="1510890106843" duration="745000" />
       <workItem from="1510896248366" duration="7635000" />
-      <workItem from="1511407215973" duration="6449000" />
+      <workItem from="1511407215973" duration="10036000" />
     </task>
     <task id="LOCAL-00001" summary="深入理解sort">
       <created>1510906827405</created>
@@ -267,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511421909360</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="相同属性的对象因为引用地址不一样所以不想等。&#10;只有复制的对象才相等，因为引用地址一样，所以地址上的属性变了，对象的属性也变了。">
+      <created>1511421989207</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1511421989207</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14829000" />
+    <option name="totallyTimeSpent" value="18416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -306,7 +329,8 @@
     <MESSAGE value="不要再代码的任何地方出现&lt;/script&gt;字符串，需要转义&lt;\/script&gt;。" />
     <MESSAGE value="object and string" />
     <MESSAGE value="复杂值是各种值（包含原始值）的组合" />
-    <option name="LAST_COMMIT_MESSAGE" value="复杂值是各种值（包含原始值）的组合" />
+    <MESSAGE value="相同属性的对象因为引用地址不一样所以不想等。&#10;只有复制的对象才相等，因为引用地址一样，所以地址上的属性变了，对象的属性也变了。" />
+    <option name="LAST_COMMIT_MESSAGE" value="相同属性的对象因为引用地址不一样所以不想等。&#10;只有复制的对象才相等，因为引用地址一样，所以地址上的属性变了，对象的属性也变了。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -459,8 +483,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/20171123/test9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="460">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20171123/test10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20171123/test11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding />
         </state>
       </provider>

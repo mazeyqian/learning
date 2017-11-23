@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var foo = {};
+    console.log(foo.constructor === Object);
+
+    console.log(foo.constructor);
+
+    var n0 = 123;
+    var n1 = new Number('123');
+    console.log(n0.constructor, n1.constructor);
+
+    var obj0 = function obj0Name () {
+        return 'obj0';
+    };
+    var obj1 = new obj0();
+
+    console.log(obj1.constructor === obj0);
+    console.log(obj1.constructor);
+
+    console.log(obj1 instanceof obj0);
+</script>
+</body>
+</html>

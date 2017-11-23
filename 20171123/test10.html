@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    String.augmentedProperties = [];
+    if (!String.prototype.trimIT) {
+        String.prototype.trimIT = function () {
+            return this.replace(/^\s+|\s+$/g, '');
+        };
+        String.augmentedProperties.push('trimIT');
+    }
+
+    var str = ' trim me ';
+    console.log(str.trimIT());
+    console.log(String.augmentedProperties);
+</script>
+</body>
+</html>
