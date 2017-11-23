@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171123/test10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171123/test11.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test5.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171123/test12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171123/test13.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20171123/test9.html" afterPath="$PROJECT_DIR$/20171123/test9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20171123/test11.html" afterPath="$PROJECT_DIR$/20171123/test11.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,26 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20171123/test1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20171123/test2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20171123/test4.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,11 +89,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test11.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test11.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20171123/test11.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            <state relative-caret-position="621">
+              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test12.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20171123/test12.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test13.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/20171123/test13.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -151,6 +150,8 @@
         <option value="$PROJECT_DIR$/20171123/test9.html" />
         <option value="$PROJECT_DIR$/20171123/test10.html" />
         <option value="$PROJECT_DIR$/20171123/test11.html" />
+        <option value="$PROJECT_DIR$/20171123/test12.html" />
+        <option value="$PROJECT_DIR$/20171123/test13.html" />
       </list>
     </option>
   </component>
@@ -239,7 +240,7 @@
       <updated>1510890104349</updated>
       <workItem from="1510890106843" duration="745000" />
       <workItem from="1510896248366" duration="7635000" />
-      <workItem from="1511407215973" duration="10036000" />
+      <workItem from="1511407215973" duration="11987000" />
     </task>
     <task id="LOCAL-00001" summary="深入理解sort">
       <created>1510906827405</created>
@@ -290,11 +291,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511421989207</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="son instanceof father&#10;验证一个对象是否是一个构造函数的实例！！！">
+      <created>1511425929108</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1511425929108</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18416000" />
+    <option name="totallyTimeSpent" value="20367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -330,7 +338,8 @@
     <MESSAGE value="object and string" />
     <MESSAGE value="复杂值是各种值（包含原始值）的组合" />
     <MESSAGE value="相同属性的对象因为引用地址不一样所以不想等。&#10;只有复制的对象才相等，因为引用地址一样，所以地址上的属性变了，对象的属性也变了。" />
-    <option name="LAST_COMMIT_MESSAGE" value="相同属性的对象因为引用地址不一样所以不想等。&#10;只有复制的对象才相等，因为引用地址一样，所以地址上的属性变了，对象的属性也变了。" />
+    <MESSAGE value="son instanceof father&#10;验证一个对象是否是一个构造函数的实例！！！" />
+    <option name="LAST_COMMIT_MESSAGE" value="son instanceof father&#10;验证一个对象是否是一个构造函数的实例！！！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -499,8 +508,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/20171123/test11.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state relative-caret-position="621">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20171123/test12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20171123/test13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding />
         </state>
       </provider>

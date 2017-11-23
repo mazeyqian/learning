@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var cody = new Object();
+
+    cody.living = true;
+    cody.age = 33;
+    cody.gender = 'male';
+    cody.getGender = function () {
+        return cody.gender;
+    };
+
+    console.log(
+        cody.living,
+        cody.age,
+        cody.gender,
+        cody.getGender()
+    )
+
+    cody.living = false;
+
+    console.log(cody.living);
+    console.log(cody['living']);
+
+    var obj0 = {foobar: 'i am foobar'};
+
+    var s0 = 'foo';
+    var s1 = 'bar';
+
+    console.log(obj0[s0 + s1]);
+    // console.log(obj0.(s0 + s1));
+</script>
+</body>
+</html>
