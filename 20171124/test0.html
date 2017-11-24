@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var myObj = {foo: 'bar'};
+    console.log(myObj.hasOwnProperty('foo'));
+
+    console.log(myObj.hasOwnProperty('toString'));
+
+    console.log('toString' in myObj);
+
+    console.log(typeof myObj);
+
+    console.log(myObj instanceof Object);
+</script>
+</body>
+</html>
