@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// 继承
+let oFather = function () {};
+let nFather = function () {};
+nFather.prototype = new oFather();
+nFather.construction = nFather;
+
+let nSon = new nFather();
+console.log(nSon instanceof nFather); // true
+console.log(nSon instanceof oFather); // true
+
+console.log('---');
+
+let obj = {name: 'mazey'};
+console.log('name' in obj); // true
+console.log('toString' in obj); // true
+console.log('name' in Object); // true
+console.log(obj.hasOwnProperty('name')); // true
+console.log(obj.hasOwnProperty('toString')); // false
+console.log(Object.hasOwnProperty('name')); // true
+</script>
+</body>
+</html>

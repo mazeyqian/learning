@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// 使用原始值
+let mNull = null;
+let mUndefined = undefined;
+let mString = 'mazey';
+let mNumber = 123;
+let mBoolean = true;
+let mFunction = function () {
+    return true;
+};
+
+// 用构造函数的方式new一个实例
+let oString = new String('cherrie');
+let oRegExp = new RegExp('^[0-9]+$');
+let oFunction = new Function('x', 'y', 'return x + y');
+
+let oObj = {};
+let oNew = new Object();
+
+// typeof值
+console.log(typeof mNull); // object
+console.log(typeof mUndefined); // undefined
+console.log(typeof mString); // string
+console.log(typeof mNumber); // number
+console.log(typeof mBoolean); // boolean
+console.log(typeof mFunction); // function
+console.log(typeof oString); // object
+console.log(typeof oRegExp); // object
+console.log(typeof oFunction); // function
+console.log(typeof oObj); // object
+console.log(typeof oNew); // object
+
+
+
+//console.log(typeof Math);
+console.log(new RegExp('^[0-9]+$')); // /^[0-9]+$/
+console.log(RegExp); // ƒ RegExp() { [native code] } 原始值
+console.log(String); // ƒ String() { [native code] } 原始值
+console.log(/^[0-9]+$/); // /^[0-9]+$/
+console.log(new RegExp('^[0-9]+$') === /^[0-9]+$/); // false
+console.log(RegExp('^[0-9]+$') === /^[0-9]+$/); // false
+
+console.log(typeof Math); // object
+console.log(typeof Math.PI); // number
+console.log(typeof Math.ceil); // function
+console.log(Math);
+</script>
+</body>
+</html>

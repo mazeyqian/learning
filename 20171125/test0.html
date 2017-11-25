@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+console.log(typeof aaa); // 'undefined'
+
+// 判断
+if (typeof bbb === 'undefined') {
+    console.log('变量未定义');
+}
+
+// 判断是否时复杂值（对象值）
+function isObject (m) {
+    return (typeof m === 'function' || (typeof m === 'object' && m !== null));
+}
+
+console.log(isObject(new RegExp('123'))); // true
+console.log(isObject('123')); // false
+console.log(isObject(String('123'))); // false
+console.log(isObject(null)); // false
+
+// 判断是否是原始值
+function isNative (m) {
+    return (m === null || (typeof m !== 'object' && typeof m !== 'function'));
+}
+
+console.log(isNative(new RegExp('123'))); // false
+console.log(isNative('123')); // true
+console.log(isNative(String('123'))); // true
+console.log(isNative(null)); // true
+
+function qqq () {
+    let a = 0;
+    let b = function () {
+        a++;
+        console.log(a);
+    };
+    return b;
+}
+
+let ccc = qqq();
+console.log(typeof ccc); // function
+if (typeof ccc === 'function') {
+    ccc(); // 1
+    ccc(); // 2
+    ccc(); // 3
+    ccc(); // 4
+}
+
+</script>
+</body>
+</html>

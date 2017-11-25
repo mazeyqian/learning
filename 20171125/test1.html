@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let oFather = function () {
+    this.firstName = 'mazey';
+};
+oFather.prototype.lastName = 'qian';
+
+// 实例
+let oSon = new oFather();
+console.log(oSon instanceof oFather); // true
+
+// 继承
+let nFather = function () {};
+nFather.prototype = new oFather();
+nFather.construction = nFather;
+console.log(nFather.firstName); // undefined
+console.log(nFather.prototype.lastName); // qian
+console.log(nFather instanceof oFather); // false
+console.log(new nFather() instanceof nFather); // true
+
+console.log('---');
+
+// 相对于Object来说
+console.log('123' instanceof Object); // false
+console.log(new String('123') instanceof Object); // true 构造出来的实例
+console.log(null instanceof Object); // false
+</script>
+</body>
+</html>

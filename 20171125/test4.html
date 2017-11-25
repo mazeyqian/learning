@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let obj0 = {
+    name: 'mazey',
+    age: 24
+};
+
+// 删除age属性
+delete obj0.age;
+console.log(obj0.hasOwnProperty('age')); // false
+console.log('age' in obj0); // false
+
+// 试着删除原型链上的属性 toString
+delete obj0.toString
+console.log('toString' in obj0); // true
+</script>
+</body>
+</html>

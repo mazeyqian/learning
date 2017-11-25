@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+function obj0 () {
+    this.name = 'mazey',
+    this.age = '24'
+};
+obj0.prototype.gender = 'male';
+let obj1 = new obj0();
+
+// 打印所有可枚举属性
+for (let key in obj1) {
+    console.log(key); // name age gender
+}
+
+// 过滤掉原型链上的属性
+for (let key in obj1) {
+    if (obj1.hasOwnProperty(key)) {
+        console.log(key); // name age
+    }
+}
+</script>
+</body>
+</html>
