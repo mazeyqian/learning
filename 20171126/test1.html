@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// 第一个构造函数
+function ConFun0 () {
+    this.firstName = 'mazey';
+}
+ConFun0.prototype.firstCom = 'bang';
+
+// 第二个构造函数
+function ConFun1 () {
+    this.secondName = 'qian';
+}
+// 继承第一个
+ConFun1.prototype = new ConFun0();
+ConFun1.prototype.constructor = ConFun1;
+
+// 实例
+let obj = new ConFun1();
+obj.girlName = 'cherrie';
+
+// 是否可枚举
+console.log(obj.propertyIsEnumerable('constructor')); // false
+console.log(obj.propertyIsEnumerable('firstName')); // false
+console.log(obj.propertyIsEnumerable('firstCom')); // false
+// 通过原型链继承的属性不是可枚举
+console.log(obj.propertyIsEnumerable('secondName')); // true
+console.log(obj.propertyIsEnumerable('girlName')); // true
+
+for (let key in obj) {
+    console.log(key); // secondName girlName （原型链上的属性也会被打印出来->） firstName constructor firstCom
+}
+
+console.log(`---分割线---`);
+
+for (let key in obj) {
+    // 过滤掉原型链上的属性
+    if (obj.hasOwnProperty(key)) {
+        console.log(key); // secondName girlName
+    }
+}
+</script>
+</body>
+</html>

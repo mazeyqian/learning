@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let obj0 = {foo: 'bar'};
+console.log('toString' in obj0);
+
+let cody = {
+    age: 23,
+    gender: 'male'
+};
+
+for (let key in cody) {
+    if (cody.hasOwnProperty(key)) {
+        console.log(key);
+    }
+}
+
+console.log(`---`);
+
+function Person (name, age) {
+    this.name = name;
+    this.age = age;
+}
+Person.prototype.gender = 'male';
+
+let Mazey = new Person('mazey', 24);
+Person.prototype.living = true;
+
+console.log(Mazey.propertyIsEnumerable('name'));
+console.log(Mazey.propertyIsEnumerable('toString'));
+console.log(Mazey.propertyIsEnumerable('gender'));
+console.log(Mazey.propertyIsEnumerable('living'));
+
+
+for (let key in Mazey) {
+    console.log(key);
+}
+</script>
+</body>
+</html>
