@@ -29,6 +29,16 @@ let f0 = function f0 (num) {
 }
 
 f0(5);
+
+(function f0 (num) {
+    console.log(num);
+    num --;
+    if (num) {
+        arguments.callee(num); //f0(num);
+    } else {
+        return false;
+    }
+})(5);
 </script>
 </body>
 </html>
