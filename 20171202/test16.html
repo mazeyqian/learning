@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+window.foo = `head's foo`;
+window.myObj = {
+    foo: `obj's foo`
+};
+window.sayFoo = function () {
+    console.log(this['foo']);
+};
+window.myObj.sayFoo = window.sayFoo;
+
+window.myObj.sayFoo();
+window.sayFoo();
+
+var foo = {
+    f0: function (bar) {
+        bar();
+        console.log(this);
+    }
+};
+foo.f0(function () {
+    console.log(this);
+});
+
+</script>
+</body>
+</html>

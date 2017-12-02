@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let obj = {};
+let fun = function (x, y) {
+    this.foo = x;
+    this.bar = y;
+    console.log(this);
+};
+
+
+fun.call(obj, 'foo', 'bar');
+console.log(obj);
+</script>
+</body>
+</html>

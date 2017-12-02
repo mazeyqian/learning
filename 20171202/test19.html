@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let Person = function (x) {
+    if (x) {
+        this.fullname = x;
+    }
+};
+Person.prototype.whatIsMyFullname = function () {
+    return this.fullname;
+};
+// Person.prototype.fullname = 'qiancheng';
+let Mazey = new Person('mazey');
+let Cherrie = new Person('cherrie');
+console.log(Mazey.whatIsMyFullname(), Cherrie.whatIsMyFullname());
+Object.prototype.fullname = 'qiancheng';
+let john = new Person();
+console.log(john.whatIsMyFullname());
+</script>
+</body>
+</html>
