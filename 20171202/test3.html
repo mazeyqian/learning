@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let f = function (fun) {
+    return fun;
+};
+let f0 = f(function () {
+    console.log('hi');
+});
+f0();
+f0.foo = 'fooStr';
+console.log(f0.foo);
+
+let f1 = function (a, b) {
+    let sum = a + b;
+    return sum;
+};
+console.log(f1(1, 2));
+</script>
+</body>
+</html>

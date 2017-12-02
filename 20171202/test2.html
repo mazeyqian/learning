@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let f0 = new Function('a', 'b', 'return a + b');
+console.log(f0(2, 3));
+
+let f1 = function (a, b) {
+    return a + b;
+}
+console.log(f1(2, 3));
+
+let f2 = new Function('a, b', 'return a + b');
+console.log(f2(2, 3));
+
+console.log(f2.length); // 2
+console.log(f0.length); // 2
+
+let sayHi = function () {
+    return 'Hi';
+};
+console.log(sayHi());
+
+let yelp = function () {
+    console.log(`i am yelp`);
+}
+
+console.log(yelp() === undefined);
+</script>
+</body>
+</html>

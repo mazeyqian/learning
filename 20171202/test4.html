@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let f0 = function () {
+    return arguments[0] + arguments[1];
+}
+
+console.log(f0(1, 2));
+
+let f1 = {
+    name: 'mazey',
+    myFun: function () {
+        console.log(this);
+    }
+};
+f1.myFun();
+
+let f2 = function () {
+    console.log(this);
+};
+f2(); // window
+
+let f3 = function bar () {
+    console.log(arguments.callee);
+}(); // bar()
+
+
+let f4 = function (a, b, c) {
+    return arguments.length;
+};
+console.log(f4()); // 0
+console.log(f4(1, 2, 3, 4)); // 4
+
+// arguments.callee.length 一直返回3 3
+</script>
+</body>
+</html>
