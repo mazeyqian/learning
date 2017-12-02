@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let f0 = new Function('x', 'y', 'return x + y');
+
+function f1 (x, y) {
+    return x + y;
+}
+
+let f2 = function (x, y) {
+    return x + y;
+};
+
+let f3 = function f3 (x, y) {
+    return x + y;
+};
+
+console.log(f0(1, 2), f1(1, 2), f2(1, 2), f3(1, 2)); // 3 3 3 3
+</script>
+</body>
+</html>

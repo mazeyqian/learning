@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171202/test1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171202/test2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171202/test3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171202/test4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171202/test5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20171202/test6.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -60,11 +58,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test4.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20171202/test4.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="761">
               <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20171202/test5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test6.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/20171202/test6.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="63" lean-forward="false" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -121,6 +139,8 @@
         <option value="$PROJECT_DIR$/20171202/test2.html" />
         <option value="$PROJECT_DIR$/20171202/test3.html" />
         <option value="$PROJECT_DIR$/20171202/test4.html" />
+        <option value="$PROJECT_DIR$/20171202/test5.html" />
+        <option value="$PROJECT_DIR$/20171202/test6.html" />
       </list>
     </option>
   </component>
@@ -223,7 +243,7 @@
       <workItem from="1511587577106" duration="6959000" />
       <workItem from="1511614442854" duration="5015000" />
       <workItem from="1511684945369" duration="7535000" />
-      <workItem from="1512188373974" duration="4961000" />
+      <workItem from="1512188373974" duration="5994000" />
     </task>
     <task id="LOCAL-00001" summary="深入理解sort">
       <created>1510906827405</created>
@@ -358,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512189637889</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="arguments.callee.length 一直返回已定义参数数量，和书上说的有冲突。">
+      <created>1512196494633</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1512196494633</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52221000" />
+    <option name="totallyTimeSpent" value="53254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -409,27 +436,14 @@
     <MESSAGE value="JavaScript中typeof，instanceof，hasOwnProperty，in的用法和区别" />
     <MESSAGE value="object page: 45" />
     <MESSAGE value="创建对象的三种方式，最后不加逗号，否则有些浏览器报错，除非特殊情况不用字符串当属性。" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建对象的三种方式，最后不加逗号，否则有些浏览器报错，除非特殊情况不用字符串当属性。" />
+    <MESSAGE value="arguments.callee.length 一直返回已定义参数数量，和书上说的有冲突。" />
+    <option name="LAST_COMMIT_MESSAGE" value="arguments.callee.length 一直返回已定义参数数量，和书上说的有冲突。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/20171123/test4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20171123/test5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20171123/test6.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -772,6 +786,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="761">
           <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20171202/test5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20171202/test6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="63" lean-forward="false" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
           <folding />
         </state>
       </provider>
