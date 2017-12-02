@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let greet = {
+    runGreet: function () {
+        console.log(this.name, arguments[0], arguments[1]);
+    }
+}
+let foo = {name: 'Foo'};
+let bar = {name: 'Bar'};
+greet.runGreet.call(foo, 'a', 'b');
+greet.runGreet.apply(bar, ['a', 'b']);
+
+let sayHi = function (f) {
+    f();
+};
+sayHi(function () {
+    console.log(`Hi`);
+});
+</script>
+</body>
+</html>
