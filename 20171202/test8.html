@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+(function (msg) {
+    console.log(msg);
+})('Hello');
+
+(function (msg) {
+    console.log(msg);
+}(', '));
+
+!function sayWorld(msg) {
+    console.log(msg);
+}('world');
+</script>
+</body>
+</html>
