@@ -17,6 +17,22 @@
 !function sayWorld(msg) {
     console.log(msg);
 }('world');
+
+let foo = function () {
+    let bar = function () {
+        let goo = function () {
+            console.log(this);
+        }();
+    }();
+}();
+
+let foo1 = function (f) {
+    return f;
+};
+let bar = foo1(function () {
+    console.log('hi');
+});
+bar();
 </script>
 </body>
 </html>

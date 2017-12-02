@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let speak = function () {
+    sayYo();
+    function sayYo () {
+        console.log('Yo');
+    }
+}();
+
+console.log(sum(1, 2));
+function sum () {
+    return arguments[0] + arguments[1];
+}
+
+let f0 = function f0 (num) {
+    console.log(num);
+    num --;
+    if (num) {
+        arguments.callee(num); //f0(num);
+    } else {
+        return false;
+    }
+}
+
+f0(5);
+</script>
+</body>
+</html>
