@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let cody = new Object();
+cody.living = true;
+cody.age = 33;
+cody.gender = 'male';
+cody.getGender = function () {
+    return cody.gender;
+};
+console.log(cody);
+
+let cody1 = {
+    living: true,
+    age: 23,
+    gender: 'male',
+    getGender: function () {
+        return cody.gender;
+    }
+};
+
+console.log(cody1);
+
+let cody2 = {
+    'living': true,
+    'age': 23,
+    'gender': 'male',
+    'getGender': function () {
+        return cody.gender;
+    }
+};
+
+console.log(cody2);
+
+</script>
+</body>
+</html>
