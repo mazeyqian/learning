@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+Array.prototype.foo = 'foo';
+let arr0 = new Array();
+console.log(arr0.__proto__.foo);
+console.log(arr0.__proto__ === Array.prototype);
+console.log(arr0.__proto__ === arr0.constructor.prototype);
+console.log(arr0.constructor === Array);
+console.log(arr0.constructor.prototype.foo);
+console.log(arr0.foo);
+
+</script>
+</body>
+</html>

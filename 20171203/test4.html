@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let f0 = function () {
+    let foo = 'foo';
+    return function () {
+        console.log(foo);
+    };
+};
+
+let f1 = f0();
+f1();
+f1();
+f1();
+f1();
+f1();
+</script>
+</body>
+</html>

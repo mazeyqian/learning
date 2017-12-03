@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let f0 = function () {
+    let count = 0;
+    return function () {
+        return ++count;
+    };
+}();
+
+console.log(f0());
+console.log(f0());
+console.log(f0());
+console.log(f0());
+</script>
+</body>
+</html>
