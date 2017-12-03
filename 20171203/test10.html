@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let Foo = function () {};
+Foo.prototype = {constructor: Foo};
+
+let FooSon = new Foo();
+console.log(FooSon.constructor === Foo);
+console.log(FooSon.constructor);
+
+let Bar = function () {
+
+};
+let BarSon = new Bar();
+console.log(BarSon.constructor === Bar);
+console.log(BarSon.constructor);
+</script>
+</body>
+</html>
