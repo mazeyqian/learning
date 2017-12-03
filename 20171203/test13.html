@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let Foo = function () {
+
+};
+Foo.prototype.x = 1;
+let FooSon = new Foo();
+console.log(FooSon.x);
+
+Foo.prototype = {
+    x: 2
+};
+console.log(FooSon.x);
+
+let NewFooSon = new Foo();
+console.log(NewFooSon.x);
+</script>
+</body>
+</html>

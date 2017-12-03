@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let Person = function (legs, arms) {
+    if (legs !== undefined) this.legs = legs;
+    if (arms !== undefined) this.arms = arms;
+};
+
+Person.prototype.legs = 2;
+Person.prototype.arms = 3;
+Person.prototype.countLimbs = function () {
+    return this.legs + this.arms;
+};
+let chuck = new Person(0, 1);
+console.log(chuck.countLimbs());
+
+let f0 = function () {
+
+};
+let f1 = function () {
+
+};
+console.log(f1.constructor);
+
+f1.prototype = new f0();
+f1.constructor = f1;
+console.log(f1.prototype.__proto__ === f0.prototype);
+console.log(f1.constructor);
+console.log(f0.constructor);
+</script>
+</body>
+</html>

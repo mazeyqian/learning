@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let Person = function (name) {
+    this.name = name || 'mazey';
+    this.bar = 'bar';
+};
+Person.prototype.foo = 'foo';
+let Chef = function (name) {
+    this.goo = 'goo';
+    Person.call(this, name);
+};
+Chef.prototype = new Person();
+let cody = new Chef('cody');
+console.log(cody.foo);
+console.log(cody.goo);
+console.log(cody.bar);
+console.log(cody.name);
+</script>
+</body>
+</html>
