@@ -1,0 +1,18 @@
+@charset "utf-8";
+@mixin square($len: 50px, $color: red){
+  width: $len;
+  height: $len;
+  background-color: $color;
+}
+
+.square-red{
+  @include square(
+    $len: 30px,
+    $color: red
+  );
+}
+.square-blue{
+  @include square(
+    $color: blue
+  );
+}

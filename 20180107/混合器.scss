@@ -1,0 +1,17 @@
+@charset "utf-8";
+// 定义混合器
+@mixin flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &>li{
+    color: #eee;
+  }
+}
+
+// 使用混合器
+ul.header-title{
+  font-size: 20px;
+  color: #000;
+  @include flex-center;
+}
