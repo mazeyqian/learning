@@ -1,12 +1,15 @@
 function HashTable () {
     this.table = new Array(137);
+    this.values = [];
     this.simpleHash = simpleHash;
     this.betterHash = betterHash;
     this.showDistro = showDistro;
     this.put = put;
+    this.get = get;
+    this.buildChains = buildChains;
 }
-function put (data) {
-    let pos = this.betterHash(data);
+function put (key, data) {
+    let pos = this.betterHash(key);
     this.table[pos] = data;
 }
 function simpleHash (data) {
@@ -35,4 +38,13 @@ function betterHash (string) {
         total += this.table.length -1;
     }
     return parseInt(total, 10);
+}
+function get (key) {
+    return this.table[this.betterHash(key)];
+}
+// 开链法
+function buildChains () {
+    for (let i = 0; i < this.table.length; ++i) {
+        this.table[i] = new Array();
+    }
 }
