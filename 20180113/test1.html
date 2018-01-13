@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="HashTable.js"></script>
+<script>
+let someNames = ['Mazey', 'John', 'Cherrie', 'Mike', 'Danny', 'Ada'];
+let hTable = new HashTable();
+for (let i = 0, max = someNames.length; i < max; ++i) {
+    hTable.put(someNames[i]);
+}
+hTable.showDistro();
+console.log(hTable.table);
+</script>
+</body>
+</html>

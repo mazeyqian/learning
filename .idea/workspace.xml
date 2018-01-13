@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20180107/传参数的混合器.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20180107/数字运算.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20180107/混合器.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20180107/混合器简写.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20180107/继承.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20180107/颜色运算.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20180113/HashTable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20180113/test0.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20180113/test1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,61 +19,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="继承.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20180107/继承.scss">
+      <file leaf-file-name="test0.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20180113/test0.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="继承.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20180107/继承.css">
+      <file leaf-file-name="test1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20180113/test1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="345">
+              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="数字运算.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20180107/数字运算.scss">
+      <file leaf-file-name="HashTable.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/20180113/HashTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="数字运算.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20180107/数字运算.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="颜色运算.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20180107/颜色运算.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="颜色运算.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/20180107/颜色运算.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="194">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -88,8 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -99,9 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/20171202/test6.html" />
-        <option value="$PROJECT_DIR$/20171202/test7.html" />
-        <option value="$PROJECT_DIR$/20171202/test8.html" />
         <option value="$PROJECT_DIR$/20171202/test9.html" />
         <option value="$PROJECT_DIR$/20171202/test10.html" />
         <option value="$PROJECT_DIR$/20171202/test11.html" />
@@ -150,6 +113,9 @@
         <option value="$PROJECT_DIR$/20180107/数字运算.scss" />
         <option value="$PROJECT_DIR$/20180107/颜色运算.scss" />
         <option value="$PROJECT_DIR$/20180107/颜色运算.css" />
+        <option value="$PROJECT_DIR$/20180113/test0.html" />
+        <option value="$PROJECT_DIR$/20180113/test1.html" />
+        <option value="$PROJECT_DIR$/20180113/HashTable.js" />
       </list>
     </option>
   </component>
@@ -200,13 +166,7 @@
             <path>
               <item name="javascript-test0" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript-test0" type="462c0819:PsiDirectoryNode" />
-              <item name="20180107" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javascript-test0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javascript-test0" type="462c0819:PsiDirectoryNode" />
-              <item name="20180107" type="462c0819:PsiDirectoryNode" />
-              <item name="颜色运算.scss" type="620a8d5e:NestingTreeNode" />
+              <item name="20180113" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,6 +188,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Web\javascript-test0\20180113" />
       <recent name="C:\Web\javascript-test0\20171203" />
     </key>
   </component>
@@ -272,7 +233,8 @@
       <workItem from="1513397788018" duration="439000" />
       <workItem from="1513482907488" duration="16000" />
       <workItem from="1515316672350" duration="8747000" />
-      <workItem from="1515336959780" duration="3000" />
+      <workItem from="1515336959780" duration="101000" />
+      <workItem from="1515826661903" duration="4685000" />
     </task>
     <task id="LOCAL-00001" summary="深入理解sort">
       <created>1510906827405</created>
@@ -519,11 +481,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512807173551</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="#豆瓣阅读#定制Bootstrap之SASS/SCSS进阶 - Bootstrap实战/后除http://t.cn/RHDPYlj">
+      <created>1515337045151</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1515337045151</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89984000" />
+    <option name="totallyTimeSpent" value="94767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -598,7 +567,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="当属性名为原始值或关键词时，只能使用中括号表示法，使用点号会报错。" />
     <MESSAGE value="delete obj.name 删除对象中某个属性&#10;name in obj 判断对象中是否有这个属性" />
     <MESSAGE value="查找属性的原型链" />
     <MESSAGE value="通过hasOwnProperty来查看实例是否存在这个方法，&#10;不能看到原型prototype上的方法和属性，&#10;所以prototype上的方法和属性会被继承。" />
@@ -623,34 +591,14 @@
     <MESSAGE value="当原始值被当作对象使用时就会暂时转换成对象，返回值后又会变成原始值。" />
     <MESSAGE value="使用原始值 page: 115" />
     <MESSAGE value="读完《JavaScript启示录》" />
-    <option name="LAST_COMMIT_MESSAGE" value="读完《JavaScript启示录》" />
+    <MESSAGE value="#豆瓣阅读#定制Bootstrap之SASS/SCSS进阶 - Bootstrap实战/后除http://t.cn/RHDPYlj" />
+    <option name="LAST_COMMIT_MESSAGE" value="#豆瓣阅读#定制Bootstrap之SASS/SCSS进阶 - Bootstrap实战/后除http://t.cn/RHDPYlj" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/20171202/test10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20171202/test11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20171202/test12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20171202/test13.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -885,13 +833,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/20180107/混合器.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/20180107/混合器.scss">
@@ -980,6 +928,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20180113/test0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20180113/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20180113/HashTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding />
         </state>
       </provider>
