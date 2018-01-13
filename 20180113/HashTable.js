@@ -1,3 +1,4 @@
+// 散列类 - 线性探测法
 function HashTable () {
     this.table = new Array(137);
     this.values = [];
@@ -6,11 +7,33 @@ function HashTable () {
     this.showDistro = showDistro;
     this.put = put;
     this.get = get;
-    this.buildChains = buildChains;
 }
 function put (key, data) {
     let pos = this.betterHash(key);
-    this.table[pos] = data;
+    // this.table[pos] = data;
+    if (this.table[pos] === undefined) {
+        this.table[pos] = key;
+        this.values[pos] = data;
+    } else {
+        while (this.table[pos] !== undefined) {
+            ++pos;
+        }
+        this.table[pos] = key;
+        this.values[pos] = data;
+    }
+}
+function get (key) {
+    // return this.table[this.betterHash(key)];
+    let hash = -1;
+    hash = this.betterHash(key);
+    if (hash > -1) {
+        for (let i = hash; this.table[hash] !== undefined; ++i) {
+            if (this.table[hash] === key) {
+                return this.values[hash];
+            }
+        }
+    }
+    return undefined;
 }
 function simpleHash (data) {
     let total = 0;
@@ -38,13 +61,4 @@ function betterHash (string) {
         total += this.table.length -1;
     }
     return parseInt(total, 10);
-}
-function get (key) {
-    return this.table[this.betterHash(key)];
-}
-// 开链法
-function buildChains () {
-    for (let i = 0; i < this.table.length; ++i) {
-        this.table[i] = new Array();
-    }
 }

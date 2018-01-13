@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="HashTable.js"></script>
+<script>
+// 字典类
+function Dict () {
+    this.hashTable = new HashTable();
+    this.save = save;
+    this.find = find;
+}
+function save (word, description) {
+    this.hashTable.put(word, description);
+}
+function find (word) {
+    return this.hashTable.get(word);
+}
+// 示例
+let d = new Dict();
+d.save('Mazey', 'a strong man.');
+d.save('Cherrie', 'a beautiful girl.');
+d.save('John', 'unknown.');
+console.log(d.find('John')); // unknown.
+console.log(d.find('Mazey')); // a strong man.
+console.log(d.find('Ada')); // undefined
+</script>
+</body>
+</html>
