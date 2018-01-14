@@ -13,6 +13,8 @@ function Set () {
 function add (data) {
     if (this.dataStore.indexOf(data) < 0) {
         this.dataStore.push(data);
+        // 排序
+        this.dataStore = this.dataStore.sort((a, b) => a - b);
         return true;
     } else {
         return false;

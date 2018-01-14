@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="Set.js"></script>
+<script>
+Set.prototype.higher = function (element) {
+    let arr = [];
+    for (let i = 0; i < this.dataStore.length; ++i) {
+        if (this.dataStore[i] > element) {
+            arr.push(this.dataStore[i]);
+        }
+    }
+    return arr.sort((a, b) => a - b)[0];
+};
+// 示例
+let s = new Set();
+s.add(23);
+s.add(3);
+s.add(2);
+s.add(24);
+s.add(73);
+console.log(s.higher(20)); // 23
+console.log(s.higher(60)); // 73
+</script>
+</body>
+</html>
