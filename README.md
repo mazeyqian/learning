@@ -1,4 +1,4 @@
-# 《JavaScript启示录》
+# 《JavaScript启示录》 - Cody Lindley 著 / 徐涛 译
 
 核心知识点基本都讲了，JavaScript入门的话是很好的一本书。
 
