@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+function SumNum (num) {
+    if (num === 1) {
+        return num
+    }
+    return num + arguments.callee(--num);
+}
+console.log(SumNum(5)); // 15
+
+// 尾递归
+function SumNumTail (num, total) { // total = 0 设置默认值会报错，因为严格模式不能使用arguments.callee
+    if (num === 1) {
+        return total + 1;
+    }
+    total += num
+    return arguments.callee(--num, total);
+}
+console.log(SumNumTail(5, 0)); // 15
+
+(function (msg) {
+console.log(msg);
+})('Hello, 2018!'); // Hello, 2018!
+// 等于
+(function (msg) {
+    console.log(msg);
+}('Hello, 2018!')); // Hello, 2018!
+// 等于
+!function (msg) {
+    console.log(msg);
+}('Hello, 2018!'); // Hello, 2018!
+
+function f0 () {}
+function f1 () {}
+f1.prototype = new f0();
+console.log(f1.prototype.__proto__ === f0.prototype); // true
+</script>
+</body>
+</html>
