@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let p = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('success');
+    }, 1000);
+});
+p.then(
+    res => {
+        console.log(res);
+        return `${res} again`;
+    }
+)
+    .then(
+        res => console.log(res)
+    )
+</script>
+</body>
+</html>
