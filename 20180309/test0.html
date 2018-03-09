@@ -7,19 +7,19 @@
 <body>
 <script>
 let p = new Promise((resolve, reject) => {
-    setTimeout(() => {
-        resolve('success');
-    }, 1000);
+    setTimeout(resolve, 1000, 'success');
 });
 p.then(
     res => {
         console.log(res);
-        return `${res} again`;
+        return new Promise((resolve, reject) => {
+            setTimeout(resolve, 1000, 'success');
+        });
     }
 )
     .then(
         res => console.log(res)
-    )
+    );
 </script>
 </body>
 </html>
