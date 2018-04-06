@@ -2,190 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/month/march.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171117/test0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171117/test1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171117/test2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test10.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test11.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test12.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test13.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test14.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test15.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171123/test9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171124/test0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171124/test1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171125/test0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171125/test1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171125/test2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171125/test3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171125/test4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171126/test0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171126/test1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171126/test2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171126/test3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test10.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test11.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test12.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test13.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test14.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test15.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test16.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test17.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test18.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test19.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171202/test9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test10.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test11.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test12.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test13.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test14.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test15.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test16.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test17.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test18.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test19.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test20.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test21.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171203/test9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171209/test0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171209/test1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20171209/test2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180107/传参数的混合器.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180107/数字运算.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180107/混合器.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180107/混合器简写.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180107/继承.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180107/颜色运算.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180113/HashTable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180113/test0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180113/test1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180113/test2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180114/Set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180114/test0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180114/test1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180114/test2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180114/test3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180309/test0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180322/test0.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171117/test0.html" afterPath="$PROJECT_DIR$/Example/20171117/test0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171117/test1.html" afterPath="$PROJECT_DIR$/Example/20171117/test1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171117/test2.html" afterPath="$PROJECT_DIR$/Example/20171117/test2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test0.html" afterPath="$PROJECT_DIR$/Example/20171123/test0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test1.html" afterPath="$PROJECT_DIR$/Example/20171123/test1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test10.html" afterPath="$PROJECT_DIR$/Example/20171123/test10.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test11.html" afterPath="$PROJECT_DIR$/Example/20171123/test11.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test12.html" afterPath="$PROJECT_DIR$/Example/20171123/test12.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test13.html" afterPath="$PROJECT_DIR$/Example/20171123/test13.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test14.html" afterPath="$PROJECT_DIR$/Example/20171123/test14.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test15.html" afterPath="$PROJECT_DIR$/Example/20171123/test15.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test2.html" afterPath="$PROJECT_DIR$/Example/20171123/test2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test4.html" afterPath="$PROJECT_DIR$/Example/20171123/test4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test5.html" afterPath="$PROJECT_DIR$/Example/20171123/test5.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test6.html" afterPath="$PROJECT_DIR$/Example/20171123/test6.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test7.html" afterPath="$PROJECT_DIR$/Example/20171123/test7.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test8.html" afterPath="$PROJECT_DIR$/Example/20171123/test8.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171123/test9.html" afterPath="$PROJECT_DIR$/Example/20171123/test9.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171124/test0.html" afterPath="$PROJECT_DIR$/Example/20171124/test0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171124/test1.html" afterPath="$PROJECT_DIR$/Example/20171124/test1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171125/test0.html" afterPath="$PROJECT_DIR$/Example/20171125/test0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171125/test1.html" afterPath="$PROJECT_DIR$/Example/20171125/test1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171125/test2.html" afterPath="$PROJECT_DIR$/Example/20171125/test2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171125/test3.html" afterPath="$PROJECT_DIR$/Example/20171125/test3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171125/test4.html" afterPath="$PROJECT_DIR$/Example/20171125/test4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171126/test0.html" afterPath="$PROJECT_DIR$/Example/20171126/test0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171126/test1.html" afterPath="$PROJECT_DIR$/Example/20171126/test1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171126/test2.html" afterPath="$PROJECT_DIR$/Example/20171126/test2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171126/test3.html" afterPath="$PROJECT_DIR$/Example/20171126/test3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test0.html" afterPath="$PROJECT_DIR$/Example/20171202/test0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test1.html" afterPath="$PROJECT_DIR$/Example/20171202/test1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test10.html" afterPath="$PROJECT_DIR$/Example/20171202/test10.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test11.html" afterPath="$PROJECT_DIR$/Example/20171202/test11.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test12.html" afterPath="$PROJECT_DIR$/Example/20171202/test12.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test13.html" afterPath="$PROJECT_DIR$/Example/20171202/test13.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test14.html" afterPath="$PROJECT_DIR$/Example/20171202/test14.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test15.html" afterPath="$PROJECT_DIR$/Example/20171202/test15.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test16.html" afterPath="$PROJECT_DIR$/Example/20171202/test16.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test17.html" afterPath="$PROJECT_DIR$/Example/20171202/test17.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test18.html" afterPath="$PROJECT_DIR$/Example/20171202/test18.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test19.html" afterPath="$PROJECT_DIR$/Example/20171202/test19.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test2.html" afterPath="$PROJECT_DIR$/Example/20171202/test2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test3.html" afterPath="$PROJECT_DIR$/Example/20171202/test3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test4.html" afterPath="$PROJECT_DIR$/Example/20171202/test4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test5.html" afterPath="$PROJECT_DIR$/Example/20171202/test5.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test6.html" afterPath="$PROJECT_DIR$/Example/20171202/test6.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test7.html" afterPath="$PROJECT_DIR$/Example/20171202/test7.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test8.html" afterPath="$PROJECT_DIR$/Example/20171202/test8.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171202/test9.html" afterPath="$PROJECT_DIR$/Example/20171202/test9.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test0.html" afterPath="$PROJECT_DIR$/Example/20171203/test0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test1.html" afterPath="$PROJECT_DIR$/Example/20171203/test1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test10.html" afterPath="$PROJECT_DIR$/Example/20171203/test10.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test11.html" afterPath="$PROJECT_DIR$/Example/20171203/test11.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test12.html" afterPath="$PROJECT_DIR$/Example/20171203/test12.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test13.html" afterPath="$PROJECT_DIR$/Example/20171203/test13.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test14.html" afterPath="$PROJECT_DIR$/Example/20171203/test14.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test15.html" afterPath="$PROJECT_DIR$/Example/20171203/test15.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test16.html" afterPath="$PROJECT_DIR$/Example/20171203/test16.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test17.html" afterPath="$PROJECT_DIR$/Example/20171203/test17.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test18.html" afterPath="$PROJECT_DIR$/Example/20171203/test18.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test19.html" afterPath="$PROJECT_DIR$/Example/20171203/test19.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test2.html" afterPath="$PROJECT_DIR$/Example/20171203/test2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test20.html" afterPath="$PROJECT_DIR$/Example/20171203/test20.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test21.html" afterPath="$PROJECT_DIR$/Example/20171203/test21.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test3.html" afterPath="$PROJECT_DIR$/Example/20171203/test3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test4.html" afterPath="$PROJECT_DIR$/Example/20171203/test4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test5.html" afterPath="$PROJECT_DIR$/Example/20171203/test5.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test6.html" afterPath="$PROJECT_DIR$/Example/20171203/test6.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test7.html" afterPath="$PROJECT_DIR$/Example/20171203/test7.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test8.html" afterPath="$PROJECT_DIR$/Example/20171203/test8.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171203/test9.html" afterPath="$PROJECT_DIR$/Example/20171203/test9.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171209/test0.html" afterPath="$PROJECT_DIR$/Example/20171209/test0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171209/test1.html" afterPath="$PROJECT_DIR$/Example/20171209/test1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20171209/test2.html" afterPath="$PROJECT_DIR$/Example/20171209/test2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180107/传参数的混合器.scss" afterPath="$PROJECT_DIR$/Example/20180107/传参数的混合器.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180107/数字运算.scss" afterPath="$PROJECT_DIR$/Example/20180107/数字运算.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180107/混合器.scss" afterPath="$PROJECT_DIR$/Example/20180107/混合器.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180107/混合器简写.sass" afterPath="$PROJECT_DIR$/Example/20180107/混合器简写.sass" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180107/继承.scss" afterPath="$PROJECT_DIR$/Example/20180107/继承.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180107/颜色运算.scss" afterPath="$PROJECT_DIR$/Example/20180107/颜色运算.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180113/HashTable.js" afterPath="$PROJECT_DIR$/Example/20180113/HashTable.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180113/test0.html" afterPath="$PROJECT_DIR$/Example/20180113/test0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180113/test1.html" afterPath="$PROJECT_DIR$/Example/20180113/test1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180113/test2.html" afterPath="$PROJECT_DIR$/Example/20180113/test2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180114/Set.js" afterPath="$PROJECT_DIR$/Example/20180114/Set.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180114/test0.html" afterPath="$PROJECT_DIR$/Example/20180114/test0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180114/test1.html" afterPath="$PROJECT_DIR$/Example/20180114/test1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180114/test2.html" afterPath="$PROJECT_DIR$/Example/20180114/test2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180114/test3.html" afterPath="$PROJECT_DIR$/Example/20180114/test3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180309/test0.html" afterPath="$PROJECT_DIR$/Example/20180309/test0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/20180322/test0.html" afterPath="$PROJECT_DIR$/Example/20180322/test0.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/20180406/test0.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/month/march.md" afterPath="$PROJECT_DIR$/month/march.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -199,15 +18,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="march.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/month/march.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="test0.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Example/20180406/test0.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -228,8 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/20171202/test18.html" />
-        <option value="$PROJECT_DIR$/20171202/test19.html" />
         <option value="$PROJECT_DIR$/20171203/test0.html" />
         <option value="$PROJECT_DIR$/20171203/test1.html" />
         <option value="$PROJECT_DIR$/20171203/test2.html" />
@@ -279,6 +93,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/20180309/test0.html" />
         <option value="$PROJECT_DIR$/20180322/test0.html" />
+        <option value="$PROJECT_DIR$/month/march.md" />
+        <option value="$PROJECT_DIR$/Example/20180406/test0.html" />
       </list>
     </option>
   </component>
@@ -319,8 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,10 +142,23 @@
               <item name="javascript-test0" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript-test0" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javascript-test0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript-test0" type="462c0819:PsiDirectoryNode" />
+              <item name="Example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javascript-test0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript-test0" type="462c0819:PsiDirectoryNode" />
+              <item name="Example" type="462c0819:PsiDirectoryNode" />
+              <item name="20180406" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -402,7 +229,8 @@
       <workItem from="1516290193656" duration="26000" />
       <workItem from="1518666801081" duration="7278000" />
       <workItem from="1520610403225" duration="3233000" />
-      <workItem from="1521733752025" duration="2025000" />
+      <workItem from="1521733752025" duration="4871000" />
+      <workItem from="1523003325149" duration="2097000" />
     </task>
     <task id="LOCAL-00001" summary="深入理解sort">
       <created>1510906827405</created>
@@ -740,24 +568,32 @@
       <option name="project" value="LOCAL" />
       <updated>1522075852596</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="添加月份总结">
+      <created>1522076153831</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1522076153831</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116274000" />
+    <option name="totallyTimeSpent" value="121217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17917548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.105179705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -818,7 +654,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="函数递归&#10;用arguments.callee()也能实现；" />
     <MESSAGE value="自调用匿名函数递归, 用arguments.callee()实现；" />
     <MESSAGE value="let不能定义全局变量吗？" />
     <MESSAGE value="先找属性，再找原型链。" />
@@ -843,20 +678,14 @@
     <MESSAGE value="promise对象then普通链式调用" />
     <MESSAGE value="promise对象then 继续返回Promise对象链式调用" />
     <MESSAGE value="浮动元素引起的问题和解决办法" />
-    <option name="LAST_COMMIT_MESSAGE" value="浮动元素引起的问题和解决办法" />
+    <MESSAGE value="添加月份总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加月份总结" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Example/20171203/test3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Example/20171203/test4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -1007,13 +836,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test0.js" />
     <entry file="file://$PROJECT_DIR$/Example/20180107/混合器.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Example/20180107/混合器.scss">
@@ -1167,7 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,7 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="806">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="41" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,7 +1016,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="207">
             <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1199,18 +1025,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/month/march.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="253">
+            <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/20180406/test0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
