@@ -1,0 +1,10 @@
+ul.header-title {
+  font-size: 20px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  ul.header-title > li {
+    color: #eee; }
+
+/*# sourceMappingURL=%BB%EC%BA%CF%C6%F7.css.map */
