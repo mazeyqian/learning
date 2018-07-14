@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 1s ease-in;
+        }
+        .box.show{
+            max-height: 413px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <p>我是内容，你看看我！</p>
+    <p>我是内容，你看看我！</p>
+    <p>我是内容，你看看我！</p>
+    <p>我是内容，你看看我！</p>
+    <p>我是内容，你看看我！</p>
+    <p>我是内容，你看看我！</p>
+    <p>我是内容，你看看我！</p>
+    <p>我是内容，你看看我！</p>
+    <p>我是内容，你看看我！</p>
+    <p>我是内容，你看看我！</p>
+</div>
+<button type="button">展开</button>
+<script>
+document.querySelector('button').addEventListener('click', () => {
+    document.querySelector('div').className = 'box show'
+})
+</script>
+</body>
+</html>
