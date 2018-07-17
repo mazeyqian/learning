@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/20180714/test0.html" />
+    <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="使用 max-height 实现动画效果的“展开收起”">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/20180714/test0.html" afterPath="$PROJECT_DIR$/Example/20180714/test0.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +30,8 @@
       <file leaf-file-name="test0.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Example/20180714/test0.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+            <state relative-caret-position="391">
+              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -266,14 +266,7 @@
       <workItem from="1530945748937" duration="3129000" />
       <workItem from="1530959290487" duration="448000" />
       <workItem from="1531149490686" duration="2552000" />
-      <workItem from="1531566755662" duration="500000" />
-    </task>
-    <task id="LOCAL-00008" summary="son instanceof father&#10;验证一个对象是否是一个构造函数的实例！！！">
-      <created>1511425929108</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1511425929108</updated>
+      <workItem from="1531566755662" duration="1397000" />
     </task>
     <task id="LOCAL-00009" summary="当属性名为字符串拼接时，使用中括号表示法更有优势。">
       <created>1511428676136</created>
@@ -611,11 +604,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531405686284</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="使用 max-height 实现动画效果的“展开收起”">
+      <created>1531567268091</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1531567268093</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138032000" />
+    <option name="totallyTimeSpent" value="138929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -690,7 +690,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="自定义原型对象时要加上constructor: Foo" />
     <MESSAGE value="继承啊继承，原型和属性" />
     <MESSAGE value="while循环参数更少，更容易阅读。" />
     <MESSAGE value="当原始值被当作对象使用时就会暂时转换成对象，返回值后又会变成原始值。" />
@@ -715,7 +714,8 @@
     <MESSAGE value="折线图" />
     <MESSAGE value="测试 box-sizing" />
     <MESSAGE value="测试 a中js和href优先级" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试 a中js和href优先级" />
+    <MESSAGE value="使用 max-height 实现动画效果的“展开收起”" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用 max-height 实现动画效果的“展开收起”" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1079,8 +1079,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Example/20180714/test0.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        <state relative-caret-position="391">
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
           <folding />
         </state>
       </provider>
