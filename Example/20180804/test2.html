@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 'use strict'
+    // new Function('console.log(123)')()
+    eval('var msg = 123')
+    console.log(msg)
+
+    color = 'red'
+    console.log(window.color)
+    delete window.color
+    console.log(window.color)
+    var G = function () {
+        return this
+    }()
+    console.log(G)
+    let arr = [22, 9, 233, 413]
+    console.log(Math.max.apply(null, arr))
+</script>
+</body>
+</html>
