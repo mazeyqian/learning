@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let text = 'mom and dad and baby'
+    let pattern = /mom( and dad( and baby)?)?/gi
+    console.log(pattern.exec(text), pattern.lastIndex)
+    console.log(/\d+/gim.test(12345))
+</script>
+</body>
+</html>

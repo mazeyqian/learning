@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/20180728/test0.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/20180728/test1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,11 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test0.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test0.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Example/20180728/test0.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Example/20180728/test1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -65,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/20171203/test7.html" />
         <option value="$PROJECT_DIR$/20171203/test8.html" />
         <option value="$PROJECT_DIR$/20171203/test9.html" />
         <option value="$PROJECT_DIR$/20171203/test10.html" />
@@ -116,6 +125,7 @@
         <option value="$PROJECT_DIR$/Example/20180714/test0.html" />
         <option value="$PROJECT_DIR$/Example/20180717/test0.html" />
         <option value="$PROJECT_DIR$/Example/20180728/test0.html" />
+        <option value="$PROJECT_DIR$/Example/20180728/test1.html" />
       </list>
     </option>
   </component>
@@ -184,7 +194,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../polestar" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
@@ -262,14 +272,7 @@
       <workItem from="1531149490686" duration="2552000" />
       <workItem from="1531566755662" duration="2021000" />
       <workItem from="1531837564827" duration="1375000" />
-      <workItem from="1532770284972" duration="115000" />
-    </task>
-    <task id="LOCAL-00011" summary="当属性名为原始值或关键词时，只能使用中括号表示法，使用点号会报错。">
-      <created>1511433459813</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1511433459813</updated>
+      <workItem from="1532770284972" duration="1686000" />
     </task>
     <task id="LOCAL-00012" summary="delete obj.name 删除对象中某个属性&#10;name in obj 判断对象中是否有这个属性">
       <created>1511434604917</created>
@@ -607,11 +610,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531838949960</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="ES5 Date.now()">
+      <created>1532770419885</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1532770419887</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141043000" />
+    <option name="totallyTimeSpent" value="142614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -686,7 +696,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="while循环参数更少，更容易阅读。" />
     <MESSAGE value="当原始值被当作对象使用时就会暂时转换成对象，返回值后又会变成原始值。" />
     <MESSAGE value="使用原始值 page: 115" />
     <MESSAGE value="读完《JavaScript启示录》" />
@@ -711,7 +720,8 @@
     <MESSAGE value="测试 a中js和href优先级" />
     <MESSAGE value="使用 max-height 实现动画效果的“展开收起”" />
     <MESSAGE value="rect(0,0,0,0)" />
-    <option name="LAST_COMMIT_MESSAGE" value="rect(0,0,0,0)" />
+    <MESSAGE value="ES5 Date.now()" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES5 Date.now()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -720,13 +730,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Example/20171203/test11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Example/20171203/test12.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -1077,6 +1080,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/20180728/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding />
         </state>
       </provider>
