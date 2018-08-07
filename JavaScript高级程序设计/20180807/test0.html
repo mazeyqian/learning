@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person () {
+
+    }
+    Person.prototype.name = 'mazey'
+    Person.prototype.sayName = function () {
+        return this.name
+    }
+    const person1 = new Person()
+    const person2 = new Person()
+    console.log(Person.prototype)
+    console.log(person1.__proto__)
+    console.log(Person.prototype === person1.__proto__)
+    console.log(person1.prototype, typeof person1)
+    function People () {
+
+    }
+    People.prototype = new Person()
+    People.prototype.girl = 'cherrie'
+    console.log(People.prototype.constructor)
+    console.log(Person.prototype.isPrototypeOf(person1))
+    console.log(Object.getPrototypeOf(person1))
+    console.log(Person.hasOwnProperty('sayName'), Person.name, person1.name)
+    console.log('name' in Person)
+    console.log('name' in person1)
+    const person3 = new People()
+    person3.testA = 123
+//    person3.prototype.testB = 456
+    for (let k in person3) {
+        console.log(k)
+    }
+    console.log(Object.keys(person3))
+    console.log(person3.constructor === People)
+    console.log(person3.constructor === Person)
+</script>
+</body>
+</html>
