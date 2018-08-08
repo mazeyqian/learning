@@ -1,0 +1,16 @@
+<script>
+    window.color = 'red'
+    var o = {
+        color: 'blue'
+    }
+    function f() {
+        document.write(this.color + '<br />')
+    }
+    f()
+    f.call(this)
+    f.call(window)
+    f.call(null)
+    f.call(o)
+    var foo = f.bind(o)
+    foo()
+</script>

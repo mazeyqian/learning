@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/20180804/test0.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/20180804/test1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/20180804/test2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/20180804/test3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级程序设计/20180808/test0.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,11 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test0.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test0.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript高级程序设计/20180807/test0.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="373">
+              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test0.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript高级程序设计/20180808/test0.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -54,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/20171203/test9.html" />
         <option value="$PROJECT_DIR$/20171203/test10.html" />
         <option value="$PROJECT_DIR$/20171203/test11.html" />
         <option value="$PROJECT_DIR$/20171203/test12.html" />
@@ -105,6 +119,7 @@
         <option value="$PROJECT_DIR$/Example/20180728/test0.html" />
         <option value="$PROJECT_DIR$/Example/20180728/test1.html" />
         <option value="$PROJECT_DIR$/JavaScript高级程序设计/20180807/test0.html" />
+        <option value="$PROJECT_DIR$/JavaScript高级程序设计/20180808/test0.html" />
       </list>
     </option>
   </component>
@@ -156,17 +171,6 @@
             <path>
               <item name="javascript-test0" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript-test0" type="462c0819:PsiDirectoryNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javascript-test0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javascript-test0" type="462c0819:PsiDirectoryNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="20180728" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javascript-test0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javascript-test0" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript高级程序设计" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -174,6 +178,12 @@
               <item name="javascript-test0" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript高级程序设计" type="462c0819:PsiDirectoryNode" />
               <item name="20180807" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javascript-test0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript-test0" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript高级程序设计" type="462c0819:PsiDirectoryNode" />
+              <item name="20180808" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,14 +275,7 @@
       <workItem from="1532770284972" duration="1686000" />
       <workItem from="1533647495568" duration="7465000" />
       <workItem from="1533664508793" duration="26000" />
-      <workItem from="1533736815376" duration="161000" />
-    </task>
-    <task id="LOCAL-00014" summary="通过hasOwnProperty来查看实例是否存在这个方法，&#10;不能看到原型prototype上的方法和属性，&#10;所以prototype上的方法和属性会被继承。">
-      <created>1511436755397</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1511436755397</updated>
+      <workItem from="1533736815376" duration="2694000" />
     </task>
     <task id="LOCAL-00015" summary="in可以查看包括原型链的属性和方法">
       <created>1511437299210</created>
@@ -610,14 +613,22 @@
       <option name="project" value="LOCAL" />
       <updated>1533656712092</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="面向对象">
+      <created>1533736984198</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1533736984199</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150266000" />
+    <option name="totallyTimeSpent" value="152799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.105179705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -625,7 +636,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.49788582" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.49788582" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -688,7 +699,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="使用原始值 page: 115" />
     <MESSAGE value="读完《JavaScript启示录》" />
     <MESSAGE value="#豆瓣阅读#定制Bootstrap之SASS/SCSS进阶 - Bootstrap实战/后除http://t.cn/RHDPYlj" />
     <MESSAGE value="准备研究整型键" />
@@ -713,7 +723,8 @@
     <MESSAGE value="rect(0,0,0,0)" />
     <MESSAGE value="ES5 Date.now()" />
     <MESSAGE value="面向对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="面向对象" />
+    <MESSAGE value="Merge branch 'master' of github.com:mazeyqian/javascript-test0&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:mazeyqian/javascript-test0&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -722,13 +733,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Example/20171203/test13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Example/20171203/test14.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -1076,8 +1080,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript高级程序设计/20180807/test0.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="373">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript高级程序设计/20180808/test0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding />
         </state>
       </provider>

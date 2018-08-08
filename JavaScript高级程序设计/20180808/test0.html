@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    String.prototype.startsWith = function (text) {
+        return this.indexOf(text) == 0
+    }
+    let msg = 'Hello world'
+    console.log(msg.startsWith('Hello'))
+</script>
+</body>
+</html>
