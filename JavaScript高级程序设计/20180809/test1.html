@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function A (nAme) {
+        this.nAme = nAme
+    }
+    function B (nAme) {
+        this.age = 24
+        A.call(this, nAme)
+
+    }
+    const c = new B('mazey')
+    console.log(c)
+</script>
+</body>
+</html>

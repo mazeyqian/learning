@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级程序设计/20180809/test0.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级程序设计/20180809/test1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,11 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test0.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test0.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript高级程序设计/20180809/test0.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
               <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript高级程序设计/20180809/test1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -75,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/20171203/test11.html" />
         <option value="$PROJECT_DIR$/20171203/test12.html" />
         <option value="$PROJECT_DIR$/20171203/test13.html" />
         <option value="$PROJECT_DIR$/20171203/test14.html" />
@@ -126,6 +135,7 @@
         <option value="$PROJECT_DIR$/JavaScript高级程序设计/20180807/test0.html" />
         <option value="$PROJECT_DIR$/JavaScript高级程序设计/20180808/test0.html" />
         <option value="$PROJECT_DIR$/JavaScript高级程序设计/20180809/test0.html" />
+        <option value="$PROJECT_DIR$/JavaScript高级程序设计/20180809/test1.html" />
       </list>
     </option>
   </component>
@@ -275,14 +285,7 @@
       <workItem from="1532770284972" duration="1686000" />
       <workItem from="1533647495568" duration="7465000" />
       <workItem from="1533664508793" duration="26000" />
-      <workItem from="1533736815376" duration="3974000" />
-    </task>
-    <task id="LOCAL-00015" summary="in可以查看包括原型链的属性和方法">
-      <created>1511437299210</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1511437299210</updated>
+      <workItem from="1533736815376" duration="5035000" />
     </task>
     <task id="LOCAL-00016" summary="typeof instanceof hasOwnProperty in区别">
       <created>1511535658973</created>
@@ -620,11 +623,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533736984199</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="原型链">
+      <created>1533822385136</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1533822385137</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154079000" />
+    <option name="totallyTimeSpent" value="155140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -636,7 +646,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.49788582" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.49788582" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -699,7 +709,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#豆瓣阅读#定制Bootstrap之SASS/SCSS进阶 - Bootstrap实战/后除http://t.cn/RHDPYlj" />
     <MESSAGE value="准备研究整型键" />
     <MESSAGE value="准备研究线性探测法" />
     <MESSAGE value="散列练习" />
@@ -724,7 +733,8 @@
     <MESSAGE value="面向对象" />
     <MESSAGE value="Merge branch 'master' of github.com:mazeyqian/javascript-test0&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="u" />
-    <option name="LAST_COMMIT_MESSAGE" value="u" />
+    <MESSAGE value="原型链" />
+    <option name="LAST_COMMIT_MESSAGE" value="原型链" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,13 +743,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Example/20171203/test15.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Example/20171203/test16.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1091,6 +1094,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript高级程序设计/20180809/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
