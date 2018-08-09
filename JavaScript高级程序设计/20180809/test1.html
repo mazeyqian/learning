@@ -9,13 +9,17 @@
     function A (nAme) {
         this.nAme = nAme
     }
+    A.prototype.sayName = function () {
+        return this.nAme
+    }
     function B (nAme) {
         this.age = 24
         A.call(this, nAme)
-
     }
+    B.prototype = new A()
+    B.prototype.constructor = B
     const c = new B('mazey')
-    console.log(c)
+    console.log(c, c.sayName())
 </script>
 </body>
 </html>
