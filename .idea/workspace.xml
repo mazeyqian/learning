@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/20180804/test0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/20180804/test1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/20180804/test2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Example/20180804/test3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级程序设计/20180808/test0.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级程序设计/20180809/test0.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,11 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test0.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test0.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript高级程序设计/20180808/test0.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
               <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test0.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript高级程序设计/20180809/test0.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -69,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/20171203/test10.html" />
         <option value="$PROJECT_DIR$/20171203/test11.html" />
         <option value="$PROJECT_DIR$/20171203/test12.html" />
         <option value="$PROJECT_DIR$/20171203/test13.html" />
@@ -120,6 +125,7 @@
         <option value="$PROJECT_DIR$/Example/20180728/test1.html" />
         <option value="$PROJECT_DIR$/JavaScript高级程序设计/20180807/test0.html" />
         <option value="$PROJECT_DIR$/JavaScript高级程序设计/20180808/test0.html" />
+        <option value="$PROJECT_DIR$/JavaScript高级程序设计/20180809/test0.html" />
       </list>
     </option>
   </component>
@@ -177,13 +183,7 @@
               <item name="javascript-test0" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript-test0" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript高级程序设计" type="462c0819:PsiDirectoryNode" />
-              <item name="20180807" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javascript-test0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javascript-test0" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript高级程序设计" type="462c0819:PsiDirectoryNode" />
-              <item name="20180808" type="462c0819:PsiDirectoryNode" />
+              <item name="20180809" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,7 +275,7 @@
       <workItem from="1532770284972" duration="1686000" />
       <workItem from="1533647495568" duration="7465000" />
       <workItem from="1533664508793" duration="26000" />
-      <workItem from="1533736815376" duration="2694000" />
+      <workItem from="1533736815376" duration="3974000" />
     </task>
     <task id="LOCAL-00015" summary="in可以查看包括原型链的属性和方法">
       <created>1511437299210</created>
@@ -624,7 +624,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152799000" />
+    <option name="totallyTimeSpent" value="154079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -636,7 +636,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.49788582" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.49788582" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -699,7 +699,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="读完《JavaScript启示录》" />
     <MESSAGE value="#豆瓣阅读#定制Bootstrap之SASS/SCSS进阶 - Bootstrap实战/后除http://t.cn/RHDPYlj" />
     <MESSAGE value="准备研究整型键" />
     <MESSAGE value="准备研究线性探测法" />
@@ -724,7 +723,8 @@
     <MESSAGE value="ES5 Date.now()" />
     <MESSAGE value="面向对象" />
     <MESSAGE value="Merge branch 'master' of github.com:mazeyqian/javascript-test0&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:mazeyqian/javascript-test0&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="u" />
+    <option name="LAST_COMMIT_MESSAGE" value="u" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,13 +733,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Example/20171203/test14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Example/20171203/test15.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -1090,6 +1083,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript高级程序设计/20180809/test0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>

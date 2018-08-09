@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function A () {
+        this.a = true
+    }
+    function B () {
+        this.b = false
+    }
+    B.prototype = new A()
+    B.prototype.getA = function () {
+        return this.a
+    }
+    let c = new B()
+    console.log(c.getA())
+</script>
+</body>
+</html>
