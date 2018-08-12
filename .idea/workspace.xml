@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="JavaScript高级程序设计">
+      <change afterPath="$PROJECT_DIR$/Example/20180812/test0.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,36 +19,47 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="4" />
+          <entry key="html" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1205" />
+          <entry key="html" value="1493" />
           <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1205" />
+          <entry key="HTML" value="1493" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Example/20180812/test0.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/20171203/test12.html" />
         <option value="$PROJECT_DIR$/20171203/test13.html" />
         <option value="$PROJECT_DIR$/20171203/test14.html" />
         <option value="$PROJECT_DIR$/20171203/test15.html" />
@@ -127,6 +138,7 @@
         <option value="$PROJECT_DIR$/Example/20180804/test1.html" />
         <option value="$PROJECT_DIR$/Example/20180804/test2.html" />
         <option value="$PROJECT_DIR$/Example/20180804/test3.html" />
+        <option value="$PROJECT_DIR$/Example/20180812/test0.html" />
       </list>
     </option>
   </component>
@@ -255,13 +267,7 @@
       <workItem from="1533360084341" duration="400000" />
       <workItem from="1533364819775" duration="8347000" />
       <workItem from="1533397354180" duration="462000" />
-    </task>
-    <task id="LOCAL-00013" summary="查找属性的原型链">
-      <created>1511436334311</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1511436334311</updated>
+      <workItem from="1534086182974" duration="1743000" />
     </task>
     <task id="LOCAL-00014" summary="通过hasOwnProperty来查看实例是否存在这个方法，&#10;不能看到原型prototype上的方法和属性，&#10;所以prototype上的方法和属性会被继承。">
       <created>1511436755397</created>
@@ -599,16 +605,24 @@
       <option name="project" value="LOCAL" />
       <updated>1533394241112</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="JavaScript高级程序设计">
+      <created>1534086373615</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1534086373616</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151823000" />
+    <option name="totallyTimeSpent" value="153566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="811" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10500352" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16208598" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -619,7 +633,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3280543" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49788582" weight="0.32823366" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49788582" visible="true" weight="0.32823366" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021142" side_tool="true" weight="0.32918552" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -706,13 +720,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="JavaScript高级程序设计" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Example/20171203/test16.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Example/20171203/test17.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -772,8 +779,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test0.js" />
     <entry file="file://$PROJECT_DIR$/Example/20180107/混合器.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Example/20180107/混合器.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -929,17 +936,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="207">
             <caret line="9" selection-start-line="9" selection-end-line="9" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1048,6 +1055,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/20180812/test0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>

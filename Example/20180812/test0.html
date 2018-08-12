@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .f {
+            display: flex;
+            /*border: 1px dotted blue;*/
+            width: 900px;
+        }
+        div[class^="s"] {
+            /*border: 1px solid #111;*/
+            height: 200px;
+            /*width: 200px;*/
+        }
+        .s1 {
+            /*flex-basis:200px;*/
+            background: red;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+        .s2 {
+            background: yellow;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+        .s3 {
+            background: blue;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="f">
+    <div class="s1"></div>
+    <div class="s2"></div>
+    <div class="s3"></div>
+</div>
+</body>
+</html>
