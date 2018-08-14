@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+const params = new URLSearchParams()
+params.append('date', '2018')
+params.append('date', '8')
+params.append('date', '13')
+params.set('name', 'mazey')
+for (let [k, v] of params) {
+    console.log(k, v) // date 2018 date 8 date 13 name mazey
+}
+
+params.set('date', '20180813')
+console.log(params.toString()) // date=20180813
+</script>
+</body>
+</html>

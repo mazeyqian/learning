@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="JavaScript高级程序设计">
+      <change afterPath="$PROJECT_DIR$/Example/20180812/test0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
     <list default="true" id="fcea9528-17e8-40a1-8050-f3c3e886386b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> fd7f0b07547556ef08c83b4c14490093e583a18f
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,6 +20,49 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+  <component name="FUSProjectUsageTrigger">
+    <session id="402882634">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="1493" />
+          <entry key="txt" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1493" />
+          <entry key="PLAIN_TEXT" value="16" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Example/20180812/test0.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+=======
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="test0.html" pinned="false" current-in-tab="true">
@@ -22,6 +71,7 @@
             <state relative-caret-position="23">
               <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding />
+>>>>>>> fd7f0b07547556ef08c83b4c14490093e583a18f
             </state>
           </provider>
         </entry>
@@ -54,7 +104,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/20171203/test11.html" />
+>>>>>>> 055672f02c4d000c98021832836c635023214d0c
         <option value="$PROJECT_DIR$/20171203/test12.html" />
+>>>>>>> fd7f0b07547556ef08c83b4c14490093e583a18f
         <option value="$PROJECT_DIR$/20171203/test13.html" />
         <option value="$PROJECT_DIR$/20171203/test14.html" />
         <option value="$PROJECT_DIR$/20171203/test15.html" />
@@ -101,10 +158,21 @@
         <option value="$PROJECT_DIR$/Example/20180717/test0.html" />
         <option value="$PROJECT_DIR$/Example/20180728/test0.html" />
         <option value="$PROJECT_DIR$/Example/20180728/test1.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Example/20180804/test0.html" />
+        <option value="$PROJECT_DIR$/Example/20180804/test1.html" />
+        <option value="$PROJECT_DIR$/Example/20180804/test2.html" />
+        <option value="$PROJECT_DIR$/Example/20180804/test3.html" />
+        <option value="$PROJECT_DIR$/Example/20180812/test0.html" />
+=======
         <option value="$PROJECT_DIR$/JavaScript高级程序设计/20180807/test0.html" />
         <option value="$PROJECT_DIR$/JavaScript高级程序设计/20180808/test0.html" />
         <option value="$PROJECT_DIR$/JavaScript高级程序设计/20180809/test0.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/JavaScript高级程序设计/20180809/test1.html" />
+=======
+>>>>>>> fd7f0b07547556ef08c83b4c14490093e583a18f
+>>>>>>> 055672f02c4d000c98021832836c635023214d0c
       </list>
     </option>
   </component>
@@ -145,8 +213,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
+=======
+>>>>>>> 055672f02c4d000c98021832836c635023214d0c
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,6 +240,14 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <pane id="Scope" />
+=======
+      <pane id="Scratches" />
+>>>>>>> fd7f0b07547556ef08c83b4c14490093e583a18f
+>>>>>>> 055672f02c4d000c98021832836c635023214d0c
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,11 +331,50 @@
       <workItem from="1531566755662" duration="2021000" />
       <workItem from="1531837564827" duration="1375000" />
       <workItem from="1532770284972" duration="1686000" />
+<<<<<<< HEAD
+      <workItem from="1533360084341" duration="400000" />
+      <workItem from="1533364819775" duration="8347000" />
+      <workItem from="1533397354180" duration="462000" />
+      <workItem from="1534086182974" duration="1743000" />
+    </task>
+    <task id="LOCAL-00014" summary="通过hasOwnProperty来查看实例是否存在这个方法，&#10;不能看到原型prototype上的方法和属性，&#10;所以prototype上的方法和属性会被继承。">
+      <created>1511436755397</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1511436755397</updated>
+=======
       <workItem from="1533647495568" duration="7465000" />
       <workItem from="1533664508793" duration="26000" />
+<<<<<<< HEAD
       <workItem from="1533736815376" duration="6647000" />
       <workItem from="1533915426841" duration="604000" />
       <workItem from="1534253371750" duration="666000" />
+=======
+      <workItem from="1533736815376" duration="3974000" />
+>>>>>>> fd7f0b07547556ef08c83b4c14490093e583a18f
+    </task>
+    <task id="LOCAL-00015" summary="in可以查看包括原型链的属性和方法">
+      <created>1511437299210</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1511437299210</updated>
+    </task>
+    <task id="LOCAL-00016" summary="typeof instanceof hasOwnProperty in区别">
+      <created>1511535658973</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1511535658974</updated>
+    </task>
+    <task id="LOCAL-00017" summary="JavaScript中typeof，instanceof，hasOwnProperty，in的用法和区别">
+      <created>1511623225218</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1511623225218</updated>
+>>>>>>> 055672f02c4d000c98021832836c635023214d0c
     </task>
     <task id="LOCAL-00018" summary="object page: 45">
       <created>1511693598398</created>
@@ -559,6 +677,27 @@
       <option name="project" value="LOCAL" />
       <updated>1532770419887</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00061" summary="JavaScript高级程序设计">
+      <created>1533394241111</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1533394241112</updated>
+    </task>
+    <task id="LOCAL-00062" summary="JavaScript高级程序设计">
+      <created>1534086373615</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1534086373616</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="153566000" />
+=======
     <task id="LOCAL-00061" summary="面向对象">
       <created>1533655967581</created>
       <option name="number" value="00061" />
@@ -605,11 +744,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="158022000" />
+=======
+    <option name="totallyTimeSpent" value="154079000" />
+>>>>>>> fd7f0b07547556ef08c83b4c14490093e583a18f
+>>>>>>> 055672f02c4d000c98021832836c635023214d0c
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16208598" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3280543" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49788582" visible="true" weight="0.32823366" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021142" side_tool="true" weight="0.32918552" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.105179705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5021142" order="7" side_tool="true" content_ui="tabs" />
@@ -626,6 +789,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> fd7f0b07547556ef08c83b4c14490093e583a18f
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -679,6 +843,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <MESSAGE value="使用原始值 page: 115" />
+    <MESSAGE value="读完《JavaScript启示录》" />
+=======
+>>>>>>> fd7f0b07547556ef08c83b4c14490093e583a18f
+    <MESSAGE value="#豆瓣阅读#定制Bootstrap之SASS/SCSS进阶 - Bootstrap实战/后除http://t.cn/RHDPYlj" />
+    <MESSAGE value="准备研究整型键" />
+    <MESSAGE value="准备研究线性探测法" />
+>>>>>>> 055672f02c4d000c98021832836c635023214d0c
     <MESSAGE value="散列练习" />
     <MESSAGE value="创建集合类" />
     <MESSAGE value="JavaScript数据结构与算法-集合练习" />
@@ -698,6 +873,12 @@
     <MESSAGE value="使用 max-height 实现动画效果的“展开收起”" />
     <MESSAGE value="rect(0,0,0,0)" />
     <MESSAGE value="ES5 Date.now()" />
+<<<<<<< HEAD
+    <MESSAGE value="JavaScript高级程序设计" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript高级程序设计" />
+  </component>
+  <component name="editorHistoryManager">
+=======
     <MESSAGE value="面向对象" />
     <MESSAGE value="Merge branch 'master' of github.com:mazeyqian/javascript-test0&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="u" />
@@ -720,6 +901,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> fd7f0b07547556ef08c83b4c14490093e583a18f
     <entry file="file://$PROJECT_DIR$/Example/20171203/test17.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -1037,13 +1219,56 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Example/20180804/test3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/20180804/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+=======
     <entry file="file://$PROJECT_DIR$/Example/20180728/test1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+>>>>>>> fd7f0b07547556ef08c83b4c14490093e583a18f
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/JavaScript高级程序设计/20180807/test0.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="360">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/20180804/test0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/20180812/test0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+=======
+        <state relative-caret-position="373">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 055672f02c4d000c98021832836c635023214d0c
     <entry file="file://$PROJECT_DIR$/JavaScript高级程序设计/20180808/test0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1057,6 +1282,7 @@
         <state relative-caret-position="437">
           <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
+>>>>>>> fd7f0b07547556ef08c83b4c14490093e583a18f
         </state>
       </provider>
     </entry>
