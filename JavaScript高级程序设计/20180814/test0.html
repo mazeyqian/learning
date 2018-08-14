@@ -17,17 +17,32 @@
     const drawing = document.getElementById('drawing')
     if (drawing.getContext) {
         const context = drawing.getContext('2d')
+
+        context.beginPath()
+        context.arc(100, 100, 99, 0, 2 * Math.PI, false)
+        context.moveTo(194, 100)
+        context.arc(100, 100, 94, 0, 2 * Math.PI, false)
+
+        context.moveTo(100, 100)
+        context.lineTo(100, 15)
+
+        context.moveTo(100, 100)
+        context.lineTo(35, 100)
+
+        context.stroke()
+
+
 //        context.strokeStyle = 'red'
-        context.fillStyle = '#ff0000'
-        context.fillRect(10, 10, 50, 50)
-        context.fillStyle = 'rgba(0, 0, 255, 0.5)'
-        context.fillRect(30, 30, 50, 50)
+//        context.fillStyle = '#ff0000'
+//        context.fillRect(10, 10, 50, 50)
+//        context.fillStyle = 'rgba(0, 0, 255, 0.5)'
+//        context.fillRect(30, 30, 50, 50)
 //        context.strokeStyle = '#ff0000'
 //        context.strokeRect(10, 10, 50, 50)
 //        context.strokeStyle = 'rgba(0, 0, 255, 0.5)'
 //        context.strokeRect(30, 30, 50, 50)
 
-        context.clearRect(40, 40, 10, 10)
+//        context.clearRect(40, 40, 10, 10)
 
         // img
 //        const imgURL = drawing.toDataURL('image/png')
