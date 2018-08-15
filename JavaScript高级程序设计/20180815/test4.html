@@ -18,18 +18,17 @@
     const context = drawing.getContext('2d')
     context.beginPath()
 
-    let gradient = context.createLinearGradient(30, 30, 70, 70)
+    function createRectLinearGradient (context, x, y, width, height) {
+        return context.createLinearGradient(x, y, x + width, height)
+    }
+    let gradient = createRectLinearGradient(context, 30, 30, 50, 50)
     gradient.addColorStop(0, 'white')
     gradient.addColorStop(1, 'black')
-
-    context.fillStyle = '#ff0000'
-    context.fillRect(10, 10, 50, 50)
 
     context.fillStyle = gradient
     context.fillRect(30, 30, 50, 50)
 
-
-    // context.stroke()
+    context.stroke()
 </script>
 </body>
 </html>
