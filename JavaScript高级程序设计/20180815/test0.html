@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background: #efefef;
+        }
+    </style>
+</head>
+<body>
+<canvas id="drawing" width="200" height="200">
+    A drawing of something.
+</canvas>
+<script>
+    const drawing = document.getElementById('drawing')
+    if (drawing.getContext) {
+        const context = drawing.getContext('2d')
+    }
+</script>
+</body>
+</html>

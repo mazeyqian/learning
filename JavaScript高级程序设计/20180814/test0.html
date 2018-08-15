@@ -18,6 +18,8 @@
     if (drawing.getContext) {
         const context = drawing.getContext('2d')
 
+        console.log(context.isPointInPath(100, 100))
+
         context.beginPath()
         context.arc(100, 100, 99, 0, 2 * Math.PI, false)
         context.moveTo(194, 100)
@@ -30,6 +32,29 @@
         context.lineTo(35, 100)
 
         context.stroke()
+
+        console.log(context.isPointInPath(100, 100))
+
+
+        // 绘制字体
+        context.font = 'bold 14px Arial'
+        context.textAlign = 'center'
+        context.textBaseline = 'middle'
+        context.fillText('12', 100, 20)
+        // context.strokeText('12', 100, 20)
+
+        context.textAlign = 'start'
+        context.fillText('13', 100, 50)
+
+        context.textAlign = 'end'
+        context.fillText('14', 100, 60)
+
+        context.textAlign = 'center'
+        context.textBaseline = 'top'
+        context.fillText('12', 100, 100)
+
+
+
 
 
 //        context.strokeStyle = 'red'
