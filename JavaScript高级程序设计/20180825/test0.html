@@ -5,6 +5,16 @@
     <title>Title</title>
 </head>
 <body>
-
+<div id="aaa">
+    <div id="bbb"></div>
+    <div id="ccc">
+        <div id="ddd"></div>
+    </div>
+</div>
+<script>
+    console.log(aaa.nodeName)
+    console.log(bbb.parentNode === ccc.parentNode)
+    console.log(bbb.parentNode === ddd.parentNode)
+</script>
 </body>
 </html>
