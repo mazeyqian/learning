@@ -6,15 +6,24 @@
 </head>
 <body>
 <div id="aaa">
-    <div id="bbb"></div>
+    <div id="bbb">bbb</div>
     <div id="ccc">
-        <div id="ddd"></div>
+        <div id="ddd">ddd</div>
     </div>
 </div>
 <script>
     console.log(aaa.nodeName)
     console.log(bbb.parentNode === ccc.parentNode)
     console.log(bbb.parentNode === ddd.parentNode)
+    ccc.appendChild(bbb)
+    console.log(ddd.ownerDocument, ccc.newNode)
+
+    let deepCopy = ccc.cloneNode(true)
+    let shallowCopy = ccc.cloneNode(false)
+    console.log(deepCopy, shallowCopy)
+    console.log(deepCopy.childNodes.length, shallowCopy.childNodes.length)
+    document.body.appendChild(deepCopy)
+    document.body.appendChild(shallowCopy)
 </script>
 </body>
 </html>
