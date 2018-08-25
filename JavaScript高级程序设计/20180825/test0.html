@@ -10,6 +10,8 @@
     <div id="ccc">
         <div id="ddd">ddd</div>
     </div>
+    <div id="mmm" style="width: 90px; height: 90px; background-color: blue;"
+        onclick="alert(123)"></div>
 </div>
 <script>
     console.log(aaa.nodeName)
@@ -24,6 +26,26 @@
     console.log(deepCopy.childNodes.length, shallowCopy.childNodes.length)
     document.body.appendChild(deepCopy)
     document.body.appendChild(shallowCopy)
+
+    console.log('---------')
+
+    console.log(document.nodeType)
+
+    console.log(document.body, document.head)
+    console.log(document.doctype, document.documentElement)
+
+    document.title = '123'
+
+    console.log(document.getElementsByTagName('*'))
+
+    // document.writeln('123')
+    // document.writeln('456')
+    // document.writeln('789')
+    //
+    // document.write('100')
+    // document.write('101')
+    // document.write('102')
+    const mmm = document.getElementById('mmm')
 </script>
 </body>
 </html>
