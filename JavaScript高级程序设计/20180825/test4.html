@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul id="mmm"></ul>
+<script>
+    const ul = document.getElementById('mmm')
+    const f = document.createDocumentFragment()
+    let l = 3
+    while (l--) {
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(`li => ${3 - l}`))
+        f.appendChild(li)
+    }
+    ul.appendChild(f)
+</script>
+</body>
+</html>
