@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #mmm {
+            color: red;
+            border: 1px solid #111;
+        }
+        div {
+            background: rgba(255, 255, 255, .7);
+        }
+    </style>
+</head>
+<body>
+<div id="mmm" data-m-yep="oh yeah" _style="color: blue;">
+    <span>嘻嘻</span>
+</div>
+<script>
+    console.log(document.readyState)
+    const mmm = document.querySelector('#mmm')
+    let len = 1000
+    while (len--) {
+        document.write('Hi, Mazey!' +
+            (1000 - len) +
+            '<br/>')
+    }
+</script>
+</body>
+</html>
