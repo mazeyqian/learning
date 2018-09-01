@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="p"></p>
+<script>
+    let c = ''
+   for (let i = 0; i < 15000; ++i) {
+       // document.getElementById('p').innerHTML += 'a'
+       c += 'a'
+   }
+   document.getElementById('p').innerHTML = c
+</script>
+</body>
+</html>
