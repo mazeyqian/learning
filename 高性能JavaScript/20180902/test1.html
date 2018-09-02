@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    console.log(/h(ello|appy) hippo/.test('hello there, happy hippo'))
+    let a = /(m.*y)/.test('mazey-mazey')
+    console.log(RegExp.$1)
+    a = /(m.*?y)/.test('mazey-mazey')
+    console.log(RegExp.$1)
+</script>
+</body>
+</html>
