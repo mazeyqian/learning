@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const w = new Worker('worker.js')
+    w.onmessage = e => {
+        console.log('Say: ' + e.data)
+    }
+    w.postMessage('Hi, Worker!')
+</script>
+</body>
+</html>

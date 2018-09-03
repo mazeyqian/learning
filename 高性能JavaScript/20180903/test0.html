@@ -6,6 +6,7 @@
 </head>
 <body>
 <script>
+    let s = +new Date()
     let arr = new Array(100).fill(233)
     while (arr.length) {
         console.log(arr.shift() + '$' + arr.length)
@@ -17,6 +18,8 @@
             arguments.callee()
         }
     })()
+    let e = +new Date()
+    console.log(`运行了 ${e - s}ms`)
 </script>
 </body>
 </html>
