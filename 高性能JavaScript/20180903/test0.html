@@ -10,6 +10,13 @@
     while (arr.length) {
         console.log(arr.shift() + '$' + arr.length)
     }
+    let i = 0
+    ;(function () {
+        console.log(i++)
+        if (i < 2) {
+            arguments.callee()
+        }
+    })()
 </script>
 </body>
 </html>
