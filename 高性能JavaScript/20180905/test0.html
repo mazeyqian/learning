@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="bb()" type="button">bb</button>
+<script>
+    function bb () {
+        let len = 100
+        function aa () {
+            len--
+        }
+        while (len--) {
+            console.log(len, len & 1)
+            aa()
+        }
+    }
+</script>
+</body>
+</html>
