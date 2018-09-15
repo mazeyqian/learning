@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str = 'aaa abc bbb aaa aaa'
+    // let ret = /(a)/gmi.exec(str)
+    ret = str.match(/(\w+)\s+\1/g)
+    console.log(ret)
+</script>
+</body>
+</html>
