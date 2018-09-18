@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>前端知识点分享</title>
+    <meta name="description" content="前端知识点分享">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+        if (window.location.search.match(/print-pdf/gi)) {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = 'css/print/pdf.css';
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+    </script>
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+<body>
+    <div class="reveal">
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section>
+                <h1>前端是什么</h1>
+                <h3>Pinnacle</h3>
+                <h3>2018-09-21</h3>
+                <aside class="notes">
+                    ## 自我介绍
+                </aside>
+            </section>
+            <section class="present">
+                <img class="w100" src="img/everything-in-mind.png">
+                <aside class="notes">
+                    那时候前端是干嘛的呢？
+                </aside>
+            </section>
+            <section class="present">
+                <img class="w100" src="img/_front-end-knowledge.jpeg">
+            </section>
+            <section class="present">
+                <h2>携手合作</h2>
+            </section>
+            <section class="present">
+                <img class="w100" src="img/back-front-teamwork.png">
+                <aside class="notes">
+                    相信很多团队，早已开始前后端携手合作了。<br />
+                    有了一些自己的协作方式。<br /><br />
+                    但仍然存在不少问题。<br />
+                </aside>
+            </section>
+            <section>
+                <img src="img/wuli-problem.jpg">
+            </section>
+            <section class="present">
+                <img class="w100" src="img/hunluan.jpg">
+            </section>
+            <section class="present">
+                <h3>业界的优秀方案</h3>
+                <br>
+                <p>AngularJS, React, Vue etc.</p>
+            </section>
+            <section data-background="#8c4738">
+                <h1>THE END</h1>
+                <h2>Q & A</h2>
+                <img src="img/outline.jpg">
+            </section>
+            <!-- THEN END////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+    <script>
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+            // Parallax scrolling
+            // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+            // parallaxBackgroundSize: '2100px 900px',
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+                { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
+                { src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
+            ]
+        });
+    </script>
+</body>
+</html>
