@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>了解JavaScript</title>
-    <meta name="description" content="了解JavaScript">
+    <title>了解 JavaScript</title>
+    <meta name="description" content="了解 JavaScript">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -30,9 +30,9 @@
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
             <section>
-                <h1>了解 JavaScript</h1>
-                <h3>Pinnacle</h3>
-                <h3>2018-09-21</h3>
+                <h1 style="text-transform: none;">了解 JavaScript</h1>
+                <h3 style="text-transform: none;">Pinnacle Solution</h3>
+                <h3 style="text-transform: none;">2018-09-28 MazeyQian</h3>
                 <aside class="notes">
                     ## 自我介绍
                 </aside>
@@ -79,8 +79,8 @@
                     Brendan（布兰登） Eich（艾克）
                 </aside>
             </section>
-            <section>
-                <img style="width: 70%;" src="img/_java-javascript.jpg">
+            <section data-background="#000">
+                <img style="width: 70%; border: none;" src="img/_java-javascript.jpg">
                 <aside class="notes">
                     为什么叫 JavaScript 呢？因为当时 Java 这门语言特别火，想蹭一波热度，除此以外其实和 Java 没有任何关系。
                 </aside>
@@ -148,12 +148,12 @@
                 <img class="w100" src="img/_react-native.png">
             </section>
             <section class="present">
-                <img class="w100" src="img/_angular-react-vue.jpg">
+                <img class="w100" style="border: none" src="img/_angular-react-vue.jpg">
             </section>
             <section data-background="#8c4738">
                 <h1>THE END</h1>
                 <h2>Q & A</h2>
-                <img src="img/outline.jpg">
+                <img src="img/_outline.jpg">
             </section>
             <!-- THEN END////////////////////////////////////////////////////////////////////////////////////////////////////-->
         </div>
@@ -175,14 +175,14 @@
             // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
             // parallaxBackgroundSize: '2100px 900px',
             // Optional libraries used to extend on reveal.js
-            dependencies: [
-                { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
-                { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
-                { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
-                { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
-                { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
-                { src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
-            ]
+            // dependencies: [
+            //     { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+            //     { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+            //     { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+            //     { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+            //     { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
+            //     { src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
+            // ]
         });
     </script>
 </body>
