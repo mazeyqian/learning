@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button type="button">btn</button>
+<script>
+    const btn  = document.querySelector('button')
+    let bb = {}
+    bb.aa = function () {
+        console.log(111)
+    }
+    btn.addEventListener('click', bb.aa)
+//    btn.addEventListener('click', () => {
+//        console.log(222)
+//    })
+    btn.removeEventListener('click', bb.aa)
+</script>
+</body>
+</html>
