@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            padding: 50px 0 0 100px;
+        }
+        button[type="submit"] {
+            /*padding: 8px;*/
+            /*font-size: 14px;*/
+        }
+    </style>
+</head>
+<body>
+<script>
+    console.log(location.search)
+    let [past, search] = [+new Date(), location.search.includes('hide')]
+    console.log(search)
+    while (search) {
+        if (+new Date() - past > 5000) {
+            alert('密码错误，请重新输入！')
+            break
+        }
+    }
+</script>
+<form action="" method="get">
+    用户名：
+    <input type="text">
+    密码：
+    <input type="password">
+    <input type="hidden" value="123" name="hide">
+    <!--<input type="submit" value="登陆">-->
+    <button type="submit" id="sub">登陆</button>
+</form>
+<script>
+    const sub = document.querySelector(`button[type="submit"]`)
+    sub.addEventListener('click', function (e) {
+        document.querySelector('form').style.display = 'none'
+    })
+</script>
+</body>
+</html>
