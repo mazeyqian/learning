@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+const fd = new FormData()
+// append
+fd.append('age', '24')
+fd.append('name', 'Mazey')
+fd.append('name', 'Cherrie')
+console.log(fd.get('name')) // Mazey
+console.log(fd.getAll('name')) // ["Mazey", "Cherrie"]
+// delete
+fd.delete('name')
+console.log(fd.getAll('name')) // []
+</script>
+</body>
+</html>
