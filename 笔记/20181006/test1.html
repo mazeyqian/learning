@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+const blob = new Blob([JSON.stringify({hello: 'Mazey!'})], {type : 'application/json'})
+const url = URL.createObjectURL(blob)
+</script>
+</body>
+</html>
