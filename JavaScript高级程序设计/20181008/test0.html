@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="myBtn" type="button">Button</button>
+<script>
+    var btn = document.getElementById('myBtn')
+    btn.onclick = function (event) {
+        console.log('btn.onclick', event.eventPhase)
+    }
+
+    document.body.addEventListener('click',function (event) {
+        console.log('document.body.addEventListener', event.eventPhase)
+    }, false) // 默认 false 冒泡
+
+    document.body.onclick = function (event) {
+        console.log('document.body.onclick', event.eventPhase)
+    }
+</script>
+</body>
+</html>
