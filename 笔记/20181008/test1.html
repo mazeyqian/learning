@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    .parent {
+        width: 500px;
+        height: 500px;
+        outline: 1px solid red;
+    }
+    .son {
+        width: 400px;
+        height: 400px;
+        outline: 1px solid yellow;
+    }
+    .grandson {
+        width: 300px;
+        height: 300px;
+        outline: 1px solid blue;
+    }
+</style>
+<div class="parent">
+    <div class="son">
+        <div class="grandson"></div>
+    </div>
+</div>
+<script>
+    document.querySelector('.grandson').addEventListener('click', (e) => {
+        const event = e || window.event
+        console.log(e)
+    }, false)
+</script>
+</body>
+</html>
