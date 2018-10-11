@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const start = Date.now()
+    console.log(`now: ${start}`)
+    let wait = ms => new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log(`wait: ${Date.now() - start}ms`)
+            resolve()
+        }, ms)
+    })
+    ;(async () => {
+        await wait(1000)
+        await wait(3000)
+        await Promise.all([wait(3000), wait(1000)])
+        console.log(`Consume: ${Date.now() - start}ms`)
+    })()
+
+
+</script>
+</body>
+</html>
