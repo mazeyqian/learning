@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+const wait = ms => new Promise((resolve, reject) => {
+    setTimeout(() => {
+        console.log(`wait ${ms}ms`)
+        resolve()
+    }, ms)
+})
+;(async () => {
+    await Promise.all([wait(3000), wait(1000), wait(2000)])
+    // 依次打印：wait 1000ms wait 2000ms wait 3000ms
+})()
+</script>
+</body>
+</html>
