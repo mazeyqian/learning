@@ -3,7 +3,7 @@
 
 int main() {
     char card_name[3];
-    puts("ÊäÈëÅÆÃû£º");
+    puts("è¾“å…¥ç‰Œåï¼š");
     scanf("%2s", card_name);
     int val = 0;
     if (card_name[0] == 'K') {
@@ -17,12 +17,12 @@ int main() {
     } else {
         val = atoi(card_name);
     }
-    printf("ÕâÕÅÅÆµÄµãÊıÊÇ£º%i\n", val);
-    /* ¼ì²é 3 - 6 */
+    printf("è¿™å¼ ç‰Œçš„ç‚¹æ•°æ˜¯ï¼š%i\n", val);
+    /* èŒƒå›´ 3 - 6 */
     if (val >= 3 && val <= 6) {
-        puts("¼ÆÊıÔö¼Ó");
+        puts("è®¡æ•°å¢åŠ ");
     } else if (val >= 10) {
-        puts("¼ÆÊı¼õÉÙ");
+        puts("è®¡æ•°å‡å°‘");
     }
     return 0;
 }
