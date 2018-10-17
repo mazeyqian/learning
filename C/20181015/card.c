@@ -19,9 +19,9 @@ int main() {
     }
     printf("这张牌的点数是：%i\n", val);
     /* 检查 3 - 6 */
-    if (val >= 3 && val <= 6) {
+    if (val > 2 && val < 7) {
         puts("计数增加");
-    } else if (val >= 10) {
+    } else if (val == 10) {
         puts("计数减少");
     }
     return 0;
