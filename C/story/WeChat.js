@@ -13,6 +13,9 @@ function Ohayo (date, msg) {
         },
         new Date(Fantastic) - Date.now()
     )
+    return 1010
 }
 
-Ohayo('07:05:00', '早安！\n要乖乖吃药，吃早饭！')
+Ohayo('07:10:00', '早安！\n要乖乖吃药，吃早饭！')
+
+Ohayo('07:30:00', '✔️安全的电量\n✔️公交卡\n✔️暖暖的衣服')
