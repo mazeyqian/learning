@@ -74,7 +74,7 @@ function getWeatherByMazey () {
 //
 // hebdomad(kb, 5)
 function yy () {
-    ohayo('15:04:00', '早安！', getWeatherByMazey)
-    ohayo('15:04:10', 'weatherDes')
+    ohayo('7:00:00', '早安！', getWeatherByMazey)
+    ohayo('7:00:30', 'weatherDes')
 }
 hebdomad(yy)
