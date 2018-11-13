@@ -35,6 +35,7 @@ function hebdomad (fn, repeatCount = 1) {
 }
 // 天气
 let weatherDes = '不知道怎么回事，今天还没有获取天气！'
+// TODO: /life/suggestion.json
 // 获取天气
 function getWeather (obj) {
     const {text, temperature} = obj.results[0].now
