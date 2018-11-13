@@ -75,6 +75,7 @@ function getWeatherByMazey () {
 // hebdomad(kb, 5)
 function yy () {
     ohayo('7:00:00', '早安！', getWeatherByMazey)
+    ohayo('7:00:15', '天气预报还有 15 秒到达...')
     ohayo('7:00:30', 'weatherDes')
 }
 hebdomad(yy)
