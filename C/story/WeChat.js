@@ -46,7 +46,7 @@ function getWeather (obj) {
     if (text.includes('雨')) {
         msg += '\n别忘了带伞！'
     }
-    weatherDes = `今天${text}，当前温度${temperature}°C！${msg}`
+    weatherDes = `实时天气：${text}，温度${temperature}°C！${msg}`
     console.log(weatherDes)
 }
 // 失败反馈
@@ -67,6 +67,7 @@ function pinnacle () {
     ohayo('10:40:00', '年轻人总以为自己有的选择，结果还不是点外卖。')
     ohayo('11:43:00', '准备吃午饭了！\n午饭！\n饭！')
     ohayo('17:50:00', '各部门注意，马上就要下班了！')
+    ohayo('17:55:00', 'weatherDes')
     ohayo('18:00:00', '下班！\n下班！！\n下班！！！')
 }
 hebdomad(pinnacle, 2)
