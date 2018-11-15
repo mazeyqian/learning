@@ -76,8 +76,9 @@ function getWeatherDailyByMazey () {
 // 多个消息整合
 function pinnacle () {
     ohayo('07:00:00', '早上好，今天也是吃不到全家桶的一天呢！')
-    ohayo('07:00:00', '', getWeatherByMazey)
-    ohayo('07:00:00', '', getWeatherDailyByMazey)
+    ohayo('07:01:00', '', getWeatherByMazey)
+    ohayo('07:02:00', '', getWeatherDailyByMazey)
+    ohayo('07:03:00', 'weatherDaily')
     ohayo('07:05:00', 'weatherNow')
     ohayo('10:40:00', '年轻人总以为自己有的选择，结果还不是点外卖。')
     ohayo('11:43:00', '准备吃午饭了！\n午饭！\n饭！')
