@@ -36,9 +36,8 @@ function hebdomad (fn, repeatCount = 1) {
     }
 }
 // 天气
-let weatherNow = '不知道怎么回事，今天还没有获取实时天气！'
-let weatherDaily = '不知道怎么回事，今天还没有获取天气！'
-// TODO: /life/suggestion.json
+let weatherNow = ''
+let weatherDaily = ''
 // 获取天气
 function getWeatherNow (obj) {
     const {text, temperature} = obj.results[0].now
@@ -59,7 +58,7 @@ function getWeatherDaily (obj) {
 }
 // 失败反馈
 function getError (obj) {
-    weatherDaily = weatherNow = `不知道怎么回事，获取天气失败了！\n原因：${obj.status}`
+    weatherDaily = weatherNow = '' // `不知道怎么回事，获取天气失败了！\n原因：${obj.status}`
 }
 // Jsonp 获取天气
 function getWeatherByMazey () {
@@ -106,21 +105,24 @@ function goodMorning () {
 //     ohayo('22:30:00', '嗨起来！！！')
 // }
 // hebdomad(pinnacleWeekend, 2)
-// function kb () {
-//     ohayo('07:10:00', '早安！\n要乖乖吃药，吃早饭！')
-//     ohayo('07:30:00', '✔️安全的电量\n✔️公交卡\n✔️暖暖的衣服')
-// }
-//
-// hebdomad(kb, 5)
-function yy () {
-    ohayo('12:00:00', '准备出门啦！')
-    ohayo('12:00:01', '', getWeatherByMazey)
-    ohayo('12:00:02', '', getWeatherDailyByMazey)
-    ohayo('12:00:10', 'weatherDaily')
-    ohayo('12:00:12', 'weatherNow')
-    ohayo('12:00:14', '（比心）')
+function kb () {
+    ohayo('07:10:00', '早安！\n早饭！')
+    ohayo('07:11:00', '', getWeatherByMazey)
+    ohayo('07:12:00', '', getWeatherDailyByMazey)
+    ohayo('07:13:00', 'weatherDaily')
+    ohayo('07:14:00', 'weatherNow')
+    ohayo('07:30:00', '✔️安全的电量\n✔️公交卡（可以扫二维码了，以后就不提示这个了XD）\n✔️暖暖的衣服\n✔️记得吃药\n✔️出门记得戴口罩')
 }
-hebdomad(yy)
+hebdomad(kb)
+// function yy () {
+//     ohayo('12:00:00', '准备出门啦！')
+//     ohayo('12:00:01', '', getWeatherByMazey)
+//     ohayo('12:00:02', '', getWeatherDailyByMazey)
+//     ohayo('12:00:10', 'weatherDaily')
+//     ohayo('12:00:12', 'weatherNow')
+//     ohayo('12:00:14', '（比心）')
+// }
+// hebdomad(yy)
 // function ting () {
 //     ohayo('09:03:00', '早安！')
 //     ohayo('22:57:00', '晚安！')
