@@ -124,11 +124,11 @@ function goodMorning () {
 //     ohayo('07:00:12', 'weatherNow')
 // }
 // hebdomad(yy)
-// function ting () {
-//     ohayo('09:03:00', '早安！')
-//     ohayo('22:57:00', '晚安！')
-// }
-// hebdomad(ting, 7)
+function ting () {
+    ohayo('09:03:00', '早安！')
+    ohayo('22:57:00', '晚安！')
+}
+hebdomad(ting, 7)
 
 /*测试*/
 // ohayo('00:00:00', '', getWeatherDailyByMazey)
