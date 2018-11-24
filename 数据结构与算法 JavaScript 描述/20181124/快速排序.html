@@ -21,7 +21,6 @@
                 greater.push(v)
             }
         }
-
         return quickSort(lesser).concat(pivot, quickSort(greater))
     }
     console.log(quickSort(arr))

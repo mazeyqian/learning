@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const arr = [1, 7, 23, 77, 88, 99, 100]
+    function binSort (arr, data) {
+        let [lowerBound, upperBound] = [0, arr.length - 1]
+        while (lowerBound <= upperBound) {
+            const mid = Math.floor((lowerBound + upperBound) / 2)
+            if (arr[mid] < data) {
+                lowerBound = mid + 1
+            } else if (arr[mid] > data) {
+                upperBound = mid - 1
+            } else {
+                return mid
+            }
+        }
+        return -1
+    }
+    console.log(binSort(arr, 77))
+    console.log(binSort(arr, 100))
+    console.log(binSort(arr, 738))
+
+    function binSort2 (arr, value, start, end) {
+        let [lowerBound, upperBound] = [start || 0, end || arr.length - 1]
+        let mid = Math.floor((lowerBound + upperBound) / 2)
+        if (start > end) {
+            return -1
+        }
+        if (arr[mid] < value) {
+            return binSort2(arr, value, mid + 1, upperBound)
+        } else if (arr[mid] > value) {
+            return binSort2(arr, value, lowerBound, mid - 1)
+        } else {
+            return mid
+        }
+        return -1
+    }
+    console.log(binSort2(arr, 77))
+    console.log(binSort2(arr, 100))
+    console.log(binSort2(arr, 23))
+    console.log(binSort2(arr, 738))
+    //
+    // function f() {
+    //
+    // }
+</script>
+</body>
+</html>
