@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 插入排序
+    const arr = [5, 2, 1, 5, 3, 9]
+    function innsertSort (arr) {
+        const len  = arr.length
+        for (let outer = 1; outer < len; ++outer) {
+            let [temp, inner] = [arr[outer], outer]
+            // 依次比较，碰到大的让位
+            while (inner > 0 && (arr[inner - 1] > temp)) {
+                arr[inner] = arr[inner - 1]
+                ;--inner
+            }
+            arr[inner] = temp
+            console.log(outer, inner, arr.toString())
+        }
+        return arr
+    }
+    console.log(innsertSort(arr))
+</script>
+</body>
+</html>

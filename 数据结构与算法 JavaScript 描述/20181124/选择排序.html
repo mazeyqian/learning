@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const arr = [5, 2, 1, 5, 3, 9]
+    function selectSort (arr) {
+        let min = null
+        const len  = arr.length
+        for (let outer = 0; outer < len - 1; ++outer) {
+            min = outer
+            for (let inner = outer + 1; inner < len; ++inner) {
+                if (arr[inner] < arr[min]) {
+                    min = inner
+                }
+            }
+            let temp = arr[min]
+            arr[min] = arr[outer]
+            arr[outer] = temp
+        }
+        return arr
+    }
+    console.log(selectSort(arr))
+</script>
+</body>
+</html>

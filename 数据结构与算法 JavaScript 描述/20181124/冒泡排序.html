@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const arr = [6, 3, 7, 1, 5]
+    function mSort (arr) {
+        const len = arr.length
+        for (let i = 0; i < len; ++i) {
+            for (let j = 0; j < len - 1 - i; ++j) {
+                if (arr[j] > arr[j + 1]) {
+                    const temp = arr[j]
+                    arr[j] = arr[j + 1]
+                    arr[j + 1] = temp
+                }
+            }
+        }
+        return arr
+    }
+    console.log(mSort(arr))
+</script>
+</body>
+</html>
