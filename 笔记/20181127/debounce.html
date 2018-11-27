@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// 去抖
+function debounce (fn, wait) {
+    // 设置定时器 handle
+    let timeout = null
+    return function () {
+        const [content, args] = [this, arguments]
+        // 未设置定时器进入延时执行
+        if (!timeout) {
+            timeout = setTimeout(() => {
+                timeout = null
+                fn.apply(content, args)
+            }, wait)
+        } else {
+            console.log('去抖！')
+        }
+    }
+}
+// 测试
+document.onclick = debounce(() => {console.log('打印！')}, 1000)
+</script>
+</body>
+</html>
