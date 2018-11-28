@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// 节流
+function throttle (fn, wait) {
+    let timeout = null
+    let previous = 0
+    return function () {
+        const [content, args] = [this, arguments]
+        const now = Date.now()
+        // 定时器的延缓执行时间
+        const remain = previous + wait - now
+        // remain <= 0 首次执行、到了或超过间隔时间，执行函数
+        // remain > wait 强制修改了系统时间
+        if (remain <= 0 || remain > wait) {
+            if (timeout) {
+                clearTimeout(timeout)
+                timeout = null
+            }
+            fn.apply(content, args)
+            previous = now
+        } else if (!timeout) {
+            // remain > 0 && remain <= wait
+            // 事件触发在等待时间之内
+            timeout = setTimeout(() => {
+                timeout = null
+                fn.apply(content, args)
+            }, remain)
+        } else {
+            console.log('节流！')
+        }
+    }
+}
+// 示例
+document.onclick = throttle(() => {console.log('打印！')}, 1000)
+</script>
+</body>
+</html>
