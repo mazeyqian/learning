@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="input"/>
+<script>
+    const data = {
+        value: ''
+    };
+    const input = document.querySelector('input');
+    Object.defineProperty(data, 'text', {
+        set(value) {
+            input.value = value;
+            this.value = value;
+        }
+    });
+    input.oninput = e => {
+        data.text = e.target.value;
+        console.log(data)
+    }
+</script>
+</body>
+</html>
