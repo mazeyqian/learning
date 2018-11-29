@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+window.onload = () => {
+    const load = Date.now() - performance.timing.navigationStart
+    console.log(`消耗了 ${load} ms`)
+}
+</script>
+</body>
+</html>
