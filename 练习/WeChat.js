@@ -116,19 +116,24 @@ function goodMorning () {
 //     ohayo('07:10:13', '带伞哦！！注意保暖！！')
 // }
 // hebdomad(kb)
-function yy () {
-    ohayo('07:00:00', '早安！')
-    ohayo('07:00:01', '', getWeatherByMazey)
-    ohayo('07:00:02', '', getWeatherDailyByMazey)
-    ohayo('07:00:10', 'weatherDaily')
-    ohayo('07:00:12', 'weatherNow')
-}
-hebdomad(yy)
-// function ting () {
-//     ohayo('09:03:00', '早安！')
-//     ohayo('22:57:00', '晚安！')
+// function yy () {
+//     ohayo('07:00:00', '早安！')
+//     ohayo('07:00:01', '', getWeatherByMazey)
+//     ohayo('07:00:02', '', getWeatherDailyByMazey)
+//     ohayo('07:00:10', 'weatherDaily')
+//     ohayo('07:00:12', 'weatherNow')
 // }
-// hebdomad(ting, 7)
+// hebdomad(yy)
+function ting () {
+    ohayo('09:03:00', '早')
+    ohayo('09:03:01', '安')
+    ohayo('09:03:01', '安')
+    ohayo('09:03:01', '安')
+    ohayo('09:03:01', '安')
+    ohayo('09:03:01', '安')
+    ohayo('09:03:05', '！')
+}
+hebdomad(ting, 7)
 
 /*测试*/
 // ohayo('00:00:00', '', getWeatherDailyByMazey)

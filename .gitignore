@@ -1,13 +1,16 @@
 .DS_Store
-node_modules/
-dist/
+node_modules
+/dist
+/dist的副本
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-test/unit/coverage
-test/e2e/reports
-selenium-debug.log
-package.json
 
 # Editor directories and files
 .idea
@@ -16,4 +19,17 @@ package.json
 *.ntvs*
 *.njsproj
 *.sln
-*.xml
+*.sw*
+
+# mazey's dev
+# /mazey-ui
+# *.scss
+# _*.css
+# _*.css.map
+
+.sass-cache
+/.sass-cache/*
+!/node_modules/element-ui/lib/*
+
+# !/mazey-ui
+# !/src/components/base/mazey-ui/src/js/index.js
