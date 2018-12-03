@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// 字面量
+const foo = {
+    a: 1
+}
+console.log(foo.hasOwnProperty('a')) // true
+// Object.create(null) 空原型链
+const bar = Object.create(null)
+bar.a = 1
+console.log(bar.hasOwnProperty('a')) // Uncaught TypeError: bar.hasOwnProperty is not a function
+// 显示绑定
+console.log(Object.prototype.hasOwnProperty.call(bar, 'a')) // true
+</script>
+</body>
+</html>

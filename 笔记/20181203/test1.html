@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// 原型属性
+Object.prototype.b = 2
+// 自身属性
+const foo = {
+    a: 1
+}
+// hasOwnProperty
+console.log(foo.hasOwnProperty('a')) // true
+console.log(foo.hasOwnProperty('b')) // false
+// in
+console.log('a' in foo) // true
+console.log('b' in foo) // true
+</script>
+</body>
+</html>
