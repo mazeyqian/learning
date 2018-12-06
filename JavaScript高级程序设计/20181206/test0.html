@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            border: 1px solid blue;
+            background-color: red;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div draggable="true" id="d1">1</div>
+<div draggable="true">2</div>
+<div draggable="true">3</div>
+<div draggable="true">4</div>
+<div draggable="true" id="d5">5</div>
+<script>
+    // 起始
+    const d1 = document.getElementById('d1')
+    d1.addEventListener('dragstart', e => {
+        e.dataTransfer.setData('text/plain', 'Coming!')
+        e.dataTransfer.dropEffect = 'move'
+        e.dataTransfer.effectAllowed = 'move'
+        console.log('dragstart', e)
+//        e.preventDefault()
+    })
+    // 目标
+    const d5 = document.getElementById('d5')
+    d5.addEventListener('dragenter', e => {
+        console.log('dragenter', e)
+        e.preventDefault()
+    })
+    d5.addEventListener('dragover', e => {
+        console.log('dragover', e)
+        e.preventDefault()
+    })
+    d5.addEventListener('dragleave', e => {
+        console.log('dragleave', e.dataTransfer.getData('text/plain'))
+        e.preventDefault()
+    })
+    d5.addEventListener('drog', e => {
+        console.log('drog', e)
+        e.preventDefault()
+    })
+</script>
+</body>
+</html>
