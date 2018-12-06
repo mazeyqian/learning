@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+const foo = {
+    a: 1,
+    hasOwnProperty () {
+        return false
+    }
+}
+// 自带方法 hasOwnProperty 无论如何都返回 false
+console.log(foo.hasOwnProperty('a')) // false
+</script>
+</body>
+</html>
