@@ -108,32 +108,33 @@ function goodMorning () {
 // }
 // hebdomad(pinnacleWeekend, 2)
 // function kb () {
-//     ohayo('07:10:00', '早安！（比心')
+//     ohayo('07:10:00', '早安！（比心）')
 //     ohayo('07:10:01', '', getWeatherByMazey)
 //     ohayo('07:10:02', '', getWeatherDailyByMazey)
 //     ohayo('07:10:10', 'weatherDaily')
 //     ohayo('07:10:12', 'weatherNow')
-//     ohayo('07:10:13', '带伞哦！！注意保暖！！')
+//     ohayo('07:10:15', '试试看能不能打开！')
+//     ohayo('07:10:16', 'kb.mazey.net')
 // }
 // hebdomad(kb)
-// function yy () {
-//     ohayo('07:00:00', '早安！')
-//     ohayo('07:00:01', '', getWeatherByMazey)
-//     ohayo('07:00:02', '', getWeatherDailyByMazey)
-//     ohayo('07:00:10', 'weatherDaily')
-//     ohayo('07:00:12', 'weatherNow')
-// }
-// hebdomad(yy)
-function ting () {
-    ohayo('09:03:00', '早')
-    ohayo('09:03:01', '安')
-    ohayo('09:03:01', '安')
-    ohayo('09:03:01', '安')
-    ohayo('09:03:01', '安')
-    ohayo('09:03:01', '安')
-    ohayo('09:03:05', '！')
+function yy () {
+    ohayo('07:00:00', '早安！')
+    ohayo('07:00:01', '', getWeatherByMazey)
+    ohayo('07:00:02', '', getWeatherDailyByMazey)
+    ohayo('07:00:10', 'weatherDaily')
+    ohayo('07:00:12', 'weatherNow')
 }
-hebdomad(ting, 7)
+hebdomad(yy)
+// function ting () {
+//     ohayo('09:03:00', '早')
+//     ohayo('09:03:01', '安')
+//     ohayo('09:03:01', '安')
+//     ohayo('09:03:01', '安')
+//     ohayo('09:03:01', '安')
+//     ohayo('09:03:01', '安')
+//     ohayo('09:03:05', '！')
+// }
+// hebdomad(ting, 7)
 
 /*测试*/
 // ohayo('00:00:00', '', getWeatherDailyByMazey)
