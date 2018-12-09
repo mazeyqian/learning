@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    window.onerror = function (msg, url, line) {
+        console.log(msg)
+        return false
+    }
+
+    throw new TypeError('123')
+</script>
+</body>
+</html>
