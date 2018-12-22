@@ -4,21 +4,48 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        :root{
+            --main-color: #4d4e53;
+            --main-bg: rgb(255, 255, 255);
+            --logo-border-color: rebeccapurple;
+
+            --header-height: 68px;
+            --content-padding: 10px 20px;
+
+            --base-line-height: 1.428571429;
+            --transition-duration: .35s;
+            --external-link: "external link";
+            --margin-top: calc(2vh + 20px);
+            --foo: #4d4e53;
+        }
         div {
             background-color: #000;
             width: 200px;
             height: 200px;
             display: flex;
-
+            justify-content: center;
         }
         span {
             display: grid;
+            grid-template-columns: 200px 200px 200px;
+            color: var(--foo, #7F583F);
+        }
+        span:not(.nnn) {
+            overscroll-behavior: none;
+            overflow-scrolling: touch;
+            /*display: compact;*/
+            /*overflow-clip: 10;*/
+        }
+        header {
+            display: run-in;
+            filter: grayscale(1);
         }
     </style>
 </head>
 <body>
-<div></div>
-<span></span>
+<div id="myCanvas">456</div>
+<span>123</span>
+<header></header>
 <script>
     window.onload = () => {
         const load = Date.now() - performance.timing.navigationStart
@@ -82,6 +109,15 @@
         // Something went wrong during registration. The service-worker.js file
         // might be unavailable or contain a syntax error.
     });
+    var event = document.createEvent('Event');
+    var canvas = document.getElementById('myCanvas');
+    // var gl = canvas.getContext('webgl');
+
+    let p = new Promise((res, rej) => {res(123)})
+    .finally(() => {console.log(123)})
+
+    ;let iii = [1, 2, 3].find(v => v === 2)
+    console.log(iii)
 </script>
 </body>
 </html>
