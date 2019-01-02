@@ -31,93 +31,42 @@
             color: var(--foo, #7F583F);
         }
         span:not(.nnn) {
-            overscroll-behavior: none;
             overflow-scrolling: touch;
-            /*display: compact;*/
-            /*overflow-clip: 10;*/
         }
         header {
             display: run-in;
             filter: grayscale(1);
         }
     </style>
+    <script>
+      let o0637 = {
+        a: 0
+      };
+      let o0755 = Object.assign(o0637, {b: 1});
+      console.log(o0755.b);
+
+      var obj = {
+        foo: 0,
+        bar: 1
+      };
+
+      Object.observe(obj, function(changes) {
+        console.log(changes);
+      });
+
+      obj.baz = 2;
+      // [{name: 'baz', object: <obj>, type: 'add'}]
+
+      obj.foo = 'hello';
+      // [{name: 'foo', object: <obj>, type: 'update', oldValue: 0}]
+
+      delete obj.baz;
+    </script>
 </head>
 <body>
 <div id="myCanvas">456</div>
 <span>123</span>
 <header></header>
-<script>
-    window.onload = () => {
-        const load = Date.now() - performance.timing.navigationStart
-        console.log(`消耗了 ${load} ms`)
-    }
-    caches.has(null);
-    this.addEventListener('install', function(event) {
-        event.waitUntil(
-            caches.open('v1').then(function(cache) {
-                return cache.addAll([
-                    '/sw-test/',
-                    '/sw-test/index.html',
-                    '/sw-test/style.css',
-                    '/sw-test/app.js',
-                    '/sw-test/image-list.js',
-                    '/sw-test/star-wars-logo.jpg',
-                    '/sw-test/gallery/bountyHunters.jpg',
-                    '/sw-test/gallery/myLittleVader.jpg',
-                    '/sw-test/gallery/snowTroopers.jpg'
-                ]);
-            })
-        );
-    });
 
-    this.addEventListener('fetch', function(event) {
-        var response;
-        event.respondWith(caches.match(event.request).catch(function() {
-            return fetch(event.request);
-        }).then(function(r) {
-            response = r;
-            caches.open('v1').then(function(cache) {
-                cache.put(event.request, response);
-            });
-            return response.clone();
-        }).catch(function() {
-            return caches.match('/sw-test/gallery/myLittleVader.jpg');
-        }));
-    });
-
-    navigator.serviceWorker.register('service-worker.js', {
-        scope: './'
-    }).then(function (registration) {
-        var serviceWorker;
-        if (registration.installing) {
-            serviceWorker = registration.installing;
-            document.querySelector('#kind').textContent = 'installing';
-        } else if (registration.waiting) {
-            serviceWorker = registration.waiting;
-            document.querySelector('#kind').textContent = 'waiting';
-        } else if (registration.active) {
-            serviceWorker = registration.active;
-            document.querySelector('#kind').textContent = 'active';
-        }
-        if (serviceWorker) {
-            // logState(serviceWorker.state);
-            serviceWorker.addEventListener('statechange', function (e) {
-                // logState(e.target.state);
-            });
-        }
-    }).catch (function (error) {
-        // Something went wrong during registration. The service-worker.js file
-        // might be unavailable or contain a syntax error.
-    });
-    var event = document.createEvent('Event');
-    var canvas = document.getElementById('myCanvas');
-    // var gl = canvas.getContext('webgl');
-
-    let p = new Promise((res, rej) => {res(123)})
-    .finally(() => {console.log(123)})
-
-    ;let iii = [1, 2, 3].find(v => v === 2)
-    console.log(iii)
-</script>
 </body>
 </html>
