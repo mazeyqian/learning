@@ -120,7 +120,7 @@ function jx () {
     goodMorning()
     ohayo('07:01:00', '想你多一分！')
 }
-hebdomad(jx, 7)
+hebdomad(jx, 10)
 
 /*测试*/
 // ohayo('00:00:00', '', getWeatherDailyByMazey)
