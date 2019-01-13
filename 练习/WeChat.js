@@ -1,3 +1,5 @@
+// DONE: 获取时间段可以参考天气存在全局变量里面
+
 // 定时发送
 function ohayo (date, msg, fn0) {
     const D = new Date()
@@ -16,6 +18,8 @@ function ohayo (date, msg, fn0) {
                 msg = weatherNow
             } else if (msg === 'weatherDaily') {
                 msg = weatherDaily
+            } else if (msg === 'getRemainDate') {
+                msg = `筒子们，距离过年还有：\n${getRemainDateFromNow()}`
             }
             angular.element('pre:last').scope().editAreaCtn = msg
             document.querySelector('.btn_send').click()
@@ -83,6 +87,7 @@ function goodMorning () {
 }
 function pinnacle () {
     goodMorning()
+    ohayo('07:00:14', 'getRemainDate')
     ohayo('10:40:00', '外卖time！')
     ohayo('11:43:00', '', getWeatherByMazey)
     ohayo('11:43:10', 'weatherNow')
@@ -91,7 +96,7 @@ function pinnacle () {
     ohayo('17:55:00', 'weatherNow')
     ohayo('18:00:00', '加班！\n加班！！\n加班！！！')
 }
-hebdomad(pinnacle, 2)
+hebdomad(pinnacle, 5)
 // function pinnacleWeekend () {
 //     ohayo('09:00:00', '早上好，周末就好好待家里吧！')
 //     ohayo('09:01:00', '点一份全家桶可以吃四顿，顿顿管饱，岂不是美滋滋！')
@@ -131,3 +136,18 @@ hebdomad(pinnacle, 2)
 // setTimeout(() => {
 //     ohayo('00:00:00', 'weatherDaily')
 // }, 2000)
+
+
+function getRemainDateFromNow () {
+    var end = new Date('2019/02/05 00:00:00');
+    var t = end.getTime() - new Date().getTime();
+    var ret = '未来不可期';
+    if (t >= 0) {
+        var d = Math.floor(t / 1000 / 60 / 60 / 24);
+        var h = Math.floor(t / 1000 / 60 / 60 % 24);
+        var m = Math.floor(t / 1000 / 60 % 60);
+        var s = Math.floor(t / 1000 % 60);
+        ret = d + ' 天 ' + h + ' 时 ' + m + ' 分 ' + s + ' 秒';
+    }
+    return ret;
+}
