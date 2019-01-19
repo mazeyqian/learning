@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let ooo = {
+  a: 1,
+  b: 2
+}
+
+Object.assign(ooo, {
+  [Symbol.iterator] () {
+    const arr = Object.values(this)
+    let index = 0
+    return {
+      next () {
+        let ret = {
+          value: undefined,
+          done: true
+        }
+        if (index < arr.length) {
+           ret = {
+            value: arr[index],
+            done: false
+          }
+          index++
+        }
+        return ret
+      }
+    }
+  }
+})
+
+for (let v of ooo) {
+  console.log(v)
+}
+</script>
+</body>
+</html>
