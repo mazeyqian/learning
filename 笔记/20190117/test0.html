@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [0, 1, 2, 3, 4]
+    let b = a.reduce((sum, v, i, arr) => {
+      if (v === 1 || v === 3) {
+        arr.splice(i, 1)
+      } else {
+        sum.push(v)
+      }
+      return sum
+    }, [])
+    console.log(b)
+</script>
+</body>
+</html>

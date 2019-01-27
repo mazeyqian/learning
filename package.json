@@ -1,5 +1,5 @@
 {
-  "name": "mazey-projects",
+  "name": "mazey-study",
   "version": "1.0.0",
   "description": "It's Mazey's projects.",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mazeyqian/javascript-test0.git"
+    "url": "git+https://github.com/mazeyqian/mazey-study.git"
   },
   "keywords": [
     "Mazey",
@@ -20,7 +20,7 @@
   "author": "MazeyQian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mazeyqian/javascript-test0/issues"
+    "url": "https://github.com/mazeyqian/mazey-study/issues"
   },
-  "homepage": "https://github.com/mazeyqian/javascript-test0#readme"
+  "homepage": "https://github.com/mazeyqian/mazey-study#readme"
 }
