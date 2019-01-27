@@ -96,7 +96,7 @@ function pinnacle () {
     ohayo('17:55:00', 'weatherNow')
     ohayo('18:00:00', '加班！\n加班！！\n加班！！！')
 }
-hebdomad(pinnacle, 5)
+hebdomad(pinnacle, 7)
 // function pinnacleWeekend () {
 //     ohayo('09:00:00', '早上好，周末就好好待家里吧！')
 //     ohayo('09:01:00', '点一份全家桶可以吃四顿，顿顿管饱，岂不是美滋滋！')
