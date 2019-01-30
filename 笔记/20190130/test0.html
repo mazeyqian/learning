@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let isT = false
+  let arr = [2000, 3000, 2000, 4000]
+  let now = Date.now()
+  // arr = arr.map(async v => {
+  //   await new Promise((resolve => {
+  //     setTimeout(() => {
+  //       resolve()
+  //     }, v)
+  //   }))
+  //   console.log(Date.now() - now)
+  //   return Date.now() - now
+  // })
+  // Promise.all(arr).then(complete => {
+  //   console.log(complete)
+  // })
+  ;(async () => {
+    for (let v of arr) {
+      await new Promise((resolve => {
+        setTimeout(() => {
+          resolve()
+        }, v)
+      }))
+      console.log(Date.now() - now)
+    }
+  })()
+</script>
+</body>
+</html>
