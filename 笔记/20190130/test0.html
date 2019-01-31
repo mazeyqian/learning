@@ -23,11 +23,12 @@
   // })
   ;(async () => {
     for (let v of arr) {
-      await new Promise((resolve => {
+      let aaa = await new Promise((resolve => {
         setTimeout(() => {
-          resolve()
+          resolve(v)
         }, v)
       }))
+      console.log(aaa)
       console.log(Date.now() - now)
     }
   })()
