@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+// 同步的写法
+;(async () => {
+  function aaa () {
+    return new Promise(resolve => {
+      resolve(10)
+    })
+  }
+  function bbb () {
+    return new Promise(resolve => {
+      aaa().then(
+        res => {
+          resolve(res)
+        }
+      )
+    })
+  }
+  console.log(await bbb()) // 10
+})()
+</script>
+</body>
+</html>

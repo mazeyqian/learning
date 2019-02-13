@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+// 异步的写法
+function aaa () {
+  return new Promise(resolve => {
+    resolve(10)
+  })
+}
+function bbb () {
+  return new Promise(resolve => {
+    aaa().then(
+      res => {
+        resolve(res)
+      }
+    )
+  })
+}
+bbb().then(
+  res => {
+    console.log(res) // 10
+  }
+)
+</script>
+</body>
+</html>
