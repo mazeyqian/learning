@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  class Foo {
+    static bar() {
+      this.baz();
+    }
+    static baz() {
+      console.log('hello');
+    }
+    baz() {
+      console.log('world');
+    }
+  }
+
+  Foo.bar()
+
+  class ttt {
+    constructor () {
+      this.name = 'test'
+      this.action = 'init'
+    }
+
+    static pay () {
+      console.log(this.action)
+      this.action = 'pay'
+    }
+
+    static eat () {
+      console.log(this.action)
+      this.action = 'eat'
+    }
+
+    static sleep () {
+      console.log(this.action)
+      this.action = 'sleep'
+    }
+
+    static end () {
+      console.log(this.action)
+    }
+
+    static act () {
+      this.pay()
+      this.eat()
+      this.sleep()
+      this.end()
+    }
+  }
+
+  ttt.act()
+</script>
+</body>
+</html>
