@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  window.onpopstate = function(event) {
+    alert("location: " + document.location + ", state: " + JSON.stringify(event.state));
+  };
+  //绑定事件处理函数.
+  history.pushState({page: 1}, "title 1", "?page=1");
+
+</script>
+</body>
+</html>
