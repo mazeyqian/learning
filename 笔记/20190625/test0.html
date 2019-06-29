@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  const [m1, m2] = [document.createElement('video'), document.createElement('video')]
+  m1.ondurationchange = () => {
+    console.log('m1 end')
+  }
+  m2.ondurationchange = () => {
+    console.log('m2 end')
+  }
+  m1.src = 'https://static-oss.qutoutiao.net/webm/ezgif.gif.webm'
+  m2.src = 'https://static-oss.qutoutiao.net/webm/ezgif.com-gif-to-webm.webm'
+</script>
+</body>
+</html>
