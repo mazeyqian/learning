@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://newidea4-gamecenter-frontend.1sapp.com/sdk/pre1/h5.v1.0.0.js?spread=required"></script>
+</head>
+<body>
+<script>
+qttGame.getHomeADInitTimestamp() // 1573457709166
+
+qttGame.doHomeADInitDefer({
+  callback: function(){
+    console.log('一定时间后调用我。')
+  },
+  duration: 1000
+})
+</script>
+</body>
+</html>
