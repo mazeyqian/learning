@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>成语大富豪</title>
+    <meta name='viewport'
+          content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' />
+    <meta name="renderer" content="webkit" />
+    <meta name='apple-mobile-web-app-capable' content='yes' />
+    <meta name='full-screen' content='true' />
+    <meta name='x5-fullscreen' content='true' />
+    <meta name='360-fullscreen' content='true' />
+    <meta name="laya" screenorientation="landscape" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv='expires' content='0' />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="a3E67uTiPJw5" content="value" />
+    <style>
+        html,
+        body {
+            -ms-touch-action: none;
+            background: #fff;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+        /* background-image: url(resource/web/image/bg.jpg); */
+
+        .logo {
+            width: 100%;
+            height: 100%;
+            display: table;
+            text-align: center;
+            position: fixed;
+            color: #fff;
+        }
+
+        .bg-black {
+            background: #000;
+        }
+
+        .bg-white {
+            background: #fff;
+        }
+
+        .depth-top {
+            z-index: 999998;
+        }
+
+        .depth-middle {
+            z-index: 999997;
+        }
+
+        .center {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    </style>
+    <script src="https://jic.talkingdata.com/app/h5/v1?appid=14CB09163A6847439E36AC1C745C472A&vn=成语大富豪App&vc=1.0.1"></script>
+
+    <!-- <script src="vconsole.min.js"></script> -->
+</head>
+
+<body>
+<div id="logo" class="logo depth-top bg-white" style="opacity: 0.99;">
+        <span class="center">
+            <img src="logo1.svg" alt="" width="60%">
+        </span>
+</div>
+<script>
+  if(!window.TDAPP)window.TDAPP = { onEvent: function() { } };
+  window._gamePlayerStartTime = Date.now();
+  window.getGamePlayerTimer = function () {
+    return Date.now() - window._gamePlayerStartTime;
+  }
+  setTimeout(function () {
+    TDAPP.onEvent("1.开始加载code.js");
+  }, 100);
+</script>
+<!--jsfile--Main-->
+<script src="code.js"></script>
+<!--jsfile--Main-->
+</body>
+
+</html>
