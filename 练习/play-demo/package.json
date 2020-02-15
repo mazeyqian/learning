@@ -20,6 +20,6 @@
     "webpack-cli": "^3.3.2"
   },
   "dependencies": {
-    "@game/game-ad": "^1.4.19"
+    "@game/game-ad": "1.5.1"
   }
 }

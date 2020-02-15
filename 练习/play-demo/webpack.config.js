@@ -2,6 +2,10 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
+function resolve (dir) {
+  return path.join(__dirname, dir);
+}
+
 module.exports = {
   entry: './src/index.js',
   output: {
@@ -21,8 +25,8 @@ module.exports = {
     rules: [
         {
             test: /\.js$/,
-             exclude: /node_modules/, 
-             loader: "babel-loader"
+            include: [resolve('src'), resolve('node_modules/@qtt')],
+            loader: "babel-loader"
         }
     ]
 }
