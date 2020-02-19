@@ -20,6 +20,8 @@
     "webpack-cli": "^3.3.2"
   },
   "dependencies": {
-    "@game/game-ad": "1.5.1"
+    "@game/game-ad": "1.5.1",
+    "date-fns": "^2.9.0",
+    "mazey": "^1.2.13"
   }
 }

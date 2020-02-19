@@ -1,4 +1,6 @@
-import { showPlayAd } from '@game/game-ad/lib/index.cjs';
+import { showPlayAd } from '@game/game-ad';
+import {subYears, subWeeks} from 'date-fns'
+import {trim, getDomain} from 'mazey'
 
 showPlayAd({
     adid: "4133220215", // 广告 id
@@ -13,3 +15,12 @@ showPlayAd({
   });
 
   // done: 关闭时关闭页面
+
+  // test
+
+  console.info(trim('  222'), getDomain({url: 'https://cdn.suyujoy.com/qtt/adh5/xiaoxiaole/demo/index.html'}))
+//   console.info(subYears())
+// m.addClass()
+// m.getDomain()
+trim()
+getDomain()
