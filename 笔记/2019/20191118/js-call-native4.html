@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cmn-Hans">
+    <meta charset="UTF-8">
+    <title>DSBridge Test</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=0.5,user-scalable=no"/>
+    <!--require dsbridge init js-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/dsbridge/dist/dsbridge.js"> </script>-->
+    <script src="./dsbridge.js"> </script>
+</head>
+<style>
+    .btn {
+        text-align: center;
+        background: #d8d8d8;
+        color: #222;
+        padding: 20px;
+        margin: 30px;
+        font-size: 24px;
+        border-radius: 4px;
+        box-shadow: 4px 2px 10px #999;
+    }
+
+    .btn:active {
+        opacity: .7;
+        box-shadow: 4px 2px 10px #555;
+    }
+
+</style>
+<body>
+<div class="btn" onclick="callApi('getSystemInfo')">getSystemInfo</div>
+<div class="btn" onclick="callApi('getAppInfo')">getAppInfo</div>
+<div class="btn" onclick="callApi('getUserInfo')">getUserInfo</div>
+<div class="btn" onclick="callApi('getNativeBridgeVersion')">getNativeBridgeVersion</div>
+<div class="btn" onclick="callApi('getCurrentPosition')">getCurrentPosition</div>
+<div class="btn" onclick="track()">track</div>
+<div class="btn" onclick="callApi('getWxOauthCode')">getWxOauthCode</div>
+<div class="btn" onclick="callApi('bindPhone')">bindPhone</div>
+<div class="btn" onclick="callApi('login')">login</div>
+<div class="btn" onclick="hasNativeMethod()">hasNativeMethod</div>
+<div class="btn" onclick="share()">share</div>
+<div class="btn" onclick="trackSdk()">trackSdk</div>
+<div class="btn" onclick="setStorage()">setStorage</div>
+<div class="btn" onclick="getStorage()">getStorage</div>
+<div class="btn" onclick="setClipboardData('this is a test from h5')">setClipboardData</div>
+<div class="btn" onclick="callApi('getClipboardData')">getClipboardData</div>
+<div class="btn" onclick="checkAppExist()">checkAppExist</div>
+<div class="btn" onclick="checkAppExist1('com.tencent.mm')">checkAppExist1</div>
+<div class="btn" onclick="callApi('showNavigationBar')">showNavigationBar</div>
+<div class="btn" onclick="callApi('hideNavigationBar')">hideNavigationBar</div>
+<div class="btn" onclick="openWebView()">openWebView</div>
+<div class="btn" onclick="callApi('closeWebView')">closeWebView</div>
+<div class="btn" onclick="setNavigationBarColor()">setNavigationBarColor</div>
+<div class="btn" onclick="callApi('getAppOAuth')">getAppOAuth</div>
+<div class="btn" onclick="callApi('getAppBuToken')">getAppBuToken</div>
+<div class="btn" onclick="getQAppOAuth()">getQAppOAuth</div>
+<div class="btn" onclick="socialLogin()">socialLogin</div>
+<div class="btn" onclick="openNativePage()">openNativePage</div>
+<div class="btn" onclick="callApi('getStepCount')">getStepCount</div>
+<div class="btn" onclick="doQDataEncrypt()">doQDataEncrypt</div>
+<div class="btn" onclick="getDeviceInfo()">getDeviceInfo</div>
+<div class="btn" onclick="asyncGet()">asyncGet</div>
+<div class="btn" onclick="showCPCVideoAD()">showCPCVideoAD</div>
+<div class="btn" onclick="showCPCBannerAD()">showCPCBannerAD</div>
+<div class="btn" onclick="hideCPCBannerAD(1)">hideCPCBannerAD type 1</div>
+<div class="btn" onclick="hideCPCBannerAD(3)">hideCPCBannerAD type 3</div>
+<div class="btn" onclick="showCPCHomeAD()">showCPCHomeAD</div>
+<script>
+
+    function callApi(api) {
+       dsBridge.call(api, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+    function track() {
+        var json = {
+            page:'http://www.test.com/',
+            module: 'xxxx'
+        }
+
+       dsBridge.call("track", json, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+    function hasNativeMethod(nm) {
+        var json = {
+            type:'asyn',
+            name: 'login'
+        }
+        alert(JSON.stringify(dsBridge.call("_dsb.hasNativeMethod", json)))
+    }
+
+    function socialLogin() {
+      dsBridge.call('socialLogin', 'weixin', function (v) {
+            alert(JSON.stringify(v))
+       })
+    }
+
+    function openWebView() {
+        var json = {
+            url: 'http://qapp-bridge-testing.qttfe.com/',
+            mode: '1'
+        }
+
+       dsBridge.call("openWebView", json, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+
+    function setClipboardData(arg) {
+       dsBridge.call('setClipboardData', arg, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+    function checkAppExist() {
+
+        var json = {
+           packageName: 'com.tencent.mm'
+        }
+
+       dsBridge.call('checkAppExist', json, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+
+    function checkAppExist1(arg) {
+       dsBridge.call('checkAppExist', arg, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+    function getStorage() {
+        var json = {
+           key: 'test1'
+        }
+       dsBridge.call('getStorage', json, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+    function share() {
+        var json = {
+            wayType: "sys/sdk",
+            target: "channel",
+            link: "link",
+            title: "",
+            desc: "",
+            imgUrl: "",
+            pics: [
+                {
+                    type: "qrcode",
+                    pos: ["x", "y", "size"],
+                    background: "",
+                    url: ""
+                },
+                {
+                    type: "image",
+                    background: "http://xx.png"
+                },
+                {
+                    type: "compose",
+                    background: "",
+                    image: [
+                        {
+                            "url": "http://a.com/1.jpg",
+                            "pos": ["x", "y", "height", "width"],
+                            "isCenter": true
+                        }
+                    ]
+                }
+            ],
+            type: ""
+        }
+        dsBridge.call("share", json, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+    function trackSdk() {
+        var json = {
+            app:'midu',
+            page:'/maidian/test',
+            action:'click',
+            event:'book.click',
+            module:'',
+            topic:'log_maidian_debug',
+            extend_info:{
+                bookid:'1',
+                bookname:'猜猜我是谁'
+            }
+        }
+
+       dsBridge.call("datatracker.track", json, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+    function setStorage() {
+        var json = {
+            key:'test1',
+            value:'this is a test from h5'
+        }
+
+       dsBridge.call("setStorage", json, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+    function setNavigationBarColor() {
+        var json = {
+            foreColor: '#ffffff',
+            backgroundColor: '#000000'
+        }
+
+       dsBridge.call("setNavigationBarColor", json, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+    function getQAppOAuth() {
+        var json = {
+            scope: 'user',
+            needrefresh: 'true'
+        }
+
+        dsBridge.call("getQAppOAuth", json, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+    function doQDataEncrypt() {
+        var json = {
+            token: 'token'
+        }
+
+        dsBridge.call("doQDataEncrypt", json, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+    function openNativePage() {
+        var json = {
+            schemeUrl: 'alipayqr://platformapi/startapp?saId=10000007',
+            options: {
+
+            }
+        }
+
+        dsBridge.call("openNativePage", json, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+     function asyncGet() {
+        var json = {
+            "executeUrl": "http://ddd.1sapp.com/report?topic=log_cpc_client&cmd=1027&op1=201110&op5=cpcBridge-123",
+            "headers": {'User-Agent': navigator.userAgent}
+        }
+
+        dsBridge.call("asyncGet", json, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+    function getDeviceInfo() {
+        var json = {
+            }
+
+        dsBridge.call("getDeviceInfo", json, function (v) {
+            alert(JSON.stringify(v))
+        })
+    }
+
+    function showCPCVideoAD() {
+      var json = {
+        type: 0,
+        adSlotId: '17729415',
+        channel: 'qtt.2019',
+        appId: 'asd12345',
+        deviceCode: '201933333',
+        bannerAdExt: {},
+        videoAdExt: {
+          showCloseTime: 5,
+          maxDuration: 90,
+          isMaxDurKeepPlay: false,
+          btnText: '立即下载',
+          isMuted: true,
+          isNewDownLoad: false,
+          orientation: 0,
+          countText: '可领取金币'
+        }
+      }
+      dsBridge.call("showCPCVideoAD", json, function (v) {
+        alert(JSON.stringify(v))
+      })
+    }
+
+    function showCPCBannerAD(type) {
+      var json = {
+        type,
+        adSlotId: '17729415',
+        channel: 'qtt.2019',
+        appId: 'asd12345',
+        deviceCode: '201933333',
+        bannerAdExt: {
+          right: 100,
+          height: 100,
+          width: 270,
+          isClosable: false,
+          closeText: '倒计时',
+          countTime: 5,
+          book_id: '',
+          pageNum: 0
+        },
+        videoAdExt: {}
+      }
+      dsBridge.call("showCPCBannerAD", json, function (v) {
+        alert(JSON.stringify(v))
+      })
+    }
+
+    function showCPCHomeAD() {
+      var json = {
+        type: 2,
+        adSlotId: '17729415',
+        channel: 'qtt.2019',
+        appId: 'asd12345',
+        deviceCode: '201933333',
+        bannerAdExt: {
+          right: 0,
+          height: 0,
+          width: 0,
+          isClosable: true,
+          closeText: '倒计时',
+          countTime: 5,
+          book_id: 'gamecenter',
+          pageNum: 1
+        },
+        videoAdExt: {}
+      }
+      dsBridge.call("showCPCHomeAD", json, function (v) {
+        alert(JSON.stringify(v))
+      })
+    }
+
+    function hideCPCBannerAD() {
+      var json = {
+        appId: 'asd12345'
+      }
+      dsBridge.call("hideCPCBannerAD", json, function (v) {
+        alert(JSON.stringify(v))
+      })
+    }
+
+</script>
+</body>
+</html>

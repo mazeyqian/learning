@@ -1,0 +1,28 @@
+please input: <textarea id="val"></textarea><br/><br/>
+
+<button id='tr'>convert string</button><br/><br/>
+
+result: <textarea id="ret"></textarea><br/><br/>
+
+<script language="javascript" type="text/javascript" src="http://www.mazey.net/js/plugin/jquery/jquery-2.1.1.min.js"></script>
+
+<script>
+    function isJsonString (str) {
+  try {
+    if (typeof JSON.parse(str) === 'object') {
+      return true;
+    }
+  } catch (e) {}
+  return false;
+}
+
+    $('#tr').click(e => {
+        let val = $('#val').val()
+        let aaa = {}
+        console.log('val', val)
+        eval(`aaa = ${val}`)
+        console.log('aaa', aaa)
+        let ret = JSON.stringify(aaa)
+        $('#ret').val(ret)
+    })
+</script>
