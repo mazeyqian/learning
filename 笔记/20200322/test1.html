@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Proxy</title>
+</head>
+<body>
+<input id="pInput" />
+<p>值：<span id="pValue"></span></p>
+
+<script>
+  const pInput = document.getElementById('pInput')
+  const pValue = document.getElementById('pValue')
+  const targetData = {
+    text: ''
+  }
+  const data = new Proxy(targetData, {
+    set (trapTarget, key, value, receiver) {
+      pInput.value = value
+      pValue.innerText = value
+      return Reflect.set(trapTarget, key, value, receiver)
+    }
+  })
+  pInput.addEventListener('keyup', e => {
+    data.text = e.target.value
+  })
+</script>
+</body>
+</html>

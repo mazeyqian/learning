@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>defineProperty</title>
+</head>
+<body>
+<input id="dInput" />
+<p>值：<span id="pValue"></span></p>
+
+<script>
+  const dInput = document.getElementById('dInput')
+  const pValue = document.getElementById('pValue')
+  const data = {
+    inputValue: ''
+  }
+  Object.defineProperty(data, 'text', {
+    get () {
+      return this.inputValue
+    },
+    set (value) {
+      dInput.value = value
+      this.inputValue = value
+      // 展示结果
+      pValue.innerText = value
+    }
+  })
+  dInput.addEventListener('keyup', e => {
+    data.text = e.target.value
+  })
+</script>
+</body>
+</html>
