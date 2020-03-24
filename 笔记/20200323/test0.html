@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  function loadScript({url, callback}){
+    const script = document.createElement("script")
+    const firstScript = document.getElementsByTagName('script')[0];
+    script.type = "text/javascript";
+    if (script.readyState){ //IE
+      script.onreadystatechange = function(){
+        if (script.readyState === "loaded" || script.readyState === "complete"){
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else { //Others
+      console.info('oth')
+      script.onload = function(){
+        callback();
+      };
+    }
+    script.src = url;
+    firstScript && firstScript.parentNode.insertBefore(script, firstScript);
+  }
+  loadScript({
+    url: 'http://mazey.cn/static/js/polestar.bundle.js',
+    callback: () => {
+      console.log('ok')
+    }
+  })
+</script>
+</body>
+</html>

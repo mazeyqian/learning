@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+// MAZEY! setPrototypeOf 使用示例
+function Foo () {
+  this.name = 'foo'
+}
+Foo.prototype.grade = 94
+Foo.prototype.age = 17
+function Bar () {
+  this.name = 'bar'
+}
+Bar.prototype.gender = 'female'
+Bar.prototype.age = 18
+Baz = new Bar()
+// 设置原型前
+console.log(Baz.gender, Baz.age, Baz.grade) // female 18 undefined
+Object.setPrototypeOf(Bar.prototype, Foo.prototype)
+// 设置原型后
+console.log(Baz.gender, Baz.age, Baz.grade) // female 18 94
+</script>
+</body>
+</html>

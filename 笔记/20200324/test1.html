@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+const Human = {
+  say () {
+    return 'Hello'
+  }
+}
+const Dog = {
+  say () {
+    return 'WangWang'
+  }
+}
+const Cherrie = Object.create(Human)
+console.log(Cherrie.say()) // Hello
+Object.setPrototypeOf(Cherrie, Dog)
+console.log(Cherrie.say()) // WangWang
+</script>
+</body>
+</html>
