@@ -1,0 +1,16 @@
+<script>
+// MAZEY!
+const obj = {
+    a: 1,
+    b: 2
+}
+Object.defineProperty(obj, 'c', {
+    configurable: true,
+    enumerable: false,
+    writable: true,
+    value: 3
+})
+for (let key in obj) {
+    console.log(key) // a b
+}
+</script>

@@ -1,0 +1,15 @@
+<script>
+    function foo () {
+        let num = 0
+        return function () {
+            return ++num
+        }
+    }
+
+    function foz () {
+        return foo()()
+    }
+
+    const bar = foo()
+    const baz = foo()
+</script>
