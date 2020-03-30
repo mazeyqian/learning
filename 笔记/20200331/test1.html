@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+const obj = {
+  a: 1,
+  b: 2,
+  c: 3,
+  [Symbol.iterator]() {
+    let [index, values] = [0, Object.values(this)]
+    return {
+      next() {
+        const done = (index >= values.length)
+        const value = done ? undefined : values[index++]
+        return {
+          done,
+          value
+        }
+      }
+    }
+  }
+}
+for (let v of obj) {
+  console.log(v) // 1 2 3
+}
+</script>
+</body>
+</html>

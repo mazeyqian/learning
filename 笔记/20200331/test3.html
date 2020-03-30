@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+const strIterator = (function *() {
+  yield * ['haha', '111']
+})()
+console.log([...strIterator]) // ['H', 'e', 'l', 'l', 'e']
+</script>
+</body>
+</html>
