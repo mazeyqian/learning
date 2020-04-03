@@ -1,0 +1,21 @@
+<script>
+ class Console {
+    constructor (prefix) {
+        this.prefix = prefix
+    }
+
+    log (v, ...rest) {
+        console.log.call(null, `${this.prefix}${v}`, ...rest)
+    }
+
+    info (v) {
+        console.info(`${this.prefix}${v}`)
+    }
+
+    error (v) {
+        console.error(`${this.prefix}${v}`)
+    }
+}
+
+ const GLog = new Console('@Game/AD: ')
+</script>
