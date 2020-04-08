@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+window.addEventListener('unhandledrejection', e => {
+  console.log('unhandledrejection', e.reason.message) // I am an unhandledrejection Error!
+})
+window.addEventListener('rejectionhandled', e => {
+  console.log('rejectionhandled', e.reason.message) // I am an rejectionhandled Error!
+})
+
+// 触发拒绝
+const p1 = Promise.reject(new Error('I am an unhandledrejection Error!'))
+const p2 = Promise.reject(new Error('I am an rejectionhandled Error!'))
+
+// rejectionhandled 尚未生效，添加延时程序
+setTimeout(() => {
+  p2.catch(e => {
+    console.log('catch', e.message)
+  })
+}, 3000)
+</script>
+</body>
+</html>

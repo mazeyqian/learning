@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+// 初始化列表
+const unhandledRejections = new Map()
+// 监听未处理拒绝状态
+window.addEventListener('unhandledrejection', e => {
+  unhandledRejections.set(e.promise, e.reason)
+})
+// 监听已处理拒绝状态
+window.addEventListener('rejectionhandled', e => {
+  unhandledRejections.delete(e.promise)
+})
+// 循环处理拒绝状态
+setInterval(() => {
+  unhandledRejections.forEach((reason, promise) => {
+    console.log('handle: ', reason.message)
+    promise.catch(e => {
+      console.log(`I catch u!`, e.message)
+    })
+  })
+  unhandledRejections.clear()
+}, 5000)
+
+// 触发拒绝
+const p1 = Promise.reject(new Error('I am an unhandledrejection Error!'))
+</script>
+</body>
+</html>
