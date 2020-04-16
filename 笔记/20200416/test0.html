@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+var foo = 123
+console.log(window.foo) // 123
+
+;(() => {
+  console.log(bar) // undefined
+  var bar = 456
+})()
+</script>
+</body>
+</html>

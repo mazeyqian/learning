@@ -23,7 +23,5 @@
     "url": "https://github.com/mazeyqian/mazey-study/issues"
   },
   "homepage": "https://github.com/mazeyqian/mazey-study#readme",
-  "dependencies": {
-    "date-fns": "^2.9.0"
-  }
+  "dependencies": {}
 }
