@@ -1,0 +1,5 @@
+<script>
+const headers = ctx.request.header
+const XForwardedFor = headers['x-forwarded-for']
+const IP = XForwardedFor.split(', ')[0]
+</script>
