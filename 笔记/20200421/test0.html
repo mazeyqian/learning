@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  function deepCopyObject (obj) {
+    return JSON.parse(JSON.stringify(obj))
+  }
+
+/**
+ * @method calLongestCommonSubSequence
+ * @description 计算两个字符串的最长公共子序列
+ * @param {String} aStr 字符串
+ * @param {String} bStr 字符串
+ */
+function calLongestCommonSubSequence (aStr, bStr) {
+  const aLen = aStr.length
+  const bLen = bStr.length
+  // 创建二维数组并且深拷贝
+  const arr = deepCopyObject(new Array(aLen).fill(new Array(bLen).fill(0)))
+  for (let i = 0; i < aLen; ++i) {
+    for (let j = 0; j < bLen; ++j) {
+      if (aStr[i] === bStr[j]) {
+        let baseNum = 0
+        if (i > 0 && j > 0) {
+          baseNum = arr[i-1][j-1]
+        }
+        arr[i][j] = baseNum + 1
+      } else {
+        let [leftValue, topValue] = [0, 0]
+        if (j > 0) {
+          leftValue = arr[i][j-1]
+        }
+        if (i > 0) {
+          topValue = arr[i-1][j]
+        }
+        arr[i][j] = Math.max(leftValue, topValue)
+      }
+    }
+  }
+  // 二维数组转一维数组
+  const arr1 = Array.prototype.concat.call(...arr)
+  // 获取最长公共子串
+  const maxLong = Math.max(...arr1)
+  return maxLong
+}
+
+  console.log(calLongestCommonSubSequence('finish111哈哈', 'finish哈哈哈'))
+
+  // const foo = 'fish'
+  // const bar = 'finish'
+  // // console.log(calLongestCommonSubstring(foo, bar))
+  // const arr = deepCopyObject(new Array(4).fill(new Array(6).fill(null)))
+  //
+  // for (let i = 0, maxF = foo.length; i < maxF; ++i) {
+  //   for (let j = 0, maxB = bar.length; j < maxB; ++j) {
+  //     if (foo[i] === bar[j]) {
+  //       let baseNum = 0
+  //       if (i > 0 && j > 0) {
+  //         baseNum = arr[i-1][j-1]
+  //       }
+  //       arr[i][j] = baseNum + 1
+  //     } else {
+  //       let [leftValue, topValue] = [0, 0]
+  //       if (j > 0) {
+  //         leftValue = arr[i][j-1]
+  //       }
+  //       if (i > 0) {
+  //         topValue = arr[i-1][j]
+  //       }
+  //       arr[i][j] = Math.max(leftValue, topValue)
+  //     }
+  //   }
+  // }
+  //
+  // console.log('6 x 4', arr)
+  //
+  // const arr1 = Array.prototype.concat.call(...arr)
+  // console.log('1 x X', arr1)
+  // const maxLong = Math.max(...arr1)
+  // console.log('max long', maxLong)
+</script>
+</body>
+</html>
