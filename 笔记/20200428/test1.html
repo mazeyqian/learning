@@ -1,0 +1,10 @@
+<script>
+function currying (fn, ...arg1) {
+    if (arg1.length >= fn.length) {
+        return fn(...arg1)
+    }
+    return function (...arg2) {
+        return currying(fn, ...arg1, ...arg2)
+    }
+}
+</script>

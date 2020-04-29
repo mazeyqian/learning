@@ -1,0 +1,12 @@
+<script>
+function add (...rest1) {
+    const fn = function (...rest2) {
+        rest1.push(...rest2)
+        return fn
+    }
+    fn.toString = function () {
+        return rest1.reduce((a, b) => a + b)
+    }
+    return fn
+}
+</script>

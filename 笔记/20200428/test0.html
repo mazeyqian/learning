@@ -1,0 +1,12 @@
+<script>
+Function.prototype.bind2 = function (...rest1) {
+    const thatFun = this // 调用函数
+    const that = rest1[0] // this
+    const args = rest1.slice(1) // 多余的参数
+    const ret = function (...rest2) {
+        return thatFun.apply(that, [...args, ...rest2])
+    }
+    ret.prototype = this.prototype // 可以 new
+    return ret
+}
+</script>
