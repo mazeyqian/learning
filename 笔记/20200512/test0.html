@@ -1,0 +1,16 @@
+<script>
+const arr = [{name: 1, id: 1}, [{name: 2, id: 2}, [{name: 3, id: 3}]]]
+// find id: 3 => name: 'wxt'
+function love ({arr, id = 3} = {}) {
+    let len = arr.length
+    while (len--) {
+        if (!Array.isArray(arr[len])) {
+            if (arr[len].id === 3) arr[len].name = 'wxt'
+        } else {
+            love({arr: arr[len]})
+        }
+    }
+}
+love({arr})
+console.log(arr)
+</script>
