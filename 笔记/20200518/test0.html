@@ -1,0 +1,65 @@
+
+<p>
+正常 `new` 一个实例：
+</p>
+
+<script>
+// 场景一
+function foo () {
+    this.a = 1
+}
+foo.prototype.b = 2
+const bar = new foo()
+console.log(bar) // {a: 1}
+console.log(bar.b) // 2
+
+// 场景二 构造函数返回一个对象
+function foo () {
+    this.a = 1
+    return {a: 2}
+}
+const bar = new foo()
+console.log(bar) // {a: 2}
+</script>
+
+<p>
+通过一个构造函数创建一个实例，需要四步：
+
+1. 创建一个对象。
+2. 将当前对象的原型链链接到构造函数的原型上面。
+3. 点1创建的对象作为上下文使用指定参数调用构造函数，即将 `this` 绑定到新创建的对象上面。
+4. 若构造函数没有显示返回对象则返回新创建的对象。
+
+模拟实现 `new`：
+</p>
+
+<script>
+/**
+ * @method myNew
+ * @param {Function} conFun
+ * @param {...rest} params 参数
+ * @return {Object} 实例
+**/
+function myNew (conFun, ...params) {
+    const retObj = Object.create(conFun.prototype)
+    const ret = conFun.apply(retObj, params)
+    return typeof ret === 'object' ? ret : retObj
+}
+
+// 场景一
+function foo (a) {
+    this.a = a
+}
+foo.prototype.b = 2
+const bar = myNew(foo, 1)
+console.log(bar) // {a: 1}
+console.log(bar.b) // 2
+
+// 场景二
+function foo () {
+    this.a = 1
+    return {a: 11}
+}
+const bar = myNew(foo)
+console.log(bar) // {a: 11}
+</script>
