@@ -1,0 +1,40 @@
+<script>
+requestIdleCallback(() => {console.log(1)})
+requestIdleCallback(() => {console.log(2)})
+requestIdleCallback(() => {console.log(3)})
+requestIdleCallback(() => {console.log(4)})
+requestIdleCallback(() => {console.log(5)})
+// 1 2 3 4 5
+
+const tasks = [0, 1, 2, 3, 4]
+function doLowProMissions (IdleDeadline) {
+    // 空闲时间内尽量多执行任务
+    while (IdleDeadline.timeRemaining() && tasks.length) {
+        const num = tasks.shift()
+        console.log('执行任务：', num)
+    }
+    // 剩余任务下一个空闲段执行
+    if (tasks.length) requestIdleCallback(doLowProMissions)
+}
+requestIdleCallback(doLowProMissions)
+// 执行任务： 0
+// ...
+// 执行任务： 4
+
+// 定义日志上报队列
+const reportTasks = []
+// 按需填充日志队列
+reportTasks.push({cmd: 413, action: 'show'})
+reportTasks.push({cmd: 322, action: 'click'})
+// 回调函数
+function doLowPriorityReport (IdleDeadline) {
+    // 空闲时间内尽量多执行任务
+    while (IdleDeadline.timeRemaining() && reportTasks.length) {
+        const log = reportTasks.shift()
+        console.log('上报数据：', log)
+    }
+    // 剩余任务下一个空闲段执行
+    if (reportTasks.length) requestIdleCallback(doLowPriorityReport)
+}
+requestIdleCallback(doLowPriorityReport)
+</script>
