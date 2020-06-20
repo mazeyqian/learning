@@ -19,7 +19,7 @@ func main () {
 		}
 		for j := 0; j < 7; j++ {
 			if j == 2 {
-				break haha
+				goto haha
 			}
 			fmt.Println(i, j)
 		}
