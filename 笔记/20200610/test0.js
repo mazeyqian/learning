@@ -20,7 +20,7 @@ const defer = () => {
 const mockPromise = () => {
     let p = defer()
     setTimeout(() => {
-        p.resolve(333)
+        p.resolve('success!')
     }, 3000)
     return p
 }
@@ -30,7 +30,6 @@ mockPromise().then(res => {
 })
 
 console.log('script end')
-
 // script end
-// 3秒后
-// 333
+// 3 秒后
+// success!
