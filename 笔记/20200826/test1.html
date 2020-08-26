@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>CSS 实现底部（footer）贴底 - 方案 2：底部负距离 `margin`</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      header {
+        height: 50px;
+        background: #20c997;
+        position: sticky;
+        top: 0;
+      }
+      .container {
+        min-height: calc(100vh - 50px);
+      }
+      .content {
+        background: #0d6efd;
+      }
+      footer {
+        height: 50px;
+        margin-top: -50px;
+        background: #fd7e14;
+      }
+    </style>
+  </head>
+  <body>
+    <!--头部-->
+    <header>
+      header
+    </header>
+    <div class="container">
+      <!--内容-->
+      <div class="content">
+        content
+      </div>
+    </div>
+    <!--底部-->
+    <footer>
+      footer
+    </footer>
+  </body>
+</html>
