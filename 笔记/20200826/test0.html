@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>CSS 实现底部（footer）贴底 - 方案 1：Flex-Box</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      header {
+        height: 50px;
+        background: #20c997;
+        position: sticky;
+        top: 0;
+      }
+      main {
+        display: flex;
+        flex-flow: column nowrap;
+        min-height: calc(100vh - 50px);
+      }
+      .container {
+        flex: 1 1 auto;
+      }
+      .content {
+        background: #0d6efd;
+      }
+      footer {
+        flex: 0 0 auto;
+        background: #fd7e14;
+      }
+    </style>
+  </head>
+  <body>
+    <!--头部-->
+    <header>
+      header
+    </header>
+    <main>
+      <div class="container">
+        <!--内容-->
+        <div class="content">
+          content
+        </div>
+      </div>
+      <!--底部-->
+      <footer>
+        footer
+      </footer>
+    </main>
+  </body>
+</html>
