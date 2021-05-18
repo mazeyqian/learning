@@ -30,6 +30,7 @@ yarn-error.log*
 .sass-cache
 /.sass-cache/*
 !/node_modules/element-ui/lib/*
+package-lock.json
 
 # !/mazey-ui
 # !/src/components/base/mazey-ui/src/js/index.js
