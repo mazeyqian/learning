@@ -5,6 +5,6 @@ console.log(`第一次：${b1Str}`);
 console.log(`第二次：${b2Str}`);
 
 // TVRBMU5EVWpOall5TmpRMk9DTTFNREExTnpZ
-const str = 
-console.log(`第一次 decode：${base64.decode('TVRBMU5EVWpOall5TmpRMk9DTTFNREExTnpZ')}`);
-console.log(`第二次 decode：${base64.decode('MTA1NDUjNjYyNjQ2OCM1MDA1NzY')}`);
+// const str = 
+// console.log(`第一次 decode：${base64.decode('TVRBMU5EVWpOall5TmpRMk9DTTFNREExTnpZ')}`);
+// console.log(`第二次 decode：${base64.decode('MTA1NDUjNjYyNjQ2OCM1MDA1NzY')}`);
