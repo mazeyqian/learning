@@ -27,6 +27,7 @@ func main() {
 			fmt.Printf("%d\t%s\n", n, line)
 		}
 	}
+	fmt.Println(counts)
 }
 
 func countLines(f *os.File, counts map[string]int) {
