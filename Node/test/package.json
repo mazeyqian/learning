@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "js-base64": "^3.7.2"
+    "js-base64": "^3.7.2",
+    "mazey": "^1.4.39"
   }
 }
