@@ -1,0 +1,309 @@
+<p>版次：2012 年 3 月第 1 版</p>
+<h2>4 变量、作用域和内存问题</h2>
+<h3>4.1 基本类型和引用类型的值</h3>
+<h4>4.1.4 检测类型</h4>
+<p>如果变量是给定引用类型的实例，那么 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/instanceof"><code>instanceof</code></a> 操作符就会返回 <code>true</code>。</p>
+<h3>4.3 垃圾收集</h3>
+<p>找出那些不再继续使用的变量，然后释放其占用的内存。为此，垃圾收集器会按照固定的时间间隔，周期性地执行这一操作。</p>
+<!--more-->
+<h4>4.3.1 标记清除</h4>
+<p>当变量进入环境时，就将这个变量标记为“进入环境”。从逻辑上讲，永远不能释放进入环境的变量所占用的内存，因为只要执行流进入相应的环境，就可能会用到它们。而当变量离开环境时，则将其标记为“离开环境”。...环境中的变量已经无法访问到这些变量了。最后垃圾收集器完成<strong>内存清除</strong>工作，销毁那些带标记的值并回收它们所占用的内存空间。</p>
+<h4>4.3.2 引用计数</h4>
+<p>...当这个值的引用次数变成 0 时，则说明没有办法再访问这个值了，因而就可以将其占用的内存空间回收回来。</p>
+<p>将变量设置为 <code>null</code> 意味着切断变量与它此前引用的值之间的连接。当垃圾收集器下次运行时，就会删除这些值并回收它们占用的内存。</p>
+<h2>5 引用类型</h2>
+<h3>5.6 基本包装类型</h3>
+<p>引用类型与基本包装类型的主要区别就是对象的生存期。使用 <code>new</code> 操作符创建的引用类型的实例，在执行流离开当前作用域之前都一直保存在内存中。而自动创建的基本包装类型的对象，则只存在于一行代码的执行瞬间，然后立即被销毁。这意味着我们不能在运行时为基本类型值添加属性和方法。</p>
+<h3>5.7 单体内置对象</h3>
+<h4>5.7.1 Global 对象</h4>
+<p>ECMAScript 中的 Global 对象在某种意义上是作为一个终极的“兜底儿对象”来定义的。换句话说，不属于任何其他对象的属性和方法，最终都是它的属性和方法。事实上，没有全局变量或全局函数；所有在全局作用域中定义的属性和函数，都是 Global 对象的属性。</p>
+<h4>5.7.2 Math 对象</h4>
+<p>函数：计算最大值和最小值之间的随机数</p>
+<pre>function selectFrom (lowerValue, upperValue) {
+    var choices = upperValue - lowerValue + 1;
+    return Math.floor(Math.random() * choices + lowerValue);
+}
+</pre><h2>6 面向对象的程序设计</h2>
+<h3>6.1 理解对象</h3>
+<h4>6.1.1 属性类型</h4>
+<h5>1.数据属性</h5>
+<p>数据属性包含一个数据值的位置。在这个位置可以读取和写入值。数据属性有 4 个描述其行为的特性。</p>
+<ul>
+<li>[[Configurable]]：表示能否通过 <code>delete</code> 删除属性从而重新定义属性，能否修改属性的特性，或者能否把属性修改为访问器属性。像前面例子中那样直接在对象上定义的属性，它们的这个特性默认值为 <code>true</code>。</li>
+<li>[[Enumerable]]：表示能否通过 <code>for-in</code> 循环返回属性。像前面例子中那样直接在对象上定义的属性，它们的这个特性默认为 <code>true</code>。</li>
+<li>[[Writable]]：表示能否修改属性的值。像前面例子中那样直接在对象上定义的属性，它们的这个特性默认值为 <code>true</code>。</li>
+<li>[[Value]]：包含这个属性的数据值。读取属性值的时候，从这个位置读；写入属性值的时候，把新值保存在这个位置。这个特性的默认值为 <code>undefined</code>。</li>
+</ul>
+<p>把 <code>configurable</code> 设置为 <code>false</code>，表示不能从对象中删除属性。如果对这个属性调用 <code>delete</code>，则在非严格模式下什么也不会发生，而在严格模式下会导致错误。而且，一旦把属性定义为不可配置的，就不能再把它变回可配置了。此时，再调用 <code>Object.defineProperty()</code> 方法修改除 <code>writable</code> 之外的特性，都会导致错误。</p>
+<p>IE8 是第一个实现 <code>Object.defineProperty()</code> 方法的浏览器版本。然而，这个版本的实现存在诸多限制：只能在 DOM 对象上使用这个方法，而且只能创建访问器属性。</p>
+<h5>2.访问器属性</h5>
+<p>访问器属性不包含数据值；它们包含一对儿 getter 和 setter 函数。在读取访问器属性时，会调用 getter 函数，这个函数负责返回有效的值；在写入访问器属性时，会调用 setter 函数并传入新值，这个函数负责决定如何处理数据。访问器属性有如下 4 个特性。</p>
+<ul>
+<li>[[Configurable]]：表示能否通过 <code>delete</code> 删除属性从而重新定义属性，能否修改属性的特性，或者能否把属性修改为数据属性。对于直接在对象上定义的属性，这个特性的默认值为 <code>true</code>。</li>
+<li>[[Enumerable]]：表示能否通过 <code>for-in</code> 循环返回属性。对于直接在对象上定义的属性，这个特性的默认值为 <code>true</code>。</li>
+<li>[[Get]]：在读取属性时调用的函数。默认值为 <code>undefined</code>。</li>
+<li>[[Set]]：在写入属性时调用的函数。默认值为 <code>undefined</code>。</li>
+</ul>
+<h3>6.2 创建对象</h3>
+<h4>6.2.2 构造函数模式</h4>
+<p>调用构造函数实际上会经历一下 4 个步骤：</p>
+<ol>
+<li>创建一个新对象；</li>
+<li>将构造函数的作用域赋给新对象；</li>
+<li>执行构造函数中的代码；</li>
+<li>返回新对象。</li>
+</ol>
+<h4>6.2.3 原型模式</h4>
+<p>我们创建的每个函数都有一个 <code>prototype</code>（原型）属性，这个属性是一个指针，指向一个对象，而这个对象的用途是包含可以由特定类型的所有实例共享的属性和方法。如果按照字面意思来理解，那么 <code>prototype</code> 就是通过调用构造函数而创建的那个对象实例的原型对象。使用原型对象的好处是可以让所有对象实例共享它所包含的属性和方法。</p>
+<pre>// MAZEY!
+function Foo() {}
+const Bar = new Foo()
+Foo.prototype === Bar.__proto__ // true
+</pre><p>在使用 <code>for...in</code> 循环时，返回的是所有能够通过对象访问的、可枚举的（enumerated）属性，其中既包括存在于实例中的属性，也包括存在于原型中的属性。屏蔽了原型中不可枚举属性（即将 [[Enumerable]] 标记为 <code>false</code> 的属性）的实例属性也会在 <code>for...in</code> 循环中返回，因为根据规定，所有开发人员定义的属性都是可枚举的 —— 只有在 IE8 及更早版本中例外。</p>
+<pre>// MAZEY!
+const obj = {
+    a: 1,
+    b: 2
+}
+Object.defineProperty(obj, &#39;c&#39;, {
+    configurable: true,
+    enumerable: false,
+    writable: true,
+    value: 3
+})
+for (let key in obj) {
+    console.log(key) // a b
+}
+</pre><h4>6.2.4 组合使用构造函数模式和原型模式</h4>
+<p>创建自定义类型的最常见方式，就是组合使用构造函数模式与原型模式。构造函数模式用于定义实例属性，而原型模式用于定义方法和共享的属性。结果，每个实例都会有自己的一份实例属性的副本，但同时又共享着对方法的引用，最大限度地节省了内存。另外，这种混成模式还支持向构造函数传递参数；可谓是集两种模式之长。</p>
+<pre>function Person (name, age, job) {
+    this.name = name;
+    this.age = age;
+    this.job = job;
+    this.friends = [&quot;Shelby&quot;, &quot;Court&quot;];
+}
+
+Person.prototype = {
+    constructor: Person,
+    sayName: function () {
+        alert(this.name);
+    }
+}
+
+var person1 = new Person(&quot;Nicholas&quot;, 29, &quot;Software Engineer&quot;);
+var person2 = new Person(&quot;Greg&quot;, 27, &quot;Doctor&quot;);
+
+person1.friends.push(&quot;Van&quot;);
+alert(person1.friends); // &quot;Shelby, Count, Van&quot;
+alert(person2.friends); // &quot;Shelby, Count&quot;
+alert(person1.friends === person2.friends); // false
+alert(person1.sayName === person2.sayName); // true
+</pre><h3>6.3 继承</h3>
+<h4>6.3.4 原型式继承</h4>
+<p>ECMAScript5 通过新增 <code>Object.create()</code> 方法规范化了原型式继承。这个方法接收两个参数：一个用作新对象原型的对象和（可选的）一个为新对象定义额外属性的对象。在传入一个参数的情况下，<code>Object.create()</code> 与 <code>object()</code> 方法的行为相同。</p>
+<pre>// object
+function object (o) {
+    function F () {}
+    F.prototype = o;
+    return new F();
+}
+
+// Object.create()
+var person = {
+    name: &quot;Nicholas&quot;,
+    friends: [&quot;Shelby&quot;, &quot;Court&quot;, &quot;Van&quot;]
+};
+
+var anotherPerson = Object.create(person);
+anotherPerson.name = &quot;Greg&quot;;
+anotherPerson.friends.push(&quot;Rob&quot;);
+
+var yetAnotherPerson = Object.create(person);
+yetAnotherPerson.name = &quot;Linda&quot;;
+yetAnotherPerson.friends.push(&quot;Barbie&quot;);
+
+alert(person.friends); // &quot;Shelby, Court, Van, Rob, Barbie&quot;
+</pre><h2>7 函数表达式</h2>
+<p>关于函数声明，它的一个重要特征就是函数声明提升，意思是在执行代码之前会先读取函数声明。这就意味着可以把函数声明放在调用它的语句后面。</p>
+<h3>7.1 递归</h3>
+<p>在严格模式下，不能通过脚本访问 <code>arguments.callee</code>，访问这个属性会导致错误。不过，可以使用命名函数表达式来达成相同的结果。</p>
+<pre>var factorial = (function f (num) {
+    if (num &lt;= 1) {
+        return 1;
+    } else {
+        return num * f(num - 1);
+    }
+});
+</pre><h3>7.2 闭包</h3>
+<p>每个函数在被调用时都会自动取得两个特殊变量：<code>this</code> 和 <code>arguments</code>。内部函数在搜索这两个变量时，只会搜索到其活动对象为止，因此永远不可能直接访问外部函数中的这两个变量。不过，把外部作用域中的 <code>this</code> 对象保存在一个闭包能够访问到的变量里，就可以让闭包访问该对象了。</p>
+<h3>7.4 私有变量</h3>
+<p>多查找作用域链中的一个层次，就会在一定程度上影响查找速度。而这正是使用闭包和私有变量的一个显明的不足之处。</p>
+<h2>8 BOM</h2>
+<h3>8.1 <code>window</code> 对象</h3>
+<h4>8.1.4 窗口大小</h4>
+<p>在 Chrome 中，<code>outerWidth</code>、<code>outerHeight</code>与<code>innerWidth</code>、<code>innerHeight</code> 返回相同的值，即视口（viewport）大小而非浏览器窗口大小。</p>
+<h4>8.1.6 间隙调用和超时调用</h4>
+<p>JavaScript 是一个<strong>单线程</strong>的解释器，因此一定时间内只能执行一段代码。为了控制要执行的代码，就有一个 JavaScript 任务队列。这些任务会按照将它们添加到队列的顺序执行。<code>setTimeout()</code> 的第二个参数告诉 JavaScript 再过多长时间把当前任务添加到队列中。如果队列是空的，那么添加的代码会立即执行；如果队列不是空的，那么它就要等前面的代码执行完了了以后再执行。</p>
+<h3>8.5 <code>history</code> 对象</h3>
+<p><code>history</code> 对象还有一个 <code>length</code> 属性，保存着历史记录的数量。这个数量包括所有历史记录，即所有向后和向前的记录。对于加载到窗口、标签页或框架中的第一个页面而言，<code>history.length</code> 等于 0。通过像下面这样测试改属性的值，可以确定用户是否一开始就打开了你的页面。</p>
+<pre>if (history.length == 0) {
+    // 这应该是用户打开窗口后的第一个页面
+}
+</pre><p>虽然 <code>history</code> 并不常用，但在创建自定义的“后退”和“前进”按钮，以及检测当前页面是不是用户历史记录中的第一个页面时，还是必须使用它。</p>
+<h2>9 客户端检测</h2>
+<h3>9.3 用户代理检测</h3>
+<p>Netscape Communications 公司介入浏览器开发领域后，遂将自己产品的代号定名为 Mozilla（Mosaic Killer 的简写，意即 Mosaic 杀手）。该公司第一个公开发行版，Netscape Navigator 2 的用户代理字符串具有如下格式。</p>
+<pre>Mozilla/版本号 [语言] （平台；加密类型）
+</pre><h2>10 DOM</h2>
+<h3>10.1 节点层次</h3>
+<p>NodeList 是一种类数组对象，用于保存一组有序的节点，可以通过位置来访问这些节点。NodeList 对象的独特之处在于，它实际上是基于 DOM 结构动态执行查询的结果，因此 DOM 结构的变化能够自动反映在 NodeList 对象中。我们常说，NodeList 是有生命、有呼吸的对象、而不是在我们第一次访问它们的某个瞬间拍摄下来的一张快照。</p>
+<p>如果传入到 <code>appendChild()</code> 中的节点已经是文档的一部分了，那结果就是该节点从原来的位置转移到新位置。即使可以将 DOM 树看成是由一系列指针连接起来的，但任何 DOM 节点也不能同时出现在文档中的多个位置上。因此，如果在调用 <code>appendChild()</code> 时传入了父节点的第一个子节点，那么该节点就会成为父节点的最后一个子节点。</p>
+<h4>10.1.2 Document 类型</h4>
+<p>当页面中包含来自其他子域的框架或内嵌框架时，能够设置 <code>document.domain</code> 就非常方便了。由于跨域安全限制，来自不同子域的页面无法通过 JavaScript 通信。而通过将每个页面的 <code>document.domain</code> 设置为相同的值，这些页面就可以互相访问对方包含的 JavaScript 对象了(MAZEY! <code>document.getElementsByTagName(&#39;iframe&#39;)[0].contentWindow</code> 可以获取子框架内的 <code>window</code> 对象)。</p>
+<h4>10.1.3 Element 类型</h4>
+<p>元素可以有任意数目的子节点和后代节点，因为元素可以是其他元素的子节点。元素的 <code>childNodes</code> 属性中包含了它的所有子节点，这些子节点有可能是元素、文本节点、注释或处理指令。不同浏览器在看待这些节点方面存在显著的不同，以下面的代码为例。</p>
+<pre>&lt;ul id=&quot;myList&quot;&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+</pre><p>如果是 IE 来解析这些代码，那么 <code>&lt;ul&gt;</code> 元素会有 3 个子节点，分别是 3 个 <code>&lt;li&gt;</code> 元素。但如果是在其他浏览器中，<code>&lt;ul&gt;</code> 元素都会有 7 个元素，包括 3 个 <code>&lt;li&gt;</code> 元素和 4 个文本节点（表示 <code>&lt;li&gt;</code> 元素之间的空白符）。如果像下面这样将元素间的空白符删除，那么所有浏览器都会返回相同数目的子节点。</p>
+<pre>&lt;ul id=&quot;myList&quot;&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;li&gt;Item 3&lt;/li&gt;&lt;/ul&gt;
+</pre><p>对于这段代码，<code>&lt;ul&gt;</code> 元素在任何浏览器中都包含 3 个子节点。如果需要通过 <code>childNodes</code> 属性遍历子节点，那么一定不要忘记浏览器间的这一差别。这意味着在执行某项操作以前，通常都要先检查一下 <code>nodeType</code> 属性，如下面的例子所示。</p>
+<pre>for (var i = 0, len = element.childNodes.length; i &lt; len; i++) {
+  if (element.childNodes[i].nodeType == 1) {
+    // 执行某些操作
+  }
+}
+</pre><p>这个例子会循环遍历特定元素的每一个子节点，然后只在子节点的 <code>nodeType</code> 等于 1（表示是元素节点）的情况下，才会执行某些操作。
+如果想通过某个特定的标签名取得子节点或后代节点该怎么办呢？实际上，元素也支持 <code>getElementsByTagName()</code> 方法。在通过元素调用这个方法时，除了搜索起点是当前元素之外，其他方面都跟通过 <code>document</code> 调用这个方法相同，因此结果只会返回当前元素的后代。例如，要想取得前面 <code>&lt;ul&gt;</code> 元素中包含的所有 <code>&lt;li&gt;</code> 元素，可以使用下列代码。</p>
+<pre>var ul = document.getElementById(&quot;myList&quot;);
+var items = ul.getElementsByTagName(&quot;li&quot;);
+</pre><p>要注意的是，这里 <code>&lt;ul&gt;</code> 的后代中只包含直接子元素。不过，如果它包含更多层次的后代元素，那么各个层次中包含的 <code>&lt;li&gt;</code> 元素也都会返回。</p>
+<h3>10.2 DOM 操作技术</h3>
+<p>理解 NodeList 及其“近亲” NamedNodeMap 和 HTMLCollection，是从整体上透彻理解 DOM 的关键所在。这三个集合都是“动态的”；换句话说，每当文档结构发生变化时，它们都会得到更新。因此，它们始终都会保存着最新、最准确的信息。从本质上说，所有 NodeList 对象都是在访问 DOM 文档时实时运行的查询。例如，下列代码会导致无限循环：</p>
+<pre>var divs = document.getElementsByTagName(&quot;div&quot;),
+  i,
+  div;
+for (i = 0; i &lt; divs.length; i++) {
+  div = document.createElement(&quot;div&quot;);
+  document.body.appendChild(div);
+}
+</pre><h2>11 DOM 扩展</h2>
+<h3>11.3 HTML5</h3>
+<h4>11.3.1 与类相关的扩充</h4>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList">DOMTokenList</a> 有一个表示自己包含多少元素的 <code>length</code> 属性，而要取得每个元素可以使用 <code>item()</code> 方法，也可以使用方括号语法。此外，这个新类型还定义如下方法。</p>
+<ul>
+<li><code>add(value)</code>: 将给定的字符串值添加到列表中。如果值已经存在，就不添加了。</li>
+<li><code>contains(value)</code>: 表示列表中是否存在给定的值，如果存在则返回 <code>true</code>，否则返回 <code>false</code>。</li>
+<li><code>remove(value)</code>: 从列表中删除给定的字符串。</li>
+<li><code>toggle(value)</code>: 如果列表中已经存在给定的值，删除它；如果列表中没有给定的值，添加它。</li>
+</ul>
+<h4>11.3.6 插入标记</h4>
+<p>[<code>outerHTML</code> 属性] 在读模式下，<code>outerHTML</code> 返回调用它的元素及所有子节点的 HTML 标签。在写模式下，<code>outerHTML</code> 会根据指定的 HTML 字符串创建新的 DOM 子树，然后用这个 DOM 子树完全替换调用元素。</p>
+<h3>11.4 专有扩展</h3>
+<h4>11.4.5 滚动</h4>
+<p>由于 <code>scrollIntoView()</code> 是唯一一个所有浏览器都支持的方法，因此还是这个方法最常用。</p>
+<h2>12 DOM2 和 DOM3</h2>
+<h3>12.2 样式</h3>
+<p>要想知道某个元素在页面上的偏移量，将这个元素的 <code>offsetLeft</code> 和 <code>offsetTop</code> 与其 <code>offsetParent</code> 的相同属性相加，如此循环直至根元素，就可以得到一个基本准确的值。以下两个函数就可以用于分别取得元素的左和上偏移量。</p>
+<pre>function getElementLeft (element) {
+  var actualLeft = element.offsetLeft;
+  var current = element.offsetParent;
+  while (current !== null) {
+    actualLeft += current.offsetLeft;
+    current = current.offsetParent;
+  }
+  return actualLeft;
+}
+
+function getElementTop (element) {
+  var actualTop = element.offsetTop;
+  var current = element.offsetParent;
+  while (current !== null) {
+    actualTop += current.offsetTop;
+    current = current.offsetParent;
+  }
+  return actualTop;
+}
+</pre><h2>13 事件</h2>
+<h3>13.2 事件处理程序</h3>
+<p>[P353] 这里调用了两次 <code>attachEvent()</code>，为同一个按钮添加了两个不同的事件处理程序。不过，与 DOM 方法不同的是，这些事件处理程序不是以添加它们的顺序执行，而是以相反的顺序被触发。</p>
+<h3>13.4 事件类型</h3>
+<h4>13.4.1 UI 事件</h4>
+<p>新图像元素不一定要从添加到文档后才开始下载，只要设置了 <code>src</code> 属性就会开始下载。</p>
+<h4>13.4.6 变动事件</h4>
+<p>DOM2 级的变动（mutation）事件能在 DOM 中的某一部分发生变化时给出提示。变动事件是为 XML 或 HTML DOM 设计的，并不特定于某种语言。DOM2 级定义了如下变动事件。</p>
+<ul>
+<li>DOMSubtreeModified: 在 DOM 结构中发生任何变化时触发。这个事件在其他任何事件触发后都会触发。</li>
+<li>DOMNodeInserted: 在一个节点作为子节点被插入到另一个节点中时触发。</li>
+<li>DOMNodeRemoved: 在节点从其父节点中被移除时触发。</li>
+<li>DOMNodeInsertedIntoDocument: 在一个节点被直接插入文档或通过子树间接插入文档之后触发。这个事件在 DOMNodeInserted 之后触发。</li>
+<li>DOMNodeRemovedFromDocument: 在一个节点被直接从文档中移除或通过子树间接从文档中移除之前触发。这个事件在 DOMNodeRemoved 之后触发。</li>
+<li>DOMAttrModified: 在特性被修改之后触发。</li>
+<li>DOMCharacterDataModified: 在文本节点的值发生变化时触发。</li>
+</ul>
+<h3>13.5 内存和性能</h3>
+<p>每个函数都是对象，都会占用内存；内存中的对象越多，性能就越差(MAZEY!增加了<a href="https://baike.baidu.com/item/%E5%86%85%E5%AD%98%E7%A2%8E%E7%89%87">内存碎片</a>，加重了浏览器的垃圾收集负担)。其次，必须事先指定所有事件处理程序而导致的 DOM 访问次数，会延迟整个页面的交互就绪时间。</p>
+<h4>13.5.1 事件委托</h4>
+<p>最适合采用事件委托技术的事件包括 <code>click</code>、<code>mousedown</code>、<code>mouseup</code>、<code>keydown</code>、<code>keyup</code> 和 <code>keypress</code>。虽然 <code>mouseover</code> 和 <code>mouseout</code> 事件也冒泡，但要适当处理它们并不容易，而且经常需要计算元素的位置。（因为当鼠标从一个元素移到其子节点时，或者当鼠标移出该元素时，都会触发 <code>mouseout</code> 事件。）(MAZEY!案例：<a href="https://blog.mazey.net/1304.html">使用事件委托提高性能</a>)</p>
+<h2>14 表单脚本</h2>
+<h3>14.1 表单的基础知识</h3>
+<p>HTML5 为表单字段新增了一个 <code>autofocus</code> 属性。在支持这个属性的浏览器中，只要设置这个属性，不用 JavaScript 就能自动把焦点移动到相应字段。</p>
+<p><code>clipboardData</code> 对象有三个方法：<code>getData()</code>、<code>setData()</code> 和 <code>clearData()</code>。</p>
+<p>如果为 <code>appendChild()</code> 方法传入一个文档中已有的元素，那么就会先从该元素的父节点中移除它，再把它添加到指定的位置(与<em>10.1 节点层次</em>重复)。</p>
+<p>[富文本编辑] 要让它(<code>iframe</code>)可以编辑，必须要将 <code>designMode</code> 设置为 “<code>on</code>”，但只有在页面完全加载之后才能设置这个属性。因此，在包含页面中，需要使用 <code>onload</code> 事件处理程序来在恰当的时刻设置 <code>designMode</code>。</p>
+<h2>16 HTML5 脚本编辑</h2>
+<p>因为并非所有浏览器都支持所有媒体格式，所以可以指定多个不同的媒体来源。为此，不用在标签中指定 <code>src</code> 属性，而是要像下面这样使用一或多个 <code>&lt;source&gt;</code> 元素。</p>
+<pre>&lt;!-- 嵌入视频 --&gt;
+&lt;video id=&quot;myVideo&quot;&gt;
+  &lt;source src=&quot;conference.webm&quot; type=&quot;video/webm; codecs=&#39;vp8, vorbis&#39;&quot;&gt;
+  &lt;source src=&quot;conference.ogv&quot; type=&quot;video/ogg; codecs=&#39;theora, vorbis&#39;&quot;&gt;
+  &lt;source src=&quot;conference.mpg&quot;&gt;
+  Video player not available.
+&lt;/video&gt;
+
+&lt;!-- 嵌入音频 --&gt;
+&lt;audio id=&quot;myAudio&quot;&gt;
+  &lt;source src=&quot;song.ogg&quot; type=&quot;audio/ogg&quot;&gt;
+  &lt;source src=&quot;song.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
+  Audio player not available.
+&lt;/audio&gt;
+</pre><h2>20 JSON</h2>
+<p><code>JSON.stringify()</code> 除了要序列化的 JavaScript 对象外，还可以接收另外两个参数，这两个参数用于指定以不同的方式序列化 JavaScript 对象。第一个参数是个过滤器，可以是一个数组，也可以是一个函数；第二个参数是一个选项，表示是否在 JSON 字符串中保留缩进。单独或组合使用这两个参数，可以更全面深入地控制 JSON 的序列化。</p>
+<h2>21 Ajax 与 Comet</h2>
+<p>SSE 支持短轮询、长轮询和 HTTP 流，而且能在断开连接时自动确定何时重新连接。</p>
+<p>对于未被授权系统有权访问某个资源的情况，我们称之为 <a href="https://en.wikipedia.org/wiki/HTTP_cookie#Cross-site_request_forgery">CSRF</a>（Cross-Site Request Forgery，跨站点请求伪造）。未被授权系统会伪装自己，让处理请求的服务器认为它是合法的。受到 CSRF 攻击的 Ajax 程序有大有小，攻击行为既有旨在揭示系统漏洞的恶作剧，也有恶意的数据窃取或数据销毁。</p>
+<h2>22 高级技巧</h2>
+<p>一个简答的 <code>bind()</code> 函数接受一个函数和一个环境，并返回一个在给定环境中调用给定函数的函数，并且将所有参数原封不动传递过去。语法如下：</p>
+<pre>function bind (fn, context) {
+  return function () {
+    return fn.apply(context, arguments);
+  };
+}
+</pre><p>[函数<a href="https://zh.wikipedia.org/wiki/%E6%9F%AF%E9%87%8C%E5%8C%96">柯里化</a>] 柯里化函数通常由以下步骤动态创建：调用另一个函数并为它传入要柯里化的函数和必要参数。</p>
+<pre>// MAZEY! 柯里化
+function curry (fn, ...arg) {
+    // 积攒到参数达到被柯里化原始函数的参数数量
+    if (arg.length &gt;= fn.length) {
+        return fn(...arg)
+    }
+    return function (...arg2) {
+        return curry(fn, ...arg, ...arg2)
+    }
+}
+let aSum = curry(function sum (a, b, c) {return a+b+c})
+aSum(1)(2)(3) // 6
+</pre><h2>23 离线应用与客户端存储</h2>
+<p>要访问同一个 <code>localStorage</code> 对象，页面必须来自同一个域名（子域名无效），使用同一种协议，在同一个端口上。</p>
+<h2>24 最佳实践</h2>
+<p>编写 JavaScript 的时候，一定要知道何时返回 HTMLCollection 对象，这样你就可以最小化对他们的访问。发生以下情况时会返回 HTMLCollection 对象：</p>
+<ul>
+<li>进行了对 <code>getElementsByTagName()</code> 的调用；</li>
+<li>获取了元素的 <code>childNodes</code> 属性；</li>
+<li>获取了元素的 <code>attributes</code> 属性；</li>
+<li>访问了特殊的集合，如 <code>document.forms</code>、<code>document.images</code> 等。</li>
+</ul>
+<p>要了解当使用 <code>HTMLCollection</code> 对象时，合理使用会极大提升代码执行速度。</p>
+<h2>25 新兴的 API</h2>
+<p>[Page Visibility API] <code>document.hidden</code>: 表示页面是否隐藏的布尔值。页面隐藏包括页面在后台标签页中或者浏览器最小化。</p>

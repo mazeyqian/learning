@@ -1,0 +1,16 @@
+<p>值得反复读。</p>
+<p>版次：2012 年 9 月第 2 版</p>
+<ul>
+<li>JavaScript 只有一个数字类型。它的内部被表示为 64 位的浮点数，和 Java 的 double 数字类型一样。</li>
+<li>当一个方法被调用时，<code>this</code> 被绑定到该对象。如果调用表达式包含一个提取属性的动作（即包含一个 <code>.</code> 点表达式或 [subscript] 下标表达式），那么它就是被当做一个方法来调用。</li>
+<li>当一个函数并非一个对象的属性时，那么它就是被当做一个函数来调用的，以此模式调用函数时，<code>this</code> 被绑定到全局对象。</li>
+<li>一些语言提供了尾递归优化。这意味着如果一个函数返回自身递归调用的结果，那么调用的过程会被替换为一个循环，它可以显著提高速度。</li>
+<li>模块模式的一般形式是：一个定义了私有变量和函数的函数；利用闭包创建可以访问私有变量和函数的特权函数；最后返回这个特权函数，或者把它们保存到一个可访问到的地方。</li>
+<li><code>length</code> 属性的值是这个数组的最大整数属性名加上 1。它不一定等于数组里的属性的个数。<code>[]</code> 后置下标运算符把它所含的表达式转换成一个字符串，如果该表达式有 <code>toString</code> 方法，就使用该方法的值。这个字符串将被用做属性名。如果这个字符串看起来像一个大于等于这个数组当前的 <code>length</code> 且小于 4294967295 的正整数，那么这个数组的 <code>length</code> 就会被重新设置为新的下标加 1。</li>
+<li>判断数组：<code>Object.prototype.toString.apply(arr) === &#39;[object Array]&#39;</code>。</li>
+<li>可处理正则表达式的方法有 <code>regexp.exec</code>、<code>regexp.test</code>、<code>string.match</code>、<code>string.replace</code>、<code>string.search</code> 和 <code>string.split</code>。</li>
+<li>有时候觉得注释就像一个时间机器，我用它发送重要的信息给未来的我。</li>
+<li>二进制的浮点数不能正确地处理十进制的小数，因此 <code>0.1 + 0.2</code> 不等于 <code>0.3</code>。这是 JavaScript 中最经常被报告的 bug，并且它是遵循二进制浮点数算术标准（IEEE 754）而有意导致的结果。</li>
+<li>判断数字：<code>typeof str === &#39;number&#39; &amp;&amp; isFinite(str)</code>。</li>
+<li>在 ECMAScript 规范第 5 版中，明确规定了 <code>NaN</code> 和 <code>undefined</code> 为常量，而之前的版本中都未明确规定。</li>
+</ul>
