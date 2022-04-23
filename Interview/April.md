@@ -1,4 +1,203 @@
-## 四月面试准备
+## Experience of Interview/四月面试记录
+
+### Difference of `import` and `require`/import 和 require 的区别？esModule 的原理？
+
+https://stackoverflow.com/questions/46677752/the-difference-between-requirex-and-import-x
+
+#### load
+
+You can't selectively load only the pieces you need with require but with import, you can selectively load only the pieces you need, which can save memory.Loading is synchronous(step by step) for require on the other hand import can be asynchronous(without waiting for previous import) so it can perform a little better than require.
+
+#### size
+
+Major difference is in require, entire JS file is called or included. Even if you don't need some part of it.
+
+### Front-End Security/前端安全问题有哪些？
+
+#### 1 XSS (Cross Site Script)，跨站脚本攻击
+
+原理：恶意攻击者往 Web ⻚⾯⾥插⼊恶意可执⾏⽹⻚脚本代码，当⽤户浏览该⻚之时，嵌⼊其中 Web ⾥⾯的脚本代码会被执⾏，从⽽可以达到恶意攻击用户的目的。
+
+防范：对能接受⽤户输⼊的参数进⾏过滤和转义，并且严格管理 cookie 的读写权限。
+
+#### 2 CSRF (Cross-Site Request Forgery) 跨站请求伪造攻击
+
+原理：利⽤⽹站对于⽤户⽹⻚浏览器的信任，挟持⽤户当前已登陆的 Web 应⽤程序，去执⾏并⾮⽤户本意的操作。
+
+防范：验证 HTTP Referer 字段，并且为每个⽤户⽣成⼀个唯⼀的 token 进⾏验证。
+
+### Why 0.1 + 0.2 !== 0.3/为什么 0.1 + 0.2 !== 0.3
+
+在 JavaScript 中，数字只有 number 这一种类型；JavaScript 采用了 IEEE-745 浮点数表示法。我们先把 0.1 和 0.2 转换成二进制就是
+
+- 0.1 => 0.0001 1001 1001 1001…（无限循环）
+- 0.2 => 0.0011 0011 0011 0011…（无限循环）
+
+双精度浮点数的小数部分最多支持 52 位，所以两者相加之后，再把它转换为十进制，就成了 0.30000000000000004
+
+### Difference of HTTP and HTTPS/HTTP 和 HTTPS 的区别？HTTPS 如何做的加密？
+
+1. HTTPS 协议需要到 CA 申请证书，⼀般免费证书很少，需要交费。
+2. HTTP 协议运⾏在 TCP 之上，所有传输的内容都是明⽂，HTTPS 运⾏在 SSL/TLS 之上，SSL/TLS 运⾏在 TCP 之上，所有传输的内容将被加密。
+3. HTTP 和 HTTPS 使⽤的是完全不同的连接⽅式，⽤的端⼝也不⼀样，前者是 80，后者是 443。
+4. HTTPS 可以有效的防⽌运营商劫持，解决了防劫持的⼀个⼤问题。
+
+### Vue Communication/Vue 里面有几种通信方式？
+
+https://blog.mazey.net/982.html
+
+### NPM Test/NPM 的单测做过吗？
+
+https://github.com/facebook/jest
+
+### PWA Cache/PWA 中如何做缓存？遇到不更新的情况怎么办？
+
+https://developer.chrome.com/docs/workbox/caching-strategies-overview/
+
+1. Cache only
+2. Network only
+3. Cache first, falling back to network
+4. Network first, falling back to cache
+5. Stale-while-revalidate
+
+### Optimizing React's Component/工作中做过哪些组件优化？
+
+https://juejin.cn/post/6965747225154732069
+
+Fiber 本质上是一个虚拟的堆栈帧，新的调度器会按照优先级自由调度这些帧，从而将之前的同步渲染改成了异步渲染，在不影响体验的情况下去分段计算更新。
+
+1. 组件卸载前进行清理操作
+2. 减少渲染
+
+#### 2.1 纯组件 PureComponent
+
+纯组件会对组件输入数据进行浅层比较，如果当前输入数据和上次输入数据相同，组件不会重新渲染。
+比较引用数据类型在内存中的地址是否相同，比较基本数据类型的值是否相同。
+类组件继承 PureComponent，函数组件使用memo方法。
+
+```
+class PureChildComponent extends React.PureComponent { render() { console.log("PureChildComponent") return <div>{this.props.name}</div> } }
+```
+
+和进行diff比较操作相比，浅层比较将消耗更小的性能。 diff操作会重新遍历整棵 virtualDOM 树，而浅层比较只操作当前组件的state和props。
+
+#### 2.2 深层比较 shouldComponentUpdate
+
+纯组件只能进行浅层比较，要进行深层比较，使用 shouldComponentUpdate，它用于编写自定义逻辑。
+
+```
+shouldComponentUpdate(nextProps, nextState) { if (this.state.name !== nextState.name || this.state.age !== nextState.age) { return true } return false }
+```
+
+#### 2.3 函数组件变成纯组件 React.memo -> Hooks
+
+将函数组件变成纯组件，将当前props 和上一次的 props 进行浅层比较，如果相同就阻止组件重新渲染。
+
+```
+function ShowName({ name }) { console.log("showName render...") return <div>{name}</div> } const ShowNameMemo = memo(ShowName)
+```
+
+#### 2.4 组件懒加载 lazy()
+
+```
+const Home = lazy(() => import(/* webpackChunkName: "Home" */ "./Home"))
+const List = lazy(() => import(/* webpackChunkName: "List" */ "./List"))
+```
+
+#### 2.5 使用 Fragment 避免额外标记
+
+```
+import { Fragment } from "react" function App() { return ( <Fragment> <div>message a</div> <div>message b</div> </Fragment> ) }
+```
+
+#### 2.6 不要使用内联函数定义
+
+在使用内联函数后，render 方法每次运行时都会创建该函数的实例，导致 React 在进行 Virtual DOM 对比时，新旧函数对比不相等，导致 React 总是为元素绑定新的函数，而旧的函数实例又要交给垃圾回收器处理。
+
+#### 2.7 避免使用内联样式属性
+
+当使用内联 style 为元素添加样式时，内联 style 会被编译成 JavaScript 代码，通过 JavaScript 代码将样式规则映射到元素的身上，浏览器就会花费更多的时间执行脚本和渲染UI，从而增加了组件的渲染时间。
+
+#### 2.8 避免重复无限渲染
+
+当应用程序状态发生更改时，React 会调用 render 方法，如果在 render 方法中继续更改应用程序的状态，就会发生 render 方法递归调用导致应用报错。
+
+#### 2.9 优化渲染条件
+
+频繁地挂载和卸载组件是一项很耗性能的操作，为了确保应用程序的性能，应该减少组件挂载和卸载的次数。
+
+#### 2.10 为组件创建错误边界 优化用户体验
+
+错误边界是一个 React 组件，可以捕获子级组件在渲染时发生的错误，当错误发生时，可以将错误记录下来，可以显示备用UI界面。
+
+#### 2.11 为列表数据添加唯一标识 key
+
+当需要渲染列表数据时，我们应该为每一个列表项添加 key 属性，key 属性的值必须是唯一的。
+
+key 属性可以让 React 直接了当地知道哪些列表项发生了变化，从而避免了 React 内部逐一遍历 Virtual DOM 查找变化所带来的性能消耗，避免了元素因为位置变化而导致的重新创建。
+
+#### 2.12 依赖优化
+
+按需加载
+
+### Manage Headers of CDN/管理 CDN 资源的时候如何设置 Header 头？
+
+```
+ExamplesSetting cache expiry timeYou can control cache expiry time of your content.# 30 DAYS
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+    Header add Cache-Control "max-age=2592000, public"
+</FilesMatch>
+
+# 2 DAYS
+<FilesMatch "\.(xml|txt)$">
+    Header add Cache-Control "max-age=172800, public, must-revalidate"
+</FilesMatch>
+
+# 2 HOURS
+<FilesMatch "\.(html|htm)$">
+    Header add Cache-Control "max-age=7200, must-revalidate"
+</FilesMatch>
+
+# NO CACHE
+<FilesMatch "\.(html|htm)$">
+    Header add Cache-Control "no-cache"
+</FilesMatch>
+After changing origin HTTP headers you might need to purge your content from the CDN cache as it is cached with the old HTTP headers. Please refer to Setting a Cache Expiry Time for more details on cache control on CDN end.Setting CORSYou can enable Cross Origin Resource Sharing (CORS).<FilesMatch ".(eot|ttf|otf|woff)$">
+        Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
+After changing origin HTTP headers you might need to purge your content from the CDN cache as it is cached with the old HTTP headers. Please refer here for more details.
+```
+
+### How to update NPM/如何进行的升级？
+
+https://bytearcher.com/articles/semver-explained-why-theres-a-caret-in-my-package-json/
+
+- y.x.x - major - backward-incompatible change increments the major number
+- x.y.x - minor - new functionality that is backward compatible increments the minor number
+- x.x.y - patch - simple bug fix to existing functionality increments the patch number
+
+首次 npm install：
+
+caret (^) - ^3.9.2 - 3.*.*
+tilde (~) - ~3.9.2 - 3.9.*
+
+如果已经安装过了，需要 npm update 来更新。
+
+### Relative of Egg.js and Koa/Egg.js 与 Koa 的关系
+
+https://www.eggjs.org/intro/egg-and-koa
+
+Egg is built around the Koa. On the basis of Koa model, Egg implements enhancements one step further.
+
+### Koa's Onion Model/讲一讲 Koa 的洋葱模型
+
+https://developpaper.com/node-koas-onion-model-in-simple-terms/
+
+The onion model refers to next() The function is a split point, which is executed from outside to inside first Request And then execute from the inside out Response The logic of. Through the onion model, the communication between multiple middleware becomes more feasible and simple. The principle of its implementation is not very complex, mainly compose method.
+
+![Koa's Onion Model](https://blog.mazey.net/wp-content/uploads/2022/04/68747470733a2f2f7261772e6769746875622e636f6d2f66656e676d6b322f6b6f612d67756964652f6d61737465722f6f6e696f6e2e706e67.png)
+
+All the requests will be executed twice during one middleware. Compared to Express middleware, it is very easy to implement post-processing logic. You can obviously feel the advantage of Koa middleware model by comparing the compress middleware implementatio in Koa and Express.
 
 ### CSS Box Model
 
@@ -7,6 +206,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_t
 ### BFC
 
 https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
+
+https://blog.mazey.net/2068.html
 
 ### FLEX
 
@@ -126,6 +327,14 @@ You can use a large max-age value for files that rarely or never change. This mi
 ---
 
 When a validation request is made, the server can either ignore the validation request and respond with a normal 200 OK, or it can return 304 Not Modified (with an empty body) to instruct the browser to use its cached copy. The latter response can also include headers that update the expiration time of the cached resource.
+
+### Browser Cache&Server Cache
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
+
+Shared Caches: it is used for more than one user. Gateway caches, CDN, reverse proxy caches. `Last-Modified` header.
+
+Private Caches: A single user. Browser. Except for first requests.
 
 ### Cross-Origin
 
