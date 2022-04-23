@@ -135,6 +135,18 @@ For security reasons, browsers restrict cross-origin HTTP requests initiated fro
 
 In response, the server returns a Access-Control-Allow-Origin header with Access-Control-Allow-Origin: *, which means that the resource can be accessed by any origin.
 
+```
+*1. 通过 jsonp 跨域
+2. document.domain + iframe 跨域
+3. location.hash + iframe
+*4. window.name + iframe 跨域
+*5. postMessage 跨域
+6. 跨域资源共享（CORS）
+*7. nginx 代理跨域
+8. nodejs 中间件代理跨域
+*9. WebSocket 协议跨域
+```
+
 ### Simple Rquest
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#simple_requests
@@ -150,5 +162,35 @@ https://thiluxan.medium.com/how-web-browsers-use-process-threads-a5e560d42037
 Like Chrome, Firefox also using the concepts of multi-threading inside each process. With the release of Firefox 54, Mozilla has completed its transition to a multi-threaded web browser. But the multi-threading concept in Firefox is bit different with that of Chrome. In Chrome it initialize separate process for each tabs. If 5 tabs are opened, then there will be 5 render processes running. It will result it consuming memory, when the no. of processes get increased.
 
 For this problem, Firefox implemented a conservative approach. There will be 4 new processes created for 4 new processes. If an additional tab is opened, it will run using threads within the existing processes. Multiple tabs within a process share the browser engine that already exists in memory, instead of each creating their own. This will reduce the consumption of memory, as more memory needed if no. of processes increased.
+
+### Redux Introduction
+
+https://medium.com/leanjs/introduction-to-redux-redux-explained-with-very-simple-examples-b39d7967ceb8
+
+The three principles
+
+1. The state of the app is stored in one JavaScript object.
+2. The state is read-only, but we can change the state by describing a change with another JavaScript object called action.
+3. Changes are executed by pure functions called reducers. A reducer accepts the current state and an action and returns a new state or the same state.
+
+### React communication between Components
+
+1 父子通信
+
+父组件通过 props 传递数据给子组件，子组件通过调用父组件传来的函数传递数据给父组件，这两种方式是最常用的父子通信实现办法。
+
+这种父子通信方式也就是典型的单向数据流，父组件通过 props 传递数据，子组件不能直接修改 props， 而是必须通过调用父组件函数的方式告知父组件修改数据。
+
+2 兄弟组件通信
+
+对于这种情况可以通过共同的父组件来管理状态和事件函数。比如说其中一个兄弟组件调用父组件传递过来的事件函数修改父组件中的状态，然后父组件将状态传递给另一个兄弟组件。
+
+3 跨多层次组件通信
+
+如果你使用 16.3 以上版本的话，对于这种情况可以使用 Context API。
+
+4 任意组件
+
+这种方式可以通过 Redux 或者 Event Bus 解决，另外如果你不怕麻烦的话，可以使用这种方式解决上述所有的通信情况。
 
 (end)
