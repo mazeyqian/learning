@@ -1,5 +1,117 @@
 ## Experience of Interview/四月面试记录
 
+### [CSS]Difference between Transitions and Animations/CSS 过渡和动画区别？
+
+https://blog.hubspot.com/website/css-transition-vs-animation
+
+### [CSS]Difference between `:before` and `:after`/:before 和 :after 区别
+
+The ::before and ::after pseudo-elements allow you to add content to a specific part of an element you have selected in a CSS rule. For instance, the ::before selector could be used to add text before a link. The ::after selector could be used to add an emoji after a paragraph of text.
+
+### [CSS]Pseudo-Elements/有哪些伪类？
+
+https://www.w3schools.com/css/css_pseudo_elements.asp
+
+### [JavaScript]`instanceof`/instanceof 用法？
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
+
+The instanceof operator tests to see if the prototype property of a constructor appears anywhere in the prototype chain of an object. The return value is a boolean value.
+
+```
+object instanceof constructor
+
+console.log([] instanceof Array);
+// true
+let literalString = 'This is a literal string';
+let stringObject  = new String('String created with constructor');
+literalString instanceof String;  // false, string literal is not a String
+stringObject  instanceof String;  // true
+literalString instanceof Object;  // false, string literal is not an Object
+stringObject  instanceof Object;  // true
+stringObject  instanceof Date;    // false
+```
+
+### [Network]HTTP Headers/Http 有哪些请求头？
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+
+### [JavaScript]Event Delegation/事件委托/代理是怎么回事？
+
+https://medium.com/@bretdoucette/part-4-what-is-event-delegation-in-javascript-f5c8c0de2983
+
+Without event delegation you would have to rebind the click event listener to each new input loaded to the page. Coding this is complicated and burdensome. For one, it would drastically increase the amount of event listeners on your page, and more event listeners would increase the total memory footprint of your page. Having a larger memory footprint decreases performance… and poor performance is a bad thing. Second, there can be memory leak issues associated with binding and unbinding event listeners and removing elements from the dom. But that is beyond the scope of this article!
+
+### 先触发冒泡还是先触发捕获？
+
+### 父组件和子组件渲染顺序，其中埋点打印顺序？
+
+### 点击一个按钮页面卡顿住了，如何排查原因？
+
+### Webpack 打包构建速度如何优化？
+
+### Webpack 中 loader 和 plugin 区别？
+
+### 如何判断一个字符串是回文？说一下思路。
+
+### MySQL 中如何解决性能问题？如何建索引？
+
+### MySQL 慢查询如何解决？
+
+### 虚拟Dom 与 直接操作Dom的区别？什么时候用直接操作DOM，什么时候用虚拟DOM？
+
+### Vue 生命周期，渲染顺序？
+
+### React useEffect useEffectLayout render 执行顺序？
+
+### 子组件的事件如何传递给父组件？
+
+### React Hooks 和 Class Component 区别？
+
+### 浏览器输入地址后做了哪些事情？
+
+### 如何处理异步？比如队列进行，一直有 10 个任务在运行？
+
+https://blog.xizhibei.me/2019/07/15/asynchronous-task-queue-in-golang/
+
+Worker pool
+
+### Node.js 和 Golang 处理多线程的区别？
+
+### Node.js 如何进行多线程工作？数据如何共享传递？
+
+### 讲讲 this
+
+### promise 解决了什么问题，和 async/await 的区别？
+
+### map 和 weakmap 的区别
+
+### React hooks 如何模拟生命周期？用的方法名叫什么？
+
+### peerDepens 和 depend 的区别
+
+### Vue 和 React 和渲染更新，依赖数据修改吗？/React 和 Vue 区别？各有什么优缺点？
+
+### Vue3 有用过吗？
+
+### 说说浏览器缓存 localStorage sessionStorage 和 cookie？/讲讲 Cookie
+
+### 什么时候会用到闭包？
+
+### 宏任务和微任务的区别？
+
+### JavaScript 是单线程还是多线程？
+
+### 了解 HTTP 协议吗？
+
+### 你会如何优化一个前端项目？/前端项目怎么优化？
+
+### 国际化是如何实现的？
+
+### 了解过 Vite 吗？
+
+### Node.js 需要考虑哪些风险？面对 DDOS 怎么办？
+
 ### Difference of `import` and `require`/import 和 require 的区别？esModule 的原理？
 
 https://stackoverflow.com/questions/46677752/the-difference-between-requirex-and-import-x
@@ -12,7 +124,7 @@ You can't selectively load only the pieces you need with require but with i
 
 Major difference is in require, entire JS file is called or included. Even if you don't need some part of it.
 
-### Front-End Security/前端安全问题有哪些？
+### Front-End Security/前端安全问题有哪些？/前端常见的安全问题？
 
 #### 1 XSS (Cross Site Script)，跨站脚本攻击
 
@@ -60,7 +172,7 @@ https://developer.chrome.com/docs/workbox/caching-strategies-overview/
 4. Network first, falling back to cache
 5. Stale-while-revalidate
 
-### Optimizing React's Component/工作中做过哪些组件优化？
+### Optimizing React's Component/工作中做过哪些组件优化？/怎么减少组件更新频率？
 
 https://juejin.cn/post/6965747225154732069
 
@@ -168,7 +280,7 @@ After changing origin HTTP headers you might need to purge your content from t
 After changing origin HTTP headers you might need to purge your content from the CDN cache as it is cached with the old HTTP headers. Please refer here for more details.
 ```
 
-### How to update NPM/如何进行的升级？
+### How to update NPM/如何进行的升级？/NPM 如何更新版本
 
 https://bytearcher.com/articles/semver-explained-why-theres-a-caret-in-my-package-json/
 
@@ -203,7 +315,7 @@ All the requests will be executed twice during one middleware. Compared to Expre
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
 
-### BFC
+### BFC/了解 CSS 的 BFC 吗？
 
 https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
 
@@ -231,7 +343,7 @@ https://www.w3schools.com/cssref/css_units.asp
 
 The best way is to use the `typeof` keyword.
 
-### Prototype Chain
+### Prototype Chain/说说作用域和原型链？
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
 
@@ -328,7 +440,7 @@ You can use a large max-age value for files that rarely or never change. This mi
 
 When a validation request is made, the server can either ignore the validation request and respond with a normal 200 OK, or it can return 304 Not Modified (with an empty body) to instruct the browser to use its cached copy. The latter response can also include headers that update the expiration time of the cached resource.
 
-### Browser Cache&Server Cache
+### Browser Cache&Server Cache/前端有几种缓存方式？
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
 
