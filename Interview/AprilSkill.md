@@ -42,9 +42,37 @@ https://medium.com/@bretdoucette/part-4-what-is-event-delegation-in-javascript-f
 
 Without event delegation you would have to rebind the click event listener to each new input loaded to the page. Coding this is complicated and burdensome. For one, it would drastically increase the amount of event listeners on your page, and more event listeners would increase the total memory footprint of your page. Having a larger memory footprint decreases performance… and poor performance is a bad thing. Second, there can be memory leak issues associated with binding and unbinding event listeners and removing elements from the dom. But that is beyond the scope of this article!
 
-### 先触发冒泡还是先触发捕获？
+### [JavaScript]Bubbling and Capturing/先触发冒泡还是先触发捕获？
 
-### 父组件和子组件渲染顺序，其中埋点打印顺序？
+https://javascript.info/bubbling-and-capturing
+
+![Bubbling and Capturing](https://i.mazey.net/asset/default/eventflow.svg)
+
+### [React]The Order of Lifecycle Events between Parent Component and Children Component/父组件和子组件渲染顺序，其中埋点打印顺序？
+
+https://stackoverflow.com/questions/58352375/what-is-the-correct-order-of-execution-of-useeffect-in-react-parent-and-child-co
+
+You can think of useEffect Hook as componentDidMount, componentDidUpdate, and componentWillUnmount combined.
+
+So all of these lifecycle methods are called after the component is mounted and when component is mounted the child components inside that component have already been mounted and their lifeCycle have been called already.
+
+https://stackoverflow.com/questions/44654982/in-which-order-are-parent-child-components-rendered
+
+```
+Parent constructor
+Parent componentWillMount
+Parent render start
+Parent render end
+Child1 constructor
+Child1 componentWillMount
+Child1 render
+Child2 constructor
+Child2 componentWillMount
+Child2 render
+Child1 componentDidMount
+Child2 componentDidMount
+Parent componentDidMount
+```
 
 ### 点击一个按钮页面卡顿住了，如何排查原因？
 
@@ -61,6 +89,8 @@ Without event delegation you would have to rebind the click event listener to ea
 ### 虚拟Dom 与 直接操作Dom的区别？什么时候用直接操作DOM，什么时候用虚拟DOM？
 
 ### Vue 生命周期，渲染顺序？
+
+![](https://blog.mazey.net/wp-content/uploads/2022/04/lifecycle-e1650872947145.png)
 
 ### React useEffect useEffectLayout render 执行顺序？
 
@@ -106,13 +136,13 @@ Worker pool
 
 ### 你会如何优化一个前端项目？/前端项目怎么优化？
 
-### 国际化是如何实现的？
+### 国际化是如何实现的？/多语言是动态获取还是编译阶段实现的？
 
 ### 了解过 Vite 吗？
 
 ### Node.js 需要考虑哪些风险？面对 DDOS 怎么办？
 
-### Difference of `import` and `require`/import 和 require 的区别？esModule 的原理？
+### Difference between `import` and `require`/import 和 require 的区别？esModule 的原理？
 
 https://stackoverflow.com/questions/46677752/the-difference-between-requirex-and-import-x
 
@@ -147,7 +177,7 @@ Major difference is in require, entire JS file is called or included. Even if y
 
 双精度浮点数的小数部分最多支持 52 位，所以两者相加之后，再把它转换为十进制，就成了 0.30000000000000004
 
-### Difference of HTTP and HTTPS/HTTP 和 HTTPS 的区别？HTTPS 如何做的加密？
+### Difference between HTTP and HTTPS/HTTP 和 HTTPS 的区别？HTTPS 如何做的加密？
 
 1. HTTPS 协议需要到 CA 申请证书，⼀般免费证书很少，需要交费。
 2. HTTP 协议运⾏在 TCP 之上，所有传输的内容都是明⽂，HTTPS 运⾏在 SSL/TLS 之上，SSL/TLS 运⾏在 TCP 之上，所有传输的内容将被加密。
@@ -448,7 +478,7 @@ Shared Caches: it is used for more than one user. Gateway caches, CDN, reverse p
 
 Private Caches: A single user. Browser. Except for first requests.
 
-### Cross-Origin
+### Cross-Origin/除了设置 Headers 还需要设置什么？
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
