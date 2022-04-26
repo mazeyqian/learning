@@ -26,9 +26,21 @@ https://developer.chrome.com/docs/workbox/caching-strategies-overview/
 4. Network first, falling back to cache
 5. Stale-while-revalidate
 
-### 浏览器输入地址后做了哪些事情？
+### What happens when you type a URL into your browser?/浏览器输入地址后做了哪些事情？
 
-### 说说浏览器缓存 `localStorage`、`sessionStorage` 和 `cookie`？/讲讲 Cookie
+https://mazey.cn/t/gg
+
+- look up the location of the server hosting the website
+- make the connection to the server
+- send a request to get the specific page
+- handle the response from the server and
+- how it renders the page so you, the viewer, can interact with the website
+
+### Local Storage vs. Session Storage vs. Cookies/说说浏览器缓存 `localStorage`、`sessionStorage` 和 `cookie`？/讲讲 Cookie
+
+https://mazey.cn/t/gh
+
+![Differences](https://blog.mazey.net/wp-content/uploads/2022/04/comparison-table.png)
 
 ## Network/网络协议
 
@@ -582,7 +594,7 @@ Worker pool
 
 ### XXXX 中数据是真实的吗？
 
-## Soft Skills/软能力
+## Soft Skills/软能力及其他问题
 
 ### 一份工作，你更注重什么？
 
@@ -617,5 +629,7 @@ Worker pool
 ### 谈谈遇到过的难解决的问题？
 
 ### 手上还有在谈的 offer 吗？面试情况如何？
+
+### 你的期望薪资是多少？
 
 (end)
