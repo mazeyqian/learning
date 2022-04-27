@@ -582,6 +582,433 @@ Worker pool
 
 ### 如何判断一个字符串是回文？说一下思路。
 
+### 实现 `Promise.all`
+
+```
+//let myPromiseAll
+Promise.all = (promises) => {
+  let responses = [];
+  let errorResp = [];
+  return new Promise((resolve, reject) => {
+    /** Loop over promises array **/
+    promises.forEach(async (singlePromise, i) => {
+      try {
+        /** wait for resolving 1 promise **/
+        let res = await singlePromise;
+        responses.push(res);
+        if (i == promises.length - 1) {
+          if (errorResp.length > 0) {
+            reject(errorResp);
+          } else {
+            // resolve(esponses)
+            // To know our cutom promise function returning result
+            resolve("custom promise ::" + responses);
+          }
+        }
+      } catch (err) {
+        errorResp.push(err);
+        reject(err);
+      }
+    });
+  });
+};
+
+let p1 = Promise.resolve("Promise1 resolved");
+
+let p2 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Promise 2 resolved after 2 seconds");
+  }, 1000);
+});
+
+Promise.all([p1, p2]).then(
+  (res) => {
+    console.log("Response => ", res);
+    document.write("<b>Response => </b>" + res);
+  },
+  (err) => {
+    console.log("error =>", err);
+  }
+);
+```
+
+### 合并两个有序链表，返回合并后的有序链表。
+
+```
+/*
+输入：1->2->4, 1->3->4
+输出：1->1->2->3->4->4
+https://leetcode.com/problems/merge-two-sorted-lists/solution/
+*/
+
+// Node类
+function Node (element) {
+  this.element = element;
+  this.next = null;
+}
+
+const mergeTwoLists = function(l1, l2) {
+  let list = new Node()
+  let head = list
+  
+  while (l1 !== null && l2 !== null) {
+
+  // Select the smallest value from either linked list,
+  // then increment that list forward.
+      if (l1.val < l2.val) {
+          list.next = new Node(l1.val)
+          l1 = l1.next
+      } else {
+          list.next = new Node(l2.val)
+          l2 = l2.next
+      }
+      
+      list = list.next
+  }
+  
+// It's possible that one linked list is shorter than the other so we just
+// add on the remainder of the last linked list. It's already sorted :)
+  if (l1 !== null)
+      list.next = l1
+  if (l2 !== null)
+      list.next = l2
+  
+// return .next because this first element in the linkedlist is empty
+  return head.next
+};
+```
+
+### Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1. You must write an algorithm with O(log n) runtime complexity.
+
+```
+// Example 1:
+// Input: nums = [-1,0,3,5,9,12], target = 9
+// Output: 4
+// Explanation: 9 exists in nums and its index is 4
+
+// Example 2:
+// Input: nums = [-1,0,3,5,9,12], target = 2
+// Output: -1
+// Explanation: 2 does not exist in nums so return -1
+
+// O(log n)
+function bar({ nums = [], target, start, end } = {}) {
+  // verf
+  // ...
+
+  if (typeof start === 'undefined' && typeof end === 'undefined') {
+    const len = nums.length;
+    start = 0;
+    end = len - 1;
+  }
+
+  if (start > end) {
+    return -1;
+  }
+
+  
+  const pointIndex = Math.floor(start + (end - start) / 2);
+  if (target === nums[pointIndex]) {
+    return pointIndex;
+  } else if (target < nums[pointIndex]) {
+    return bar({ nums, target, start: start, end: pointIndex - 1 });
+  } else if (target > nums[pointIndex]) {
+    return bar({ nums, target, start: start + 1, end });
+  }
+}
+```
+
+### LRU
+
+### 实现 `JSON.parse`
+
+```
+function fakeParseJSON(str) {
+  let i = 0;
+
+  const value = parseValue();
+  expectEndOfInput();
+  return value;
+
+  function parseObject() {
+    if (str[i] === "{") {
+      i++;
+      skipWhitespace();
+
+      const result = {};
+
+      let initial = true;
+      // if it is not '}',
+      // we take the path of string -> whitespace -> ':' -> value -> ...
+      while (i < str.length && str[i] !== "}") {
+        if (!initial) {
+          eatComma();
+          skipWhitespace();
+        }
+        const key = parseString();
+        if (key === undefined) {
+          expectObjectKey();
+        }
+        skipWhitespace();
+        eatColon();
+        const value = parseValue();
+        result[key] = value;
+        initial = false;
+      }
+      expectNotEndOfInput("}");
+      // move to the next character of '}'
+      i++;
+
+      return result;
+    }
+  }
+
+  function parseArray() {
+    if (str[i] === "[") {
+      i++;
+      skipWhitespace();
+
+      const result = [];
+      let initial = true;
+      while (i < str.length && str[i] !== "]") {
+        if (!initial) {
+          eatComma();
+        }
+        const value = parseValue();
+        result.push(value);
+        initial = false;
+      }
+      expectNotEndOfInput("]");
+      // move to the next character of ']'
+      i++;
+      return result;
+    }
+  }
+
+  function parseValue() {
+    skipWhitespace();
+    const value =
+      parseString() ??
+      parseNumber() ??
+      parseObject() ??
+      parseArray() ??
+      parseKeyword("true", true) ??
+      parseKeyword("false", false) ??
+      parseKeyword("null", null);
+    skipWhitespace();
+    return value;
+  }
+
+  function parseKeyword(name, value) {
+    if (str.slice(i, i + name.length) === name) {
+      i += name.length;
+      return value;
+    }
+  }
+
+  function skipWhitespace() {
+    while (
+      str[i] === " " ||
+      str[i] === "\n" ||
+      str[i] === "\t" ||
+      str[i] === "\r"
+    ) {
+      i++;
+    }
+  }
+
+  function parseString() {
+    if (str[i] === '"') {
+      i++;
+      let result = "";
+      while (i < str.length && str[i] !== '"') {
+        if (str[i] === "\\") {
+          const char = str[i + 1];
+          if (
+            char === '"' ||
+            char === "\\" ||
+            char === "/" ||
+            char === "b" ||
+            char === "f" ||
+            char === "n" ||
+            char === "r" ||
+            char === "t"
+          ) {
+            result += char;
+            i++;
+          } else if (char === "u") {
+            if (
+              isHexadecimal(str[i + 2]) &&
+              isHexadecimal(str[i + 3]) &&
+              isHexadecimal(str[i + 4]) &&
+              isHexadecimal(str[i + 5])
+            ) {
+              result += String.fromCharCode(
+                parseInt(str.slice(i + 2, i + 6), 16)
+              );
+              i += 5;
+            } else {
+              i += 2;
+              expectEscapeUnicode(result);
+            }
+          } else {
+            expectEscapeCharacter(result);
+          }
+        } else {
+          result += str[i];
+        }
+        i++;
+      }
+      expectNotEndOfInput('"');
+      i++;
+      return result;
+    }
+  }
+
+  function isHexadecimal(char) {
+    return (
+      (char >= "0" && char <= "9") ||
+      (char.toLowerCase() >= "a" && char.toLowerCase() <= "f")
+    );
+  }
+
+  function parseNumber() {
+    let start = i;
+    if (str[i] === "-") {
+      i++;
+      expectDigit(str.slice(start, i));
+    }
+    if (str[i] === "0") {
+      i++;
+    } else if (str[i] >= "1" && str[i] <= "9") {
+      i++;
+      while (str[i] >= "0" && str[i] <= "9") {
+        i++;
+      }
+    }
+
+    if (str[i] === ".") {
+      i++;
+      expectDigit(str.slice(start, i));
+      while (str[i] >= "0" && str[i] <= "9") {
+        i++;
+      }
+    }
+    if (str[i] === "e" || str[i] === "E") {
+      i++;
+      if (str[i] === "-" || str[i] === "+") {
+        i++;
+      }
+      expectDigit(str.slice(start, i));
+      while (str[i] >= "0" && str[i] <= "9") {
+        i++;
+      }
+    }
+    if (i > start) {
+      return Number(str.slice(start, i));
+    }
+  }
+
+  function eatComma() {
+    expectCharacter(",");
+    i++;
+  }
+
+  function eatColon() {
+    expectCharacter(":");
+    i++;
+  }
+
+  // error handling
+  function expectNotEndOfInput(expected) {
+    if (i === str.length) {
+      printCodeSnippet(`Expecting a \`${expected}\` here`);
+      throw new Error("JSON_ERROR_0001 Unexpected End of Input");
+    }
+  }
+
+  function expectEndOfInput() {
+    if (i < str.length) {
+      printCodeSnippet("Expecting to end here");
+      throw new Error("JSON_ERROR_0002 Expected End of Input");
+    }
+  }
+
+  function expectObjectKey() {
+    printCodeSnippet(`Expecting object key here
+
+For example:
+{ "foo": "bar" }
+  ^^^^^`);
+    throw new Error("JSON_ERROR_0003 Expecting JSON Key");
+  }
+
+  function expectCharacter(expected) {
+    if (str[i] !== expected) {
+      printCodeSnippet(`Expecting a \`${expected}\` here`);
+      throw new Error("JSON_ERROR_0004 Unexpected token");
+    }
+  }
+
+  function expectDigit(numSoFar) {
+    if (!(str[i] >= "0" && str[i] <= "9")) {
+      printCodeSnippet(`JSON_ERROR_0005 Expecting a digit here
+
+For example:
+${numSoFar}5
+${" ".repeat(numSoFar.length)}^`);
+      throw new Error("JSON_ERROR_0006 Expecting a digit");
+    }
+  }
+
+  function expectEscapeCharacter(strSoFar) {
+    printCodeSnippet(`JSON_ERROR_0007 Expecting escape character
+
+For example:
+"${strSoFar}\\n"
+${" ".repeat(strSoFar.length + 1)}^^
+List of escape characters are: \\", \\\\, \\/, \\b, \\f, \\n, \\r, \\t, \\u`);
+    throw new Error("JSON_ERROR_0008 Expecting an escape character");
+  }
+
+  function expectEscapeUnicode(strSoFar) {
+    printCodeSnippet(`Expect escape unicode
+
+For example:
+"${strSoFar}\\u0123
+${" ".repeat(strSoFar.length + 1)}^^^^^^`);
+    throw new Error("JSON_ERROR_0009 Expecting an escape unicode");
+  }
+
+  function printCodeSnippet(message) {
+    const from = Math.max(0, i - 10);
+    const trimmed = from > 0;
+    const padding = (trimmed ? 4 : 0) + (i - from);
+    const snippet = [
+      (trimmed ? "... " : "") + str.slice(from, i + 1),
+      " ".repeat(padding) + "^",
+      " ".repeat(padding) + message
+    ].join("\n");
+    console.log(snippet);
+  }
+}
+```
+
+### Merge and Remove Duplicate Elements from Arrays
+
+```
+const arr1 = [1, 3, 6, 7, 9];
+const arr2 = [9, 3, 4, 7, 10];
+
+function foo (a, b) {
+  return [...new Set([...a, ...b])];
+}
+
+const aaa = foo(arr1, arr2);
+
+console.log('aaa', aaa);
+```
+
 ## Project/项目经历
 
 ### 讲一讲 XXXX 的优化？折损率是什么意思？
