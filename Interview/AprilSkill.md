@@ -580,6 +580,29 @@ Worker pool
 
 ## Algorithm/算法
 
+### 能说一下快速排序的思路吗？
+
+```
+const arr = [5, 2, 1, 5, 3, 9]
+function quickSort (arr) {
+    // 数组只有一个元素的时候，lesser 和 greater 返回空数组。
+    if (arr.length === 0) {
+        return []
+    }
+    const [lesser, greater] = [[], []]
+    const pivot = arr[0]
+    for (let v of arr.filter((v, i) => i > 0)) {
+        if (v < pivot) {
+            lesser.push(v)
+        } else {
+            greater.push(v)
+        }
+    }
+    return quickSort(lesser).concat(pivot, quickSort(greater))
+}
+console.log(quickSort(arr))
+```
+
 ### 如何判断一个字符串是回文？说一下思路。
 
 ### 实现 `Promise.all`
