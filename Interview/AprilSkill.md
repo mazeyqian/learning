@@ -132,7 +132,7 @@ https://blog.hubspot.com/website/css-transition-vs-animation
 
 ### Difference between `:before` and `:after`/`:before` 和 `:after` 区别
 
-The ::before and ::after pseudo-elements allow you to add content to a specific part of an element you have selected in a CSS rule. For instance, the ::before selector could be used to add text before a link. The ::after selector could be used to add an emoji after a paragraph of text.
+The `::before` and `::after` pseudo-elements allow you to add content to a specific part of an element you have selected in a CSS rule. For instance, the `::before` selector could be used to add text before a link. The `::after` selector could be used to add an emoji after a paragraph of text.
 
 ### Pseudo-Elements/有哪些伪类？
 
@@ -199,11 +199,13 @@ https://javascript.info/bubbling-and-capturing
 
 ![Bubbling and Capturing](https://i.mazey.net/asset/default/eventflow.svg)
 
-### 讲讲 this
+### 讲讲 `this`
 
 ### Promise 解决了什么问题，和 Async/Await 的区别？
 
 ### Map 和 WeakMap 的区别
+
+https://blog.mazey.net/878.html
 
 ### 什么时候会用到闭包？
 
@@ -213,7 +215,7 @@ https://javascript.info/bubbling-and-capturing
 
 ### Why `0.1 + 0.2 !== 0.3`/为什么 `0.1 + 0.2 !== 0.3`
 
-在 JavaScript 中，数字只有 number 这一种类型；JavaScript 采用了 IEEE-745 浮点数表示法。我们先把 0.1 和 0.2 转换成二进制就是
+在 JavaScript 中，数字只有 `number` 这一种类型；JavaScript 采用了 IEEE-745 浮点数表示法。我们先把 0.1 和 0.2 转换成二进制就是
 
 - 0.1 => 0.0001 1001 1001 1001…（无限循环）
 - 0.2 => 0.0011 0011 0011 0011…（无限循环）
@@ -300,51 +302,51 @@ Parent componentDidMount
 
 ### React Hooks 如何模拟生命周期？用的方法名叫什么？
 
-### Optimizing React's Component/工作中做过哪些组件优化？/怎么减少组件更新频率？
+### Optimizing React Component/工作中做过哪些组件优化？/怎么减少组件更新频率？
 
 https://juejin.cn/post/6965747225154732069
 
 Fiber 本质上是一个虚拟的堆栈帧，新的调度器会按照优先级自由调度这些帧，从而将之前的同步渲染改成了异步渲染，在不影响体验的情况下去分段计算更新。
 
-1. 组件卸载前进行清理操作
-2. 减少渲染
+1. 组件卸载前进行清理操作。
+2. 减少渲染。
 
-#### 纯组件 PureComponent
+#### 纯组件 `PureComponent`
 
 纯组件会对组件输入数据进行浅层比较，如果当前输入数据和上次输入数据相同，组件不会重新渲染。
 比较引用数据类型在内存中的地址是否相同，比较基本数据类型的值是否相同。
-类组件继承 PureComponent，函数组件使用memo方法。
+类组件继承 `PureComponent`，函数组件使用 `memo` 方法。
 
 ```
 class PureChildComponent extends React.PureComponent { render() { console.log("PureChildComponent") return <div>{this.props.name}</div> } }
 ```
 
-和进行diff比较操作相比，浅层比较将消耗更小的性能。 diff操作会重新遍历整棵 virtualDOM 树，而浅层比较只操作当前组件的state和props。
+和进行 diff 比较操作相比，浅层比较将消耗更小的性能。diff 操作会重新遍历整棵 virtualDOM 树，而浅层比较只操作当前组件的 `state` 和 `props`。
 
-#### 深层比较 shouldComponentUpdate
+#### 深层比较 `shouldComponentUpdate`
 
-纯组件只能进行浅层比较，要进行深层比较，使用 shouldComponentUpdate，它用于编写自定义逻辑。
+纯组件只能进行浅层比较，要进行深层比较，使用 `shouldComponentUpdate`，它用于编写自定义逻辑。
 
 ```
 shouldComponentUpdate(nextProps, nextState) { if (this.state.name !== nextState.name || this.state.age !== nextState.age) { return true } return false }
 ```
 
-#### 函数组件变成纯组件 React.memo -> Hooks
+#### 函数组件变成纯组件 `React.memo` -> `Hooks`
 
-将函数组件变成纯组件，将当前props 和上一次的 props 进行浅层比较，如果相同就阻止组件重新渲染。
+将函数组件变成纯组件，将当前 `props` 和上一次的 `props` 进行浅层比较，如果相同就阻止组件重新渲染。
 
 ```
 function ShowName({ name }) { console.log("showName render...") return <div>{name}</div> } const ShowNameMemo = memo(ShowName)
 ```
 
-#### 组件懒加载 lazy()
+#### 组件懒加载 `lazy()`
 
 ```
 const Home = lazy(() => import(/* webpackChunkName: "Home" */ "./Home"))
 const List = lazy(() => import(/* webpackChunkName: "List" */ "./List"))
 ```
 
-#### 使用 Fragment 避免额外标记
+#### 使用 `Fragment` 避免额外标记
 
 ```
 import { Fragment } from "react" function App() { return ( <Fragment> <div>message a</div> <div>message b</div> </Fragment> ) }
@@ -352,15 +354,15 @@ import { Fragment } from "react" function App() { return ( <Fragment> <div>messa
 
 #### 不要使用内联函数定义
 
-在使用内联函数后，render 方法每次运行时都会创建该函数的实例，导致 React 在进行 Virtual DOM 对比时，新旧函数对比不相等，导致 React 总是为元素绑定新的函数，而旧的函数实例又要交给垃圾回收器处理。
+在使用内联函数后，`render` 方法每次运行时都会创建该函数的实例，导致 React 在进行 Virtual DOM 对比时，新旧函数对比不相等，导致 React 总是为元素绑定新的函数，而旧的函数实例又要交给垃圾回收器处理。
 
 #### 避免使用内联样式属性
 
-当使用内联 style 为元素添加样式时，内联 style 会被编译成 JavaScript 代码，通过 JavaScript 代码将样式规则映射到元素的身上，浏览器就会花费更多的时间执行脚本和渲染UI，从而增加了组件的渲染时间。
+当使用内联 `style` 为元素添加样式时，内联 `style` 会被编译成 JavaScript 代码，通过 JavaScript 代码将样式规则映射到元素的身上，浏览器就会花费更多的时间执行脚本和渲染 UI，从而增加了组件的渲染时间。
 
 #### 避免重复无限渲染
 
-当应用程序状态发生更改时，React 会调用 render 方法，如果在 render 方法中继续更改应用程序的状态，就会发生 render 方法递归调用导致应用报错。
+当应用程序状态发生更改时，React 会调用 `render` 方法，如果在 `render` 方法中继续更改应用程序的状态，就会发生 `render` 方法递归调用导致应用报错。
 
 #### 优化渲染条件
 
@@ -368,13 +370,13 @@ import { Fragment } from "react" function App() { return ( <Fragment> <div>messa
 
 #### 为组件创建错误边界 优化用户体验
 
-错误边界是一个 React 组件，可以捕获子级组件在渲染时发生的错误，当错误发生时，可以将错误记录下来，可以显示备用UI界面。
+错误边界是一个 React 组件，可以捕获子级组件在渲染时发生的错误，当错误发生时，可以将错误记录下来，可以显示备用 UI 界面。
 
-#### 为列表数据添加唯一标识 key
+#### 为列表数据添加唯一标识 `key`
 
-当需要渲染列表数据时，我们应该为每一个列表项添加 key 属性，key 属性的值必须是唯一的。
+当需要渲染列表数据时，我们应该为每一个列表项添加 `key` 属性，`key` 属性的值必须是唯一的。
 
-key 属性可以让 React 直接了当地知道哪些列表项发生了变化，从而避免了 React 内部逐一遍历 Virtual DOM 查找变化所带来的性能消耗，避免了元素因为位置变化而导致的重新创建。
+`key` 属性可以让 React 直接了当地知道哪些列表项发生了变化，从而避免了 React 内部逐一遍历 Virtual DOM 查找变化所带来的性能消耗，避免了元素因为位置变化而导致的重新创建。
 
 #### 依赖优化
 
@@ -382,21 +384,21 @@ key 属性可以让 React 直接了当地知道哪些列表项发生了变化，
 
 ### React communication between Components
 
-1 父子通信
+#### 父子通信
 
-父组件通过 props 传递数据给子组件，子组件通过调用父组件传来的函数传递数据给父组件，这两种方式是最常用的父子通信实现办法。
+父组件通过 `props` 传递数据给子组件，子组件通过调用父组件传来的函数传递数据给父组件，这两种方式是最常用的父子通信实现办法。
 
-这种父子通信方式也就是典型的单向数据流，父组件通过 props 传递数据，子组件不能直接修改 props， 而是必须通过调用父组件函数的方式告知父组件修改数据。
+这种父子通信方式也就是典型的单向数据流，父组件通过 `props` 传递数据，子组件不能直接修改 `props`，而是必须通过调用父组件函数的方式告知父组件修改数据。
 
-2 兄弟组件通信
+#### 兄弟组件通信
 
 对于这种情况可以通过共同的父组件来管理状态和事件函数。比如说其中一个兄弟组件调用父组件传递过来的事件函数修改父组件中的状态，然后父组件将状态传递给另一个兄弟组件。
 
-3 跨多层次组件通信
+#### 跨多层次组件通信
 
 如果你使用 16.3 以上版本的话，对于这种情况可以使用 Context API。
 
-4 任意组件
+#### 任意组件
 
 这种方式可以通过 Redux 或者 Event Bus 解决，另外如果你不怕麻烦的话，可以使用这种方式解决上述所有的通信情况。
 
@@ -430,25 +432,25 @@ https://blog.mazey.net/982.html
 
 https://vuejs.org/guide/essentials/conditional.html#v-if-with-v-for
 
-When v-if and v-for are both used on the same element, v-if will be evaluated first.
+When `v-if` and `v-for` are both used on the same element, `v-if` will be evaluated first.
 
 https://stackoverflow.com/questions/48933606/v-for-and-v-if-not-working-together-in-vue-js
 
 Why don't use the power of Computed Properties ?
 
-If you don't mind your view continuing in the html with "display:none" you can use v-show together with v-for without any problems.
+If you don't mind your view continuing in the html with "display:none" you can use `v-show` together with `v-for` without any problems.
 
 ### `v-model`
 
 https://learnvue.co/2021/01/everything-you-need-to-know-about-vue-v-model/#what-is-vue-v-model
 
-Vue v-model is a directive that provides two-way data binding between an input and form data or between two components.
+Vue `v-model` is a directive that provides two-way data binding between an input and form data or between two components.
 
 The difference between the two is that v-model provides two-way data binding.
 
-However, v-bind only binds data one way.
+However, `v-bind` only binds data one way.
 
-By default, v-model syncs with the state of the Vue instance (data properties) on every input event. This includes things like gaining/losing focus, being blurred, etc.
+By default, `v-model` syncs with the state of the Vue instance (data properties) on every input event. This includes things like gaining/losing focus, being blurred, etc.
 
 ---
 
@@ -463,7 +465,7 @@ There are two things we have to do inside CustomTextInput.vue:
 
 https://vuejs.org/guide/extras/rendering-mechanism.html#rendering-mechanism
 
-Here, vnode is a plain JavaScript object (a "virtual node") representing a <div> element. It contains all the information that we need to create the actual element. It also contains more children vnodes, which makes it the root of a virtual DOM tree.
+Here, vnode is a plain JavaScript object (a "virtual node") representing a `<div>` element. It contains all the information that we need to create the actual element. It also contains more children vnodes, which makes it the root of a virtual DOM tree.
 
 A runtime renderer can walk a virtual DOM tree and construct a real DOM tree from it. This process is called mount.
 
@@ -489,7 +491,7 @@ In addition, when there are enough consecutive static elements, they will be con
 
 ### Webpack 打包构建速度如何优化？
 
-### Webpack 中 loader 和 plugin 区别？
+### Webpack 中 Loader 和 Plugin 区别？
 
 ### Webpack Loader Plugin/Webpack 有哪些常用的 Loader 和 Plugin
 
@@ -513,12 +515,12 @@ https://bytearcher.com/articles/semver-explained-why-theres-a-caret-in-my-packag
 - x.y.x - minor - new functionality that is backward compatible increments the minor number
 - x.x.y - patch - simple bug fix to existing functionality increments the patch number
 
-首次 npm install：
+首次 `npm install`：
 
 caret (^) - ^3.9.2 - 3.*.*
 tilde (~) - ~3.9.2 - 3.9.*
 
-如果已经安装过了，需要 npm update 来更新。
+如果已经安装过了，需要 `npm update` 来更新。
 
 ## Node.js
 
@@ -528,7 +530,7 @@ tilde (~) - ~3.9.2 - 3.9.*
 
 ### Node.js 需要考虑哪些风险？面对 DDOS 怎么办？
 
-### Difference between `import` and `require`/import 和 require 的区别？esModule 的原理？
+### Difference between `import` and `require`/`import` 和 `require` 的区别？esModule 的原理？
 
 https://stackoverflow.com/questions/46677752/the-difference-between-requirex-and-import-x
 
@@ -546,13 +548,13 @@ https://www.eggjs.org/intro/egg-and-koa
 
 Egg is built around the Koa. On the basis of Koa model, Egg implements enhancements one step further.
 
-### Koa's Onion Model/讲一讲 Koa 的洋葱模型
+### Koa Onion Model/讲一讲 Koa 的洋葱模型
 
 https://developpaper.com/node-koas-onion-model-in-simple-terms/
 
-The onion model refers to next() The function is a split point, which is executed from outside to inside first Request And then execute from the inside out Response The logic of. Through the onion model, the communication between multiple middleware becomes more feasible and simple. The principle of its implementation is not very complex, mainly compose method.
+The onion model refers to `next()` The function is a split point, which is executed from outside to inside first Request And then execute from the inside out Response The logic of. Through the onion model, the communication between multiple middleware becomes more feasible and simple. The principle of its implementation is not very complex, mainly compose method.
 
-![Koa's Onion Model](https://blog.mazey.net/wp-content/uploads/2022/04/68747470733a2f2f7261772e6769746875622e636f6d2f66656e676d6b322f6b6f612d67756964652f6d61737465722f6f6e696f6e2e706e67.png)
+![Koa Onion Model](https://blog.mazey.net/wp-content/uploads/2022/04/68747470733a2f2f7261772e6769746875622e636f6d2f66656e676d6b322f6b6f612d67756964652f6d61737465722f6f6e696f6e2e706e67.png)
 
 All the requests will be executed twice during one middleware. Compared to Express middleware, it is very easy to implement post-processing logic. You can obviously feel the advantage of Koa middleware model by comparing the compress middleware implementatio in Koa and Express.
 
