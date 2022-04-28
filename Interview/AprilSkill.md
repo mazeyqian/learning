@@ -104,7 +104,7 @@ In response, the server returns a Access-Control-Allow-Origin header with Access
 *9. WebSocket 协议跨域
 ```
 
-### Simple Rquest
+### Simple Rquest/什么是简单请求和复杂请求？
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#simple_requests
 
@@ -112,7 +112,7 @@ https://medium.com/@f2004392/cors-preflight-request-options-9d05b9248e5a
 
 As per the W3C specification(For HTTP request methods in particular, other than GET or POST with certain content types), browsers first makes the preflight (OPTIONS request ) in order to validate whether the supported methods are valid from the server. 
 
-### HTTP Cache
+### HTTP Cache/如何理解 HTTP 缓存策略？
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
 
@@ -138,7 +138,7 @@ The `::before` and `::after` pseudo-elements allow you to add content to a speci
 
 https://www.w3schools.com/css/css_pseudo_elements.asp
 
-### CSS Box Model
+### CSS Box Model/谈谈你对 CSS 盒模型的认识？
 
 https://mazey.cn/t/ge
 
@@ -148,7 +148,7 @@ https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
 
 https://blog.mazey.net/2068.html
 
-### FLEX
+### FLEX/讲讲 Flex Box 弹性布局？
 
 https://mazey.cn/t/gf
 
@@ -156,19 +156,19 @@ The Flexible Box Module, usually referred to as flexbox, was designed as a one-d
 
 When we describe flexbox as being one dimensional we are describing the fact that flexbox deals with layout in one dimension at a time — either as a row or as a column. This can be contrasted with the two-dimensional model of CSS Grid Layout, which controls columns and rows together.
 
-### REM
+### REM/移动端中如何做设配？/CSS 的 REM 是什么？
 
 https://www.sitepoint.com/understanding-and-using-rem-units-in-css/
 
 CSS rem stands for “root em”.
 
-### VW VH
+### VW VH/CSS 中的 VW 和 VH 是什么？
 
 https://www.w3schools.com/cssref/css_units.asp
 
 ## JavaScript
 
-### `instanceof`/instanceof 用法？
+### `instanceof`/`instanceof` 用法？
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
 
@@ -201,32 +201,51 @@ https://javascript.info/bubbling-and-capturing
 
 ### 讲讲 `this`
 
-### Promise 解决了什么问题，和 Async/Await 的区别？
+### Promise and Async/Await/Promise 解决了什么问题，和 Async/Await 的区别？
 
-### Map 和 WeakMap 的区别
+### Map and WeakMap/Map 和 WeakMap 的区别
 
 https://blog.mazey.net/878.html
 
-### 什么时候会用到闭包？
+### Closures/什么时候会用到闭包？
 
-### 宏任务和微任务的区别？
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
-### JavaScript 是单线程还是多线程？
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+
+### Microtask and Macrotask/宏任务和微任务的区别？
+
+https://stackoverflow.com/questions/38752620/promise-vs-settimeout
+
+Promise.resolve schedules a microtask and the setTimeout schedules a macrotask. And the microtasks are executed before running the next macrotask.
+
+### Thread/JavaScript 是单线程还是多线程？
+
+https://developer.mozilla.org/en-US/docs/Glossary/Thread
+
+The main thread is the one used by the browser to handle user events, render and paint the display, and to run the majority of the code that comprises a typical web page or app. Because these things are all happening in one thread, a slow website or app script slows down the entire browser; worse, if a site or app script enters an infinite loop, the entire browser will hang. This results in a frustrating, sluggish (or worse) user experience.
 
 ### Why `0.1 + 0.2 !== 0.3`/为什么 `0.1 + 0.2 !== 0.3`
 
-在 JavaScript 中，数字只有 `number` 这一种类型；JavaScript 采用了 IEEE-745 浮点数表示法。我们先把 0.1 和 0.2 转换成二进制就是
+在 JavaScript 中，数字只有 `number` 这一种类型；JavaScript 采用了 IEEE-745 浮点数表示法。我们先把 0.1 和 0.2 转换成二进制就是：
 
 - 0.1 => 0.0001 1001 1001 1001…（无限循环）
 - 0.2 => 0.0011 0011 0011 0011…（无限循环）
 
-双精度浮点数的小数部分最多支持 52 位，所以两者相加之后，再把它转换为十进制，就成了 0.30000000000000004
+双精度浮点数的小数部分最多支持 52 位，所以两者相加之后，再把它转换为十进制，就成了 0.30000000000000004。
 
-### Check the Type
+### Check the Type/JavaScript 数据类型检测有几种方法？
 
 The best way is to use the `typeof` keyword.
 
-### Prototype Chain/说说作用域和原型链？
+https://www.cnblogs.com/lvyier/p/13962868.html
+
+1. `typeof`
+2. `instanceof`
+3. `constructor`
+4. `Object.prototype.toString.call()`
+
+### Prototype Chain and Scope/说说作用域和原型链？
 
 https://mazey.cn/t/gd
 
@@ -235,6 +254,10 @@ JavaScript is a bit confusing for developers experienced in class-based language
 When it comes to inheritance, JavaScript only has one construct: objects. Each object has a private property which holds a link to another object called its prototype. That prototype object has a prototype of its own, and so on until an object is reached with null as its prototype. By definition, null has no prototype, and acts as the final link in this prototype chain.
 
 Nearly all objects in JavaScript are instances of Object which sits just below null on the top of a prototype chain.
+
+https://developer.mozilla.org/en-US/docs/Glossary/Scope
+
+The current context of execution. The context in which values and expressions are "visible" or can be referenced. If a variable or other expression is not "in the current scope," then it is unavailable for use. Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa.
 
 ### Event Loop
 
@@ -248,9 +271,9 @@ At some point during the event loop, the runtime starts handling the messages on
 
 The processing of functions continues until the stack is once again empty. Then, the event loop will process the next message in the queue (if there is one).
 
-## Front-End Security/前端安全
+## Security/前端安全
 
-### 前端安全问题有哪些？/前端常见的安全问题？
+### Front-End Security/前端安全问题有哪些？/前端常见的安全问题？
 
 #### XSS (Cross Site Script)，跨站脚本攻击
 
@@ -292,7 +315,7 @@ Child2 componentDidMount
 Parent componentDidMount
 ```
 
-### 虚拟 Dom 与 直接操作 Dom 的区别？什么时候用直接操作 Dom，什么时候用虚拟 Dom？
+### 虚拟 Dom 与直接操作 Dom 的区别？什么时候用直接操作 Dom，什么时候用虚拟 Dom？
 
 ### React `useEffect`、`useLayoutEffect`、`render()`执行顺序？
 
@@ -331,7 +354,7 @@ class PureChildComponent extends React.PureComponent { render() { console.log("P
 shouldComponentUpdate(nextProps, nextState) { if (this.state.name !== nextState.name || this.state.age !== nextState.age) { return true } return false }
 ```
 
-#### 函数组件变成纯组件 `React.memo` -> `Hooks`
+#### 函数组件变成纯组件 `React.memo` vs. `Hooks`
 
 将函数组件变成纯组件，将当前 `props` 和上一次的 `props` 进行浅层比较，如果相同就阻止组件重新渲染。
 
@@ -380,7 +403,7 @@ import { Fragment } from "react" function App() { return ( <Fragment> <div>messa
 
 #### 依赖优化
 
-按需加载。
+NPM 依赖按需加载。
 
 ### React communication between Components
 
@@ -491,9 +514,9 @@ In addition, when there are enough consecutive static elements, they will be con
 
 ### Webpack 打包构建速度如何优化？
 
-### Webpack 中 Loader 和 Plugin 区别？
+### Loader vs. Plugin/Webpack 中 Loader 和 Plugin 区别？
 
-### Webpack Loader Plugin/Webpack 有哪些常用的 Loader 和 Plugin
+### Frequently-Used Loader and Plugin/有哪些常用的 Loader 和 Plugin
 
 https://linguinecode.com/post/top-webpack-plugins
 
@@ -701,7 +724,9 @@ const mergeTwoLists = function(l1, l2) {
 };
 ```
 
-### Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1. You must write an algorithm with O(log n) runtime complexity.
+### Input: nums = [-1,0,3,5,9,12], target = 9 Output: 4
+
+Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1. You must write an algorithm with O(log n) runtime complexity.
 
 ```
 // Example 1:
@@ -1042,9 +1067,9 @@ console.log('aaa', aaa);
 
 ### 讲讲 XXXX 你都做了什么？如果继续做，你有什么优化方案？
 
-### 最近有没有做什么涉及系统设计方面的工作？
-
 ### XXXX 中数据是真实的吗？
+
+### 最近有没有做什么涉及系统设计方面的工作？
 
 ## Soft Skills/软能力及其他问题
 
