@@ -10,21 +10,15 @@ For this problem, Firefox implemented a conservative approach. There will be 4 n
 
 ### Browser Cache and Server Cache/前端有几种缓存方式？
 
+https://www.bigcommerce.com/ecommerce-answers/what-browser-cache-and-why-it-important/
+
+Caching improves and speeds up browsing. Once you've downloaded an asset, it lives (for a time) on your machine. Retrieving files from your hard drive will always be faster than retrieving them from a remote server, no matter how fast your Internet connection.
+
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
 
 Shared Caches: it is used for more than one user. Gateway caches, CDN, reverse proxy caches. `Last-Modified` header.
 
 Private Caches: A single user. Browser. Except for first requests.
-
-### PWA Cache/PWA 中如何做缓存？遇到不更新的情况怎么办？
-
-https://developer.chrome.com/docs/workbox/caching-strategies-overview/
-
-1. Cache only
-2. Network only
-3. Cache first, falling back to network
-4. Network first, falling back to cache
-5. Stale-while-revalidate
 
 ### What happens when you type a URL into your browser?/浏览器输入地址后做了哪些事情？
 
@@ -41,6 +35,16 @@ https://mazey.cn/t/gg
 https://mazey.cn/t/gh
 
 ![Differences](https://blog.mazey.net/wp-content/uploads/2022/04/comparison-table.png)
+
+### PWA Cache/PWA 中如何做缓存？遇到不更新的情况怎么办？
+
+https://developer.chrome.com/docs/workbox/caching-strategies-overview/
+
+1. Cache only
+2. Network only
+3. Cache first, falling back to network
+4. Network first, falling back to cache
+5. Stale-while-revalidate
 
 ## Network/网络协议
 
@@ -259,7 +263,7 @@ https://developer.mozilla.org/en-US/docs/Glossary/Scope
 
 The current context of execution. The context in which values and expressions are "visible" or can be referenced. If a variable or other expression is not "in the current scope," then it is unavailable for use. Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa.
 
-### Event Loop
+### Event Loop/讲讲 JS 中的事件循环机制
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
 
@@ -289,7 +293,7 @@ The processing of functions continues until the stack is once again empty. Then,
 
 ## React
 
-### The Order of Lifecycle Events between Parent Component and Children Component/父组件和子组件渲染顺序，其中埋点打印顺序？
+### The Order of Lifecycle Events among Components/父组件和子组件渲染顺序，其中埋点打印顺序？
 
 https://stackoverflow.com/questions/58352375/what-is-the-correct-order-of-execution-of-useeffect-in-react-parent-and-child-co
 
@@ -315,9 +319,11 @@ Child2 componentDidMount
 Parent componentDidMount
 ```
 
-### 虚拟 Dom 与直接操作 Dom 的区别？什么时候用直接操作 Dom，什么时候用虚拟 Dom？
+### Virtual DOM vs. Real Dom/虚拟 Dom 与直接操作 Dom 的区别？什么时候用直接操作 Dom，什么时候用虚拟 Dom？
 
-### React `useEffect`、`useLayoutEffect`、`render()`执行顺序？
+https://medium.com/devinder/react-virtual-dom-vs-real-dom-23749ff7adc9
+
+### React `useEffect`、`useLayoutEffect`、`render()` 执行顺序？
 
 ### 子组件的事件如何传递给父组件？
 
@@ -1071,15 +1077,66 @@ console.log('aaa', aaa);
 
 ### 最近有没有做什么涉及系统设计方面的工作？
 
-## Soft Skills/软能力及其他问题
+## Soft Skills/软技能及其他问题
 
-### 一份工作，你更注重什么？
+### How do programmers approach a new project?/接手一个新项目你会怎么做？/刚接手一个项目，你会怎么做？
 
-### 最近学习什么新技术？
+https://blog.csdn.net/qq_37177115/article/details/114028440
 
-### 工作中如何让组员按需发展？如何培养组员？
+1. 沟通，问一下业务重点、难点。
+2. 看文档，就重点和难点，系统的看下技术文档和需求文档，迅速了解整个项目。
+3. 运行代码，将代码运行起来，验证文档和沟通中的内容。
 
-### 接手一个新项目你会怎么做？
+https://www.quora.com/How-do-programmers-approach-a-new-project
+
+There are 2 approaches:
+
+1. Top down.
+2. Bottom up.
+
+![](https://blog.mazey.net/wp-content/uploads/2022/04/main-qimg-7dea78cd132261dec439672325472270.gif)
+
+### What Are the Things Most Important to You in a Job?/一份工作，你更注重什么？
+
+https://everydayinterviewtips.com/common-interview-question-what-are-the-three-things-most-important-to-you-in-a-job/
+
+#### Positive Environment
+
+Growth potential is the most important thing to me in any role, within my own role, or within the company in line with the company’s overall growth. I’d love to work for a company that is innovative and always looking for new opportunities to expand. And I look for companies who have a positive and adaptive culture, and trust.
+
+#### Other Potential Answers
+
+- Job is stimulating & challenging
+- Able to learn new things and develop your skill set
+- Achieve measurable results
+- Feel valued and a core part of the team
+- Opportunities to grow and progress within the company
+- Be part of a positive culture where contributions are appreciated
+- Learn from peers and supervisors
+- Achieve a healthy work/life balance
+
+### What new skill did you learn recently?/最近学习什么新技术？
+
+https://www.indeed.com/career-advice/interviewing/what-is-one-thing-you-learned-recently
+
+#### Reflect using the STAR method
+
+- Situation: The first step is providing background information and providing context about the situation or challenge that you're explaining to the interviewer.
+- Task: Next, define your responsibility in the scenario mentioned above.
+- Action: After explaining your task, explain the steps you took to address the challenging situation.
+- Result: Finally, describe the result your actions achieved.
+
+#### Example answer: Learned new technology
+
+"Last year, my supervisor mentioned that no one had updated our company's website in quite some time, so I volunteered to improve it for them. I signed up for an eight-week web designing course and spent my evenings completing the coursework. By the time I finished the course, I had already started updating the website by making the interface easier for consumers to browse.
+
+I also included more general information regarding the company's history and the products we sell. My supervisor's manager thanked me for making the changes, and they've offered several other technology-based courses for me to attend in the time since I finished the website."
+
+### How to Cultivate Engineers?/工作中如何让组员按需发展？如何培养组员？
+
+https://daily.dev/blog/how-to-introduce-a-new-developer-to-a-project
+
+https://www.linkedin.com/pulse/how-cultivate-engineers-industry-thought-leaders-rob-hawse
 
 ### 如果产品经理，提很多需求，你会怎么办？
 
@@ -1087,7 +1144,9 @@ console.log('aaa', aaa);
 
 ### 如何跨部门协作？如何让别人协作你？
 
-### 如果你学习其他技能的话，那你的自身技能（前端）不就落后其他人了吗？毕竟每个人的精力是有限的？
+### Knowledge Breadth and Time Management/如果你学习其他技能的话，那你的自身技能（前端）不就落后其他人了吗？毕竟每个人的精力是有限的？
+
+跨界会给你带来难以估量的好处，一个角色做久了，难免会产生一些盲点。这时候，换个视角，从其他角色的角度来看待你的工作，又会有很多新的发现。而且不仅如此，很可能你会发现之前很麻烦，很难搞定的事情，在新的方法/视角下变得很容易。
 
 ### 你的前端深度如何？
 
@@ -1095,9 +1154,13 @@ console.log('aaa', aaa);
 
 ### 从最近工作中学到什么？
 
-### 刚接手一个项目，你会怎么做？
-
 ### 你的职业发展如何计划的？
+
+https://zhuanlan.zhihu.com/p/134299187
+
+你个人的成功是建立在你对集体的价值之上的，所以对你来说重要的事，往往对其他人也是重要的。除了你自己的立场，你还必须站在其他人的立场，判断某件事是否重要。
+
+
 
 ### 最近的看的哪些书呢？
 
