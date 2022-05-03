@@ -457,7 +457,7 @@ The three principles
 
 https://blog.mazey.net/982.html
 
-### `v-for` and `v-if` in Vue
+### `v-for` and `v-if` in Vue/Vue 中 `v-for` 和 `v-if` 如何组合使用？
 
 https://vuejs.org/guide/essentials/conditional.html#v-if-with-v-for
 
@@ -469,7 +469,7 @@ Why don't use the power of Computed Properties ?
 
 If you don't mind your view continuing in the html with "display:none" you can use `v-show` together with `v-for` without any problems.
 
-### `v-model`
+### `v-model`/Vue 中的 `v-model` 原理
 
 https://learnvue.co/2021/01/everything-you-need-to-know-about-vue-v-model/#what-is-vue-v-model
 
@@ -490,7 +490,7 @@ There are two things we have to do inside CustomTextInput.vue:
 - Accept our v-model value as a prop
 - Emit an update event when our input changes
 
-### From `template` to VDOM
+### From `template` to VDOM/`template` 模板中的字符串如何进行解析？
 
 https://vuejs.org/guide/extras/rendering-mechanism.html#rendering-mechanism
 
@@ -563,11 +563,11 @@ tilde (~) - ~3.9.2 - 3.9.*
 
 https://stackoverflow.com/questions/46677752/the-difference-between-requirex-and-import-x
 
-#### load
+#### load/加载
 
 You can't selectively load only the pieces you need with require but with import, you can selectively load only the pieces you need, which can save memory.Loading is synchronous(step by step) for require on the other hand import can be asynchronous(without waiting for previous import) so it can perform a little better than require.
 
-#### size
+#### size/体积
 
 Major difference is in require, entire JS file is called or included. Even if you don't need some part of it.
 
@@ -772,7 +772,7 @@ function bar({ nums = [], target, start, end } = {}) {
 }
 ```
 
-### LRU
+### LRU: Least Recently Used/缓存淘汰算法
 
 ### 实现 `JSON.parse`
 
@@ -1138,29 +1138,33 @@ https://daily.dev/blog/how-to-introduce-a-new-developer-to-a-project
 
 https://www.linkedin.com/pulse/how-cultivate-engineers-industry-thought-leaders-rob-hawse
 
-### 如果产品经理，提很多需求，你会怎么办？
+### The product manager makes a lot of demands./如果产品经理，提很多需求，你会怎么办？/产品的不合理需求如何处理？
 
-### 产品的不合理需求如何处理？
+http://www.woshipm.com/pmd/131254.html
 
-### 如何跨部门协作？如何让别人协作你？
+### Collaborate between departments/如何跨部门协作？如何让别人协作你？
+
+https://www.workzone.com/blog/9-ways-to-improve-collaboration-between-departments/
 
 ### Knowledge Breadth and Time Management/如果你学习其他技能的话，那你的自身技能（前端）不就落后其他人了吗？毕竟每个人的精力是有限的？
 
 跨界会给你带来难以估量的好处，一个角色做久了，难免会产生一些盲点。这时候，换个视角，从其他角色的角度来看待你的工作，又会有很多新的发现。而且不仅如此，很可能你会发现之前很麻烦，很难搞定的事情，在新的方法/视角下变得很容易。
 
-### 你的前端深度如何？
+### What have you learned from your work?/从最近工作中学到什么？
 
-### 说说最近项目中比较有技术含量的是哪个？
+https://www.quora.com/What-have-you-learned-from-your-previous-job-personally-and-professionally
 
-### 从最近工作中学到什么？
+Don’t constrain your life only to the job.
 
-### 你的职业发展如何计划的？
+### Career/你的职业发展如何计划的？
 
 https://zhuanlan.zhihu.com/p/134299187
 
 你个人的成功是建立在你对集体的价值之上的，所以对你来说重要的事，往往对其他人也是重要的。除了你自己的立场，你还必须站在其他人的立场，判断某件事是否重要。
 
+### 你的前端深度如何？
 
+### 说说最近项目中比较有技术含量的是哪个？
 
 ### 最近的看的哪些书呢？
 
