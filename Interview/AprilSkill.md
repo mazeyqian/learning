@@ -8,7 +8,7 @@ Like Chrome, Firefox also using the concepts of multi-threading inside each proc
 
 For this problem, Firefox implemented a conservative approach. There will be 4 new processes created for 4 new processes. If an additional tab is opened, it will run using threads within the existing processes. Multiple tabs within a process share the browser engine that already exists in memory, instead of each creating their own. This will reduce the consumption of memory, as more memory needed if no. of processes increased.
 
-### Browser Cache and Server Cache/前端有几种缓存方式？
+### Browser Cache and Server Cache/前端有几种缓存方式？/浏览器端的缓存
 
 https://www.bigcommerce.com/ecommerce-answers/what-browser-cache-and-why-it-important/
 
@@ -20,6 +20,12 @@ Shared Caches: it is used for more than one user. Gateway caches, CDN, reverse p
 
 Private Caches: A single user. Browser. Except for first requests.
 
+### Local Storage vs. Session Storage vs. Cookies/说说浏览器缓存 `localStorage`、`sessionStorage` 和 `cookie`？/讲讲 Cookie
+
+https://mazey.cn/t/gh
+
+![Differences](https://blog.mazey.net/wp-content/uploads/2022/04/comparison-table.png)
+
 ### What happens when you type a URL into your browser?/浏览器输入地址后做了哪些事情？
 
 https://mazey.cn/t/gg
@@ -30,11 +36,11 @@ https://mazey.cn/t/gg
 - handle the response from the server and
 - how it renders the page so you, the viewer, can interact with the website
 
-### Local Storage vs. Session Storage vs. Cookies/说说浏览器缓存 `localStorage`、`sessionStorage` 和 `cookie`？/讲讲 Cookie
+### 页面渲染的过程
 
-https://mazey.cn/t/gh
+### 回流和重绘，重绘会导致回流吗？/哪些重绘会导致回流？
 
-![Differences](https://blog.mazey.net/wp-content/uploads/2022/04/comparison-table.png)
+https://segmentfault.com/a/1190000017329980
 
 ### PWA Cache/PWA 中如何做缓存？遇到不更新的情况怎么办？
 
@@ -88,7 +94,7 @@ After changing origin HTTP headers you might need to purge your content from t
 </FilesMatch>
 After changing origin HTTP headers you might need to purge your content from the CDN cache as it is cached with the old HTTP headers. Please refer here for more details.
 ```
-### Cross-Origin/除了设置 Headers 还需要设置什么？
+### Cross-Origin/除了设置 Headers 还需要设置什么？/跨域问题
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
@@ -108,7 +114,9 @@ In response, the server returns a Access-Control-Allow-Origin header with Access
 *9. WebSocket 协议跨域
 ```
 
-### Simple Rquest/什么是简单请求和复杂请求？
+### 跨域哪种情况前端没有办法？
+
+### Simple Rquest/什么是简单请求和复杂请求？/跨域的情况何时要进行 `options` 请求
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#simple_requests
 
@@ -128,6 +136,14 @@ You can use a large max-age value for files that rarely or never change. This mi
 
 When a validation request is made, the server can either ignore the validation request and respond with a normal 200 OK, or it can return 304 Not Modified (with an empty body) to instruct the browser to use its cached copy. The latter response can also include headers that update the expiration time of the cached resource.
 
+### 协商缓存和强制缓存区别？
+
+https://blog.mazey.net/1609.html
+
+### HTTPS 和 HTTP 的区别？/HTTP3 了解吗，HTTP 和 (web)socket 区别，为什么要三次握手？/TCP 为何要进行三次握手
+
+https://www.zhihu.com/question/24853633
+
 ## CSS
 
 ### Difference between Transitions and Animations/CSS 过渡和动画区别？
@@ -146,13 +162,13 @@ https://www.w3schools.com/css/css_pseudo_elements.asp
 
 https://mazey.cn/t/ge
 
-### BFC/了解 CSS 的 BFC 吗？
+### BFC/了解 CSS 的 BFC 吗？/BFC 如何产生，以及有什么特性
 
 https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
 
 https://blog.mazey.net/2068.html
 
-### FLEX/讲讲 Flex Box 弹性布局？
+### FLEX/讲讲 Flex Box 弹性布局？/`display: flex` 轴是什么意思
 
 https://mazey.cn/t/gf
 
@@ -169,6 +185,20 @@ CSS rem stands for “root em”.
 ### VW VH/CSS 中的 VW 和 VH 是什么？
 
 https://www.w3schools.com/cssref/css_units.asp
+
+### CSS `HLS` 最后两个参数是干嘛用的？
+
+### CSS 三列布局
+
+### CSS 布局，等高左边固定宽度
+
+### 三行布局顶部吸顶
+
+### 如何控制元素的层级
+
+### CSS 如何实现垂直居中
+
+### 如何隐藏一个元素
 
 ## JavaScript
 
@@ -197,13 +227,17 @@ https://medium.com/@bretdoucette/part-4-what-is-event-delegation-in-javascript-f
 
 Without event delegation you would have to rebind the click event listener to each new input loaded to the page. Coding this is complicated and burdensome. For one, it would drastically increase the amount of event listeners on your page, and more event listeners would increase the total memory footprint of your page. Having a larger memory footprint decreases performance… and poor performance is a bad thing. Second, there can be memory leak issues associated with binding and unbinding event listeners and removing elements from the dom. But that is beyond the scope of this article!
 
-### Bubbling and Capturing/先触发冒泡还是先触发捕获？
+### Bubbling and Capturing/先触发冒泡还是先触发捕获？/冒泡和捕获，父元素和子元素点击顺序
 
 https://javascript.info/bubbling-and-capturing
 
 ![Bubbling and Capturing](https://i.mazey.net/asset/default/eventflow.svg)
 
-### 讲讲 `this`
+### 讲讲 `this`/`this` 在函数中指向问题
+
+### `new` 一个函数后发生了什么？/函数形式模拟实现 `new`
+
+https://blog.mazey.net/1612.html
 
 ### Promise and Async/Await/Promise 解决了什么问题，和 Async/Await 的区别？
 
@@ -211,7 +245,7 @@ https://javascript.info/bubbling-and-capturing
 
 https://blog.mazey.net/878.html
 
-### Closures/什么时候会用到闭包？
+### Closures/什么时候会用到闭包？/什么时候用闭包，用闭包会存在的问题
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
@@ -223,7 +257,7 @@ https://stackoverflow.com/questions/38752620/promise-vs-settimeout
 
 Promise.resolve schedules a microtask and the setTimeout schedules a macrotask. And the microtasks are executed before running the next macrotask.
 
-### Thread/JavaScript 是单线程还是多线程？
+### Thread/JavaScript 是单线程还是多线程？/JavaScript 中的多线程
 
 https://developer.mozilla.org/en-US/docs/Glossary/Thread
 
@@ -249,7 +283,7 @@ https://www.cnblogs.com/lvyier/p/13962868.html
 3. `constructor`
 4. `Object.prototype.toString.call()`
 
-### Prototype Chain and Scope/说说作用域和原型链？
+### Prototype Chain and Scope/说说作用域和原型链？/原型的理解
 
 https://mazey.cn/t/gd
 
@@ -263,7 +297,7 @@ https://developer.mozilla.org/en-US/docs/Glossary/Scope
 
 The current context of execution. The context in which values and expressions are "visible" or can be referenced. If a variable or other expression is not "in the current scope," then it is unavailable for use. Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa.
 
-### Event Loop/讲讲 JS 中的事件循环机制
+### Event Loop/讲讲 JavaScript 中的事件循环机制/事件循环
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
 
@@ -275,9 +309,70 @@ At some point during the event loop, the runtime starts handling the messages on
 
 The processing of functions continues until the stack is once again empty. Then, the event loop will process the next message in the queue (if there is one).
 
+### Fetch 的 Promise 对象返回什么？resolve 还是 reject？
+
+如果遇到网络故障，`fetch() promise` 将会 `reject`，带上一个 `TypeError` 对象。虽然这个情况经常是遇到了权限问题或类似问题——比如 `404` 不是一个网络故障。想要精确的判断 `fetch()` 是否成功，需要包含 `promise resolved` 的情况，此时再判断 `Response.ok` 是不是为 `true`。
+
+```
+fetch('flowers.jpg').then(function(response) {
+  if(response.ok) {
+    return response.blob();
+  }
+  throw new Error('Network response was not ok.');
+}).then(function(myBlob) { 
+  var objectURL = URL.createObjectURL(myBlob); 
+  myImage.src = objectURL; 
+}).catch(function(error) {
+  console.log('There has been a problem with your fetch operation: ', error.message);
+});
+```
+
+### 讲一讲箭头函数不适用的场景
+
+### ES6 对数组新增了哪些功能？/讲讲 ES6 熟悉的部分
+
+### 描述一下暂时性死区，并写一个例子。`typeof` 是一个安全操作符吗？
+
+### 了解 Proxy 吗？
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
+
+### `for...of` 和普通 `for` 在 `async` 和 `await` 时区别？（顺序，乱序）
+
+### 各种循环哪个性能更好？（for）/for` 相关问题
+
+### 词法分析和词法作用域生成什么？
+
+### 如何模拟多线程？（Worker）
+
+### JavaScript 和原生如何交互。（桥接）
+
+### 如何跳出 `reduce`？
+
+### 如何迭代一个未知对象
+
+https://blog.mazey.net/1562.html
+
+### 如何判断一个动画何时结束？
+
+```
+// animationend 事件在 CSS 动画完成后触发。(IE9及更早 IE 版本不支持)
+var x = document.getElementById("myDIV");
+// Chrome, Safari 和 Opera 代码
+x.addEventListener("webkitAnimationEnd", myStartFunction);
+// 标准语法
+x.addEventListener("animationend", myStartFunction);
+// transitionend 事件在 CSS 完成过渡后触发。 (IE9及更早 IE 版本不支持)
+// Safari 3.1 到 6.0 代码
+document.getElementById("myDIV").addEventListener("webkitTransitionEnd", myFunction);
+// 标准语法 document.getElementById("myDIV").addEventListener("transitionend", myFunction);
+// 其他注意:
+// Internet Explorer 8 及更早 IE 版本不支持 addEventListener()方法。
+```
+
 ## Security/前端安全
 
-### Front-End Security/前端安全问题有哪些？/前端常见的安全问题？
+### Front-End Security/前端安全问题有哪些？/前端常见的安全问题？/前端安全相关，邮件中链接（XSS、XSF?）攻击如何预防？
 
 #### XSS (Cross Site Script)，跨站脚本攻击
 
@@ -319,13 +414,11 @@ Child2 componentDidMount
 Parent componentDidMount
 ```
 
-### Virtual DOM vs. Real Dom/虚拟 Dom 与直接操作 Dom 的区别？什么时候用直接操作 Dom，什么时候用虚拟 Dom？
+### Virtual DOM vs. Real Dom/虚拟 Dom 与直接操作 Dom 的区别？什么时候用直接操作 Dom，什么时候用虚拟 Dom？/虚拟 Dom 的性能一定最优吗
 
 https://medium.com/devinder/react-virtual-dom-vs-real-dom-23749ff7adc9
 
 ### React `useEffect`、`useLayoutEffect`、`render()` 执行顺序？
-
-### 子组件的事件如何传递给父组件？
 
 ### React Hooks 和 Class Component 区别？
 
@@ -469,7 +562,7 @@ Why don't use the power of Computed Properties ?
 
 If you don't mind your view continuing in the html with "display:none" you can use `v-show` together with `v-for` without any problems.
 
-### `v-model`/Vue 中的 `v-model` 原理
+### `v-model`/Vue 中的 `v-model` 原理/讲讲 Vue 里面 `v-model`。
 
 https://learnvue.co/2021/01/everything-you-need-to-know-about-vue-v-model/#what-is-vue-v-model
 
@@ -516,6 +609,24 @@ The foo and bar divs are static - re-creating vnodes and diffing them on each re
 
 In addition, when there are enough consecutive static elements, they will be condensed into a single "static vnode" that contains the plain HTML string for all these nodes (Example). These static vnodes are mounted by directly setting innerHTML. They also cache their corresponding DOM nodes on initial mount - if the same piece of content is reused elsewhere in the app, new DOM nodes are created using native cloneNode(), which is extremely efficient.
 
+### 自己封装过哪些组件？
+
+### `vue-router` 的实现
+
+### Virtual Dom 优势/Virtual Dom 的优势？node 树如何 diff 差异，复杂度是什么？
+
+### Vue 的原理？
+
+### Vue 中的 `key` 有什么作用？
+
+https://juejin.im/post/5dbbecadf265da4d1d32f575
+
+### 如何定制 UI 组件
+
+### Vue （相对于其他框架）有什么优势？
+
+### 两个不相关的组件通信。（eventBus 观察者/被观察者）
+
 ## Webpack
 
 ### Webpack 打包构建速度如何优化？
@@ -525,6 +636,12 @@ In addition, when there are enough consecutive static elements, they will be con
 ### Frequently-Used Loader and Plugin/有哪些常用的 Loader 和 Plugin
 
 https://linguinecode.com/post/top-webpack-plugins
+
+### babel 如何工作。（ast）
+
+### Webpack 如何做 tree shaking。
+
+### Webpack 和 Rollup、gulp 区别。/每个打包工具使用的理由，Webpack 相对于 Rollup 的优势。
 
 ## NPM
 
@@ -587,13 +704,15 @@ The onion model refers to `next()` The function is a split point, which is execu
 
 All the requests will be executed twice during one middleware. Compared to Express middleware, it is very easy to implement post-processing logic. You can obviously feel the advantage of Koa middleware model by comparing the compress middleware implementatio in Koa and Express.
 
+### Node 和浏览器端 JavaScript 事件管理机制的区别。
+
 ## MySQL
 
 ### MySQL 中如何解决性能问题？如何建索引？
 
 ### MySQL 慢查询如何解决？
 
-## Design/技术方案
+## Design/系统设计/技术方案
 
 ### 如何处理异步？比如队列进行，一直有 10 个任务在运行？
 
@@ -601,38 +720,35 @@ https://blog.xizhibei.me/2019/07/15/asynchronous-task-queue-in-golang/
 
 Worker pool
 
-### 你会如何优化一个前端项目？/前端项目怎么优化？
+### 你会如何优化一个前端项目？/前端项目怎么优化？/如何优化一个页面
 
 ### 国际化是如何实现的？/多语言是动态获取还是编译阶段实现的？
 
 ### 点击一个按钮页面卡顿住了，如何排查原因？
 
-## Algorithm/算法
+### MVC 和 MVVM 的区别？（单向 双向）
 
-### 能说一下快速排序的思路吗？
+### 埋点上报如何优化？
+
+### OOP 的三大特征
+
+### 实现轮播，大数据量的情况下设计数据结构
+
+### 设计点赞和踩的前后端。
+
+### 如何写/设计一个组件。
+
+## Code/编程题
+
+### 实现 `template`
+
+https://blog.mazey.net/1664.html
 
 ```
-const arr = [5, 2, 1, 5, 3, 9]
-function quickSort (arr) {
-    // 数组只有一个元素的时候，lesser 和 greater 返回空数组。
-    if (arr.length === 0) {
-        return []
-    }
-    const [lesser, greater] = [[], []]
-    const pivot = arr[0]
-    for (let v of arr.filter((v, i) => i > 0)) {
-        if (v < pivot) {
-            lesser.push(v)
-        } else {
-            greater.push(v)
-        }
-    }
-    return quickSort(lesser).concat(pivot, quickSort(greater))
-}
-console.log(quickSort(arr))
+str = "my name is {{name}}, age is {{age}}"
+data = { name: 'tom', age: '15'}
+template(str, data)
 ```
-
-### 如何判断一个字符串是回文？说一下思路。
 
 ### 实现 `Promise.all`
 
@@ -683,96 +799,6 @@ Promise.all([p1, p2]).then(
   }
 );
 ```
-
-### 合并两个有序链表，返回合并后的有序链表。
-
-```
-/*
-输入：1->2->4, 1->3->4
-输出：1->1->2->3->4->4
-https://leetcode.com/problems/merge-two-sorted-lists/solution/
-*/
-
-// Node类
-function Node (element) {
-  this.element = element;
-  this.next = null;
-}
-
-const mergeTwoLists = function(l1, l2) {
-  let list = new Node()
-  let head = list
-  
-  while (l1 !== null && l2 !== null) {
-
-  // Select the smallest value from either linked list,
-  // then increment that list forward.
-      if (l1.val < l2.val) {
-          list.next = new Node(l1.val)
-          l1 = l1.next
-      } else {
-          list.next = new Node(l2.val)
-          l2 = l2.next
-      }
-      
-      list = list.next
-  }
-  
-// It's possible that one linked list is shorter than the other so we just
-// add on the remainder of the last linked list. It's already sorted :)
-  if (l1 !== null)
-      list.next = l1
-  if (l2 !== null)
-      list.next = l2
-  
-// return .next because this first element in the linkedlist is empty
-  return head.next
-};
-```
-
-### Input: nums = [-1,0,3,5,9,12], target = 9 Output: 4
-
-Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1. You must write an algorithm with O(log n) runtime complexity.
-
-```
-// Example 1:
-// Input: nums = [-1,0,3,5,9,12], target = 9
-// Output: 4
-// Explanation: 9 exists in nums and its index is 4
-
-// Example 2:
-// Input: nums = [-1,0,3,5,9,12], target = 2
-// Output: -1
-// Explanation: 2 does not exist in nums so return -1
-
-// O(log n)
-function bar({ nums = [], target, start, end } = {}) {
-  // verf
-  // ...
-
-  if (typeof start === 'undefined' && typeof end === 'undefined') {
-    const len = nums.length;
-    start = 0;
-    end = len - 1;
-  }
-
-  if (start > end) {
-    return -1;
-  }
-
-  
-  const pointIndex = Math.floor(start + (end - start) / 2);
-  if (target === nums[pointIndex]) {
-    return pointIndex;
-  } else if (target < nums[pointIndex]) {
-    return bar({ nums, target, start: start, end: pointIndex - 1 });
-  } else if (target > nums[pointIndex]) {
-    return bar({ nums, target, start: start + 1, end });
-  }
-}
-```
-
-### LRU: Least Recently Used/缓存淘汰算法
 
 ### 实现 `JSON.parse`
 
@@ -1048,6 +1074,129 @@ ${" ".repeat(strSoFar.length + 1)}^^^^^^`);
 }
 ```
 
+### 模拟实现 `Array.prototype.flat()`/数组方法的 Polyfill 实现
+
+### 对 `Ajax` 请求进行封装
+
+### 实现 `reduce`。
+
+## Algorithm/算法
+
+### 能说一下快速排序的思路吗？
+
+```
+const arr = [5, 2, 1, 5, 3, 9]
+function quickSort (arr) {
+    // 数组只有一个元素的时候，lesser 和 greater 返回空数组。
+    if (arr.length === 0) {
+        return []
+    }
+    const [lesser, greater] = [[], []]
+    const pivot = arr[0]
+    for (let v of arr.filter((v, i) => i > 0)) {
+        if (v < pivot) {
+            lesser.push(v)
+        } else {
+            greater.push(v)
+        }
+    }
+    return quickSort(lesser).concat(pivot, quickSort(greater))
+}
+console.log(quickSort(arr))
+```
+
+### 如何判断一个字符串是回文？说一下思路/最大回文数乘积
+
+### 合并两个有序链表，返回合并后的有序链表。
+
+```
+/*
+输入：1->2->4, 1->3->4
+输出：1->1->2->3->4->4
+https://leetcode.com/problems/merge-two-sorted-lists/solution/
+*/
+
+// Node类
+function Node (element) {
+  this.element = element;
+  this.next = null;
+}
+
+const mergeTwoLists = function(l1, l2) {
+  let list = new Node()
+  let head = list
+  
+  while (l1 !== null && l2 !== null) {
+
+  // Select the smallest value from either linked list,
+  // then increment that list forward.
+      if (l1.val < l2.val) {
+          list.next = new Node(l1.val)
+          l1 = l1.next
+      } else {
+          list.next = new Node(l2.val)
+          l2 = l2.next
+      }
+      
+      list = list.next
+  }
+  
+// It's possible that one linked list is shorter than the other so we just
+// add on the remainder of the last linked list. It's already sorted :)
+  if (l1 !== null)
+      list.next = l1
+  if (l2 !== null)
+      list.next = l2
+  
+// return .next because this first element in the linkedlist is empty
+  return head.next
+};
+```
+
+### Input: nums = [-1,0,3,5,9,12], target = 9 Output: 4
+
+Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1. You must write an algorithm with O(log n) runtime complexity.
+
+```
+// Example 1:
+// Input: nums = [-1,0,3,5,9,12], target = 9
+// Output: 4
+// Explanation: 9 exists in nums and its index is 4
+
+// Example 2:
+// Input: nums = [-1,0,3,5,9,12], target = 2
+// Output: -1
+// Explanation: 2 does not exist in nums so return -1
+
+// O(log n)
+function bar({ nums = [], target, start, end } = {}) {
+  // verf
+  // ...
+
+  if (typeof start === 'undefined' && typeof end === 'undefined') {
+    const len = nums.length;
+    start = 0;
+    end = len - 1;
+  }
+
+  if (start > end) {
+    return -1;
+  }
+
+  
+  const pointIndex = Math.floor(start + (end - start) / 2);
+  if (target === nums[pointIndex]) {
+    return pointIndex;
+  } else if (target < nums[pointIndex]) {
+    return bar({ nums, target, start: start, end: pointIndex - 1 });
+  } else if (target > nums[pointIndex]) {
+    return bar({ nums, target, start: start + 1, end });
+  }
+}
+```
+
+### LRU: Least Recently Used/缓存淘汰算法
+
 ### Merge and Remove Duplicate Elements from Arrays
 
 ```
@@ -1062,6 +1211,18 @@ const aaa = foo(arr1, arr2);
 
 console.log('aaa', aaa);
 ```
+
+### 二叉树的后序遍历
+
+### 子序列宽度之和
+
+### 排序，二分，边界情况怎么办
+
+### 反转二叉树/旋转红黑树
+
+### 多个直线构建最大多边形
+
+### 二叉树最大宽度
 
 ## Project/项目经历
 
