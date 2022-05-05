@@ -1156,17 +1156,46 @@ https://www.quora.com/What-have-you-learned-from-your-previous-job-personally-an
 
 Don’t constrain your life only to the job.
 
-### Career/你的职业发展如何计划的？
+### Career/你的职业发展如何计划的？/职业规划
 
 https://zhuanlan.zhihu.com/p/134299187
 
 你个人的成功是建立在你对集体的价值之上的，所以对你来说重要的事，往往对其他人也是重要的。除了你自己的立场，你还必须站在其他人的立场，判断某件事是否重要。
 
+### 做过比较有成就性/挑战性的事情是什么，有什么事情是可以改善的
+
+- SDK Front-End and Back-End. Gray + People Bag.
+- Account Center, + Node.js&Docker. 
+- Community FE Performance.
+- IDAP Data Visible, Compatate Different Browsers.
+
+### 让你主导一个需求该怎么做？
+
+https://upstreamplugin.com/difference-project-owner-project-manager/
+
+What’s the difference between these two roles? Here’s the short version:
+
+- The Project Owner looks at the big picture.
+- The Project Manager looks at the daily details of the project.
+
+Here’s a slightly different way to look at it:
+
+- The Project Owner is in charge of defining the scope of the project, the “What?” and the “Why?”. They are responsible for collecting all the requirements for a product.
+- The Project Manager is in charge of getting things done, the “How?” and the “Who?”. The Project Manager is responsible for completing the project within an established time and budget.
+
+### 在带领新人的过程中有哪些自豪的事情
+
 ### 你的前端深度如何？
+
+### 讲讲做的比较亮点的项目
 
 ### 说说最近项目中比较有技术含量的是哪个？
 
+### 遇到的比较难受的事情？
+
 ### 最近的看的哪些书呢？
+
+### 最近在学习什么
 
 ### 最近有研究哪些新技术？
 
@@ -1175,5 +1204,17 @@ https://zhuanlan.zhihu.com/p/134299187
 ### 手上还有在谈的 offer 吗？面试情况如何？
 
 ### 你的期望薪资是多少？
+
+### 喜欢玩游戏吗？
+
+### 日常有使用 XXX 吗？
+
+### 对经纪人怎么看？觉得经纪人有哪些特征是最重要的
+
+### 兴趣爱好
+
+### 能接受加班吗？
+
+### 现在的薪资
 
 (end)
