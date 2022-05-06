@@ -1,4 +1,4 @@
-## 计算机基础
+## Computer/计算机基础
 
 ### 栈和堆的区别
 
@@ -50,10 +50,6 @@ https://mazey.cn/t/gg
 
 ### 页面渲染的过程
 
-### 回流和重绘，重绘会导致回流吗？/哪些重绘会导致回流？
-
-https://segmentfault.com/a/1190000017329980
-
 ### PWA Cache/PWA 中如何做缓存？遇到不更新的情况怎么办？
 
 https://developer.chrome.com/docs/workbox/caching-strategies-overview/
@@ -88,7 +84,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
 ### 了解 HTTP 协议吗？
 
-### Difference between HTTP and HTTPS/HTTP 和 HTTPS 的区别？HTTPS 如何做的加密？
+### Difference between HTTP and HTTPS/HTTP 和 HTTPS 的区别？HTTPS 如何做的加密？/HTTPS 与 HTTP 有什么区别？
 
 1. HTTPS 协议需要到 CA 申请证书，⼀般免费证书很少，需要交费。
 2. HTTP 协议运⾏在 TCP 之上，所有传输的内容都是明⽂，HTTPS 运⾏在 SSL/TLS 之上，SSL/TLS 运⾏在 TCP 之上，所有传输的内容将被加密。
@@ -122,7 +118,8 @@ After changing origin HTTP headers you might need to purge your content from t
 </FilesMatch>
 After changing origin HTTP headers you might need to purge your content from the CDN cache as it is cached with the old HTTP headers. Please refer here for more details.
 ```
-### Cross-Origin/除了设置 Headers 还需要设置什么？/跨域问题
+
+### Cross-Origin/除了设置 Headers 还需要设置什么？/跨域问题/如何实现跨域通信？/什么是浏览器的同源策略？
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
@@ -141,6 +138,9 @@ In response, the server returns a Access-Control-Allow-Origin header with Access
 8. nodejs 中间件代理跨域
 *9. WebSocket 协议跨域
 ```
+
+所谓同源是指，域名，协议，端口相同。同源策略可防止 JavaScript 发起跨域请求。此策略可防止页面上的恶意脚本通过该页面的文档对象模型，访问另一个网页上的敏感数据。
+同源策略，它是由 Netscape 提出的一个著名的安全策略，现在所有支持JavaScript 的浏览器都会使用这个策略。
 
 ### 跨域哪种情况前端没有办法？
 
@@ -164,13 +164,55 @@ You can use a large max-age value for files that rarely or never change. This mi
 
 When a validation request is made, the server can either ignore the validation request and respond with a normal 200 OK, or it can return 304 Not Modified (with an empty body) to instruct the browser to use its cached copy. The latter response can also include headers that update the expiration time of the cached resource.
 
-### 协商缓存和强制缓存区别？
+### 协商缓存和强制缓存区别？/什么是浏览器的强缓存和协商缓存？
 
 https://blog.mazey.net/1609.html
 
-### HTTPS 和 HTTP 的区别？/HTTP3 了解吗，HTTP 和 (web)socket 区别，为什么要三次握手？/TCP 为何要进行三次握手
+强缓存
+
+1. Expires（该字段是 http1.0 时的规范，值为一个绝对时间的 GMT 格式的时间字符串，代表缓存资源的过期时间）
+2. Cache-Control:max-age（该字段是 http1.1 的规范，强缓存利用其 max-age 值来判断缓存资源的最大生命周期，它的值单位为秒）
+
+协商缓存
+
+1. Last-Modified（值为资源最后更新时间，随服务器response返回）
+2. If-Modified-Since（通过比较两个时间来判断资源在两次请求期间是否有过修改，如果没有修改，则命中协商缓存）
+3. ETag（表示资源内容的唯一标识，随服务器response返回）
+4. If-None-Match（服务器通过比较请求头部的If-None-Match与当前资源的ETag是否一致来判断资源是否在两次请求之间有过修改，如果没有修改，则命中协商缓存）
+
+### HTTPS 和 HTTP 的区别？/HTTP3 了解吗，HTTP 和 (web)socket 区别，为什么要三次握手？/TCP 为何要进行三次握手/HTTP2.0 和 HTTP1.X相比的新特性有哪些？
 
 https://www.zhihu.com/question/24853633
+
+1. 新的二进制格式（Binary Format），HTTP1.x的解析是基于文本。
+2. 多路复用（MultiPlexing），即连接共享，即每一个request都是是用作连接共享机制的。
+3. header 压缩。
+4. 服务端推送（server push）。
+
+### HTTP 常见的状态码是什么？
+
+1XX 信息性状态码（Informational）服务器正在处理请求
+2XX 成功状态码（Success）请求已正常处理完毕
+3XX 重定向状态码（Redirection）需要进行额外操作以完成请求
+4XX 客户端错误状态码（Client Error）客户端原因导致服务器无法处理请求
+5XX 服务器错误状态码（Server Error）服务器原因导致处理请求出错
+
+## HTML
+
+### BOM 和 DOM 有什么区别？
+
+BOM 即浏览器对象模型，BOM 没有相关标准，BOM 的最核⼼对象是 window 对象。
+DOM 即⽂档对象模型，DOM 是 W3C 标准，DOM 的最根本对象是 document（window.document）
+
+### 请描述 `<script>`、`<script async>` 和 `<script defer>` 的区别？
+
+1. 没有 defer 或 async，浏览器会立即加载并执行指定的脚本，“立即”指的是在渲染该 script 标签之下的文档元素之前，也就是说不等待后续载入的文档元素，读到就加载并执行。
+2. 有 async，加载和渲染后续文档元素的过程将和 `<script>` 的加载与执行并行进行（异步）。
+3. 有 defer，加载后续文档元素的过程将和 `<script>` 的加载并行进行（异步），但是 `<script>` 的执行要在所有元素解析完成之后，DOMContentLoaded 事件触发之前完成。
+
+### HTML 中 DOCTYPE 的用途是什么？
+
+DOCTYPE 是 "document type" 的缩写。它是 HTML 中用来区分标准模式和怪异模式的声明，用来告知浏览器使用标准模式渲染页面。
 
 ## CSS
 
@@ -208,6 +250,11 @@ The Flexible Box Module, usually referred to as flexbox, was designed as a one-d
 
 When we describe flexbox as being one dimensional we are describing the fact that flexbox deals with layout in one dimension at a time — either as a row or as a column. This can be contrasted with the two-dimensional model of CSS Grid Layout, which controls columns and rows together.
 
+### flex 布局和 grid 布局的区别？
+
+flex 是 flexible box（弹性布局）的简写，是一个一维系统，用来为盒状模型提供最大的灵活性。
+grid 是 Gird Layout（网格布局）是 CSS 中最强大的布局系统，是一个二维系统，可以同时处理行和列，可以通过将 CSS 规则用于父元素（网格容器）和该元素的子元素（网格元素）来使用网格布局。
+
 ### REM/移动端中如何做设配？/CSS 的 REM 是什么？
 
 https://www.sitepoint.com/understanding-and-using-rem-units-in-css/
@@ -236,6 +283,18 @@ https://www.w3schools.com/cssref/css_units.asp
 
 https://segmentfault.com/a/1190000008860347
 
+### 回流和重绘，重绘会导致回流吗？/哪些重绘会导致回流？/CSS 重排和重绘之间有什么区别？
+
+https://segmentfault.com/a/
+
+重排：部分渲染树（或者整个渲染树）需要重新分析并且节点尺⼨需要重新计算。
+重绘：由于节点的⼏何属性发⽣改变或者由于样式发⽣改变，例如改变元素背景⾊时，屏幕上的部分内容需要更新。
+
+### 重置（resetting）CSS 和 标准化（normalizing）CSS 的区别是什么？
+
+重置（Resetting）： 重置意味着除去所有的浏览器默认样式。对于页面所有的元素，像 margin、padding、font-size 这些样式全部置成一样。你将必须重新定义各种元素的样式。
+标准化（Normalizing）： 标准化没有去掉所有的默认样式，而是保留了有用的一部分，同时还纠正了一些常见错误。
+
 ## JavaScript
 
 ### `instanceof`/`instanceof` 用法？
@@ -258,7 +317,10 @@ stringObject  instanceof Object;  // true
 stringObject  instanceof Date;    // false
 ```
 
-### Bubbling and Capturing/先触发冒泡还是先触发捕获？/冒泡和捕获，父元素和子元素点击顺序/事件冒泡和事件捕获
+### Bubbling and Capturing/先触发冒泡还是先触发捕获？/冒泡和捕获，父元素和子元素点击顺序/事件冒泡和事件捕获/什么是事件冒泡？
+
+当⼀个事件在 DOM 元素上触发时，如果有事件监听器，它将尝试处理该事件，然后事件冒泡到其⽗级元素，并发⽣同样的事情；直到对象层次的最顶层，即 document 对象。
+
 https://javascript.info/bubbling-and-capturing
 
 ![Bubbling and Capturing](https://i.mazey.net/asset/default/eventflow.svg)
@@ -277,7 +339,7 @@ https://javascript.info/bubbling-and-capturing
 
 event.stopPropagation()方法将停止事件的传播，阻止它被分派到其他 Document 节点。
 
-### Event Delegation/事件委托/代理是怎么回事？/请解释什么是事件代理
+### Event Delegation/事件委托/代理是怎么回事？/请解释什么是事件代理/什么是事件委托？使用事件委托的好处是什么？
 
 https://medium.com/@bretdoucette/part-4-what-is-event-delegation-in-javascript-f5c8c0de2983
 
@@ -286,6 +348,11 @@ Without event delegation you would have to rebind the click event listener to ea
 > 事件委托是利用事件的冒泡原理来实现的，何为事件冒泡呢？就是事件从最深的节点开始，然后逐步向上传播事件，举个例子：页面上有这么一个节点树，div>ul>li>a;比如给最里面的a加一个click点击事件，那么这个事件就会一层一层的往外执行，执行顺序a>li>ul>div，有这样一个机制，那么我们给最外面的div加点击事件，那么里面的ul，li，a做点击事件的时候，都会冒泡到最外层的div上，所以都会触发，这就是事件委托，委托它们父级代为执行事件。
 
 [js中的事件委托或是事件代理详解](https://www.cnblogs.com/liugang-vip/p/5616484.html)
+
+事件委托是将事件监听器添加到父元素，而不是每个子元素单独设置事件监听器。当触发子元素时，事件会冒泡到父元素，监听器就会触发。这种技术的好处是：
+
+1. 内存占用减少，因为只需要一个父元素的事件处理程序，而不必为每个后代都添加事件处理程序。
+2. 无需从已删除的元素中解绑处理程序，也无需将处理程序绑定到新元素上。
 
 ### 讲讲 `this`/`this` 在函数中指向问题
 
@@ -317,7 +384,7 @@ https://developer.mozilla.org/en-US/docs/Glossary/Thread
 
 The main thread is the one used by the browser to handle user events, render and paint the display, and to run the majority of the code that comprises a typical web page or app. Because these things are all happening in one thread, a slow website or app script slows down the entire browser; worse, if a site or app script enters an infinite loop, the entire browser will hang. This results in a frustrating, sluggish (or worse) user experience.
 
-### Why `0.1 + 0.2 !== 0.3`/为什么 `0.1 + 0.2 !== 0.3`
+### Why `0.1 + 0.2 !== 0.3`/为什么 `0.1 + 0.2 !== 0.3`/为什么以下代码在 JavaScript 中返回 false？
 
 在 JavaScript 中，数字只有 `number` 这一种类型；JavaScript 采用了 IEEE-745 浮点数表示法。我们先把 0.1 和 0.2 转换成二进制就是：
 
@@ -351,7 +418,7 @@ https://developer.mozilla.org/en-US/docs/Glossary/Scope
 
 The current context of execution. The context in which values and expressions are "visible" or can be referenced. If a variable or other expression is not "in the current scope," then it is unavailable for use. Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa.
 
-### Event Loop/讲讲 JavaScript 中的事件循环机制/事件循环
+### Event Loop/讲讲 JavaScript 中的事件循环机制/事件循环/怎么理解 JavaScript 的并发模型？
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
 
@@ -362,6 +429,10 @@ A JavaScript runtime uses a message queue, which is a list of messages to be pro
 At some point during the event loop, the runtime starts handling the messages on the queue, starting with the oldest one. To do so, the message is removed from the queue and its corresponding function is called with the message as an input parameter. As always, calling a function creates a new stack frame for that function's use.
 
 The processing of functions continues until the stack is once again empty. Then, the event loop will process the next message in the queue (if there is one).
+
+JavaScript 主线程在运行时，如果发现异步方法，会将它们放入异步队列中，同步方法则放入同步执行栈中依次执行。
+异步队列中的代码只有在同步执行栈被清空后才有机会执行。
+异步队列又分为 Macro Tasks 队列（宏任务队列）和 Micro Tasks 队列（微任务队列），在执行每一个 Macro Task 之前，总是会先执行 Micro Tasks 队列中的代码（若有），当 Micro Tasks 被清空之后，再去执行 Macro Task。
 
 ### Fetch 的 Promise 对象返回什么？resolve 还是 reject？
 
@@ -381,6 +452,11 @@ fetch('flowers.jpg').then(function(response) {
 });
 ```
 
+### Fetch API 相对于传统的 Ajax 有哪些改进？
+
+1. fetch 返回 promise 对象
+2. 在默认情况下 fetch 不会接受或者发送 cookies
+
 ### 讲一讲箭头函数不适用的场景
 
 ### ES6 对数组新增了哪些功能？/讲讲 ES6 熟悉的部分
@@ -398,6 +474,10 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 ### 词法分析和词法作用域生成什么？
 
 ### 如何模拟多线程？（Worker）
+
+### 什么是高阶函数（higher-order），有什么应用场景？
+
+高阶函数是将一个或多个函数作为参数的函数，它用于数据处理，也可能将函数作为返回结果。高阶函数是为了抽象一些重复执行的操作。一个典型的例子是 map，它将一个数组和一个函数作为参数。map 使用这个函数来转换数组中的每个元素，并返回一个包含转换后元素的新数组。JavaScript 中的其他常见示例是 forEach、filter 和 reduce。高阶函数不仅需要操作数组的时候会用到，还有许多函数返回新函数的用例。Function.prototype.bind 就是一个例子。
 
 ### JavaScript 和原生如何交互。（桥接）
 
@@ -424,9 +504,74 @@ document.getElementById("myDIV").addEventListener("webkitTransitionEnd", myFunct
 // Internet Explorer 8 及更早 IE 版本不支持 addEventListener()方法。
 ```
 
+### 如何判断⼀个对象是否为数组？
+
+如果浏览器⽀持 Array.isArray() 可以直接判断，否则需进⾏必要判断。
+
+```
+/**
+ * 判断⼀个对象是否是数组，参数不是对象或者不是数组，返回false
+ *
+ * @param {Object} arg 需要测试是否为数组的对象
+ * @return {Boolean} 传⼊参数是数组返回true，否则返回false
+ */
+function isArray(arg) {
+    if (typeof arg === 'object') {
+        return Object.prototype.toString.call(arg) === '[object Array]'
+    }
+    return false
+}
+```
+
+### `call`、`apply`、`bind` 的区别是什么？
+
+call、apply 的区别：
+第⼀个参数都是要改变上下⽂的对象，⽽ call 从第⼆个参数开始以参数列表的形式展现，apply 则是把除了改变上下⽂对象的参数放在⼀个数组里面。
+
+call、apply 与 bind 的区别：
+call 和 apply 改变了函数的 this 上下⽂后便执⾏该函数，⽽ bind 则是返回改变了上下⽂后的⼀个函数。
+
+### 什么是 JavaScript 的深拷⻉？如何实现⼀个深拷⻉？
+
+深拷⻉是指创建⼀个新的对象和数组，将原对象的各项属性的“值”（数组的所有元素）拷⻉过来，是“值”⽽不是“引⽤”。
+
+```
+// 最简单粗暴的深拷⻉
+// 但是函数和正则不能被正确处理
+JSON.parse(JSON.stringify([1, 2, 3, 4]))
+```
+
+### JavaScript 最常⻅的垃圾回收⽅式是什么？
+
+1. 标记清除
+当变量进⼊执⾏环境是，就标记这个变量为“进⼊环境”。当变量离开环境时，则将其标记为“离开环境”。
+
+2. 引⽤计数
+跟踪记录每个值被引⽤的次数。当声明了⼀个变量并将⼀个引⽤类型赋值给该变量时，则这个值的引⽤次数就是 1。相反，如果包含对这个值引用次数变成 0 时，则说明没有办法再访问这个值了，因而就可以将其占用的内存空间回收回来。
+
+### 宿主对象（host objects）和原生对象（native objects）的区别是什么？
+
+原生对象是由 ECMAScript 规范定义的 JavaScript 内置对象，比如 String、Math、RegExp、Object、Function 等等。
+宿主对象是由运行时环境（浏览器或 Node）提供，比如 window、XMLHTTPRequest 等等。
+
+### 什么是变量提升？
+
+变量提升（hoisting）是用于解释代码中变量声明行为的术语。使用 var 关键字声明或初始化的变量，会将声明语句“提升”到当前作用域的顶部。但是，只有声明才会触发提升，赋值语句（如果有的话）将保持原样。
+
+### JavaScript 有哪些基本数据类型？
+
+```
+ undefined / null / string / boolean / number / symbol(ES6)
+```
+
+### 什么是 Typed Arrays？和传统数组有什么区别？
+
+JavaScript 类型数组（JavaScript typed arrays）是一种类似数组的对象，它由 ArrayBuffer 、 TypedArray 、 DataView 三类对象构成，通过这些对象为JavaScript提供了访问二进制数据的能力。
+它们速度快、效率高、健壮，在内存分配时也足够智能。
+
 ## Security/前端安全
 
-### Front-End Security/前端安全问题有哪些？/前端常见的安全问题？/前端安全相关，邮件中链接（XSS、XSF?）攻击如何预防？
+### Front-End Security/前端安全问题有哪些？/前端常见的安全问题？/前端安全相关，邮件中链接（XSS、XSF?）攻击如何预防？/常⻅的 Web 安全漏洞有哪些？如何防范？
 
 #### XSS (Cross Site Script)，跨站脚本攻击
 
@@ -697,6 +842,15 @@ https://linguinecode.com/post/top-webpack-plugins
 
 ### Webpack 和 Rollup、gulp 区别。/每个打包工具使用的理由，Webpack 相对于 Rollup 的优势。
 
+### Webpack 热更新实现原理是什么？
+
+1. Webpack 编译期，为需要热更新的 entry 注入热更新代码(EventSource 通信)
+2. 页面首次打开后，服务端与客户端通过 EventSource 建立通信渠道，把下一次的 hash 返回前端
+3. 客户端获取到 hash，这个 hash 将作为下一次请求服务端 hot-update.js 和 hot-update.json 的 hash
+4. 修改页面代码后，Webpack 监听到文件修改后，开始编译，编译完成后，发送 build 消息给客户端
+5. 客户端获取到hash，成功后客户端构造 hot-update.js script 链接，然后插入主文档
+6. hot-update.js 插入成功后，执行 hotAPI 的 createRecord 和 reload 方法，获取到 Vue 组件的 render方法，重新 render 组件， 继而实现 UI 无刷新更新。
+
 ## NPM
 
 ### `peerDependencies` 和 `dependencies` 的区别
@@ -791,6 +945,11 @@ Worker pool
 ### 设计点赞和踩的前后端。
 
 ### 如何写/设计一个组件。
+
+### 什么是单向数据流和双向数据绑定？
+
+Angular 1.x 基于双向数据绑定，而 React，Vue，Elm 等基于单向数据流架构。
+单向数据流指只能从一个方向来修改状态。与单向数据流对对应的是双向数据流（也叫双向绑定）。在双向数据流中，Model（可以理解为状态的集合） 中可以修改自己或其他 Model 的状态， 用户的操作（如在输入框中输入内容）也可以修改状态。
 
 ## Code/编程题
 
@@ -1133,6 +1292,20 @@ ${" ".repeat(strSoFar.length + 1)}^^^^^^`);
 ### 对 `Ajax` 请求进行封装
 
 ### 实现 `reduce`。
+
+### 什么是 JavaScript 函数防抖？如何实现防抖？
+
+函数防抖（debounce）：当持续触发事件时，一定时间段内没有再触发事件，事件处理函数才会执行一次，如果设定的时间到来之前，又一次触发了事件，就重新开始延时。
+
+```
+function debounce(func, wait) {
+    var timeout
+    return function () {
+        clearTimeout(timeout)
+        timeout = setTimeout(func, wait)
+    }
+}
+```
 
 ## Algorithm/算法
 
