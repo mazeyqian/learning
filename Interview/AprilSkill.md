@@ -1,3 +1,15 @@
+## 计算机基础
+
+### 栈和堆的区别
+
+#### 栈（stack）
+
+由系统自动分配和释放，当定义一个作用域内的变量脱离作用域则释放，数据结构先进后出，类似于数据结构中的栈。
+
+#### 堆（heap）
+
+由程序员分配和释放，若不手动释放，则在程序运行结束时回收，没有固定的排序，数据结构类似于链表。
+
 ## Browser/浏览器
 
 ### Process and Threads/浏览器的进程和线程
@@ -51,6 +63,22 @@ https://developer.chrome.com/docs/workbox/caching-strategies-overview/
 3. Cache first, falling back to network
 4. Network first, falling back to cache
 5. Stale-while-revalidate
+
+### 如何实现浏览器内多个标签页之间的通信
+
+#### localStorage
+
+使用`localStorage.setItem(key,value);`添加内容，使用storage事件监听添加、修改、删除的动作。
+
+```
+window.addEventListener("storage", function(event){
+    $("#name").val(event.key + '=' + event.newValue);
+});
+```
+
+#### cookie
+
+动态获取cookie中的内容。
 
 ## Network/网络协议
 
@@ -168,6 +196,10 @@ https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
 
 https://blog.mazey.net/2068.html
 
+### 浮动元素引起的问题和解决办法
+
+https://blog.mazey.net/903.html
+
 ### FLEX/讲讲 Flex Box 弹性布局？/`display: flex` 轴是什么意思
 
 https://mazey.cn/t/gf
@@ -200,6 +232,10 @@ https://www.w3schools.com/cssref/css_units.asp
 
 ### 如何隐藏一个元素
 
+### 渐进增强和优雅降级
+
+https://segmentfault.com/a/1190000008860347
+
 ## JavaScript
 
 ### `instanceof`/`instanceof` 用法？
@@ -221,17 +257,35 @@ literalString instanceof Object;  // false, string literal is not an Object
 stringObject  instanceof Object;  // true
 stringObject  instanceof Date;    // false
 ```
-### Event Delegation/事件委托/代理是怎么回事？
+
+### Bubbling and Capturing/先触发冒泡还是先触发捕获？/冒泡和捕获，父元素和子元素点击顺序/事件冒泡和事件捕获
+https://javascript.info/bubbling-and-capturing
+
+![Bubbling and Capturing](https://i.mazey.net/asset/default/eventflow.svg)
+
+#### 事件冒泡
+
+触发顺序自内向外。
+
+#### 事件捕获
+
+触发顺序自外向内。
+
+#### 阻止事件冒泡
+
+> 绑定事件方法（addEventListener）的第三个参数，就是控制事件触发顺序是否为事件捕获。true,事件捕获；false,事件冒泡。默认false,即事件冒泡。
+
+event.stopPropagation()方法将停止事件的传播，阻止它被分派到其他 Document 节点。
+
+### Event Delegation/事件委托/代理是怎么回事？/请解释什么是事件代理
 
 https://medium.com/@bretdoucette/part-4-what-is-event-delegation-in-javascript-f5c8c0de2983
 
 Without event delegation you would have to rebind the click event listener to each new input loaded to the page. Coding this is complicated and burdensome. For one, it would drastically increase the amount of event listeners on your page, and more event listeners would increase the total memory footprint of your page. Having a larger memory footprint decreases performance… and poor performance is a bad thing. Second, there can be memory leak issues associated with binding and unbinding event listeners and removing elements from the dom. But that is beyond the scope of this article!
 
-### Bubbling and Capturing/先触发冒泡还是先触发捕获？/冒泡和捕获，父元素和子元素点击顺序
+> 事件委托是利用事件的冒泡原理来实现的，何为事件冒泡呢？就是事件从最深的节点开始，然后逐步向上传播事件，举个例子：页面上有这么一个节点树，div>ul>li>a;比如给最里面的a加一个click点击事件，那么这个事件就会一层一层的往外执行，执行顺序a>li>ul>div，有这样一个机制，那么我们给最外面的div加点击事件，那么里面的ul，li，a做点击事件的时候，都会冒泡到最外层的div上，所以都会触发，这就是事件委托，委托它们父级代为执行事件。
 
-https://javascript.info/bubbling-and-capturing
-
-![Bubbling and Capturing](https://i.mazey.net/asset/default/eventflow.svg)
+[js中的事件委托或是事件代理详解](https://www.cnblogs.com/liugang-vip/p/5616484.html)
 
 ### 讲讲 `this`/`this` 在函数中指向问题
 
