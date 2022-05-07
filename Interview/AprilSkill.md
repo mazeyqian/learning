@@ -84,7 +84,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
 ### 了解 HTTP 协议吗
 
-### Difference between HTTP and HTTPS/HTTP 和 HTTPS 的区别，HTTPS 如何做的加密/HTTPS 与 HTTP 有什么区别
+### HTTP vs. HTTPS/HTTP 和 HTTPS 的区别，HTTPS 如何做的加密/HTTPS 与 HTTP 有什么区别
 
 1. HTTPS 协议需要到 CA 申请证书，⼀般免费证书很少，需要交费。
 2. HTTP 协议运⾏在 TCP 之上，所有传输的内容都是明⽂，HTTPS 运⾏在 SSL/TLS 之上，SSL/TLS 运⾏在 TCP 之上，所有传输的内容将被加密。
@@ -216,11 +216,11 @@ DOCTYPE 是 "document type" 的缩写。它是 HTML 中用来区分标准模式�
 
 ## CSS
 
-### Difference between Transitions and Animations/CSS 过渡和动画区别
+### Transitions vs. Animations/CSS 过渡和动画区别
 
 https://blog.hubspot.com/website/css-transition-vs-animation
 
-### Difference between `:before` and `:after`/`:before` 和 `:after` 区别
+### `:before` vs. `:after`/`:before` 和 `:after` 区别
 
 The `::before` and `::after` pseudo-elements allow you to add content to a specific part of an element you have selected in a CSS rule. For instance, the `::before` selector could be used to add text before a link. The `::after` selector could be used to add an emoji after a paragraph of text.
 
@@ -1204,7 +1204,7 @@ console.log('aaa', aaa);
 
 ### 最近有没有做什么涉及系统设计方面的工作
 
-## Soft Skills/软技能及其他问题
+## Soft Skills/软技能/其他问题
 
 ### How do programmers approach a new project?/接手一个新项目你会怎么做/刚接手一个项目，你会怎么做
 
@@ -1223,7 +1223,7 @@ There are 2 approaches:
 
 ![](https://blog.mazey.net/wp-content/uploads/2022/04/main-qimg-7dea78cd132261dec439672325472270.gif)
 
-### What Are the Things Most Important to You in a Job?/一份工作，你更注重什么
+### What are the things most important to you in a job?/一份工作，你更注重什么
 
 https://everydayinterviewtips.com/common-interview-question-what-are-the-three-things-most-important-to-you-in-a-job/
 
@@ -1242,7 +1242,7 @@ Growth potential is the most important thing to me in any role, within my own ro
 - Learn from peers and supervisors
 - Achieve a healthy work/life balance
 
-### What new skill did you learn recently?/最近学习什么新技术
+### What new skills did you learn recently?/最近学习什么新技术/最近有研究哪些新技术/最近在学习什么
 
 https://www.indeed.com/career-advice/interviewing/what-is-one-thing-you-learned-recently
 
@@ -1259,17 +1259,61 @@ https://www.indeed.com/career-advice/interviewing/what-is-one-thing-you-learned-
 
 I also included more general information regarding the company's history and the products we sell. My supervisor's manager thanked me for making the changes, and they've offered several other technology-based courses for me to attend in the time since I finished the website."
 
-### How to Cultivate Engineers?/工作中如何让组员按需发展，如何培养组员
+### Cultivate Engineers/工作中如何让组员按需发展，如何培养组员/在带领新人的过程中有哪些自豪的事情
 
 https://daily.dev/blog/how-to-introduce-a-new-developer-to-a-project
 
 https://www.linkedin.com/pulse/how-cultivate-engineers-industry-thought-leaders-rob-hawse
 
+https://www.indeed.com/career-advice/career-development/team-management-skills
+
+Team management is a manager or organization’s ability to lead a group of people in accomplishing a task or common goal. Effective team management involves supporting, communicating with and uplifting team members so they perform to the best of their abilities and continue to grow as professionals. 
+
+1\. Focus on serving rather than managing
+
+Achieving both individual/ˌɪndɪˈvɪdʒuəl/ and team goals. 
+
+As opposed/əˈpəʊzd/ to merely/ˈmɪəli/ giving orders/'ɔːdərs/ and delegating/ˈdelɪɡət/ tasks/tɑːsk/.
+
+2\. Don’t always assume you’re right
+
+Keep an open mind.
+
+Have a constructive/kənˈstrʌktɪv/ discussion/dɪˈskʌʃn/.
+
+3\. Make transparency a priority
+
+Practicing/ˈpræktɪsɪŋ/ transparency/trænsˈpærənsi/ through open and consistent/kənˈsɪstənt/ communication allows your team members to feel a sense of respect which is important for overall job satisfaction/ˌsætɪsˈfækʃn/ and productivity/ˌprɒdʌkˈtɪvəti/. 
+
+4\. Set boundaries
+
+Team members should know that your job is to ensure/ɪnˈʃʊə(r)/ their work gets done efficiently/ɪˈfɪʃ(ə)ntli/ and that, when necessary, you will take disciplinary/ˌdɪsəˈplɪnəri/ action.
+
+5\. Provide a positive workspace
+
+Brighten your team's day and foster a culture of happiness within the workspace.
+
+6\. Emphasize constant and effective communication within the workplace
+
+Provide encourage feedback from your employees. 
+
+7\. Encourage and nurture your team’s growth
+
+Assist team members in their professional development.
+
+8\. Be open to change
+
+Different team members may have different approaches and ways of doing things.
+
+---
+
+Bad answer: Be Happy. Shame on it.
+
 ### The product manager makes a lot of demands./如果产品经理，提很多需求，你会怎么办/产品的不合理需求如何处理
 
 http://www.woshipm.com/pmd/131254.html
 
-### Collaborate between departments/如何跨部门协作，如何让别人协作你
+### Collaborate between Departments/如何跨部门协作，如何让别人协作你
 
 https://www.workzone.com/blog/9-ways-to-improve-collaboration-between-departments/
 
@@ -1277,7 +1321,7 @@ https://www.workzone.com/blog/9-ways-to-improve-collaboration-between-department
 
 跨界会给你带来难以估量的好处，一个角色做久了，难免会产生一些盲点。这时候，换个视角，从其他角色的角度来看待你的工作，又会有很多新的发现。而且不仅如此，很可能你会发现之前很麻烦，很难搞定的事情，在新的方法/视角下变得很容易。
 
-### What have you learned from your work?/从最近工作中学到什么
+### What have you learned from your work?/从最近工作中学到什么/那你在最近这份工作有获得什么成长吗
 
 https://www.quora.com/What-have-you-learned-from-your-previous-job-personally-and-professionally
 
@@ -1289,14 +1333,16 @@ https://zhuanlan.zhihu.com/p/134299187
 
 你个人的成功是建立在你对集体的价值之上的，所以对你来说重要的事，往往对其他人也是重要的。除了你自己的立场，你还必须站在其他人的立场，判断某件事是否重要。
 
-### 做过比较有成就性/挑战性的事情是什么，有什么事情是可以改善的
+Business and Skills.
 
-- SDK Front-End and Back-End. Gray + People Bag.
+### Challenging Things/做过比较有成就性/挑战性的事情是什么，有什么事情是可以改善的/讲讲做的比较亮点的项目/谈谈遇到过的难解决的问题
+
+- SDK Front-End and Back-End. Gray + People Bags.
 - Account Center, + Node.js&Docker. 
 - Community FE Performance.
-- IDAP Data Visible, Compatate Different Browsers.
+- IDAP Data Visualization, Compatibility among Different Browsers.
 
-### 让你主导一个需求该怎么做
+### Owner Project/让你主导一个需求该怎么做
 
 https://upstreamplugin.com/difference-project-owner-project-manager/
 
@@ -1310,17 +1356,20 @@ Here’s a slightly different way to look at it:
 - The Project Owner is in charge of defining the scope of the project, the “What?” and the “Why?”. They are responsible for collecting all the requirements for a product.
 - The Project Manager is in charge of getting things done, the “How?” and the “Who?”. The Project Manager is responsible for completing the project within an established time and budget.
 
-### 你为何离职
+### Reason of Leaving/你为何离职
 
-### 之前为何换工作这么频繁
+- Don't like work content. I have done repeatitive content about consulting service for one year because the changing of organization.
+- My leader and work content changed.
 
-### 现在的项目组多少人，前端和后端各多少人
+### Reason of Changing jobs/之前为何换工作这么频繁
 
-### 在带领新人的过程中有哪些自豪的事情
+- It's my reasons. I try different skills that i may like, because i don't know what skill i like.(PHP to FE)
+- Change Cities for work and live. Arrange life routine. Nanjing is not so friendly for youngers and internet development.(Expensive House Price and Few Companies)
+- Try to continue working for company. But I can't stand the changing of organization.(Work Content, Leader Communication and Internal Power Struggle)
+
+### Project Personnel/现在的项目组多少人，前端和后端各多少人
 
 ### 你的前端深度如何
-
-### 讲讲做的比较亮点的项目
 
 ### 说说最近项目中比较有技术含量的是哪个
 
@@ -1328,13 +1377,9 @@ Here’s a slightly different way to look at it:
 
 ### 最近的看的哪些书呢
 
-### 最近在学习什么
+### Other Offers/手上还有在谈的 Offer 吗，面试情况如何
 
-### 最近有研究哪些新技术
-
-### 谈谈遇到过的难解决的问题
-
-### 手上还有在谈的 Offer 吗，面试情况如何
+Yes, I have some offers this month. 2022-05-23
 
 ### 你的期望薪资是多少
 
