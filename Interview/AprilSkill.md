@@ -1381,6 +1381,10 @@ Here’s a slightly different way to look at it:
 
 Yes, I have some offers this month. 2022-05-23
 
+### XX 公司给你的薪资构成是怎么样的，Base 是多少，可以接受股票吗，可以接受什么比例呢
+
+## XX 行业最近招聘也不少啊，你是怎么打算的
+
 ### 你的期望薪资是多少
 
 ### 喜欢玩游戏吗
