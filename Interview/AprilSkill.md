@@ -796,7 +796,7 @@ By default, `v-model` syncs with the state of the Vue instance (data properties)
 
 ---
 
-We have our parent component setup, so let’s access it from our child component.
+We have our parent component setup, so let's access it from our child component.
 
 There are two things we have to do inside CustomTextInput.vue:
 
@@ -1244,7 +1244,7 @@ https://everydayinterviewtips.com/common-interview-question-what-are-the-three-t
 
 1\.Positive Environment
 
-Growth potential is the most important thing to me in any role, within my own role, or within the company in line with the company’s overall growth. I’d love to work for a company that is innovative and always looking for new opportunities to expand. And I look for companies who have a positive and adaptive culture, and trust.
+Growth potential is the most important thing to me in any role, within my own role, or within the company in line with the company's overall growth. I'd love to work for a company that is innovative and always looking for new opportunities to expand. And I look for companies who have a positive and adaptive culture, and trust.
 
 2\. Other Potential Answers
 
@@ -1282,7 +1282,7 @@ https://www.linkedin.com/pulse/how-cultivate-engineers-industry-thought-leaders-
 
 https://www.indeed.com/career-advice/career-development/team-management-skills
 
-Team management is a manager or organization’s ability to lead a group of people in accomplishing a task or common goal. Effective team management involves supporting, communicating with and uplifting team members so they perform to the best of their abilities and continue to grow as professionals. 
+Team management is a manager or organization's ability to lead a group of people in accomplishing a task or common goal. Effective team management involves supporting, communicating with and uplifting team members so they perform to the best of their abilities and continue to grow as professionals. 
 
 1\. Focus on serving rather than managing
 
@@ -1290,7 +1290,7 @@ Achieving both individual/ˌɪndɪˈvɪdʒuəl/ and team goals.
 
 As opposed/əˈpəʊzd/ to merely/ˈmɪəli/ giving orders/'ɔːdərs/ and delegating/ˈdelɪɡət/ tasks/tɑːsk/.
 
-2\. Don’t always assume you’re right
+2\. Don't always assume you're right
 
 Keep an open mind.
 
@@ -1312,7 +1312,7 @@ Brighten your team's day and foster a culture of happiness within the workspace.
 
 Provide encourage feedback from your employees. 
 
-7\. Encourage and nurture your team’s growth
+7\. Encourage and nurture your team's growth
 
 Assist team members in their professional development.
 
@@ -1340,7 +1340,7 @@ https://www.workzone.com/blog/9-ways-to-improve-collaboration-between-department
 
 https://www.quora.com/What-have-you-learned-from-your-previous-job-personally-and-professionally
 
-Don’t constrain your life only to the job.
+Don't constrain your life only to the job.
 
 ### Career Planning/你的职业发展如何计划的/职业规划
 
@@ -1361,12 +1361,12 @@ Business and Skills.
 
 https://upstreamplugin.com/difference-project-owner-project-manager/
 
-What’s the difference between these two roles? Here’s the short version:
+What's the difference between these two roles? Here's the short version:
 
 - The Project Owner looks at the big picture.
 - The Project Manager looks at the daily details of the project.
 
-Here’s a slightly different way to look at it:
+Here's a slightly different way to look at it:
 
 - The Project Owner is in charge of defining the scope of the project, the “What?” and the “Why?”. They are responsible for collecting all the requirements for a product.
 - The Project Manager is in charge of getting things done, the “How?” and the “Who?”. The Project Manager is responsible for completing the project within an established time and budget.
