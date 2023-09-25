@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func Main4() {
 	counts := make(map[string]int)
 	for _, filename := range os.Args[1:] {
 		data, err := ioutil.ReadFile(filename)
