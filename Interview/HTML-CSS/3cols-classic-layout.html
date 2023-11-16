@@ -1,0 +1,28 @@
+<style>
+  .container {
+    display: flex;
+    /* Set it to flex layout */
+  }
+  .column {
+    flex: 1;
+    /* Each column takes equal width */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .left {
+    background-color: #f9f9f9;
+  }
+  .center {
+    flex: 2;
+    background-color: #e9e9e9;
+  }
+  .right {
+    background-color: #d9d9d9;
+  }
+</style>
+
+<div class="container">
+  <div class="column left">Left Column</div>
+  <div class="column center">Center Column</div>
+  <div class="column right">Right Column</div>
+</div>
