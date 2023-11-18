@@ -8,26 +8,22 @@ newLL.insertLast('c');
 newLL.insertLast('d');
 newLL.insertLast('e');
 
-// console.log('newLinkedList', newLL, newLL.size());
-
-function reverseLinkedList(head) {
-  let node = head;
+function reverseLinkedList (head) {
   let previous = null;
+  let current = head;
 
-  while (node) {
-    let nodeNext = node.next;
-    node.next = previous;
+  while (current) {
+    let nextNode = current.next;
+    current.next = previous;
 
-    previous = node;
-    node = nodeNext;
+    previous = current;
+    current = nextNode;
   }
 
   return previous;
 }
 
 let reversedHead = reverseLinkedList(newLL.head);
-
-// console.log('reversedLL', reversedLL, reversedLL.size());
 
 while (reversedHead) {
   console.log('reversedLL', reversedHead.data);
