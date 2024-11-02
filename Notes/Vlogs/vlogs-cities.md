@@ -58,7 +58,19 @@ Discover the flavors of Sapporo.
 
 ---
 
-Hineno Station #车站 #旅行 #旅游 #旅行日记
+Hineno Station #日根野站 #换乘 #猫咪列车 #可爱 #车站 #关西 #日根野 #旅行 #旅游 #旅行日记
+
+zh:
+
+日根野站探秘｜邂逅可爱猫咪列车
+体验关西独特的铁路魅力。
+#日根野站 #换乘 #猫咪列车 #可爱 #车站 #关西 #日根野 #铁路 #探索 #文化 #旅游 #旅行 #旅行日记
+
+en:
+
+Exploring Hineno Station: Meet the Adorable Cat Train
+Experience the unique railway charm of Kansai.
+#HinenoStation #Transfer #CatTrain #Cute #Station #Kansai #Railway #Explore #Culture #Adventure #Japan #JapanTravel #Travel #TravelDiary
 
 ---
 
