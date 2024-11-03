@@ -1,5 +1,21 @@
 # 旅行日记
 
+Oyunuma Pond #地狱谷 #温泉 #大汤沼 #Hokkaido #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #旅游 #旅行 #旅行日记
+
+zh:
+
+大汤沼探秘｜感受登别的温泉奇观
+探索北海道地狱谷的自然奇迹。
+#地狱谷 #温泉 #大汤沼 #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #自然 #探险 #旅游 #旅行 #旅行日记
+
+en:
+
+Discover Oyunuma Pond: The Hot Spring Wonders of Noboribetsu
+Explore the natural marvels of Hokkaido's Hell Valley.
+#OyunumaPond #HellValley #HotSpring #Noboribetsu #Hokkaido #Onsen #IronRichSpring #Adventure #Nature #Explore #Japan #JapanTravel #Travel #TravelDiary
+
+---
+
 Older #潮岬 #潮岬展望台 #本州最南端 #海滩 #海边 #关西 #和歌山 #串本 #旅行 #旅游 #旅行日记
 
 zh:
