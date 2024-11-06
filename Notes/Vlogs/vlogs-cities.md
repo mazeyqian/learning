@@ -1,10 +1,26 @@
 # 旅行日记
 
+Goryokaku Park #日落 #夕阳 #落日余晖 #五稜郭公園 #城市 #山坡 #公园 #北海道 #函馆 #旅游 #旅行 #旅行日记
+
+zh:
+
+五稜郭公园｜欣赏函馆的落日余晖
+沉醉于北海道城市的黄昏美景。
+#日落 #夕阳 #落日余晖 #五稜郭公園 #城市 #山坡 #公园 #北海道 #函馆 #风景 #摄影 #旅游 #旅行 #旅行日记
+
+en:
+
+Exploring Goryokaku Park: Sunset Splendor in Hakodate
+Immerse in the twilight beauty of Hokkaido's cityscape.
+#GoryokakuPark #Sunset #EveningGlow #Cityscape #Slope #Park #Hokkaido #Hakodate #Scenery #Photography #Japan #JapanTravel #Travel #TravelDiary
+
+---
+
 Oyunuma Pond #地狱谷 #温泉 #大汤沼 #Hokkaido #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #旅游 #旅行 #旅行日记
 
 zh:
 
-大汤沼探秘｜感受登别的温泉奇观
+大汤沼｜感受登别的温泉奇观
 探索北海道地狱谷的自然奇迹。
 #地狱谷 #温泉 #大汤沼 #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #自然 #探险 #旅游 #旅行 #旅行日记
 
@@ -20,7 +36,7 @@ Older #潮岬 #潮岬展望台 #本州最南端 #海滩 #海边 #关西 #和歌�
 
 zh:
 
-潮岬探险｜本州最南端的绝美风光
+潮岬｜本州最南端的绝美风光
 探索和歌山的壮丽海景。
 #潮岬 #潮岬展望台 #本州最南端 #海滩 #海边 #关西 #和歌山 #串本 #旅游 #旅行 #旅行日记
 
@@ -78,7 +94,7 @@ Hineno Station #日根野站 #换乘 #猫咪列车 #可爱 #车站 #关西 #日�
 
 zh:
 
-日根野站探秘｜邂逅可爱猫咪列车
+日根野站｜邂逅可爱猫咪列车
 体验关西独特的铁路魅力。
 #日根野站 #换乘 #猫咪列车 #可爱 #车站 #关西 #日根野 #铁路 #探索 #文化 #旅游 #旅行 #旅行日记
 
