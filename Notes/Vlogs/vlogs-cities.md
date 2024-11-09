@@ -10,7 +10,7 @@ zh:
 
 en:
 
-Exploring Goryokaku Park: Sunset Splendor in Hakodate
+Goryokaku Park: Sunset Splendor in Hakodate
 Immerse in the twilight beauty of Hokkaido's cityscape.
 #GoryokakuPark #Sunset #EveningGlow #Cityscape #Slope #Park #Hokkaido #Hakodate #Scenery #Photography #Japan #JapanTravel #Travel #TravelDiary
 
@@ -26,7 +26,7 @@ zh:
 
 en:
 
-Discover Oyunuma Pond: The Hot Spring Wonders of Noboribetsu
+Oyunuma Pond: The Hot Spring Wonders of Noboribetsu
 Explore the natural marvels of Hokkaido's Hell Valley.
 #OyunumaPond #HellValley #HotSpring #Noboribetsu #Hokkaido #Onsen #IronRichSpring #Adventure #Nature #Explore #Japan #JapanTravel #Travel #TravelDiary
 
@@ -42,7 +42,7 @@ zh:
 
 en:
 
-Adventure at Cape Shionomisaki: Southernmost Beauty of Honshu
+Cape Shionomisaki: Southernmost Beauty of Honshu
 Discover the stunning seascapes of Wakayama.
 #CapeShionomisaki #ObservationDeck #SouthernmostHonshu #Beach #Seaside #Kansai #Wakayama #Kushimoto #Japan #JapanTravel #Travel #TravelDiary
 
@@ -88,7 +88,7 @@ Crab Hot Pot: A Taste of Hokkaido
 Discover the flavors of Sapporo.
 #CrabMeat #Gourmet #JapaneseCuisine #ChuoWard #CrabRoe #Hokkaido #Sapporo #Yakitori #Travel #TravelDiary
 
----
+## Hineno Station
 
 Hineno Station #日根野站 #换乘 #猫咪列车 #可爱 #车站 #关西 #日根野 #旅行 #旅游 #旅行日记
 
@@ -100,13 +100,25 @@ zh:
 
 en:
 
-Exploring Hineno Station: Meet the Adorable Cat Train
+Hineno Station: Meet the Adorable Cat Train
 Experience the unique railway charm of Kansai.
 #HinenoStation #Transfer #CatTrain #Cute #Station #Kansai #Railway #Explore #Culture #Adventure #Japan #JapanTravel #Travel #TravelDiary
 
----
+## Hashigui Beach
 
-Hashigui Beach #和歌山 #串本 #旅行 #旅游 #旅行日记
+Hashigui Beach #橋杭岩 #HashiguiiwaRocks #rocks #legend #海滩 #海边 #关西 #和歌山 #串本 #旅行 #旅游 #旅行日记
+
+zh:
+
+桥杭岩海滩｜探索和歌山的传说奇景
+感受串本海边的自然魅力。
+#橋杭岩 #橋杭海水浴場 #海滩 #海边 #关西 #和歌山 #串本 #自然 #奇景 #传说 #旅游 #旅行 #旅行日记
+
+en:
+
+Hashigui Beach: Discover the Legendary Rocks of Wakayama
+Experience the coastal beauty of Kushimoto.
+#HashiguiiwaRocks #HashiguiBeach #Rocks #Legend #Beach #Coastline #Kansai #Wakayama #Kushimoto #Nature #Japan #JapanTravel #Travel #TravelDiary
 
 ---
 
