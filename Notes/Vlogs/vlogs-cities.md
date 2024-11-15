@@ -120,9 +120,21 @@ Hashigui Beach: Discover the Legendary Rocks of Wakayama
 Experience the coastal beauty of Kushimoto.
 #HashiguiiwaRocks #HashiguiBeach #Rocks #Legend #Beach #Coastline #Kansai #Wakayama #Kushimoto #Nature #Japan #JapanTravel #Travel #TravelDiary
 
----
+## Cape Kure
 
-Cape Kure #潮岬 #海滩 #海边 #关西 #和歌山 #串本 #旅行 #旅游 #旅行日记
+Cape Kure #潮岬 #本州最南端 #海浪 #海滩 #海边 #关西 #和歌山 #串本 #旅行 #旅游 #旅行日记
+
+zh:
+
+潮岬｜领略本州最南端的海浪奇观
+感受和歌山的壮丽海岸线。
+#潮岬 #本州最南端 #海浪 #海滩 #海边 #关西 #和歌山 #串本 #自然 #风光 #旅游 #旅行 #旅行日记
+
+en:
+
+Cape Kure: Experience the Southernmost Waves of Honshu
+Discover the breathtaking coastline of Wakayama.
+#CapeKure #SouthernmostHonshu #Waves #Beach #Coastline #Kansai #Wakayama #Kushimoto #Nature #Scenery #Japan #JapanTravel #Travel #TravelDiary
 
 ---
 
