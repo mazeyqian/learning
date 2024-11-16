@@ -1,5 +1,22 @@
 # 旅行日记
 
+## Classic Streetcars
+
+路面电车 #有轨电车 #市电 #路面电车 #电车 #公车 #巴士 #城市 #北海道 #函馆 #旅游 #旅行 #旅行日记
+
+zh:
+
+函馆｜感受北海道的经典路面电车
+#有轨电车 #市电 #路面电车 #电车 #公车 #城市 #北海道 #函馆 #交通 #经典 #旅游 #旅行 #旅行日记
+
+en:
+
+Hakodate: Classic Streetcars
+Discover the unique charm of city transit.
+#Tram #Streetcar #Trolley #Bus #City #Hokkaido #Hakodate #Transit #Classic #Urban #Japan #JapanTravel #Travel #TravelDiary
+
+## Goryokaku Park
+
 Goryokaku Park #日落 #夕阳 #落日余晖 #五稜郭公園 #城市 #山坡 #公园 #北海道 #函馆 #旅游 #旅行 #旅行日记
 
 zh:
@@ -30,7 +47,7 @@ Oyunuma Pond: The Hot Spring Wonders of Noboribetsu
 Explore the natural marvels of Hokkaido's Hell Valley.
 #OyunumaPond #HellValley #HotSpring #Noboribetsu #Hokkaido #Onsen #IronRichSpring #Adventure #Nature #Explore #Japan #JapanTravel #Travel #TravelDiary
 
----
+## Older
 
 Older #潮岬 #潮岬展望台 #本州最南端 #海滩 #海边 #关西 #和歌山 #串本 #旅行 #旅游 #旅行日记
 
@@ -46,7 +63,7 @@ Cape Shionomisaki: Southernmost Beauty of Honshu
 Discover the stunning seascapes of Wakayama.
 #CapeShionomisaki #ObservationDeck #SouthernmostHonshu #Beach #Seaside #Kansai #Wakayama #Kushimoto #Japan #JapanTravel #Travel #TravelDiary
 
----
+## Walk in Cape Kamui
 
 zh:
 
@@ -60,7 +77,7 @@ Walk in Cape Kamui: Discover Hokkaido's Coastline
 Feel the sea breeze and stunning views.
 #Walk #CapeKamui #Beach #Seaside #Hokkaido #Shakotan #Japan #JapanTravel #Travel #TravelDiary
 
----
+## Walk in Tenguyama
 
 zh:
 
