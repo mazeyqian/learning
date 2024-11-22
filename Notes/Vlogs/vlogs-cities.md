@@ -153,9 +153,21 @@ Cape Kure: Experience the Southernmost Waves of Honshu
 Discover the breathtaking coastline of Wakayama.
 #CapeKure #SouthernmostHonshu #Waves #Beach #Coastline #Kansai #Wakayama #Kushimoto #Nature #Scenery #Japan #JapanTravel #Travel #TravelDiary
 
----
+## Tawara Beach
 
 Tawara Beach #海滩 #海边 #列车 #关西 #和歌山 #串本 #古座 #太地 #旅行 #旅游 #旅行日记
+
+zh:
+
+田原海滩｜列车与大海的完美邂逅
+
+#海滩 #海边 #列车 #关西 #和歌山 #串本 #古座 #太地 #自然 #风景 #旅游 #旅行 #旅行日记
+
+en:
+
+Tawara Beach: Where Trains Meet the Sea
+Experience the harmony of trains and the beach.
+#Beach #Coastline #Train #Kansai #Wakayama #Kushimoto #Koza #Taiji #Nature #Scenery #Japan #JapanTravel #Travel #TravelDiary
 
 ---
 
