@@ -169,9 +169,21 @@ Tawara Beach: Where Trains Meet the Sea
 Experience the harmony of trains and the beach.
 #Beach #Coastline #Train #Kansai #Wakayama #Kushimoto #Koza #Taiji #Nature #Scenery #Japan #JapanTravel #Travel #TravelDiary
 
----
+## Kushimoto Sunrise
 
 Kushimoto Sunrise #日出 #海滩 #海边 #关西 #和歌山 #串本 #旅行 #旅游 #旅行日记
+
+zh:
+
+串本日出｜色彩交织的清晨画卷
+清晨海边漫步，捕捉串本日出的瞬间。
+#日出 #海滩 #海边 #关西 #和歌山 #自然风光 #摄影 #打卡圣地 #旅游景点 #旅游 #旅行 #旅行日记
+
+en:
+
+Kushimoto Sunrise: A Stunning Coastal Morning
+Experience the serene beauty of a Kushimoto sunrise.
+#Sunrise #Beach #Coastline #Kansai #Wakayama #NaturePhotography #ScenicView #HiddenGem #TravelSpot #Japan #JapanTravel #Travel #TravelDiary
 
 ---
 
