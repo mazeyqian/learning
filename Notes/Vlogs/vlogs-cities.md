@@ -197,9 +197,21 @@ Walk in Wakayama #漫步 #日落 #Park #Ojicho #Shingu #关西 #和歌山 #新�
 
 王子ヶ浜 #日落 #海滩 #海边 #Park #Ojicho #Shingu #王子町 #关西 #和歌山 #新宫 #旅游 #旅行 #旅行日记
 
----
+## The Animals of Wakayama Castle
 
-和歌山城的小动物们 #动物园 #童话园 #水禽园 #马 #鹦鹉 #城堡 #和歌山城公园 #和歌山 #旅游 #旅行 #旅行日记
+和歌山城的小动物们 #动物园 #童话园 #水禽园 #马 #鹦鹉 #城堡 #和歌山城公园 #关西 #和歌山 #旅游 #旅行 #旅行日记
+
+zh:
+
+和歌山城的小动物们｜童话般的奇妙乐园
+探索和歌山城，邂逅可爱动物。
+#动物园 #童话园 #水禽园 #马 #鹦鹉 #城堡 #和歌山城公园 #关西 #自然探索 #亲子游 #旅游 #旅行 #旅行日记
+
+en:
+
+The Animals of Wakayama Castle: A Fairytale Adventure
+Meet charming animals at Wakayama Castle.
+#Zoo #FairytalePark #WaterfowlPark #Horses #Parrots #Castle #WakayamaCastlePark #Kansai #NatureAdventure #FamilyFun #Japan #JapanTravel #Travel #TravelDiary
 
 ---
 
