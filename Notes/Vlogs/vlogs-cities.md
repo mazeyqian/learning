@@ -193,9 +193,21 @@ Experience the serene beauty of a Kushimoto sunrise.
 
 Walk in Wakayama #漫步 #日落 #Park #Ojicho #Shingu #关西 #和歌山 #新宫 #串本 #太地 #旅游 #旅行 #旅行日记
 
----
+## 王子ヶ浜
 
 王子ヶ浜 #日落 #海滩 #海边 #Park #Ojicho #Shingu #王子町 #关西 #和歌山 #新宫 #旅游 #旅行 #旅行日记
+
+zh:
+
+王子ヶ浜｜迷人日落与海岸风光
+在王子ヶ浜欣赏日落，感受平静与美好。
+#日落 #海滩 #海边 #王子町 #关西 #和歌山 #新宫 #自然风光 #摄影打卡 #浪漫旅行 #旅游 #旅行 #旅行日记
+
+en:
+
+王子ヶ浜: A Tranquil Coastal Escape
+Catch the serene sunset at the beach.
+#Sunset #Beach #Coastline #Park #Ojicho #Shingu #Wakayama #Kansai #NatureBeauty #RomanticTrip #Japan #JapanTravel #Travel #TravelDiary
 
 ## The Animals of Wakayama Castle
 
