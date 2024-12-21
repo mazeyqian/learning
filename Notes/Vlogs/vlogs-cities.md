@@ -185,9 +185,21 @@ Kushimoto Sunrise: A Stunning Coastal Morning
 Experience the serene beauty of a Kushimoto sunrise.
 #Sunrise #Beach #Coastline #Kansai #Wakayama #NaturePhotography #ScenicView #HiddenGem #TravelSpot #Japan #JapanTravel #Travel #TravelDiary
 
----
+## Kumano Hayatama Taisha
 
 熊野速玉大社 #神社 #徒步 #世界遗产 #熊野古道 #关西 #和歌山 #新宫 #旅游 #旅行 #旅行日记
+
+zh:
+
+熊野速玉大社｜千年历史的神圣之地
+探访熊野速玉大社，走进世界遗产的文化魅力。
+#神社 #徒步 #世界遗产 #熊野古道 #关西 #和歌山 #新宫 #文化旅行 #历史遗迹 #自然风光 #旅游 #旅行 #旅行日记
+
+en:
+
+Kumano Hayatama Taisha: A Sacred Heritage Journey
+Discover the spiritual charm of Kumano Hayatama Taisha.
+#Shrine #Hiking #WorldHeritage #KumanoKodo #Kansai #Wakayama #Shingu #CulturalTravel #HistoricalSite #NatureBeauty #Japan #JapanTravel #Travel #TravelDiary
 
 ---
 
