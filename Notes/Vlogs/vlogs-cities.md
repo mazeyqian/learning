@@ -201,9 +201,21 @@ Kumano Hayatama Taisha: A Sacred Heritage Journey
 Discover the spiritual charm of Kumano Hayatama Taisha.
 #Shrine #Hiking #WorldHeritage #KumanoKodo #Kansai #Wakayama #Shingu #CulturalTravel #HistoricalSite #NatureBeauty #Japan #JapanTravel #Travel #TravelDiary
 
----
+## Walk in Wakayama
 
 Walk in Wakayama #漫步 #日落 #Park #Ojicho #Shingu #关西 #和歌山 #新宫 #串本 #太地 #旅游 #旅行 #旅行日记
+
+zh:
+
+漫步和歌山｜发现日落与自然之美
+在和歌山的海边与公园，享受治愈时光。
+#漫步 #日落 #公园 #关西 #和歌山 #新宫 #串本 #太地 #自然风光 #治愈旅行 #旅游 #旅行 #旅行日记
+
+en:
+
+Walk in Wakayama: Sunset and Nature's Serenity
+Enjoy peaceful walks through Wakayama’s scenic spots.
+#Walk #Sunset #Park #Ojicho #Shingu #Kansai #Wakayama #Kushimoto #Taiji #NatureEscape #Japan #JapanTravel #Travel #TravelDiary
 
 ## 王子ヶ浜
 
