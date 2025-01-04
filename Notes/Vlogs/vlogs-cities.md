@@ -1,5 +1,21 @@
 # 旅行日记
 
+## On the Train
+
+On the Train #列车 #日落 #海边 #海滩 #Park #Ojicho #Shingu #关西 #和歌山 #新宫 #串本 #太地 #旅游 #旅行 #旅行日记
+
+zh:
+
+列车上的风景｜在旅途中邂逅日落与海岸
+透过车窗，看和歌山的日落与沿海美景。
+#列车 #日落 #海边 #海滩 #公园 #关西 #和歌山 #新宫 #串本 #太地 #沿途风光 #治愈旅行 #旅游 #旅行 #旅行日记
+
+en:
+
+On the Train: Scenic Views of Sunset and Coastline
+Witness breathtaking sunsets and coastal views from the train.
+#Train #Sunset #Beach #Coastline #Park #Ojicho #Shingu #Kushimoto #Taiji #Kansai #Japan #JapanTravel #Travel #TravelDiary
+
 ## Classic Streetcars
 
 路面电车 #有轨电车 #市电 #路面电车 #电车 #公车 #巴士 #城市 #北海道 #函馆 #旅游 #旅行 #旅行日记
@@ -31,7 +47,7 @@ Goryokaku Park: Sunset Splendor in Hakodate
 Immerse in the twilight beauty of Hokkaido's cityscape.
 #GoryokakuPark #Sunset #EveningGlow #Cityscape #Slope #Park #Hokkaido #Hakodate #Scenery #Photography #Japan #JapanTravel #Travel #TravelDiary
 
----
+## Oyunuma Pond
 
 Oyunuma Pond #地狱谷 #温泉 #大汤沼 #Hokkaido #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #旅游 #旅行 #旅行日记
 
@@ -91,7 +107,7 @@ Walk in Tenguyama: A Romantic Otaru Journey
 Cable car ride to stunning sunset views.
 #Walk #Summit #LoveLetter #CableCar #Hokkaido #Sunset #Sky #Otaru #Tenguyama #Travel #TravelDiary
 
----
+## Crab Hot Pot
 
 zh:
 
