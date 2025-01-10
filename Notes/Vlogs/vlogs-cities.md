@@ -1,5 +1,24 @@
 # 旅行日记
 
+## Sapporo Autumn Fest
+
+Sapporo Autumn Fest #札幌秋季美食节 #演出 #美食 #大通站 #大通公园 #拉面 #Hokkaido #Sapporo #咖喱 #北海道 #札幌 #旅游 #旅行 #旅行日记
+
+zh:
+
+札幌秋季美食节｜北海道的美味与文化
+在大通公园享受秋日美食与精彩活动。
+#札幌秋季美食节 #演出 #美食 #大通站 #大通公园 #拉面 #咖喱 #北海道 #札幌 #秋季旅行 #旅游 #旅行 #旅行日记
+#札幌秋季美食节#演出#美食#大通站#大通公园#拉面#咖喱#北海道#札幌#秋季旅行
+#札幌秋季美食节# #演出# #美食# #大通站# #大通公园# #拉面# #咖喱# #北海道# #札幌# #秋季旅行# #旅游# #旅行# #旅行日记#
+
+en:
+
+Sapporo Autumn Fest: Taste the Best of Hokkaido
+Enjoy the flavors of Hokkaido at Sapporo's autumn celebration.
+#SapporoAutumnFest #FoodFestival #LiveShow #OdoriStation #OdoriPark #Ramen #Curry #Hokkaido #Sapporo #AutumnTravel #Japan #JapanTravel #Travel #TravelDiary
+#SapporoAutumnFest#FoodFestival#LiveShow#OdoriStation#OdoriPark#Ramen#Curry#Hokkaido#Sapporo#AutumnTravel
+
 ## On the Train
 
 On the Train #列车 #日落 #海边 #海滩 #Park #Ojicho #Shingu #关西 #和歌山 #新宫 #串本 #太地 #旅游 #旅行 #旅行日记
