@@ -1,5 +1,23 @@
 # 旅行日记
 
+## Otaru BBQ
+
+小樽烧肉 #日式烤肉 #和牛 #美食 #小樽美食 #牛舌 #米饭 #Hokkaido #香菇 #猪脆骨 #北海道 #小樽 #旅游 #旅行 #旅行日记
+
+zh:
+
+小樽烧肉｜日式烤肉的极致享受
+品尝和牛与地道小樽美食，感受舌尖上的北海道。
+#日式烤肉 #和牛 #美食 #小樽美食 #牛舌 #米饭 #香菇 #猪脆骨 #北海道 #小樽 #旅游 #旅行 #旅行日记
+#日式烤肉#和牛#美食#小樽美食#牛舌#米饭#香菇#猪脆骨#北海道#小樽
+#日式烤肉# #和牛# #美食# #小樽美食# #牛舌# #米饭# #香菇# #猪脆骨# #北海道# #小樽# #旅游# #旅行# #旅行日记#
+
+en:
+
+Otaru BBQ: Savor the Best of Japanese Grilled Meat
+Experience tender Wagyu and local delights in Otaru.
+#JapaneseBBQ #Wagyu #Foodie #OtaruCuisine #BeefTongue #Rice #Mushrooms #PorkCartilage #Hokkaido #Otaru #Japan #JapanTravel #Travel #TravelDiary
+
 ## Sapporo Autumn Fest
 
 Sapporo Autumn Fest #札幌秋季美食节 #演出 #美食 #大通站 #大通公园 #拉面 #Hokkaido #Sapporo #咖喱 #北海道 #札幌 #旅游 #旅行 #旅行日记
