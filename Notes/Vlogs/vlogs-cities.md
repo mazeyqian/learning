@@ -1,5 +1,24 @@
 # 旅行日记
 
+## Shiroi Koibito Park
+
+Shiroi Koibito Park #白色恋人 #公园 #工厂 #Hokkaido #Sapporo #北海道 #札幌 #旅游 #旅行 #旅行日记
+
+zh:
+
+白色恋人公园｜甜蜜北海道之旅
+梦幻巧克力乐园，感受童话般的浪漫氛围。
+#白色恋人 #公园 #工厂 #北海道 #札幌 #甜点 #巧克力 #观光 #浪漫 #美食 #旅游 #旅行 #旅行日记
+#白色恋人#公园#工厂#北海道#札幌#甜点#巧克力#观光#浪漫#美食
+#白色恋人# #公园# #工厂# #北海道# #札幌# #甜点# #巧克力# #观光# #浪漫# #美食# #旅游# #旅行# #旅行日记#
+
+en:
+
+Shiroi Koibito Park: A Sweet Escape in Hokkaido
+Explore a magical chocolate wonderland in Sapporo.
+#ShiroiKoibito #Park #Factory #Hokkaido #Sapporo #Desserts #Chocolate #Sightseeing #Romantic #Foodie #Japan #JapanTravel #Travel #TravelDiary
+#ShiroiKoibito#Park#Factory#Hokkaido#Sapporo#Desserts#Chocolate#Sightseeing#Romantic#Foodie
+
 ## Otaru BBQ
 
 小樽烧肉 #日式烤肉 #和牛 #美食 #小樽美食 #牛舌 #米饭 #Hokkaido #香菇 #猪脆骨 #北海道 #小樽 #旅游 #旅行 #旅行日记
