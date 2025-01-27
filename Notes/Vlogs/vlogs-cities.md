@@ -1,5 +1,24 @@
 # 旅行日记
 
+## Otaru Canal
+
+Otaru Canal #小樽运河 #情书 #公园 #Hokkaido #Park #夜 #北海道 #小樽 #旅游 #旅行 #旅行日记
+
+zh:
+
+小樽运河｜浪漫夜色中的北海道
+漫步小樽运河，感受电影般的唯美场景。
+#小樽运河 #情书 #公园 #夜景 #北海道 #小樽 #浪漫 #观光 #摄影 #美食 #旅游 #旅行 #旅行日记
+#小樽运河#情书#公园#夜景#北海道#小樽#浪漫#观光#摄影#美食
+#小樽运河# #情书# #公园# #夜景# #北海道# #小樽# #浪漫# #观光# #摄影# #美食# #旅游# #旅行# #旅行日记#
+
+en:
+
+Otaru Canal: A Romantic Night in Hokkaido
+Stroll along Otaru Canal and relive cinematic beauty.
+#OtaruCanal #LoveLetter #Park #NightView #Hokkaido #Otaru #Romantic #Sightseeing #Photography #Foodie #Japan #JapanTravel #Travel #TravelDiary
+#OtaruCanal#LoveLetter#Park#NightView#Hokkaido#Otaru#Romantic#Sightseeing#Photography#Foodie
+
 ## Shiroi Koibito Park
 
 Shiroi Koibito Park #白色恋人 #公园 #工厂 #Hokkaido #Sapporo #北海道 #札幌 #旅游 #旅行 #旅行日记
@@ -459,7 +478,7 @@ category: 旅行日记
 
 title: 共青国家森林公园｜小火车出发了，野餐大冒险
 
-description: #身边的风景无处不在 #城市公园 #植树节 #二月蓝 #野餐  #共青国家森林公园 #聆听大自然 #郊游 #野餐大冒险 #生活碎片 #吹吹风散散心 #上海 #旅游 #旅行 #旅行日记
+description: #身边的风景无处不在 #城市公园 #植树节 #二月蓝 #野餐 #共青国家森林公园 #聆听大自然 #郊游 #野餐大冒险 #生活碎片 #吹吹风散散心 #上海 #旅游 #旅行 #旅行日记
 
 color: 1e2b11
 
