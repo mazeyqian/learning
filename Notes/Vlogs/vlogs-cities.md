@@ -1,5 +1,24 @@
 # 旅行日记
 
+## Tenguyama Night View
+
+天狗山夜景 #山顶 #情书 #缆车 #Hokkaido #夜景 #天空 #北海道 #小樽 #天狗山 #旅游 #旅行 #旅行日记
+
+zh:
+
+天狗山夜景｜俯瞰小樽的璀璨星空
+乘缆车登顶，感受北海道的浪漫夜色。
+#天狗山 #山顶 #情书 #缆车 #夜景 #天空 #北海道 #小樽 #摄影 #浪漫 #旅游 #旅行 #旅行日记
+#天狗山#山顶#情书#缆车#夜景#天空#北海道#小樽#摄影#浪漫
+#天狗山# #山顶# #情书# #缆车# #夜景# #天空# #北海道# #小樽# #摄影# #浪漫# #旅游# #旅行# #旅行日记#
+
+en:
+
+Tenguyama Night View: A Starry Otaru Escape
+Ride the ropeway and enjoy a magical Hokkaido night.
+#Tenguyama #Summit #LoveLetter #Ropeway #NightView #Sky #Hokkaido #Otaru #Photography #Romantic #Japan #JapanTravel #Travel #TravelDiary
+#Tenguyama#Summit#LoveLetter#Ropeway#NightView#Sky#Hokkaido#Otaru#Photography#Romantic
+
 ## Otaru Canal
 
 Otaru Canal #小樽运河 #情书 #公园 #Hokkaido #Park #夜 #北海道 #小樽 #旅游 #旅行 #旅行日记
