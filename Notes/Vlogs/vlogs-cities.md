@@ -1,5 +1,24 @@
 # 旅行日记
 
+## Hot Air Balloon
+
+热气球 #山顶 #探险 #缆车 #Hokkaido #夜景 #天空 #北海道 #小樽 #天狗山 #旅游 #旅行 #旅行日记
+
+zh:
+
+热气球｜天狗山夜景与天空之旅
+俯瞰小樽的璀璨夜色。
+#热气球 #山顶 #探险 #缆车 #夜景 #天空 #北海道 #小樽 #天狗山 #摄影 #旅游 #旅行 #旅行日记
+#热气球#山顶#探险#缆车#夜景#天空#北海道#小樽#天狗山#摄影
+#热气球# #山顶# #探险# #缆车# #夜景# #天空# #北海道# #小樽# #天狗山# #摄影# #旅游# #旅行# #旅行日记#
+
+en:
+
+Hot Air Balloon: A Night Adventure Over Tenguyama
+Soar above Otaru for breathtaking night views of Hokkaido.
+#HotAirBalloon #MountainTop #Adventure #CableCar #NightView #Sky #Hokkaido #Otaru #Tenguyama #Photography #Japan #JapanTravel #Travel #TravelDiary
+#HotAirBalloon#MountainTop#Adventure#CableCar#NightView#Sky#Hokkaido#Otaru#Tenguyama#Photography
+
 ## Tenguyama Night View
 
 天狗山夜景 #山顶 #情书 #缆车 #Hokkaido #夜景 #天空 #北海道 #小樽 #天狗山 #旅游 #旅行 #旅行日记
