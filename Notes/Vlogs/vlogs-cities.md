@@ -166,15 +166,18 @@ Oyunuma Pond #地狱谷 #温泉 #大汤沼 #Hokkaido #奥之汤 #铁泉池 #登�
 
 zh:
 
-大汤沼｜感受登别的温泉奇观
-探索北海道地狱谷的自然奇迹。
-#地狱谷 #温泉 #大汤沼 #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #自然 #探险 #旅游 #旅行 #旅行日记
+大汤沼｜登别地狱谷的温泉奇景
+探索北海道火山温泉的独特魅力。
+#大汤沼 #地狱谷 #温泉 #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #自然 #摄影 #旅游 #旅行 #旅行日记
+#大汤沼#地狱谷#温泉#奥之汤#铁泉池#登别地狱谷#北海道#登别#自然#摄影
+#大汤沼# #地狱谷# #温泉# #奥之汤# #铁泉池# #登别地狱谷# #北海道# #登别# #自然# #摄影# #旅游# #旅行# #旅行日记#
 
 en:
 
 Oyunuma Pond: The Hot Spring Wonders of Noboribetsu
-Explore the natural marvels of Hokkaido's Hell Valley.
-#OyunumaPond #HellValley #HotSpring #Noboribetsu #Hokkaido #Onsen #IronRichSpring #Adventure #Nature #Explore #Japan #JapanTravel #Travel #TravelDiary
+Discover the raw beauty of Hokkaido's geothermal wonders.
+#Oyunuma #HellValley #HotSpring #Okunoyu #IronSpring #NoboribetsuHellValley #Hokkaido #Noboribetsu #Nature #Photography #Japan #JapanTravel #Travel #TravelDiary
+#Oyunuma#HellValley#HotSpring#Okunoyu#IronSpring#NoboribetsuHellValley#Hokkaido#Noboribetsu#Nature#Photography
 
 ## Older
 
