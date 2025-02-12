@@ -1,5 +1,24 @@
 # 旅行日记
 
+## Bear Park
+
+Bear Park #熊牧场 #公园 #缆车 #Hokkaido #可爱 #展望台 #俱多乐湖 #北海道 #登别 #旅游 #旅行 #旅行日记
+
+zh:
+
+熊牧场｜趣味投食体验与萌熊互动
+喂食可爱熊，趣味满满的北海道之旅。
+#熊牧场 #公园 #缆车 #可爱 #投食 #互动 #北海道 #登别 #自然 #摄影 #旅游 #旅行 #旅行日记
+#熊牧场#公园#缆车#可爱#投食#互动#北海道#登别#自然#摄影
+#熊牧场# #公园# #缆车# #可爱# #投食# #互动# #北海道# #登别# #自然# #摄影# #旅游# #旅行# #旅行日记#
+
+en:
+
+Bear Park: Feeding Fun with Adorable Bears
+Experience the joy of feeding playful bears in Hokkaido.
+#BearPark #Park #CableCar #Cute #Feeding #Interaction #Hokkaido #Noboribetsu #Nature #Photography #Japan #JapanTravel #Travel #TravelDiary
+#BearPark#Park#CableCar#Cute#Feeding#Interaction#Hokkaido#Noboribetsu#Nature#Photography
+
 ## Hot Air Balloon
 
 热气球 #山顶 #探险 #缆车 #Hokkaido #夜景 #天空 #北海道 #小樽 #天狗山 #旅游 #旅行 #旅行日记
