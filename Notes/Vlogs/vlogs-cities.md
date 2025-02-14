@@ -1,5 +1,24 @@
 # 旅行日记
 
+## Hakodate Night View
+
+Hokadate #城市 #海边 #海滩 #Hokkaido #夜晚 #夜景 #桥 #北海道 #函馆 #旅游 #旅行 #旅行日记
+
+zh:
+
+函馆夜景｜俯瞰车水马龙的璀璨城市
+从高处感受函馆的浪漫夜色。
+#函馆 #城市 #海边 #夜晚 #夜景 #桥 #车水马龙 #北海道 #风光 #摄影 #旅游 #旅行 #旅行日记
+#函馆#城市#海边#夜晚#夜景#桥#车水马龙#北海道#风光#摄影
+#函馆# #城市# #海边# #夜晚# #夜景# #桥# #车水马龙# #北海道# #风光# #摄影# #旅游# #旅行# #旅行日记#
+
+en:
+
+Hakodate Night View: A City of Lights and Motion
+Witness the stunning cityscape and bustling streets from above.
+#Hakodate #City #Seaside #Night #NightView #Bridge #Traffic #Hokkaido #Landscape #Photography #Japan #JapanTravel #Travel #TravelDiary
+#Hakodate#City#Seaside#Night#NightView#Bridge#Traffic#Hokkaido#Landscape#Photography
+
 ## Bear Park
 
 Bear Park #熊牧场 #公园 #缆车 #Hokkaido #可爱 #展望台 #俱多乐湖 #北海道 #登别 #旅游 #旅行 #旅行日记
