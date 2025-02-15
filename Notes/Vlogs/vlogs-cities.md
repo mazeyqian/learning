@@ -1,5 +1,52 @@
 # 旅行日记
 
+- [旅行日记](#旅行日记)
+  - [Hakodate Mountain Night View](#hakodate-mountain-night-view)
+  - [Hakodate Night View](#hakodate-night-view)
+  - [Bear Park](#bear-park)
+  - [Hot Air Balloon](#hot-air-balloon)
+  - [Tenguyama Night View](#tenguyama-night-view)
+  - [Otaru Canal](#otaru-canal)
+  - [Shiroi Koibito Park](#shiroi-koibito-park)
+  - [Otaru BBQ](#otaru-bbq)
+  - [Sapporo Autumn Fest](#sapporo-autumn-fest)
+  - [On the Train](#on-the-train)
+  - [Classic Streetcars](#classic-streetcars)
+  - [Goryokaku Park](#goryokaku-park)
+  - [Oyunuma Pond](#oyunuma-pond)
+  - [Older](#older)
+  - [Walk in Cape Kamui](#walk-in-cape-kamui)
+  - [Walk in Tenguyama](#walk-in-tenguyama)
+  - [Crab Hot Pot](#crab-hot-pot)
+  - [Hineno Station](#hineno-station)
+  - [Hashigui Beach](#hashigui-beach)
+  - [Cape Kure](#cape-kure)
+  - [Tawara Beach](#tawara-beach)
+  - [Kushimoto Sunrise](#kushimoto-sunrise)
+  - [Kumano Hayatama Taisha](#kumano-hayatama-taisha)
+  - [Walk in Wakayama](#walk-in-wakayama)
+  - [王子ヶ浜](#王子ヶ浜)
+  - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
+
+## Hakodate Mountain Night View
+
+Hakodate Night View, Top 3 Best Night Views In The World #函馆山 #世界三大夜景 #函馆山夜景 #海边 #海滩 #Hokkaido #夜晚 #夜景 #桥 #北海道 #函馆 #旅游 #旅行 #旅行日记
+
+zh:
+
+函馆山夜景｜世界三大夜景之一，百万美元的璀璨美景
+俯瞰函馆璀璨夜色，感受浪漫与震撼。
+#函馆山 #世界三大夜景 #函馆山夜景 #海边 #夜晚 #夜景 #桥 #北海道 #城市风光 #摄影 #旅游 #旅行 #旅行日记
+#函馆山#世界三大夜景#函馆山夜景#海边#夜晚#夜景#桥#北海道#城市风光#摄影
+#函馆山# #世界三大夜景# #函馆山夜景# #海边# #夜晚# #夜景# #桥# #北海道# #城市风光# #摄影# #旅游# #旅行# #旅行日记#
+
+en:
+
+Hakodate Night View: One of the World's Top 3 Nightscapes
+Marvel at the breathtaking city lights from Mount Hakodate.
+#HakodateMountain #Top3NightViews #HakodateNightView #Seaside #Night #NightView #Bridge #Hokkaido #Cityscape #Photography #Japan #JapanTravel #Travel #TravelDiary
+#HakodateMountain#Top3NightViews#HakodateNightView#Seaside#Night#NightView#Bridge#Hokkaido#Cityscape#Photography
+
 ## Hakodate Night View
 
 Hokadate #城市 #海边 #海滩 #Hokkaido #夜晚 #夜景 #桥 #北海道 #函馆 #旅游 #旅行 #旅行日记
