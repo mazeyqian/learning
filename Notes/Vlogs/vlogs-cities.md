@@ -1,6 +1,7 @@
 # 旅行日记
 
 - [旅行日记](#旅行日记)
+  - [Kanemori Red Brick Warehouse](#kanemori-red-brick-warehouse)
   - [Hakodate Mountain Night View](#hakodate-mountain-night-view)
   - [Hakodate Night View](#hakodate-night-view)
   - [Bear Park](#bear-park)
@@ -27,6 +28,26 @@
   - [Walk in Wakayama](#walk-in-wakayama)
   - [王子ヶ浜](#王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
+
+
+## Kanemori Red Brick Warehouse
+
+Kanemori Red Brick Warehouse #金森红砖仓库 #柯南 #海鸥 #薯条 #整点薯条 #海滩 #Hokkaido #海边 #人生的意义 #海景 #北海道 #函馆 #旅游 #旅行 #旅行日记
+
+zh:
+
+金森红砖仓库｜函馆复古海景必打卡地
+复古仓库与海景，感受函馆浪漫时光。
+#金森红砖仓库 #柯南 #海鸥 #薯条 #整点薯条 #海滩 #海边 #人生的意义 #海景 #北海道 #函馆 #旅行 #旅行日记
+#金森红砖仓库#柯南#海鸥#薯条#整点薯条#海滩#海边#人生的意义#海景#北海道
+#金森红砖仓库# #柯南# #海鸥# #薯条# #整点薯条# #海滩# #海边# #人生的意义# #海景# #北海道#
+
+en:
+
+Kanemori Red Brick Warehouse: A Retro Oceanfront Spot in Hokkaido
+Discover seaside charm and vintage vibes in Hakodate.
+#KanemoriRedBrickWarehouse #Conan #Seagull #Fries #BeachVibes #OceanView #Seaside #Hokkaido #Hakodate #RetroSpot #Japan #JapanTravel #Travel #TravelDiary
+#KanemoriRedBrickWarehouse#Conan#Seagull#Fries#BeachVibes#OceanView#Seaside#Hokkaido#Hakodate#RetroSpot
 
 ## Hakodate Mountain Night View
 
