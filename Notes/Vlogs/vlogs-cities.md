@@ -29,7 +29,6 @@
   - [王子ヶ浜](#王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
 
-
 ## Kanemori Red Brick Warehouse
 
 Kanemori Red Brick Warehouse #金森红砖仓库 #柯南 #海鸥 #薯条 #整点薯条 #海滩 #Hokkaido #海边 #人生的意义 #海景 #北海道 #函馆 #旅游 #旅行 #旅行日记
