@@ -1,6 +1,7 @@
 # 旅行日记
 
 - [旅行日记](#旅行日记)
+  - [Crab Hot Pot](#crab-hot-pot)
   - [Kanemori Red Brick Warehouse](#kanemori-red-brick-warehouse)
   - [Hakodate Mountain Night View](#hakodate-mountain-night-view)
   - [Hakodate Night View](#hakodate-night-view)
@@ -18,7 +19,6 @@
   - [Older](#older)
   - [Walk in Cape Kamui](#walk-in-cape-kamui)
   - [Walk in Tenguyama](#walk-in-tenguyama)
-  - [Crab Hot Pot](#crab-hot-pot)
   - [Hineno Station](#hineno-station)
   - [Hashigui Beach](#hashigui-beach)
   - [Cape Kure](#cape-kure)
@@ -28,6 +28,25 @@
   - [Walk in Wakayama](#walk-in-wakayama)
   - [王子ヶ浜](#王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
+
+## Crab Hot Pot
+
+蟹肉锅｜北海道美食体验 #松叶蟹 #美食 #日料 #中央区 #蟹黄 #北海道 #札幌 #旅游 #旅行 #旅行日记
+
+zh:
+
+蟹肉锅｜冬日暖心美味
+品尝浓郁蟹香，感受暖意融融的美食体验。
+#松叶蟹 #美食 #日料 #中央区 #蟹黄 #北海道 #札幌 #冬日美食 #日式料理 #暖心锅物 #旅游 #旅行 #旅行日记
+#松叶蟹#美食#日料#中央区#蟹黄#北海道#札幌#冬日美食#日式料理#暖心锅物
+#松叶蟹# #美食# #日料# #中央区# #蟹黄# #北海道# #札幌# #冬日美食# #日式料理# #暖心锅物#
+
+en:
+
+Crab Hot Pot: A Must-Try Culinary Delight in Sapporo
+Indulge in rich flavors and warm, cozy vibes this winter.
+#CrabHotPot #MatsubaCrab #JapaneseCuisine #Sapporo #HokkaidoEats #WinterFood #SeafoodLover #CentralWard #HotPotSeason #AuthenticTaste #Japan #JapanTravel #Travel #TravelDiary
+#CrabHotPot#MatsubaCrab#JapaneseCuisine#Sapporo#HokkaidoEats#WinterFood#SeafoodLover#CentralWard#HotPotSeason#AuthenticTaste
 
 ## Kanemori Red Brick Warehouse
 
@@ -327,20 +346,6 @@ en:
 Walk in Tenguyama: A Romantic Otaru Journey
 Cable car ride to stunning sunset views.
 #Walk #Summit #LoveLetter #CableCar #Hokkaido #Sunset #Sky #Otaru #Tenguyama #Travel #TravelDiary
-
-## Crab Hot Pot
-
-zh:
-
-蟹肉锅｜北海道美食体验
-札幌的美食之旅，品味蟹肉。
-#松叶蟹 #美食 #日料 #中央区 #蟹黄 #北海道 #札幌 #旅游 #旅行 #旅行日记
-
-en:
-
-Crab Hot Pot: A Taste of Hokkaido
-Discover the flavors of Sapporo.
-#CrabMeat #Gourmet #JapaneseCuisine #ChuoWard #CrabRoe #Hokkaido #Sapporo #Yakitori #Travel #TravelDiary
 
 ## Hineno Station
 
