@@ -335,17 +335,22 @@ Feel the sea breeze and stunning views.
 
 ## Walk in Tenguyama
 
+漫步天狗山｜浪漫小樽之旅 #漫步 #山顶 #情书 #缆车 #日落 #天空 #北海道 #小樽 #天狗山 #旅游 #旅行 #旅行日记
+
 zh:
 
-漫步天狗山｜浪漫小樽之旅
-乘缆车观日落，俯瞰绝美小樽。
-#漫步 #山顶 #情书 #缆车 #日落 #天空 #北海道 #小樽 #天狗山 #旅游 #旅行 #旅行日记
+漫步天狗山｜浪漫小樽的绝美日落圣地
+俯瞰小樽的浪漫天际线。
+#漫步 #山顶 #情书 #缆车 #日落 #天空 #北海道 #小樽 #天狗山 #浪漫之旅 #旅游 #旅行 #旅行日记
+#漫步#山顶#情书#缆车#日落#天空#北海道#小樽#天狗山#浪漫之旅
+#漫步# #山顶# #情书# #缆车# #日落# #天空# #北海道# #小樽# #天狗山# #浪漫之旅#
 
 en:
 
-Walk in Tenguyama: A Romantic Otaru Journey
-Cable car ride to stunning sunset views.
-#Walk #Summit #LoveLetter #CableCar #Hokkaido #Sunset #Sky #Otaru #Tenguyama #Travel #TravelDiary
+Walk in Tenguyama: A Romantic Otaru Adventure
+Ride the cable car and witness a stunning sunset view.
+#Tenguyama #Otaru #CableCar #SunsetView #RomanticGetaway #Hokkaido #Skyline #TopView #JapanNature #ScenicSpot #Japan #JapanTravel #Travel #TravelDiary
+#Tenguyama#Otaru#CableCar#SunsetView#RomanticGetaway#Hokkaido#Skyline#TopView#JapanNature#ScenicSpot
 
 ## Hineno Station
 
