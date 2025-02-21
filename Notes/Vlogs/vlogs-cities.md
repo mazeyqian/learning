@@ -323,15 +323,20 @@ Discover the stunning seascapes of Wakayama.
 
 zh:
 
-漫步神威岬｜探索北海道海岸
-感受海风，欣赏绝美海景。
-#漫步 #神威岬 #海滩 #海边 #北海道 #Shakotan #旅游 #旅行 #旅行日记
+漫步神威岬｜走进绝美岬角
+感受海天一色的壮丽景观。
+#漫步 #神威岬 #海滩 #海边 #北海道 #自然风光 #绝美景色 #Shakotan #打卡地 #浪漫之旅 #旅游 #旅行 #旅行日记
+#漫步#神威岬#海滩#海边#北海道#自然风光#绝美景色#Shakotan#打卡地#浪漫之旅
+#漫步# #神威岬# #海滩# #海边# #北海道# #自然风光# #绝美景色# #Shakotan# #打卡地# #浪漫之旅#
 
 en:
 
-Walk in Cape Kamui: Discover Hokkaido's Coastline
-Feel the sea breeze and stunning views.
-#Walk #CapeKamui #Beach #Seaside #Hokkaido #Shakotan #Japan #JapanTravel #Travel #TravelDiary
+Walk in Cape Kamui: Explore Hokkaido's Coastline
+Discover breathtaking views where the sea meets the sky.
+#CapeKamui #Shakotan #Hokkaido #Coastline #OceanView #NatureLovers #ScenicSpot #HiddenGem #RomanticEscape #TravelGoals #Japan #JapanTravel #Travel #TravelDiary
+#CapeKamui#Shakotan#Hokkaido#Coastline#OceanView#NatureLovers#ScenicSpot#HiddenGem#RomanticEscape#TravelGoals
+
+#CapeKamui#Shakotan#Coastline#OceanView#NatureLovers#ScenicSpot#HiddenGem#RomanticEscape#TravelGoals
 
 ## Walk in Tenguyama
 
