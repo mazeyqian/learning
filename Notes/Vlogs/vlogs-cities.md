@@ -16,7 +16,7 @@
   - [Classic Streetcars](#classic-streetcars)
   - [Goryokaku Park](#goryokaku-park)
   - [Oyunuma Pond](#oyunuma-pond)
-  - [Older](#older)
+  - [Cape Shionomisaki](#cape-shionomisaki)
   - [Walk in Cape Kamui](#walk-in-cape-kamui)
   - [Walk in Tenguyama](#walk-in-tenguyama)
   - [Hineno Station](#hineno-station)
@@ -303,21 +303,24 @@ Discover the raw beauty of Hokkaido's geothermal wonders.
 #Oyunuma #HellValley #HotSpring #Okunoyu #IronSpring #NoboribetsuHellValley #Hokkaido #Noboribetsu #Nature #Photography #Japan #JapanTravel #Travel #TravelDiary
 #Oyunuma#HellValley#HotSpring#Okunoyu#IronSpring#NoboribetsuHellValley#Hokkaido#Noboribetsu#Nature#Photography
 
-## Older
+## Cape Shionomisaki
 
 Older #潮岬 #潮岬展望台 #本州最南端 #海滩 #海边 #关西 #和歌山 #串本 #旅行 #旅游 #旅行日记
 
 zh:
 
-潮岬｜本州最南端的绝美风光
-探索和歌山的壮丽海景。
-#潮岬 #潮岬展望台 #本州最南端 #海滩 #海边 #关西 #和歌山 #串本 #旅游 #旅行 #旅行日记
+潮岬｜本州最南端
+俯瞰大海，感受关西海岸的独特魅力。
+#潮岬 #潮岬展望台 #本州最南端 #海滩 #海边 #关西 #和歌山 #串本 #自然风光 #绝美景色 #旅游 #旅行 #旅行日记
+#潮岬#潮岬展望台#本州最南端#海滩#海边#关西#和歌山#串本#自然风光#绝美景色
+#潮岬# #潮岬展望台# #本州最南端# #海滩# #海边# #关西# #和歌山# #串本# #自然风光# #绝美景色#
 
 en:
 
 Cape Shionomisaki: Southernmost Beauty of Honshu
-Discover the stunning seascapes of Wakayama.
-#CapeShionomisaki #ObservationDeck #SouthernmostHonshu #Beach #Seaside #Kansai #Wakayama #Kushimoto #Japan #JapanTravel #Travel #TravelDiary
+Enjoy panoramic ocean views and coastal serenity.
+#Shionomisaki #ObservationDeck #SouthernmostHonshu #BeachDay #Seaside #Kansai #Wakayama #Kushimoto #NatureEscape #ScenicViews #Japan #JapanTravel #Travel #TravelDiary
+#Shionomisaki#ObservationDeck#SouthernmostHonshu#BeachDay#Seaside#Kansai#Wakayama#Kushimoto#NatureEscape#ScenicViews
 
 ## Walk in Cape Kamui
 
