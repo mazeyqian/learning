@@ -16,8 +16,9 @@
   - [Classic Streetcars](#classic-streetcars)
   - [Goryokaku Park](#goryokaku-park)
   - [Oyunuma Pond](#oyunuma-pond)
+  - [Oyunuma Pond (Okunoyu)](#oyunuma-pond-okunoyu)
   - [Cape Shionomisaki](#cape-shionomisaki)
-  - [Walk in Cape Kamui](#walk-in-cape-kamui)
+  - [20250221 Walk in Cape Kamui](#20250221-walk-in-cape-kamui)
   - [Walk in Tenguyama](#walk-in-tenguyama)
   - [Hineno Station](#hineno-station)
   - [Hashigui Beach](#hashigui-beach)
@@ -286,6 +287,25 @@ Immerse in the twilight beauty of Hokkaido's cityscape.
 
 ## Oyunuma Pond
 
+大汤沼探秘｜感受登别的温泉奇观 #地狱谷 #温泉 #大汤沼 #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #自然 #探险 #旅游 #旅行 #旅行日记
+
+zh:
+
+大汤沼｜登别的温泉奇观
+漫步热气蒸腾的大汤沼，尽享自然奇景。
+#地狱谷 #温泉 #大汤沼 #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #自然风光 #探险 #旅游 #旅行 #旅行日记
+#地狱谷#温泉#大汤沼#奥之汤#铁泉池#登别地狱谷#北海道#登别#自然风光#探险
+#地狱谷# #温泉# #大汤沼# #奥之汤# #铁泉池# #登别地狱谷# #北海道# #登别# #自然风光# #探险#
+
+en:
+
+Oyunuma Pond: Noboribetsu's Hot Spring Wonders
+Discover geothermal marvels in Hokkaido's iconic landscapes.
+#大湯沼 #HellValley #HotSprings #Oyunuma #Okunoyu #IronSpringPond #Noboribetsu #Hokkaido #NatureAdventure #ScenicViews #Japan #JapanTravel #Travel #TravelDiary
+#HellValley#HotSprings#Oyunuma#Okunoyu#IronSpringPond#Noboribetsu#Hokkaido#NatureAdventure#ScenicViews
+
+## Oyunuma Pond (Okunoyu)
+
 Oyunuma Pond #地狱谷 #温泉 #大汤沼 #Hokkaido #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #旅游 #旅行 #旅行日记
 
 zh:
@@ -322,7 +342,7 @@ Enjoy panoramic ocean views and coastal serenity.
 #Shionomisaki #ObservationDeck #SouthernmostHonshu #BeachDay #Seaside #Kansai #Wakayama #Kushimoto #NatureEscape #ScenicViews #Japan #JapanTravel #Travel #TravelDiary
 #Shionomisaki#ObservationDeck#SouthernmostHonshu#BeachDay#Seaside#Kansai#Wakayama#Kushimoto#NatureEscape#ScenicViews
 
-## Walk in Cape Kamui
+## 20250221 Walk in Cape Kamui
 
 zh:
 
