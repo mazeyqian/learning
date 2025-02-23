@@ -17,7 +17,7 @@
   - [Goryokaku Park](#goryokaku-park)
   - [Oyunuma Pond](#oyunuma-pond)
   - [Oyunuma Pond (Okunoyu)](#oyunuma-pond-okunoyu)
-  - [Cape Shionomisaki](#cape-shionomisaki)
+  - [20250222 Cape Shionomisaki (潮岬観光タワー)](#20250222-cape-shionomisaki-潮岬観光タワー)
   - [20250221 Walk in Cape Kamui](#20250221-walk-in-cape-kamui)
   - [Walk in Tenguyama](#walk-in-tenguyama)
   - [Hineno Station](#hineno-station)
@@ -323,7 +323,7 @@ Discover the raw beauty of Hokkaido's geothermal wonders.
 #Oyunuma #HellValley #HotSpring #Okunoyu #IronSpring #NoboribetsuHellValley #Hokkaido #Noboribetsu #Nature #Photography #Japan #JapanTravel #Travel #TravelDiary
 #Oyunuma#HellValley#HotSpring#Okunoyu#IronSpring#NoboribetsuHellValley#Hokkaido#Noboribetsu#Nature#Photography
 
-## Cape Shionomisaki
+## 20250222 Cape Shionomisaki (潮岬観光タワー)
 
 Older #潮岬 #潮岬展望台 #本州最南端 #海滩 #海边 #关西 #和歌山 #串本 #旅行 #旅游 #旅行日记
 
