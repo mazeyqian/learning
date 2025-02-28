@@ -3,6 +3,7 @@
 - [旅行日记](#旅行日记)
   - [20250303 Toyokawa Wharf (豊川埠頭)](#20250303-toyokawa-wharf-豊川埠頭)
   - [20250302 Yukawa Embankment](#20250302-yukawa-embankment)
+  - [20250228 Shimao Emall](#20250228-shimao-emall)
   - [20250227 Tsuen Wan \& Sha Tin](#20250227-tsuen-wan--sha-tin)
   - [Crab Hot Pot](#crab-hot-pot)
   - [Kanemori Red Brick Warehouse](#kanemori-red-brick-warehouse)
@@ -66,6 +67,23 @@ Yukawa Embankment: Tranquil Coastal Views in Hakodate
 Bask in serene beauty where the sea meets the sky.
 #Seaside #Sunshine #Hokkaido #Hakodate #NatureViews #Photography #TravelDestinations #SlowLife #ScenicSpot #RelaxingMoments #Japan #JapanTravel #Travel #TravelDiary
 #Seaside#Sunshine#Hokkaido#Hakodate#NatureViews#Photography#TravelDestinations#SlowLife#ScenicSpot#RelaxingMoments
+
+## 20250228 Shimao Emall
+
+zh:
+
+世贸大厦｜夜游鹭江
+游船穿行灯影间，鹭江夜色美不胜收。
+#世贸大厦 #鹭江 #游船 #夜景 #思明区 #地标建筑 #出海 #摄影 #灯光 #城市风光 #旅游 #旅行 #旅行日记
+#世贸大厦#鹭江#游船#夜景#思明区#地标建筑#出海#摄影#灯光#城市风光
+#世贸大厦# #鹭江# #游船# #夜景# #思明区# #地标建筑# #出海# #摄影# #灯光# #城市风光#
+
+en:
+
+Shimao Emall: A Glittering Night Cruise on Lujiang
+Sailing through dazzling lights, Lujiang's beauty shines.
+#ShimaoEmall #Lujiang #NightCruise #NightView #SimingDistrict #LandmarkBuilding #Boating #Photography #CityLights #ScenicSpot #Xiamen #XiamenTravel #Travel #TravelDiary
+#ShimaoEmall#Lujiang#NightCruise#NightView#SimingDistrict#LandmarkBuilding#Boating#Photography#CityLights#ScenicSpot
 
 ## 20250227 Tsuen Wan & Sha Tin
 
