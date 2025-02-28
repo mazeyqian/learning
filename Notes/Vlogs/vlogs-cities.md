@@ -3,6 +3,7 @@
 - [旅行日记](#旅行日记)
   - [20250303 Toyokawa Wharf (豊川埠頭)](#20250303-toyokawa-wharf-豊川埠頭)
   - [20250302 Yukawa Embankment](#20250302-yukawa-embankment)
+  - [20250302 Lujiang (鹭江)](#20250302-lujiang-鹭江)
   - [20250228 Shimao Emall](#20250228-shimao-emall)
   - [20250227 Tsuen Wan \& Sha Tin](#20250227-tsuen-wan--sha-tin)
   - [Crab Hot Pot](#crab-hot-pot)
@@ -67,6 +68,23 @@ Yukawa Embankment: Tranquil Coastal Views in Hakodate
 Bask in serene beauty where the sea meets the sky.
 #Seaside #Sunshine #Hokkaido #Hakodate #NatureViews #Photography #TravelDestinations #SlowLife #ScenicSpot #RelaxingMoments #Japan #JapanTravel #Travel #TravelDiary
 #Seaside#Sunshine#Hokkaido#Hakodate#NatureViews#Photography#TravelDestinations#SlowLife#ScenicSpot#RelaxingMoments
+
+## 20250302 Lujiang (鹭江)
+
+zh:
+
+鹭江｜日落
+夕阳西下，鹭江美景令人沉醉。
+#鹭江 #日落 #游船 #夕阳 #厦门 #思明区 #和平码头 #海景 #摄影 #码头 #旅游 #旅行 #旅行日记
+#鹭江#日落#游船#夕阳#厦门#思明区#和平码头#海景#摄影#码头
+#鹭江# #日落# #游船# #夕阳# #厦门# #思明区# #和平码头# #海景# #摄影# #码头#
+
+en:
+
+Lujiang: Sunset Glow Over the Water
+As the sun sets, Lujiang sparkles with golden hues.
+#Lujiang #Sunset #Cruise #EveningGlow #Xiamen #SimingDistrict #HepingPier #Seascape #Photography #Harbor #XiamenTravel #Travel #TravelDiary
+#Lujiang#Sunset#Cruise#EveningGlow#Xiamen#SimingDistrict#HepingPier#Seascape#Photography#Harbor
 
 ## 20250228 Shimao Emall
 
