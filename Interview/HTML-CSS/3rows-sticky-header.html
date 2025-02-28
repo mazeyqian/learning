@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sticky Header</title>
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            position: sticky;
+            top: 0;
+            background-color: #333;
+            color: #fff;
+        }
+        section {
+            height: 1500px;
+            background-color: #ccc;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Sticky Header</h1>
+        </header>
+        <section>
+            <p>Scroll down to see the sticky effect.</p>
+        </section>
+        <footer>
+            <p>Footer</p>
+        </footer>
+    </main>
+</body>
+
+</html>
