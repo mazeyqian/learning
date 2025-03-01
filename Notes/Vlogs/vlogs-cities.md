@@ -3,7 +3,7 @@
 - [旅行日记](#旅行日记)
   - [20250303 Toyokawa Wharf (豊川埠頭)](#20250303-toyokawa-wharf-豊川埠頭)
   - [20250302 Yukawa Embankment](#20250302-yukawa-embankment)
-  - [20250302 Lujiang (鹭江)](#20250302-lujiang-鹭江)
+  - [20250301 Lujiang (鹭江)](#20250301-lujiang-鹭江)
   - [20250228 Shimao Emall](#20250228-shimao-emall)
   - [20250227 Tsuen Wan \& Sha Tin](#20250227-tsuen-wan--sha-tin)
   - [Crab Hot Pot](#crab-hot-pot)
@@ -69,7 +69,7 @@ Bask in serene beauty where the sea meets the sky.
 #Seaside #Sunshine #Hokkaido #Hakodate #NatureViews #Photography #TravelDestinations #SlowLife #ScenicSpot #RelaxingMoments #Japan #JapanTravel #Travel #TravelDiary
 #Seaside#Sunshine#Hokkaido#Hakodate#NatureViews#Photography#TravelDestinations#SlowLife#ScenicSpot#RelaxingMoments
 
-## 20250302 Lujiang (鹭江)
+## 20250301 Lujiang (鹭江)
 
 zh:
 
