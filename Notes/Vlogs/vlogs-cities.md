@@ -13,7 +13,7 @@
   - [Otaru BBQ](#otaru-bbq)
   - [Sapporo Autumn Fest](#sapporo-autumn-fest)
   - [On the Train](#on-the-train)
-  - [Classic Streetcars](#classic-streetcars)
+  - [20250226 Classic Streetcars (路面電車)](#20250226-classic-streetcars-路面電車)
   - [Goryokaku Park](#goryokaku-park)
   - [Oyunuma Pond](#oyunuma-pond)
   - [Oyunuma Pond (Okunoyu)](#oyunuma-pond-okunoyu)
@@ -254,20 +254,24 @@ On the Train: Scenic Views of Sunset and Coastline
 Witness breathtaking sunsets and coastal views from the train.
 #Train #Sunset #Beach #Coastline #Park #Ojicho #Shingu #Kushimoto #Taiji #Kansai #Japan #JapanTravel #Travel #TravelDiary
 
-## Classic Streetcars
+## 20250226 Classic Streetcars (路面電車)
 
 路面电车 #有轨电车 #市电 #路面电车 #电车 #公车 #巴士 #城市 #北海道 #函馆 #旅游 #旅行 #旅行日记
 
 zh:
 
-函馆｜感受北海道的经典路面电车
-#有轨电车 #市电 #路面电车 #电车 #公车 #城市 #北海道 #函馆 #交通 #经典 #旅游 #旅行 #旅行日记
+函馆｜城市经典路面电车
+穿梭街头巷尾，感受函馆的独特韵味。
+#有轨电车 #市电 #路面电车 #电车 #公车 #城市 #北海道 #函馆 #复古交通 #街景 #旅游 #旅行 #旅行日记
+#有轨电车#市电#路面电车#电车#公车#城市#北海道#函馆#复古交通#街景
+#有轨电车# #市电# #路面电车# #电车# #公车# #城市# #北海道# #函馆# #复古交通# #街景#
 
 en:
 
 Hakodate: Classic Streetcars
-Discover the unique charm of city transit.
-#Tram #Streetcar #Trolley #Bus #City #Hokkaido #Hakodate #Transit #Classic #Urban #Japan #JapanTravel #Travel #TravelDiary
+Glide through the streets and embrace Hakodate’s charm.
+#Tram #Streetcar #HakodateTram #CityTransport #RetroVibes #Hokkaido #Hakodate #UrbanTravel #ClassicRide #LocalCulture #Japan #JapanTravel #Travel #TravelDiary
+#Tram#Streetcar#HakodateTram#CityTransport#RetroVibes#Hokkaido#Hakodate#UrbanTravel#ClassicRide#LocalCulture
 
 ## Goryokaku Park
 
