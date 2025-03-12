@@ -1,13 +1,13 @@
 # 旅行日记
 
 - [旅行日记](#旅行日记)
-  - [20250305 Hakodate Tropical Botanical Garden (函館市熱帯植物園)](#20250305-hakodate-tropical-botanical-garden-函館市熱帯植物園)
-  - [20250304 Kanemori Red Brick Warehouse](#20250304-kanemori-red-brick-warehouse)
-  - [20250303 Toyokawa Wharf (豊川埠頭)](#20250303-toyokawa-wharf-豊川埠頭)
-  - [20250302 Yukawa Embankment](#20250302-yukawa-embankment)
-  - [20250301 Lujiang (鹭江)](#20250301-lujiang-鹭江)
-  - [20250228 Shimao Emall](#20250228-shimao-emall)
-  - [20250227 Tsuen Wan \& Sha Tin](#20250227-tsuen-wan--sha-tin)
+  - [25-0305 Hakodate Tropical Botanical Garden (函館市熱帯植物園;Japan,Hakodate)](#25-0305-hakodate-tropical-botanical-garden-函館市熱帯植物園japanhakodate)
+  - [25-0304 Kanemori Red Brick Warehouse (Japan,Hakodate)](#25-0304-kanemori-red-brick-warehouse-japanhakodate)
+  - [25-0303 Toyokawa Wharf (豊川埠頭;Japan,Hakodate)](#25-0303-toyokawa-wharf-豊川埠頭japanhakodate)
+  - [25-0302 Yukawa Embankment](#25-0302-yukawa-embankment)
+  - [25-0301 Lujiang (鹭江)](#25-0301-lujiang-鹭江)
+  - [25-0228 Shimao Emall](#25-0228-shimao-emall)
+  - [25-0227 Tsuen Wan \& Sha Tin](#25-0227-tsuen-wan--sha-tin)
   - [Crab Hot Pot](#crab-hot-pot)
   - [Kanemori Red Brick Warehouse](#kanemori-red-brick-warehouse)
   - [Hakodate Mountain Night View](#hakodate-mountain-night-view)
@@ -20,12 +20,12 @@
   - [Otaru BBQ](#otaru-bbq)
   - [Sapporo Autumn Fest](#sapporo-autumn-fest)
   - [On the Train](#on-the-train)
-  - [20250226 Classic Streetcars (路面電車)](#20250226-classic-streetcars-路面電車)
+  - [25-0226 Classic Streetcars (路面電車;Japan,Hakodate)](#25-0226-classic-streetcars-路面電車japanhakodate)
   - [Goryokaku Park](#goryokaku-park)
-  - [Oyunuma Pond](#oyunuma-pond)
-  - [Oyunuma Pond (Okunoyu)](#oyunuma-pond-okunoyu)
-  - [20250222 Cape Shionomisaki (潮岬観光タワー)](#20250222-cape-shionomisaki-潮岬観光タワー)
-  - [20250221 Walk in Cape Kamui](#20250221-walk-in-cape-kamui)
+  - [25-0223 Oyunuma Pond (大湯沼)](#25-0223-oyunuma-pond-大湯沼)
+  - [25-0211 Oyunuma Pond (奥の湯;Japan,Noboribetsu)](#25-0211-oyunuma-pond-奥の湯japannoboribetsu)
+  - [25-0222 Cape Shionomisaki (潮岬観光タワー)](#25-0222-cape-shionomisaki-潮岬観光タワー)
+  - [25-0221 Walk in Cape Kamui](#25-0221-walk-in-cape-kamui)
   - [Walk in Tenguyama](#walk-in-tenguyama)
   - [Hineno Station](#hineno-station)
   - [Hashigui Beach](#hashigui-beach)
@@ -37,7 +37,7 @@
   - [王子ヶ浜](#王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
 
-## 20250305 Hakodate Tropical Botanical Garden (函館市熱帯植物園)
+## 25-0305 Hakodate Tropical Botanical Garden (函館市熱帯植物園;Japan,Hakodate)
 
 zh:
 
@@ -54,7 +54,7 @@ Gentle koi movements bring life to the serene waters.
 #Koi #KoiFish #Lucky #BotanicalGarden #Seaside #Sunlight #Hokkaido #Hakodate #NatureViews #Photography #Japan #JapanTravel #Travel #TravelDiary
 #Koi#KoiFish#Lucky#BotanicalGarden#Seaside#Sunlight#Hokkaido#Hakodate#NatureViews#Photography
 
-## 20250304 Kanemori Red Brick Warehouse
+## 25-0304 Kanemori Red Brick Warehouse (Japan,Hakodate)
 
 zh:
 
@@ -71,7 +71,7 @@ Rain and lights create a magical coastal evening.
 #KanemoriRedBrickWarehouse #RainyNight #Boats #Rainfall #Lights #Beach #Seaside #Hokkaido #Hakodate #Romantic #Japan #JapanTravel #Travel #TravelDiary
 #KanemoriRedBrickWarehouse#RainyNight#Boats#Rainfall#Lights#Beach#Seaside#Hokkaido#Hakodate#Romantic
 
-## 20250303 Toyokawa Wharf (豊川埠頭)
+## 25-0303 Toyokawa Wharf (豊川埠頭;Japan,Hakodate)
 
 zh:
 
@@ -88,7 +88,7 @@ A bustling harbor where seagulls and boats meet.
 #HakodatePort #ToyokawaWharf #Harbor #Seaside #Seagulls #Hokkaido #FishingBoats #CoastalViews #SlowLife #ScenicSpot #Japan #JapanTravel #Travel #TravelDiary
 #HakodatePort#ToyokawaWharf#Harbor#Seaside#Seagulls#Hokkaido#FishingBoats#CoastalViews#SlowLife#ScenicSpot
 
-## 20250302 Yukawa Embankment
+## 25-0302 Yukawa Embankment
 
 zh:
 
@@ -105,7 +105,7 @@ Bask in serene beauty where the sea meets the sky.
 #Seaside #Sunshine #Hokkaido #Hakodate #NatureViews #Photography #TravelDestinations #SlowLife #ScenicSpot #RelaxingMoments #Japan #JapanTravel #Travel #TravelDiary
 #Seaside#Sunshine#Hokkaido#Hakodate#NatureViews#Photography#TravelDestinations#SlowLife#ScenicSpot#RelaxingMoments
 
-## 20250301 Lujiang (鹭江)
+## 25-0301 Lujiang (鹭江)
 
 zh:
 
@@ -122,7 +122,7 @@ As the sun sets, Lujiang sparkles with golden hues.
 #Lujiang #Sunset #Cruise #EveningGlow #Xiamen #SimingDistrict #HepingPier #Seascape #Photography #Harbor #XiamenTravel #Travel #TravelDiary
 #Lujiang#Sunset#Cruise#EveningGlow#Xiamen#SimingDistrict#HepingPier#Seascape#Photography#Harbor
 
-## 20250228 Shimao Emall
+## 25-0228 Shimao Emall
 
 zh:
 
@@ -139,7 +139,7 @@ Sailing through dazzling lights, Lujiang's beauty shines.
 #ShimaoEmall #Lujiang #NightCruise #NightView #SimingDistrict #LandmarkBuilding #Boating #Photography #CityLights #ScenicSpot #Xiamen #XiamenTravel #Travel #TravelDiary
 #ShimaoEmall#Lujiang#NightCruise#NightView#SimingDistrict#LandmarkBuilding#Boating#Photography#CityLights#ScenicSpot
 
-## 20250227 Tsuen Wan & Sha Tin
+## 25-0227 Tsuen Wan & Sha Tin
 
 zh:
 
@@ -380,7 +380,7 @@ On the Train: Scenic Views of Sunset and Coastline
 Witness breathtaking sunsets and coastal views from the train.
 #Train #Sunset #Beach #Coastline #Park #Ojicho #Shingu #Kushimoto #Taiji #Kansai #Japan #JapanTravel #Travel #TravelDiary
 
-## 20250226 Classic Streetcars (路面電車)
+## 25-0226 Classic Streetcars (路面電車;Japan,Hakodate)
 
 路面电车 #有轨电车 #市电 #路面电车 #电车 #公车 #巴士 #城市 #北海道 #函馆 #旅游 #旅行 #旅行日记
 
@@ -418,7 +418,7 @@ Golden hues over the star-shaped park create serene moments.
 #Sunset #EveningGlow #GoldenHour #GoryokakuPark #Cityscape #Hilltop #Park #Hokkaido #Hakodate #ScenicSpot #Japan #JapanTravel #Travel #TravelDiary
 #Sunset#EveningGlow#GoldenHour#GoryokakuPark#Cityscape#Hilltop#Park#Hokkaido#Hakodate#ScenicSpot
 
-## Oyunuma Pond
+## 25-0223 Oyunuma Pond (大湯沼)
 
 大汤沼探秘｜感受登别的温泉奇观 #地狱谷 #温泉 #大汤沼 #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #自然 #探险 #旅游 #旅行 #旅行日记
 
@@ -437,7 +437,7 @@ Discover geothermal marvels in Hokkaido's iconic landscapes.
 #大湯沼 #HellValley #HotSprings #Oyunuma #Okunoyu #IronSpringPond #Noboribetsu #Hokkaido #NatureAdventure #ScenicViews #Japan #JapanTravel #Travel #TravelDiary
 #HellValley#HotSprings#Oyunuma#Okunoyu#IronSpringPond#Noboribetsu#Hokkaido#NatureAdventure#ScenicViews
 
-## Oyunuma Pond (Okunoyu)
+## 25-0211 Oyunuma Pond (奥の湯;Japan,Noboribetsu)
 
 Oyunuma Pond #地狱谷 #温泉 #大汤沼 #Hokkaido #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #旅游 #旅行 #旅行日记
 
@@ -456,7 +456,7 @@ Discover the raw beauty of Hokkaido's geothermal wonders.
 #Oyunuma #HellValley #HotSpring #Okunoyu #IronSpring #NoboribetsuHellValley #Hokkaido #Noboribetsu #Nature #Photography #Japan #JapanTravel #Travel #TravelDiary
 #Oyunuma#HellValley#HotSpring#Okunoyu#IronSpring#NoboribetsuHellValley#Hokkaido#Noboribetsu#Nature#Photography
 
-## 20250222 Cape Shionomisaki (潮岬観光タワー)
+## 25-0222 Cape Shionomisaki (潮岬観光タワー)
 
 Older #潮岬 #潮岬展望台 #本州最南端 #海滩 #海边 #关西 #和歌山 #串本 #旅行 #旅游 #旅行日记
 
@@ -475,7 +475,7 @@ Enjoy panoramic ocean views and coastal serenity.
 #Shionomisaki #ObservationDeck #SouthernmostHonshu #BeachDay #Seaside #Kansai #Wakayama #Kushimoto #NatureEscape #ScenicViews #Japan #JapanTravel #Travel #TravelDiary
 #Shionomisaki#ObservationDeck#SouthernmostHonshu#BeachDay#Seaside#Kansai#Wakayama#Kushimoto#NatureEscape#ScenicViews
 
-## 20250221 Walk in Cape Kamui
+## 25-0221 Walk in Cape Kamui
 
 zh:
 
