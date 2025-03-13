@@ -9,7 +9,7 @@
   - [25-0228 Shimao Emall](#25-0228-shimao-emall)
   - [25-0227 Tsuen Wan \& Sha Tin](#25-0227-tsuen-wan--sha-tin)
   - [Crab Hot Pot](#crab-hot-pot)
-  - [Kanemori Red Brick Warehouse](#kanemori-red-brick-warehouse)
+  - [25-0216 Kanemori Red Brick Warehouse](#25-0216-kanemori-red-brick-warehouse)
   - [Hakodate Mountain Night View](#hakodate-mountain-night-view)
   - [Hakodate Night View](#hakodate-night-view)
   - [Bear Park](#bear-park)
@@ -26,7 +26,7 @@
   - [25-0211 Oyunuma Pond (奥の湯;Japan,Noboribetsu)](#25-0211-oyunuma-pond-奥の湯japannoboribetsu)
   - [25-0222 Cape Shionomisaki (潮岬観光タワー)](#25-0222-cape-shionomisaki-潮岬観光タワー)
   - [25-0221 Walk in Cape Kamui](#25-0221-walk-in-cape-kamui)
-  - [Walk in Tenguyama](#walk-in-tenguyama)
+  - [25-0218 Walk in Tenguyama](#25-0218-walk-in-tenguyama)
   - [Hineno Station](#hineno-station)
   - [Hashigui Beach](#hashigui-beach)
   - [Cape Kure](#cape-kure)
@@ -175,7 +175,7 @@ Indulge in rich flavors and warm, cozy vibes this winter.
 #CrabHotPot #MatsubaCrab #JapaneseCuisine #Sapporo #HokkaidoEats #WinterFood #SeafoodLover #CentralWard #HotPotSeason #AuthenticTaste #Japan #JapanTravel #Travel #TravelDiary
 #CrabHotPot#MatsubaCrab#JapaneseCuisine#Sapporo#HokkaidoEats#WinterFood#SeafoodLover#CentralWard#HotPotSeason#AuthenticTaste
 
-## Kanemori Red Brick Warehouse
+## 25-0216 Kanemori Red Brick Warehouse
 
 Kanemori Red Brick Warehouse #金森红砖仓库 #柯南 #海鸥 #薯条 #整点薯条 #海滩 #Hokkaido #海边 #人生的意义 #海景 #北海道 #函馆 #旅游 #旅行 #旅行日记
 
@@ -496,13 +496,13 @@ Discover breathtaking views where the sea meets the sky.
 
 #CapeKamui#Shakotan#Coastline#OceanView#NatureLovers#ScenicSpot#HiddenGem#RomanticEscape#TravelGoals
 
-## Walk in Tenguyama
+## 25-0218 Walk in Tenguyama
 
 漫步天狗山｜浪漫小樽之旅 #漫步 #山顶 #情书 #缆车 #日落 #天空 #北海道 #小樽 #天狗山 #旅游 #旅行 #旅行日记
 
 zh:
 
-漫步天狗山｜浪漫小樽的绝美日落圣地
+漫步天狗山｜小樽的绝美日落圣地
 俯瞰小樽的浪漫天际线。
 #漫步 #山顶 #情书 #缆车 #日落 #天空 #北海道 #小樽 #天狗山 #浪漫之旅 #旅游 #旅行 #旅行日记
 #漫步#山顶#情书#缆车#日落#天空#北海道#小樽#天狗山#浪漫之旅
