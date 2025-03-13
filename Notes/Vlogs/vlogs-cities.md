@@ -18,10 +18,10 @@
   - [Otaru Canal](#otaru-canal)
   - [Shiroi Koibito Park](#shiroi-koibito-park)
   - [Otaru BBQ](#otaru-bbq)
-  - [Sapporo Autumn Fest](#sapporo-autumn-fest)
+  - [25-0110 Sapporo Autumn Fest](#25-0110-sapporo-autumn-fest)
   - [On the Train](#on-the-train)
   - [25-0226 Classic Streetcars (路面電車;Japan,Hakodate)](#25-0226-classic-streetcars-路面電車japanhakodate)
-  - [Goryokaku Park](#goryokaku-park)
+  - [25-0225 Goryokaku Park](#25-0225-goryokaku-park)
   - [25-0223 Oyunuma Pond (大湯沼)](#25-0223-oyunuma-pond-大湯沼)
   - [25-0211 Oyunuma Pond (奥の湯;Japan,Noboribetsu)](#25-0211-oyunuma-pond-奥の湯japannoboribetsu)
   - [25-0222 Cape Shionomisaki (潮岬観光タワー)](#25-0222-cape-shionomisaki-潮岬観光タワー)
@@ -31,10 +31,10 @@
   - [Hashigui Beach](#hashigui-beach)
   - [Cape Kure](#cape-kure)
   - [Tawara Beach](#tawara-beach)
-  - [Kushimoto Sunrise](#kushimoto-sunrise)
+  - [24-1129 Kushimoto Sunrise (串本の日の出)](#24-1129-kushimoto-sunrise-串本の日の出)
   - [Kumano Hayatama Taisha](#kumano-hayatama-taisha)
   - [Walk in Wakayama](#walk-in-wakayama)
-  - [王子ヶ浜](#王子ヶ浜)
+  - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
 
 ## 25-0305 Hakodate Tropical Botanical Garden (函館市熱帯植物園;Japan,Hakodate)
@@ -345,7 +345,7 @@ Otaru BBQ: Savor the Best of Japanese Grilled Meat
 Experience tender Wagyu and local delights in Otaru.
 #JapaneseBBQ #Wagyu #Foodie #OtaruCuisine #BeefTongue #Rice #Mushrooms #PorkCartilage #Hokkaido #Otaru #Japan #JapanTravel #Travel #TravelDiary
 
-## Sapporo Autumn Fest
+## 25-0110 Sapporo Autumn Fest
 
 Sapporo Autumn Fest #札幌秋季美食节 #演出 #美食 #大通站 #大通公园 #拉面 #Hokkaido #Sapporo #咖喱 #北海道 #札幌 #旅游 #旅行 #旅行日记
 
@@ -399,7 +399,7 @@ Glide through the streets and embrace Hakodate’s charm.
 #Tram #Streetcar #HakodateTram #CityTransport #RetroVibes #Hokkaido #Hakodate #UrbanTravel #ClassicRide #LocalCulture #Japan #JapanTravel #Travel #TravelDiary
 #Tram#Streetcar#HakodateTram#CityTransport#RetroVibes#Hokkaido#Hakodate#UrbanTravel#ClassicRide#LocalCulture
 
-## Goryokaku Park
+## 25-0225 Goryokaku Park
 
 Goryokaku Park #日落 #夕阳 #落日余晖 #五稜郭公園 #城市 #山坡 #公园 #北海道 #函馆 #旅游 #旅行 #旅行日记
 
@@ -409,7 +409,9 @@ zh:
 夕阳洒满星形公园，尽显浪漫与宁静。
 #日落 #夕阳 #落日余晖 #五稜郭公園 #城市 #山坡 #公园 #北海道 #函馆 #风景名胜 #旅游 #旅行 #旅行日记
 #日落#夕阳#落日余晖#五稜郭公園#城市#山坡#公园#北海道#函馆#风景名胜
-#日落# #夕阳# #落日余晖# #五稜郭公園# #城市# #山坡# #公园# #北海道# #函馆# #风景名胜#W
+#日落# #夕阳# #落日余晖# #五稜郭公園# #城市# #山坡# #公园# #北海道# #函馆# #风景名胜#
+
+五稜郭公园｜夕阳洒满星形公园
 
 en:
 
@@ -577,7 +579,7 @@ Tawara Beach: Where Trains Meet the Sea
 Experience the harmony of trains and the beach.
 #Beach #Coastline #Train #Kansai #Wakayama #Kushimoto #Koza #Taiji #Nature #Scenery #Japan #JapanTravel #Travel #TravelDiary
 
-## Kushimoto Sunrise
+## 24-1129 Kushimoto Sunrise (串本の日の出)
 
 Kushimoto Sunrise #日出 #海滩 #海边 #关西 #和歌山 #串本 #旅行 #旅游 #旅行日记
 
@@ -625,7 +627,7 @@ Walk in Wakayama: Sunset and Nature's Serenity
 Enjoy peaceful walks through Wakayama’s scenic spots.
 #Walk #Sunset #Park #Ojicho #Shingu #Kansai #Wakayama #Kushimoto #Taiji #NatureEscape #Japan #JapanTravel #Travel #TravelDiary
 
-## 王子ヶ浜
+## 24-1213 王子ヶ浜
 
 王子ヶ浜 #日落 #海滩 #海边 #Park #Ojicho #Shingu #王子町 #关西 #和歌山 #新宫 #旅游 #旅行 #旅行日记
 
