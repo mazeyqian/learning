@@ -19,7 +19,7 @@
   - [Shiroi Koibito Park](#shiroi-koibito-park)
   - [Otaru BBQ](#otaru-bbq)
   - [25-0110 Sapporo Autumn Fest](#25-0110-sapporo-autumn-fest)
-  - [On the Train](#on-the-train)
+  - [25-0104 On The Train (列車の旅;Janpan,Wakayama)](#25-0104-on-the-train-列車の旅janpanwakayama)
   - [25-0226 Classic Streetcars (路面電車;Japan,Hakodate)](#25-0226-classic-streetcars-路面電車japanhakodate)
   - [25-0225 Goryokaku Park](#25-0225-goryokaku-park)
   - [25-0223 Oyunuma Pond (大湯沼)](#25-0223-oyunuma-pond-大湯沼)
@@ -364,7 +364,9 @@ Enjoy the flavors of Hokkaido at Sapporo's autumn celebration.
 #SapporoAutumnFest #FoodFestival #LiveShow #OdoriStation #OdoriPark #Ramen #Curry #Hokkaido #Sapporo #AutumnTravel #Japan #JapanTravel #Travel #TravelDiary
 #SapporoAutumnFest#FoodFestival#LiveShow#OdoriStation#OdoriPark#Ramen#Curry#Hokkaido#Sapporo#AutumnTravel
 
-## On the Train
+## 25-0104 On The Train (列車の旅;Janpan,Wakayama)
+
+address: 和歌山駅
 
 On the Train #列车 #日落 #海边 #海滩 #Park #Ojicho #Shingu #关西 #和歌山 #新宫 #串本 #太地 #旅游 #旅行 #旅行日记
 
