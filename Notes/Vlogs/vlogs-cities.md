@@ -14,7 +14,7 @@
   - [Hakodate Night View](#hakodate-night-view)
   - [Bear Park](#bear-park)
   - [Hot Air Balloon](#hot-air-balloon)
-  - [Tenguyama Night View](#tenguyama-night-view)
+  - [25-0127 Tenguyama Night View (天狗山の夜景)](#25-0127-tenguyama-night-view-天狗山の夜景)
   - [Otaru Canal](#otaru-canal)
   - [Shiroi Koibito Park](#shiroi-koibito-park)
   - [Otaru BBQ](#otaru-bbq)
@@ -270,7 +270,7 @@ Soar above Otaru for breathtaking night views of Hokkaido.
 #HotAirBalloon #MountainTop #Adventure #CableCar #NightView #Sky #Hokkaido #Otaru #Tenguyama #Photography #Japan #JapanTravel #Travel #TravelDiary
 #HotAirBalloon#MountainTop#Adventure#CableCar#NightView#Sky#Hokkaido#Otaru#Tenguyama#Photography
 
-## Tenguyama Night View
+## 25-0127 Tenguyama Night View (天狗山の夜景)
 
 天狗山夜景 #山顶 #情书 #缆车 #Hokkaido #夜景 #天空 #北海道 #小樽 #天狗山 #旅游 #旅行 #旅行日记
 
