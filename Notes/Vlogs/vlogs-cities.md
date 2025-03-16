@@ -1,9 +1,10 @@
 # 旅行日记
 
 - [旅行日记](#旅行日记)
-  - [25-0305 Hakodate Tropical Botanical Garden (函館市熱帯植物園;Japan,Hakodate)](#25-0305-hakodate-tropical-botanical-garden-函館市熱帯植物園japanhakodate)
-  - [25-0304 Kanemori Red Brick Warehouse (Japan,Hakodate)](#25-0304-kanemori-red-brick-warehouse-japanhakodate)
-  - [25-0303 Toyokawa Wharf (豊川埠頭;Japan,Hakodate)](#25-0303-toyokawa-wharf-豊川埠頭japanhakodate)
+  - [25-0316 Wuxi (太湖鼋头渚;Wuxi,China)](#25-0316-wuxi-太湖鼋头渚wuxichina)
+  - [25-0305 Hakodate Tropical Botanical Garden (函館市熱帯植物園;Hakodate,Japan)](#25-0305-hakodate-tropical-botanical-garden-函館市熱帯植物園hakodatejapan)
+  - [25-0304 Kanemori Red Brick Warehouse (Hakodate,Japan)](#25-0304-kanemori-red-brick-warehouse-hakodatejapan)
+  - [25-0303 Toyokawa Wharf (豊川埠頭;Hakodate,Japan)](#25-0303-toyokawa-wharf-豊川埠頭hakodatejapan)
   - [25-0302 Yukawa Embankment](#25-0302-yukawa-embankment)
   - [25-0301 Lujiang (鹭江)](#25-0301-lujiang-鹭江)
   - [25-0228 Shimao Emall](#25-0228-shimao-emall)
@@ -19,11 +20,11 @@
   - [Shiroi Koibito Park](#shiroi-koibito-park)
   - [Otaru BBQ](#otaru-bbq)
   - [25-0110 Sapporo Autumn Fest](#25-0110-sapporo-autumn-fest)
-  - [25-0104 On The Train (列車の旅;Janpan,Wakayama)](#25-0104-on-the-train-列車の旅janpanwakayama)
-  - [25-0226 Classic Streetcars (路面電車;Japan,Hakodate)](#25-0226-classic-streetcars-路面電車japanhakodate)
+  - [25-0104 On The Train (列車の旅;Wakayama,Japan)](#25-0104-on-the-train-列車の旅wakayamajapan)
+  - [25-0226 Classic Streetcars (路面電車;Hakodate,Japan)](#25-0226-classic-streetcars-路面電車hakodatejapan)
   - [25-0225 Goryokaku Park](#25-0225-goryokaku-park)
   - [25-0223 Oyunuma Pond (大湯沼)](#25-0223-oyunuma-pond-大湯沼)
-  - [25-0211 Oyunuma Pond (奥の湯;Japan,Noboribetsu)](#25-0211-oyunuma-pond-奥の湯japannoboribetsu)
+  - [25-0211 Oyunuma Pond (奥の湯;Noboribetsu,Japan)](#25-0211-oyunuma-pond-奥の湯noboribetsujapan)
   - [25-0222 Cape Shionomisaki (潮岬観光タワー)](#25-0222-cape-shionomisaki-潮岬観光タワー)
   - [25-0221 Walk in Cape Kamui](#25-0221-walk-in-cape-kamui)
   - [25-0218 Walk in Tenguyama](#25-0218-walk-in-tenguyama)
@@ -37,7 +38,27 @@
   - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
 
-## 25-0305 Hakodate Tropical Botanical Garden (函館市熱帯植物園;Japan,Hakodate)
+## 25-0316 Wuxi (太湖鼋头渚;Wuxi,China)
+
+无锡｜太湖鼋头渚｜漫步樱花盛开的仙境 #想约你去淋一场樱花雨 #慢下来看世界 #樱花 #樱花谷 #长春桥 #赏樱 #太湖 #佛教 #园林 #江苏 #无锡 #旅行 #旅游 #旅行日记
+
+zh:
+
+鼋头渚樱花谷｜春日里的浪漫樱花雨
+樱花绽放，太湖畔的春日仙境。
+#樱花 #樱花谷 #长春桥 #赏樱 #太湖 #佛教 #园林 #江苏 #无锡 #旅游 #旅行 #旅行日记
+#樱花#樱花谷#长春桥#赏樱#太湖#佛教#园林#江苏#无锡#旅游
+#樱花# #樱花谷# #长春桥# #赏樱# #太湖# #佛教# #园林# #江苏# #无锡# #旅游#
+
+en:
+
+Wuxi: Cherry Blossom Valley at Turtle Head Isle
+A romantic spring walk along blooming sakura.
+#CherryBlossom #SakuraValley #ChangchunBridge #LakeTai #Buddhism #Garden #Jiangsu #Otaru #Wuxi #WuxiTravel #Travel #TravelDiary
+#CherryBlossom#SakuraValley#ChangchunBridge#LakeTai#Buddhism#Garden#Jiangsu#Otaru#Wuxi#WuxiTravel
+#CherryBlossom# #SakuraValley# #ChangchunBridge# #LakeTai# #Buddhism# #Garden# #Jiangsu# #Otaru# #Wuxi# #WuxiTravel#
+
+## 25-0305 Hakodate Tropical Botanical Garden (函館市熱帯植物園;Hakodate,Japan)
 
 zh:
 
@@ -54,7 +75,7 @@ Gentle koi movements bring life to the serene waters.
 #Koi #KoiFish #Lucky #BotanicalGarden #Seaside #Sunlight #Hokkaido #Hakodate #NatureViews #Photography #Japan #JapanTravel #Travel #TravelDiary
 #Koi#KoiFish#Lucky#BotanicalGarden#Seaside#Sunlight#Hokkaido#Hakodate#NatureViews#Photography
 
-## 25-0304 Kanemori Red Brick Warehouse (Japan,Hakodate)
+## 25-0304 Kanemori Red Brick Warehouse (Hakodate,Japan)
 
 zh:
 
@@ -71,7 +92,7 @@ Rain and lights create a magical coastal evening.
 #KanemoriRedBrickWarehouse #RainyNight #Boats #Rainfall #Lights #Beach #Seaside #Hokkaido #Hakodate #Romantic #Japan #JapanTravel #Travel #TravelDiary
 #KanemoriRedBrickWarehouse#RainyNight#Boats#Rainfall#Lights#Beach#Seaside#Hokkaido#Hakodate#Romantic
 
-## 25-0303 Toyokawa Wharf (豊川埠頭;Japan,Hakodate)
+## 25-0303 Toyokawa Wharf (豊川埠頭;Hakodate,Japan)
 
 zh:
 
@@ -364,7 +385,7 @@ Enjoy the flavors of Hokkaido at Sapporo's autumn celebration.
 #SapporoAutumnFest #FoodFestival #LiveShow #OdoriStation #OdoriPark #Ramen #Curry #Hokkaido #Sapporo #AutumnTravel #Japan #JapanTravel #Travel #TravelDiary
 #SapporoAutumnFest#FoodFestival#LiveShow#OdoriStation#OdoriPark#Ramen#Curry#Hokkaido#Sapporo#AutumnTravel
 
-## 25-0104 On The Train (列車の旅;Janpan,Wakayama)
+## 25-0104 On The Train (列車の旅;Wakayama,Japan)
 
 address: 和歌山駅
 
@@ -382,7 +403,7 @@ On the Train: Scenic Views of Sunset and Coastline
 Witness breathtaking sunsets and coastal views from the train.
 #Train #Sunset #Beach #Coastline #Park #Ojicho #Shingu #Kushimoto #Taiji #Kansai #Japan #JapanTravel #Travel #TravelDiary
 
-## 25-0226 Classic Streetcars (路面電車;Japan,Hakodate)
+## 25-0226 Classic Streetcars (路面電車;Hakodate,Japan)
 
 路面电车 #有轨电车 #市电 #路面电车 #电车 #公车 #巴士 #城市 #北海道 #函馆 #旅游 #旅行 #旅行日记
 
@@ -441,7 +462,7 @@ Discover geothermal marvels in Hokkaido's iconic landscapes.
 #大湯沼 #HellValley #HotSprings #Oyunuma #Okunoyu #IronSpringPond #Noboribetsu #Hokkaido #NatureAdventure #ScenicViews #Japan #JapanTravel #Travel #TravelDiary
 #HellValley#HotSprings#Oyunuma#Okunoyu#IronSpringPond#Noboribetsu#Hokkaido#NatureAdventure#ScenicViews
 
-## 25-0211 Oyunuma Pond (奥の湯;Japan,Noboribetsu)
+## 25-0211 Oyunuma Pond (奥の湯;Noboribetsu,Japan)
 
 Oyunuma Pond #地狱谷 #温泉 #大汤沼 #Hokkaido #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #旅游 #旅行 #旅行日记
 
@@ -660,14 +681,6 @@ en:
 The Animals of Wakayama Castle: A Fairytale Adventure
 Meet charming animals at Wakayama Castle.
 #Zoo #FairytalePark #WaterfowlPark #Horses #Parrots #Castle #WakayamaCastlePark #Kansai #NatureAdventure #FamilyFun #Japan #JapanTravel #Travel #TravelDiary
-
----
-
-title: 无锡｜太湖鼋头渚｜漫步樱花盛开的仙境
-
-description: #想约你去淋一场樱花雨 #慢下来看世界 #樱花 #樱花谷 #长春桥 #赏樱 #太湖 #佛教 #园林 #江苏 #无锡 #旅行 #旅游 #旅行日记
-
-color: 9c8985
 
 ---
 
