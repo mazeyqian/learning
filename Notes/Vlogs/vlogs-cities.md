@@ -3,14 +3,14 @@
 - [旅行日记](#旅行日记)
   - [25-0316 Wuxi (太湖鼋头渚;Wuxi,China)](#25-0316-wuxi-太湖鼋头渚wuxichina)
   - [25-0305 Hakodate Tropical Botanical Garden (函館市熱帯植物園;Hakodate,Japan)](#25-0305-hakodate-tropical-botanical-garden-函館市熱帯植物園hakodatejapan)
-  - [25-0304 Kanemori Red Brick Warehouse (Hakodate,Japan)](#25-0304-kanemori-red-brick-warehouse-hakodatejapan)
+  - [25-0304 Kanemori Red Brick Warehouse (金森赤レンガ倉庫;Hakodate,Japan)](#25-0304-kanemori-red-brick-warehouse-金森赤レンガ倉庫hakodatejapan)
   - [25-0303 Toyokawa Wharf (豊川埠頭;Hakodate,Japan)](#25-0303-toyokawa-wharf-豊川埠頭hakodatejapan)
   - [25-0302 Yukawa Embankment](#25-0302-yukawa-embankment)
   - [25-0301 Lujiang (鹭江)](#25-0301-lujiang-鹭江)
   - [25-0228 Shimao Emall](#25-0228-shimao-emall)
   - [25-0227 Tsuen Wan \& Sha Tin](#25-0227-tsuen-wan--sha-tin)
   - [Crab Hot Pot](#crab-hot-pot)
-  - [25-0216 Kanemori Red Brick Warehouse](#25-0216-kanemori-red-brick-warehouse)
+  - [25-0216 Kanemori Red Brick Warehouse (金森赤レンガ倉庫;Hakodate,Japan)](#25-0216-kanemori-red-brick-warehouse-金森赤レンガ倉庫hakodatejapan)
   - [Hakodate Mountain Night View](#hakodate-mountain-night-view)
   - [Hakodate Night View](#hakodate-night-view)
   - [Bear Park](#bear-park)
@@ -75,7 +75,7 @@ Gentle koi movements bring life to the serene waters.
 #Koi #KoiFish #Lucky #BotanicalGarden #Seaside #Sunlight #Hokkaido #Hakodate #NatureViews #Photography #Japan #JapanTravel #Travel #TravelDiary
 #Koi#KoiFish#Lucky#BotanicalGarden#Seaside#Sunlight#Hokkaido#Hakodate#NatureViews#Photography
 
-## 25-0304 Kanemori Red Brick Warehouse (Hakodate,Japan)
+## 25-0304 Kanemori Red Brick Warehouse (金森赤レンガ倉庫;Hakodate,Japan)
 
 zh:
 
@@ -196,13 +196,13 @@ Indulge in rich flavors and warm, cozy vibes this winter.
 #CrabHotPot #MatsubaCrab #JapaneseCuisine #Sapporo #HokkaidoEats #WinterFood #SeafoodLover #CentralWard #HotPotSeason #AuthenticTaste #Japan #JapanTravel #Travel #TravelDiary
 #CrabHotPot#MatsubaCrab#JapaneseCuisine#Sapporo#HokkaidoEats#WinterFood#SeafoodLover#CentralWard#HotPotSeason#AuthenticTaste
 
-## 25-0216 Kanemori Red Brick Warehouse
+## 25-0216 Kanemori Red Brick Warehouse (金森赤レンガ倉庫;Hakodate,Japan)
 
 Kanemori Red Brick Warehouse #金森红砖仓库 #柯南 #海鸥 #薯条 #整点薯条 #海滩 #Hokkaido #海边 #人生的意义 #海景 #北海道 #函馆 #旅游 #旅行 #旅行日记
 
 zh:
 
-金森红砖仓库｜函馆复古海景必打卡地
+金森红砖仓库｜函馆复古海景浪漫地标
 复古仓库与海景，感受函馆浪漫时光。
 #金森红砖仓库 #柯南 #海鸥 #薯条 #整点薯条 #海滩 #海边 #人生的意义 #海景 #北海道 #函馆 #旅行 #旅行日记
 #金森红砖仓库#柯南#海鸥#薯条#整点薯条#海滩#海边#人生的意义#海景#北海道
