@@ -203,17 +203,19 @@ Kanemori Red Brick Warehouse #金森红砖仓库 #柯南 #海鸥 #薯条 #整点
 zh:
 
 金森红砖仓库｜函馆复古海景浪漫地标
-复古仓库与海景，感受函馆浪漫时光。
-#金森红砖仓库 #柯南 #海鸥 #薯条 #整点薯条 #海滩 #海边 #人生的意义 #海景 #北海道 #函馆 #旅行 #旅行日记
+海边红砖仓库，邂逅一只悠闲的海鸥。
+#金森红砖仓库 #柯南 #海鸥 #薯条 #整点薯条 #海滩 #海边 #人生的意义 #海景 #北海道 #旅游 #旅行 #旅行日记
 #金森红砖仓库#柯南#海鸥#薯条#整点薯条#海滩#海边#人生的意义#海景#北海道
 #金森红砖仓库# #柯南# #海鸥# #薯条# #整点薯条# #海滩# #海边# #人生的意义# #海景# #北海道#
 
+金森红砖仓库｜邂逅一只悠闲的海鸥
+
 en:
 
-Kanemori Red Brick Warehouse: A Retro Oceanfront Spot in Hokkaido
-Discover seaside charm and vintage vibes in Hakodate.
-#KanemoriRedBrickWarehouse #Conan #Seagull #Fries #BeachVibes #OceanView #Seaside #Hokkaido #Hakodate #RetroSpot #Japan #JapanTravel #Travel #TravelDiary
-#KanemoriRedBrickWarehouse#Conan#Seagull#Fries#BeachVibes#OceanView#Seaside#Hokkaido#Hakodate#RetroSpot
+Kanemori Red Brick Warehouse: A Retro Landmark by the Sea
+A seaside moment with a peaceful seagull.
+#KanemoriWarehouse #Seagull #RetroVibes #OceanView #Hokkaido #Beachside #BrickWarehouse #JapanLandmarks #Hakodate #SeaLife #Japan #JapanTravel #Travel #TravelDiary
+#KanemoriWarehouse#Seagull#RetroVibes#OceanView#Hokkaido#Beachside#BrickWarehouse#JapanLandmarks#Hakodate#SeaLife
 
 ## Hakodate Mountain Night View
 
