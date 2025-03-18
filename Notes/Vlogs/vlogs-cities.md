@@ -11,7 +11,7 @@
   - [25-0227 Tsuen Wan \& Sha Tin](#25-0227-tsuen-wan--sha-tin)
   - [Crab Hot Pot](#crab-hot-pot)
   - [25-0216 Kanemori Red Brick Warehouse (金森赤レンガ倉庫;Hakodate,Japan)](#25-0216-kanemori-red-brick-warehouse-金森赤レンガ倉庫hakodatejapan)
-  - [Hakodate Mountain Night View](#hakodate-mountain-night-view)
+  - [25-0215 Hakodate Night View (函館山;Hakodate,Japan)](#25-0215-hakodate-night-view-函館山hakodatejapan)
   - [Hakodate Night View](#hakodate-night-view)
   - [Bear Park](#bear-park)
   - [Hot Air Balloon](#hot-air-balloon)
@@ -217,24 +217,26 @@ A seaside moment with a peaceful seagull.
 #KanemoriWarehouse #Seagull #RetroVibes #OceanView #Hokkaido #Beachside #BrickWarehouse #JapanLandmarks #Hakodate #SeaLife #Japan #JapanTravel #Travel #TravelDiary
 #KanemoriWarehouse#Seagull#RetroVibes#OceanView#Hokkaido#Beachside#BrickWarehouse#JapanLandmarks#Hakodate#SeaLife
 
-## Hakodate Mountain Night View
+## 25-0215 Hakodate Night View (函館山;Hakodate,Japan)
 
 Hakodate Night View, Top 3 Best Night Views In The World #函馆山 #世界三大夜景 #函馆山夜景 #海边 #海滩 #Hokkaido #夜晚 #夜景 #桥 #北海道 #函馆 #旅游 #旅行 #旅行日记
 
 zh:
 
+函馆山夜景｜世界三大夜景之一
+雨中眺望函馆，百万灯火如梦似幻。
+#函馆山 #世界三大夜景 #函馆山夜景 #海边 #海滩 #夜晚 #夜景 #桥 #北海道 #函馆 #旅游 #旅行 #旅行日记
+#函馆山#世界三大夜景#函馆山夜景#海边#海滩#夜晚#夜景#桥#北海道#函馆
+#函馆山# #世界三大夜景# #函馆山夜景# #海边# #海滩# #夜晚# #夜景# #桥# #北海道# #函馆#
+
 函馆山夜景｜世界三大夜景之一，百万美元的璀璨美景
-俯瞰函馆璀璨夜色，感受浪漫与震撼。
-#函馆山 #世界三大夜景 #函馆山夜景 #海边 #夜晚 #夜景 #桥 #北海道 #城市风光 #摄影 #旅游 #旅行 #旅行日记
-#函馆山#世界三大夜景#函馆山夜景#海边#夜晚#夜景#桥#北海道#城市风光#摄影
-#函馆山# #世界三大夜景# #函馆山夜景# #海边# #夜晚# #夜景# #桥# #北海道# #城市风光# #摄影# #旅游# #旅行# #旅行日记#
 
 en:
 
 Hakodate Night View: One of the World's Top 3 Nightscapes
-Marvel at the breathtaking city lights from Mount Hakodate.
-#HakodateMountain #Top3NightViews #HakodateNightView #Seaside #Night #NightView #Bridge #Hokkaido #Cityscape #Photography #Japan #JapanTravel #Travel #TravelDiary
-#HakodateMountain#Top3NightViews#HakodateNightView#Seaside#Night#NightView#Bridge#Hokkaido#Cityscape#Photography
+A rainy night with a stunning city of lights.
+#HakodateNightView #WorldTop3NightViews #RainyNight #Hokkaido #NightScenery #CityLights #HakodateMountain #JapanLandmarks #EveningVibes #StunningViews #Japan #JapanTravel #Travel #TravelDiary
+#HakodateNightView#WorldTop3NightViews#RainyNight#Hokkaido#NightScenery#CityLights#HakodateMountain#JapanLandmarks#EveningVibes#StunningViews
 
 ## Hakodate Night View
 
