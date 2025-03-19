@@ -12,7 +12,7 @@
   - [Crab Hot Pot](#crab-hot-pot)
   - [25-0216 Kanemori Red Brick Warehouse (金森赤レンガ倉庫;Hakodate,Japan)](#25-0216-kanemori-red-brick-warehouse-金森赤レンガ倉庫hakodatejapan)
   - [25-0215 Hakodate Night View (函館山;Hakodate,Japan)](#25-0215-hakodate-night-view-函館山hakodatejapan)
-  - [Hakodate Night View](#hakodate-night-view)
+  - [25-0213 Hakodate Night View (函館港;Hakodate,Japan)](#25-0213-hakodate-night-view-函館港hakodatejapan)
   - [Bear Park](#bear-park)
   - [Hot Air Balloon](#hot-air-balloon)
   - [25-0127 Tenguyama Night View (天狗山の夜景)](#25-0127-tenguyama-night-view-天狗山の夜景)
@@ -238,24 +238,24 @@ A rainy night with a stunning city of lights.
 #HakodateNightView #WorldTop3NightViews #RainyNight #Hokkaido #NightScenery #CityLights #HakodateMountain #JapanLandmarks #EveningVibes #StunningViews #Japan #JapanTravel #Travel #TravelDiary
 #HakodateNightView#WorldTop3NightViews#RainyNight#Hokkaido#NightScenery#CityLights#HakodateMountain#JapanLandmarks#EveningVibes#StunningViews
 
-## Hakodate Night View
+## 25-0213 Hakodate Night View (函館港;Hakodate,Japan)
 
-Hokadate #城市 #海边 #海滩 #Hokkaido #夜晚 #夜景 #桥 #北海道 #函馆 #旅游 #旅行 #旅行日记
+Hokadate #灯の湯 #城市 #海边 #海滩 #Hokkaido #夜晚 #夜景 #桥 #北海道 #函馆 #旅游 #旅行 #旅行日记
 
 zh:
 
-函馆夜景｜俯瞰车水马龙的璀璨城市
-从高处感受函馆的浪漫夜色。
-#函馆 #城市 #海边 #夜晚 #夜景 #桥 #车水马龙 #北海道 #风光 #摄影 #旅游 #旅行 #旅行日记
-#函馆#城市#海边#夜晚#夜景#桥#车水马龙#北海道#风光#摄影
-#函馆# #城市# #海边# #夜晚# #夜景# #桥# #车水马龙# #北海道# #风光# #摄影# #旅游# #旅行# #旅行日记#
+函馆夜景｜雨中俯瞰流光溢彩的城市
+细雨轻洒，高架桥上车流如织，夜色迷人。
+#函馆夜景 #灯の湯 #城市 #海边 #海滩 #夜晚 #夜景 #桥 #北海道 #函馆 #旅游 #旅行 #旅行日记
+#函馆夜景#灯の湯#城市#海边#海滩#夜晚#夜景#桥#北海道#函馆
+#函馆夜景# #灯の湯# #城市# #海边# #海滩# #夜晚# #夜景# #桥# #北海道# #函馆#
 
 en:
 
 Hakodate Night View: A City of Lights and Motion
-Witness the stunning cityscape and bustling streets from above.
-#Hakodate #City #Seaside #Night #NightView #Bridge #Traffic #Hokkaido #Landscape #Photography #Japan #JapanTravel #Travel #TravelDiary
-#Hakodate#City#Seaside#Night#NightView#Bridge#Traffic#Hokkaido#Landscape#Photography
+Gentle rain falls as cars stream across the bridge, painting the night.
+#HakodateNightView #RainyNight #CityLights #SeasideView #NightScenery #BridgeView #Hokkaido #UrbanVibes #HakodatePort #JapanCity #Japan #JapanTravel #Travel #TravelDiary
+#HakodateNightView#RainyNight#CityLights#SeasideView#NightScenery#BridgeView#Hokkaido#UrbanVibes#HakodatePort#JapanCity
 
 ## Bear Park
 
