@@ -1,6 +1,7 @@
 # 旅行日记
 
 - [旅行日记](#旅行日记)
+  - [25-0320 Senbon Torii (千本鳥居;Kyoto,Japan)](#25-0320-senbon-torii-千本鳥居kyotojapan)
   - [25-0316 Wuxi (太湖鼋头渚;Wuxi,China)](#25-0316-wuxi-太湖鼋头渚wuxichina)
   - [25-0305 Hakodate Tropical Botanical Garden (函館市熱帯植物園;Hakodate,Japan)](#25-0305-hakodate-tropical-botanical-garden-函館市熱帯植物園hakodatejapan)
   - [25-0304 Kanemori Red Brick Warehouse (金森赤レンガ倉庫;Hakodate,Japan)](#25-0304-kanemori-red-brick-warehouse-金森赤レンガ倉庫hakodatejapan)
@@ -37,6 +38,19 @@
   - [Walk in Wakayama](#walk-in-wakayama)
   - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
+
+## 25-0320 Senbon Torii (千本鳥居;Kyoto,Japan)
+
+千本鸟居｜雨中漫步红色长廊
+细雨轻洒，静谧中穿行于千本鸟居。
+#千本鸟居 #鸟居 #稲荷大神 #寺庙 #伏見稲荷大社 #京都 #雨天 #红色长廊 #日本文化 #京都景点 #旅游 #旅行 #旅行日记
+#千本鸟居#鸟居#稲荷大神#寺庙#伏見稲荷大社#京都#雨天#红色长廊#日本文化#京都景点
+#千本鸟居# #鸟居# #稲荷大神# #寺庙# #伏見稲荷大社# #京都# #雨天# #红色长廊# #日本文化# #京都景点#
+
+Senbon Torii: Walking Through the Red Gates in the Rain
+Gentle rain falls as I wander through the serene red corridors.
+#SenbonTorii #ToriiGates #KyotoShrine #RainyDay #JapaneseCulture #RedCorridor #KyotoAttractions #InariShrine #TempleVisit #JapanHeritage #Japan #JapanTravel #Travel #TravelDiary
+#SenbonTorii#ToriiGates#KyotoShrine#RainyDay#JapaneseCulture#RedCorridor#KyotoAttractions#InariShrine#TempleVisit#JapanHeritage
 
 ## 25-0316 Wuxi (太湖鼋头渚;Wuxi,China)
 
