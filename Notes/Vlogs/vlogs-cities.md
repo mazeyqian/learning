@@ -16,7 +16,7 @@
 - [25-0216 Kanemori Red Brick Warehouse (金森赤レンガ倉庫;Hakodate,Japan)](#25-0216-kanemori-red-brick-warehouse-金森赤レンガ倉庫hakodatejapan)
 - [25-0215 Hakodate Night View (函館山;Hakodate,Japan)](#25-0215-hakodate-night-view-函館山hakodatejapan)
 - [25-0213 Hakodate Night View (函館港;Hakodate,Japan)](#25-0213-hakodate-night-view-函館港hakodatejapan)
-- [Bear Park](#bear-park)
+- [25-0212 Noboribetsu Bear Park (のぼりべつクマ牧場;Hakodate,Japan)](#25-0212-noboribetsu-bear-park-のぼりべつクマ牧場hakodatejapan)
 - [Hot Air Balloon](#hot-air-balloon)
 - [25-0127 Tenguyama Night View (天狗山の夜景)](#25-0127-tenguyama-night-view-天狗山の夜景)
 - [Otaru Canal](#otaru-canal)
@@ -273,24 +273,24 @@ Gentle rain falls as cars stream across the bridge, painting the night.
 #HakodateNightView #RainyNight #CityLights #SeasideView #NightScenery #BridgeView #Hokkaido #UrbanVibes #HakodatePort #JapanCity #Japan #JapanTravel #Travel #TravelDiary
 #HakodateNightView#RainyNight#CityLights#SeasideView#NightScenery#BridgeView#Hokkaido#UrbanVibes#HakodatePort#JapanCity
 
-## Bear Park
+## 25-0212 Noboribetsu Bear Park (のぼりべつクマ牧場;Hakodate,Japan)
 
-Bear Park #熊牧场 #公园 #缆车 #Hokkaido #可爱 #展望台 #俱多乐湖 #北海道 #登别 #旅游 #旅行 #旅行日记
+Noboribetsu Bear Park のぼりべつクマ牧場 #熊牧场 #公园 #缆车 #Hokkaido #可爱 #展望台 #俱多乐湖 #北海道 #登别 #旅游 #旅行 #旅行日记
 
 zh:
 
-熊牧场｜趣味投食体验与萌熊互动
-喂食可爱熊，趣味满满的北海道之旅。
-#熊牧场 #公园 #缆车 #可爱 #投食 #互动 #北海道 #登别 #自然 #摄影 #旅游 #旅行 #旅行日记
-#熊牧场#公园#缆车#可爱#投食#互动#北海道#登别#自然#摄影
-#熊牧场# #公园# #缆车# #可爱# #投食# #互动# #北海道# #登别# #自然# #摄影# #旅游# #旅行# #旅行日记#
+登别熊牧场｜趣味投食与萌熊互动
+与憨态可掬的熊亲密接触，趣味无穷。
+#熊牧场 #公园 #缆车 #北海道 #可爱 #展望台 #俱多乐湖 #登别 #自然 #动物互动 #旅游 #旅行 #旅行日记
+#熊牧场#公园#缆车#北海道#可爱#展望台#俱多乐湖#登别#自然#动物互动
+#熊牧场# #公园# #缆车# #北海道# #可爱# #展望台# #俱多乐湖# #登别# #自然# #动物互动#
 
 en:
 
-Bear Park: Feeding Fun with Adorable Bears
-Experience the joy of feeding playful bears in Hokkaido.
-#BearPark #Park #CableCar #Cute #Feeding #Interaction #Hokkaido #Noboribetsu #Nature #Photography #Japan #JapanTravel #Travel #TravelDiary
-#BearPark#Park#CableCar#Cute#Feeding#Interaction#Hokkaido#Noboribetsu#Nature#Photography
+Noboribetsu Bear Park: Feeding and Fun with Cute Bears
+Up-close moments with bears, full of joy and laughter.
+#BearPark #CableCar #Hokkaido #CuteAnimals #ObservationDeck #LakeKuttara #Noboribetsu #NaturePark #AnimalFeeding #JapanWildlife #Japan #JapanTravel #Travel #TravelDiary
+#BearPark#CableCar#Hokkaido#CuteAnimals#ObservationDeck#LakeKuttara#Noboribetsu#NaturePark#AnimalFeeding#JapanWildlife
 
 ## Hot Air Balloon
 
