@@ -16,7 +16,7 @@
 - [25-0216 Kanemori Red Brick Warehouse (金森赤レンガ倉庫;Hakodate,Japan)](#25-0216-kanemori-red-brick-warehouse-金森赤レンガ倉庫hakodatejapan)
 - [25-0215 Hakodate Night View (函館山;Hakodate,Japan)](#25-0215-hakodate-night-view-函館山hakodatejapan)
 - [25-0213 Hakodate Night View (函館港;Hakodate,Japan)](#25-0213-hakodate-night-view-函館港hakodatejapan)
-- [25-0212 Noboribetsu Bear Park (のぼりべつクマ牧場;Hakodate,Japan)](#25-0212-noboribetsu-bear-park-のぼりべつクマ牧場hakodatejapan)
+- [25-0212 Noboribetsu Bear Park (のぼりべつクマ牧場;Noboribetsu,Japan)](#25-0212-noboribetsu-bear-park-のぼりべつクマ牧場noboribetsujapan)
 - [Hot Air Balloon](#hot-air-balloon)
 - [25-0127 Tenguyama Night View (天狗山の夜景)](#25-0127-tenguyama-night-view-天狗山の夜景)
 - [Otaru Canal](#otaru-canal)
@@ -27,7 +27,7 @@
 - [25-0226 Classic Streetcars (路面電車;Hakodate,Japan)](#25-0226-classic-streetcars-路面電車hakodatejapan)
 - [25-0225 Goryokaku Park](#25-0225-goryokaku-park)
 - [25-0223 Oyunuma Pond (大湯沼)](#25-0223-oyunuma-pond-大湯沼)
-- [25-0211 Oyunuma Pond (奥の湯;Noboribetsu,Japan)](#25-0211-oyunuma-pond-奥の湯noboribetsujapan)
+- [25-0211 Okunoyu (奥の湯;Noboribetsu,Japan)](#25-0211-okunoyu-奥の湯noboribetsujapan)
 - [25-0222 Cape Shionomisaki (潮岬観光タワー)](#25-0222-cape-shionomisaki-潮岬観光タワー)
 - [25-0221 Walk in Cape Kamui](#25-0221-walk-in-cape-kamui)
 - [25-0218 Walk in Tenguyama](#25-0218-walk-in-tenguyama)
@@ -273,7 +273,7 @@ Gentle rain falls as cars stream across the bridge, painting the night.
 #HakodateNightView #RainyNight #CityLights #SeasideView #NightScenery #BridgeView #Hokkaido #UrbanVibes #HakodatePort #JapanCity #Japan #JapanTravel #Travel #TravelDiary
 #HakodateNightView#RainyNight#CityLights#SeasideView#NightScenery#BridgeView#Hokkaido#UrbanVibes#HakodatePort#JapanCity
 
-## 25-0212 Noboribetsu Bear Park (のぼりべつクマ牧場;Hakodate,Japan)
+## 25-0212 Noboribetsu Bear Park (のぼりべつクマ牧場;Noboribetsu,Japan)
 
 Noboribetsu Bear Park のぼりべつクマ牧場 #熊牧场 #公园 #缆车 #Hokkaido #可爱 #展望台 #俱多乐湖 #北海道 #登别 #旅游 #旅行 #旅行日记
 
@@ -482,24 +482,30 @@ Discover geothermal marvels in Hokkaido's iconic landscapes.
 #大湯沼 #HellValley #HotSprings #Oyunuma #Okunoyu #IronSpringPond #Noboribetsu #Hokkaido #NatureAdventure #ScenicViews #Japan #JapanTravel #Travel #TravelDiary
 #HellValley#HotSprings#Oyunuma#Okunoyu#IronSpringPond#Noboribetsu#Hokkaido#NatureAdventure#ScenicViews
 
-## 25-0211 Oyunuma Pond (奥の湯;Noboribetsu,Japan)
+## 25-0211 Okunoyu (奥の湯;Noboribetsu,Japan)
 
-Oyunuma Pond #地狱谷 #温泉 #大汤沼 #Hokkaido #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #旅游 #旅行 #旅行日记
+Okunoyu #地狱谷 #温泉 #奥之汤 #大汤沼 #Hokkaido #铁泉池 #登别地狱谷 #北海道 #登别 #旅游 #旅行 #旅行日记
 
 zh:
 
-大汤沼｜登别地狱谷的温泉奇景
-探索北海道火山温泉的独特魅力。
-#大汤沼 #地狱谷 #温泉 #奥之汤 #铁泉池 #登别地狱谷 #北海道 #登别 #自然 #摄影 #旅游 #旅行 #旅行日记
-#大汤沼#地狱谷#温泉#奥之汤#铁泉池#登别地狱谷#北海道#登别#自然#摄影
-#大汤沼# #地狱谷# #温泉# #奥之汤# #铁泉池# #登别地狱谷# #北海道# #登别# #自然# #摄影# #旅游# #旅行# #旅行日记#
+奥之汤｜热气缭绕的火山温泉
+蒸汽升腾，展现自然的神奇魅力。
+#奥之汤 #地狱谷 #温泉 #大汤沼 #铁泉池 #登别地狱谷 #北海道 #登别 #火山温泉 #自然奇观 #旅游 #旅行 #旅行日记
+#奥之汤#地狱谷#温泉#大汤沼#铁泉池#登别地狱谷#北海道#登别#火山温泉#自然奇观
+#奥之汤# #地狱谷# #温泉# #大汤沼# #铁泉池# #登别地狱谷# #北海道# #登别# #火山温泉# #自然奇观#
 
 en:
 
-Oyunuma Pond: The Hot Spring Wonders of Noboribetsu
-Discover the raw beauty of Hokkaido's geothermal wonders.
-#Oyunuma #HellValley #HotSpring #Okunoyu #IronSpring #NoboribetsuHellValley #Hokkaido #Noboribetsu #Nature #Photography #Japan #JapanTravel #Travel #TravelDiary
-#Oyunuma#HellValley#HotSpring#Okunoyu#IronSpring#NoboribetsuHellValley#Hokkaido#Noboribetsu#Nature#Photography
+Okunoyu: A Steaming Volcanic Onsen
+Rising steam unveils the captivating beauty of Okunoyu.
+#Okunoyu #HellValley #Onsen #Oyunuma #IronSpring #Noboribetsu #Hokkaido #VolcanicHotSpring #NatureWonder #JapanScenery #Japan #JapanTravel #Travel #TravelDiary
+#Okunoyu#HellValley#Onsen#Oyunuma#IronSpring#Noboribetsu#Hokkaido#VolcanicHotSpring#NatureWonder#JapanScenery
+
+jp:
+
+奥の湯｜湯けむり漂う火山温泉
+自然の力が生み出した神秘的な温泉地です。
+このタイトルと説明は、登別地獄谷にある「奥の湯」をテーマにしています。「奥の湯｜湯けむり漂う火山温泉」というタイトルは、「奥の湯」の特徴である湯けむりや火山温泉の魅力を簡潔に表現しています。説明文では「自然の力」という言葉を使い、奥の湯が自然によって作り出された神秘的な場所であることを強調しています。短いながらも、視聴者に興味を持たせる内容になっています。
 
 ## 25-0222 Cape Shionomisaki (潮岬観光タワー)
 
