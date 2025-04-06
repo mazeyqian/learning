@@ -17,7 +17,7 @@
 - [25-0215 Hakodate Night View (函館山;Hakodate,Japan)](#25-0215-hakodate-night-view-函館山hakodatejapan)
 - [25-0213 Hakodate Night View (函館港;Hakodate,Japan)](#25-0213-hakodate-night-view-函館港hakodatejapan)
 - [25-0212 Noboribetsu Bear Park (のぼりべつクマ牧場;Noboribetsu,Japan)](#25-0212-noboribetsu-bear-park-のぼりべつクマ牧場noboribetsujapan)
-- [Hot Air Balloon](#hot-air-balloon)
+- [25-0210 Tenguyama (天狗山の熱気球;Otaru,Japan)](#25-0210-tenguyama-天狗山の熱気球otarujapan)
 - [25-0127 Tenguyama Night View (天狗山の夜景)](#25-0127-tenguyama-night-view-天狗山の夜景)
 - [Otaru Canal](#otaru-canal)
 - [Shiroi Koibito Park](#shiroi-koibito-park)
@@ -292,24 +292,30 @@ Up-close moments with bears, full of joy and laughter.
 #BearPark #CableCar #Hokkaido #CuteAnimals #ObservationDeck #LakeKuttara #Noboribetsu #NaturePark #AnimalFeeding #JapanWildlife #Japan #JapanTravel #Travel #TravelDiary
 #BearPark#CableCar#Hokkaido#CuteAnimals#ObservationDeck#LakeKuttara#Noboribetsu#NaturePark#AnimalFeeding#JapanWildlife
 
-## Hot Air Balloon
+## 25-0210 Tenguyama (天狗山の熱気球;Otaru,Japan)
 
-热气球 #山顶 #探险 #缆车 #Hokkaido #夜景 #天空 #北海道 #小樽 #天狗山 #旅游 #旅行 #旅行日记
+Hot Air Balloon 热气球 #山顶 #探险 #缆车 #Hokkaido #夜景 #天空 #北海道 #小樽 #天狗山 #旅游 #旅行 #旅行日记
 
 zh:
 
-热气球｜天狗山夜景与天空之旅
-俯瞰小樽的璀璨夜色。
-#热气球 #山顶 #探险 #缆车 #夜景 #天空 #北海道 #小樽 #天狗山 #摄影 #旅游 #旅行 #旅行日记
-#热气球#山顶#探险#缆车#夜景#天空#北海道#小樽#天狗山#摄影
-#热气球# #山顶# #探险# #缆车# #夜景# #天空# #北海道# #小樽# #天狗山# #摄影# #旅游# #旅行# #旅行日记#
+天狗山｜热气球升空的美妙瞬间
+山间风光如画，热气球点缀天空。
+#热气球 #山顶 #缆车 #夜景 #天空 #北海道 #小樽 #天狗山 #自然美景 #浪漫旅程 #旅游 #旅行 #旅行日记
+#热气球#山顶#缆车#夜景#天空#北海道#小樽#天狗山#自然美景#浪漫旅程
+#热气球# #山顶# #缆车# #夜景# #天空# #北海道# #小樽# #天狗山# #自然美景# #浪漫旅程#
 
 en:
 
-Hot Air Balloon: A Night Adventure Over Tenguyama
-Soar above Otaru for breathtaking night views of Hokkaido.
-#HotAirBalloon #MountainTop #Adventure #CableCar #NightView #Sky #Hokkaido #Otaru #Tenguyama #Photography #Japan #JapanTravel #Travel #TravelDiary
-#HotAirBalloon#MountainTop#Adventure#CableCar#NightView#Sky#Hokkaido#Otaru#Tenguyama#Photography
+Tenguyama: Ballooning in the Majestic Sky
+A picturesque view as balloons grace the mountain skies.
+#HotAirBalloon #MountainPeak #CableCar #NightView #Sky #Hokkaido #Otaru #Tenguyama #NatureBeauty #RomanticJourney #Japan #JapanTravel #Travel #TravelDiary
+#HotAirBalloon#MountainPeak#CableCar#NightView#Sky#Hokkaido#Otaru#Tenguyama#NatureBeauty#RomanticJourney
+
+jp:
+
+天狗山｜熱気球が描く山麓の風景
+天狗山の麓で熱気球が空へと舞い上がる瞬間を楽しむ場所です
+このタイトル「天狗山｜熱気球が描く山麓の風景」は、天狗山の特徴を簡潔にまとめています。「熱気球が描く」という表現を使うことで、熱気球が空に浮かぶ姿がまるで絵画のようであることを示しています。説明文では、天狗山の山麓で熱気球が舞い上がる瞬間を楽しめるという具体的な内容を伝えています。視聴者にその場の雰囲気を想像させ、興味を引きつける構成になっています。
 
 ## 25-0127 Tenguyama Night View (天狗山の夜景)
 
