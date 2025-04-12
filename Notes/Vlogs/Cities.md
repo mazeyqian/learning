@@ -9,11 +9,11 @@
 - [25-0305 Hakodate Tropical Botanical Garden (函館市熱帯植物園;Hakodate,Japan)](#25-0305-hakodate-tropical-botanical-garden-函館市熱帯植物園hakodatejapan)
 - [25-0304 Kanemori Red Brick Warehouse (金森赤レンガ倉庫;Hakodate,Japan)](#25-0304-kanemori-red-brick-warehouse-金森赤レンガ倉庫hakodatejapan)
 - [25-0303 Toyokawa Wharf (豊川埠頭;Hakodate,Japan)](#25-0303-toyokawa-wharf-豊川埠頭hakodatejapan)
-- [25-0302 Yukawa Embankment](#25-0302-yukawa-embankment)
-- [25-0301 Lujiang (鹭江)](#25-0301-lujiang-鹭江)
-- [25-0228 Shimao Emall](#25-0228-shimao-emall)
-- [25-0227 Tsuen Wan \& Sha Tin](#25-0227-tsuen-wan--sha-tin)
-- [Crab Hot Pot](#crab-hot-pot)
+- [25-0302 Yukawa Embankment (湯川堤防;Hakodate,Japan)](#25-0302-yukawa-embankment-湯川堤防hakodatejapan)
+- [25-0301 Lujiang (鹭江;Xiamen,China)](#25-0301-lujiang-鹭江xiamenchina)
+- [25-0228 Shimao Emall (世贸大厦;Xiamen,China)](#25-0228-shimao-emall-世贸大厦xiamenchina)
+- [25-0227 Tsuen Wan \& Sha Tin (荃灣＆沙田;Hong Kong,China)](#25-0227-tsuen-wan--sha-tin-荃灣沙田hong-kongchina)
+- [25-0217 Crab Hot Pot](#25-0217-crab-hot-pot)
 - [25-0216 Kanemori Red Brick Warehouse (金森赤レンガ倉庫;Hakodate,Japan)](#25-0216-kanemori-red-brick-warehouse-金森赤レンガ倉庫hakodatejapan)
 - [25-0215 Hakodate Night View (函館山;Hakodate,Japan)](#25-0215-hakodate-night-view-函館山hakodatejapan)
 - [25-0213 Hakodate Night View (函館港;Hakodate,Japan)](#25-0213-hakodate-night-view-函館港hakodatejapan)
@@ -135,7 +135,7 @@ A bustling harbor where seagulls and boats meet.
 #HakodatePort #ToyokawaWharf #Harbor #Seaside #Seagulls #Hokkaido #FishingBoats #CoastalViews #SlowLife #ScenicSpot #Japan #JapanTravel #Travel #TravelDiary
 #HakodatePort#ToyokawaWharf#Harbor#Seaside#Seagulls#Hokkaido#FishingBoats#CoastalViews#SlowLife#ScenicSpot
 
-## 25-0302 Yukawa Embankment
+## 25-0302 Yukawa Embankment (湯川堤防;Hakodate,Japan)
 
 zh:
 
@@ -152,7 +152,7 @@ Bask in serene beauty where the sea meets the sky.
 #Seaside #Sunshine #Hokkaido #Hakodate #NatureViews #Photography #TravelDestinations #SlowLife #ScenicSpot #RelaxingMoments #Japan #JapanTravel #Travel #TravelDiary
 #Seaside#Sunshine#Hokkaido#Hakodate#NatureViews#Photography#TravelDestinations#SlowLife#ScenicSpot#RelaxingMoments
 
-## 25-0301 Lujiang (鹭江)
+## 25-0301 Lujiang (鹭江;Xiamen,China)
 
 zh:
 
@@ -169,7 +169,7 @@ As the sun sets, Lujiang sparkles with golden hues.
 #Lujiang #Sunset #Cruise #EveningGlow #Xiamen #SimingDistrict #HepingPier #Seascape #Photography #Harbor #XiamenTravel #Travel #TravelDiary
 #Lujiang#Sunset#Cruise#EveningGlow#Xiamen#SimingDistrict#HepingPier#Seascape#Photography#Harbor
 
-## 25-0228 Shimao Emall
+## 25-0228 Shimao Emall (世贸大厦;Xiamen,China)
 
 zh:
 
@@ -186,11 +186,11 @@ Sailing through dazzling lights, Lujiang's beauty shines.
 #ShimaoEmall #Lujiang #NightCruise #NightView #SimingDistrict #LandmarkBuilding #Boating #Photography #CityLights #ScenicSpot #Xiamen #XiamenTravel #Travel #TravelDiary
 #ShimaoEmall#Lujiang#NightCruise#NightView#SimingDistrict#LandmarkBuilding#Boating#Photography#CityLights#ScenicSpot
 
-## 25-0227 Tsuen Wan & Sha Tin
+## 25-0227 Tsuen Wan & Sha Tin (荃灣＆沙田;Hong Kong,China)
 
 zh:
 
-荃灣＆沙田｜记录香港都市夜晚
+荃湾＆沙田｜记录香港都市夜晚
 霓虹闪烁，街头尽显繁华魅力。
 #香港 #荃湾 #沙田 #夜景 #公园 #美食 #巴士 #商城 #街道 #都市风情 #旅游 #旅行 #旅行日记
 #香港#荃湾#沙田#夜景#公园#美食#巴士#商城#街道#都市风情
@@ -203,7 +203,7 @@ Bright lights and lively streets define the city.
 #HongKong #TsuenWan #ShaTin #NightView #Park #Food #Bus #Mall #Street #UrbanStyle #Japan #JapanTravel #Travel #TravelDiary
 #HongKong#TsuenWan#ShaTin#NightView#Park#Food#Bus#Mall#Street#UrbanStyle
 
-## Crab Hot Pot
+## 25-0217 Crab Hot Pot
 
 蟹肉锅｜北海道美食体验 #松叶蟹 #美食 #日料 #中央区 #蟹黄 #北海道 #札幌 #旅游 #旅行 #旅行日记
 
@@ -308,7 +308,7 @@ Hot Air Balloon 热气球 #山顶 #探险 #缆车 #Hokkaido #夜景 #天空 #北
 
 zh:
 
-天狗山｜热气球升空的美妙瞬间
+天狗山｜热气球
 山间风光如画，热气球点缀天空。
 #热气球 #山顶 #缆车 #夜景 #天空 #北海道 #小樽 #天狗山 #自然美景 #浪漫旅程 #旅游 #旅行 #旅行日记
 #热气球#山顶#缆车#夜景#天空#北海道#小樽#天狗山#自然美景#浪漫旅程
