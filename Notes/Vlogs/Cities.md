@@ -19,11 +19,11 @@
 - [25-0213 Hakodate Night View (函館港;Hakodate,Japan)](#25-0213-hakodate-night-view-函館港hakodatejapan)
 - [25-0212 Noboribetsu Bear Park (のぼりべつクマ牧場;Noboribetsu,Japan)](#25-0212-noboribetsu-bear-park-のぼりべつクマ牧場noboribetsujapan)
 - [25-0210 Tenguyama (天狗山の熱気球;Otaru,Japan)](#25-0210-tenguyama-天狗山の熱気球otarujapan)
-- [25-0127 Tenguyama Night View (天狗山の夜景)](#25-0127-tenguyama-night-view-天狗山の夜景)
-- [Otaru Canal](#otaru-canal)
-- [Shiroi Koibito Park](#shiroi-koibito-park)
-- [Otaru BBQ](#otaru-bbq)
-- [25-0110 Sapporo Autumn Fest](#25-0110-sapporo-autumn-fest)
+- [25-0127 Tenguyama Night View (天狗山の夜景;Otaru,Japan)](#25-0127-tenguyama-night-view-天狗山の夜景otarujapan)
+- [25-0126 Otaru Canal (小樽运河;Otaru,Japan)](#25-0126-otaru-canal-小樽运河otarujapan)
+- [25-0125 Shiroi Koibito Park (白色恋人公园;Sapporo,Japan)](#25-0125-shiroi-koibito-park-白色恋人公园sapporojapan)
+- [25-0115 Otaru BBQ (小樽烧肉;Otaru,Japan)](#25-0115-otaru-bbq-小樽烧肉otarujapan)
+- [25-0110 Sapporo Autumn Fest (札幌秋季美食节;Sapporo,Japan)](#25-0110-sapporo-autumn-fest-札幌秋季美食节sapporojapan)
 - [25-0104 On The Train (列車の旅;Wakayama,Japan)](#25-0104-on-the-train-列車の旅wakayamajapan)
 - [25-0226 Classic Streetcars (路面電車;Hakodate,Japan)](#25-0226-classic-streetcars-路面電車hakodatejapan)
 - [25-0225 Goryokaku Park](#25-0225-goryokaku-park)
@@ -38,7 +38,7 @@
 - [Tawara Beach](#tawara-beach)
 - [24-1129 Kushimoto Sunrise (串本の日の出)](#24-1129-kushimoto-sunrise-串本の日の出)
 - [Kumano Hayatama Taisha](#kumano-hayatama-taisha)
-- [Walk in Wakayama](#walk-in-wakayama)
+- [24-1228 Walk in Wakayama (和歌山)](#24-1228-walk-in-wakayama-和歌山)
 - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
 - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
 
@@ -327,7 +327,7 @@ jp:
 天狗山の麓で熱気球が空へと舞い上がる瞬間を楽しむ場所です
 このタイトル「天狗山｜熱気球が描く山麓の風景」は、天狗山の特徴を簡潔にまとめています。「熱気球が描く」という表現を使うことで、熱気球が空に浮かぶ姿がまるで絵画のようであることを示しています。説明文では、天狗山の山麓で熱気球が舞い上がる瞬間を楽しめるという具体的な内容を伝えています。視聴者にその場の雰囲気を想像させ、興味を引きつける構成になっています。
 
-## 25-0127 Tenguyama Night View (天狗山の夜景)
+## 25-0127 Tenguyama Night View (天狗山の夜景;Otaru,Japan)
 
 天狗山夜景 #山顶 #情书 #缆车 #Hokkaido #夜景 #天空 #北海道 #小樽 #天狗山 #旅游 #旅行 #旅行日记
 
@@ -346,7 +346,7 @@ Ride the ropeway and enjoy a magical Hokkaido night.
 #Tenguyama #Summit #LoveLetter #Ropeway #NightView #Sky #Hokkaido #Otaru #Photography #Romantic #Japan #JapanTravel #Travel #TravelDiary
 #Tenguyama#Summit#LoveLetter#Ropeway#NightView#Sky#Hokkaido#Otaru#Photography#Romantic
 
-## Otaru Canal
+## 25-0126 Otaru Canal (小樽运河;Otaru,Japan)
 
 Otaru Canal #小樽运河 #情书 #公园 #Hokkaido #Park #夜 #北海道 #小樽 #旅游 #旅行 #旅行日记
 
@@ -365,7 +365,7 @@ Stroll along Otaru Canal and relive cinematic beauty.
 #OtaruCanal #LoveLetter #Park #NightView #Hokkaido #Otaru #Romantic #Sightseeing #Photography #Foodie #Japan #JapanTravel #Travel #TravelDiary
 #OtaruCanal#LoveLetter#Park#NightView#Hokkaido#Otaru#Romantic#Sightseeing#Photography#Foodie
 
-## Shiroi Koibito Park
+## 25-0125 Shiroi Koibito Park (白色恋人公园;Sapporo,Japan)
 
 Shiroi Koibito Park #白色恋人 #公园 #工厂 #Hokkaido #Sapporo #北海道 #札幌 #旅游 #旅行 #旅行日记
 
@@ -384,7 +384,7 @@ Explore a magical chocolate wonderland in Sapporo.
 #ShiroiKoibito #Park #Factory #Hokkaido #Sapporo #Desserts #Chocolate #Sightseeing #Romantic #Foodie #Japan #JapanTravel #Travel #TravelDiary
 #ShiroiKoibito#Park#Factory#Hokkaido#Sapporo#Desserts#Chocolate#Sightseeing#Romantic#Foodie
 
-## Otaru BBQ
+## 25-0115 Otaru BBQ (小樽烧肉;Otaru,Japan)
 
 小樽烧肉 #日式烤肉 #和牛 #美食 #小樽美食 #牛舌 #米饭 #Hokkaido #香菇 #猪脆骨 #北海道 #小樽 #旅游 #旅行 #旅行日记
 
@@ -402,7 +402,7 @@ Otaru BBQ: Savor the Best of Japanese Grilled Meat
 Experience tender Wagyu and local delights in Otaru.
 #JapaneseBBQ #Wagyu #Foodie #OtaruCuisine #BeefTongue #Rice #Mushrooms #PorkCartilage #Hokkaido #Otaru #Japan #JapanTravel #Travel #TravelDiary
 
-## 25-0110 Sapporo Autumn Fest
+## 25-0110 Sapporo Autumn Fest (札幌秋季美食节;Sapporo,Japan)
 
 Sapporo Autumn Fest #札幌秋季美食节 #演出 #美食 #大通站 #大通公园 #拉面 #Hokkaido #Sapporo #咖喱 #北海道 #札幌 #旅游 #旅行 #旅行日记
 
@@ -676,7 +676,7 @@ Kumano Hayatama Taisha: A Sacred Heritage Journey
 Discover the spiritual charm of Kumano Hayatama Taisha.
 #Shrine #Hiking #WorldHeritage #KumanoKodo #Kansai #Wakayama #Shingu #CulturalTravel #HistoricalSite #NatureBeauty #Japan #JapanTravel #Travel #TravelDiary
 
-## Walk in Wakayama
+## 24-1228 Walk in Wakayama (和歌山)
 
 Walk in Wakayama #漫步 #日落 #Park #Ojicho #Shingu #关西 #和歌山 #新宫 #串本 #太地 #旅游 #旅行 #旅行日记
 
