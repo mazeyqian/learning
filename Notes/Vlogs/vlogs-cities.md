@@ -1,6 +1,7 @@
 # 旅行日记
 
 - [旅行日记](#旅行日记)
+  - [20250227 Tsuen Wan \& Sha Tin](#20250227-tsuen-wan--sha-tin)
   - [Crab Hot Pot](#crab-hot-pot)
   - [Kanemori Red Brick Warehouse](#kanemori-red-brick-warehouse)
   - [Hakodate Mountain Night View](#hakodate-mountain-night-view)
@@ -29,6 +30,23 @@
   - [Walk in Wakayama](#walk-in-wakayama)
   - [王子ヶ浜](#王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
+
+## 20250227 Tsuen Wan & Sha Tin
+
+zh:
+
+荃灣＆沙田｜记录香港都市夜晚
+霓虹闪烁，街头尽显繁华魅力。
+#香港 #荃湾 #沙田 #夜景 #公园 #美食 #巴士 #商城 #街道 #都市风情 #旅游 #旅行 #旅行日记
+#香港#荃湾#沙田#夜景#公园#美食#巴士#商城#街道#都市风情
+#香港# #荃湾# #沙田# #夜景# #公园# #美食# #巴士# #商城# #街道# #都市风情#
+
+en:
+
+Tsuen Wan & Sha Tin: Hong Kong’s Urban Nights
+Bright lights and lively streets define the city.
+#HongKong #TsuenWan #ShaTin #NightView #Park #Food #Bus #Mall #Street #UrbanStyle #Japan #JapanTravel #Travel #TravelDiary
+#HongKong#TsuenWan#ShaTin#NightView#Park#Food#Bus#Mall#Street#UrbanStyle
 
 ## Crab Hot Pot
 
