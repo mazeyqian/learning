@@ -3,6 +3,7 @@
 
 **Table of Contents:**
 
+- [25-0204 Xiamen Garden Expo Park (厦门园林博览园;Xiamen,China)](#25-0204-xiamen-garden-expo-park-厦门园林博览园xiamenchina)
 - [25-0410 No Traffic Jam Today (今天不堵车;Hong Kong,China)](#25-0410-no-traffic-jam-today-今天不堵车hong-kongchina)
 - [25-0320 Senbon Torii (千本鳥居;Kyoto,Japan)](#25-0320-senbon-torii-千本鳥居kyotojapan)
 - [25-0316 Wuxi (太湖鼋头渚;Wuxi,China)](#25-0316-wuxi-太湖鼋头渚wuxichina)
@@ -41,6 +42,28 @@
 - [24-1228 Walk in Wakayama (和歌山)](#24-1228-walk-in-wakayama-和歌山)
 - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
 - [24-1206 The Animals of Wakayama Castle](#24-1206-the-animals-of-wakayama-castle)
+
+## 25-0204 Xiamen Garden Expo Park (厦门园林博览园;Xiamen,China)
+
+zh:
+
+厦门园林博览苑｜遇见彩虹喷泉
+阳光下的水舞，彩虹随之起舞。
+#厦门 #园林博览苑 #喷泉 #彩虹 #阳光 #厦门旅行 #景点推荐 #小众景点 #城市美景 #拍照打卡 #旅游 #旅行 #旅行日记
+#厦门#园林博览苑#喷泉#彩虹#阳光#厦门旅行#景点推荐#小众景点#城市美景#拍照打卡
+#厦门# #园林博览苑# #喷泉# #彩虹# #阳光# #厦门旅行# #景点推荐# #小众景点# #城市美景# #拍照打卡#
+
+en:
+
+Xiamen Garden Expo Park: Rainbow at the Fountain
+A rainbow dances with the fountain under the sun.
+#XiamenGardenExpo #FountainShow #RainbowView #SunnyDay #CityWalk #HiddenGem #PhotoSpot #FountainArt #UrbanScenery #ChinaTravel #Xiamen #XiamenTravel #Travel #TravelDiary
+#XiamenGardenExpo#FountainShow#RainbowView#SunnyDay#CityWalk#HiddenGem#PhotoSpot#FountainArt#UrbanScenery#ChinaTravel
+
+jp:
+
+厦門の公園で虹の噴水に出会う
+日差しの中、噴水に虹が浮かぶ美しい瞬間。
 
 ## 25-0410 No Traffic Jam Today (今天不堵车;Hong Kong,China)
 
