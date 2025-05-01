@@ -3,7 +3,7 @@
 
 **Table of Contents:**
 
-- [25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea)](#25-0423-songdo-coastal-bolle-gil-trail-松岛半岛地质探访路busansouth-korea)
+- [25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea) To Publish](#25-0423-songdo-coastal-bolle-gil-trail-松岛半岛地质探访路busansouth-korea-to-publish)
 - [25-0204 Xiamen Horticulture Expo Garden (厦门园林博览园;Xiamen,China)](#25-0204-xiamen-horticulture-expo-garden-厦门园林博览园xiamenchina)
 - [25-0410 No Traffic Jam Today (今天不堵车;Hong Kong,China)](#25-0410-no-traffic-jam-today-今天不堵车hong-kongchina)
 - [25-0320 Senbon Torii (千本鳥居;Kyoto,Japan)](#25-0320-senbon-torii-千本鳥居kyotojapan)
@@ -44,7 +44,7 @@
 - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
 - [24-1206 The Animals of Wakayama Castle](#24-1206-the-animals-of-wakayama-castle)
 
-## 25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea)
+## 25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea) To Publish
 
 zh:
 
