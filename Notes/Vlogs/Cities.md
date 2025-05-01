@@ -3,7 +3,8 @@
 
 **Table of Contents:**
 
-- [25-0204 Xiamen Garden Expo Park (厦门园林博览园;Xiamen,China)](#25-0204-xiamen-garden-expo-park-厦门园林博览园xiamenchina)
+- [25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea)](#25-0423-songdo-coastal-bolle-gil-trail-松岛半岛地质探访路busansouth-korea)
+- [25-0204 Xiamen Horticulture Expo Garden (厦门园林博览园;Xiamen,China)](#25-0204-xiamen-horticulture-expo-garden-厦门园林博览园xiamenchina)
 - [25-0410 No Traffic Jam Today (今天不堵车;Hong Kong,China)](#25-0410-no-traffic-jam-today-今天不堵车hong-kongchina)
 - [25-0320 Senbon Torii (千本鳥居;Kyoto,Japan)](#25-0320-senbon-torii-千本鳥居kyotojapan)
 - [25-0316 Wuxi (太湖鼋头渚;Wuxi,China)](#25-0316-wuxi-太湖鼋头渚wuxichina)
@@ -43,7 +44,29 @@
 - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
 - [24-1206 The Animals of Wakayama Castle](#24-1206-the-animals-of-wakayama-castle)
 
-## 25-0204 Xiamen Garden Expo Park (厦门园林博览园;Xiamen,China)
+## 25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea)
+
+zh:
+
+松岛半岛地质探访路｜海岸步道看见澄澈蓝海
+走在海岸边，海蓝相随，海浪如歌拍岸。
+#釜山 #松岛半岛 #地质步道 #悬崖步道 #岩南公园 #海浪 #海岸线 #韩国旅行 #自然声音 #海边散步 #旅游 #旅行 #旅行日记
+#釜山#松岛半岛#地质步道#悬崖步道#岩南公园#海浪#海岸线#韩国旅行#自然声音#海边散步
+#釜山# #松岛半岛# #地质步道# #悬崖步道# #岩南公园# #海浪# #海岸线# #韩国旅行# #自然声音# #海边散步
+
+en:
+
+Songdo Coastal Bolle-Gil Trail: A Seaside Walk with Crystal Blue Views
+Walking by the coast, the blue sea follows, as waves sing against the shore.
+#Busan #SongdoTrail #CoastalWalk #CliffPath #AmnamPark #BlueSea #ClearWaters #PeacefulVibes #SeasideWalk #KoreaTravel #Travel #TravelDiary
+#Busan#SongdoTrail#CoastalWalk#CliffPath#AmnamPark#BlueSea#ClearWaters#PeacefulVibes#SeasideWalk#KoreaTravel
+
+jp:
+
+松島半島ジオトレイル｜青く澄んだ海を望む海岸散策
+海辺を歩けば、青い海が寄り添い、波が歌うように岸を打つ。
+
+## 25-0204 Xiamen Horticulture Expo Garden (厦门园林博览园;Xiamen,China)
 
 zh:
 
@@ -55,7 +78,7 @@ zh:
 
 en:
 
-Xiamen Garden Expo Park: Rainbow at the Fountain
+Xiamen Horticulture Expo Garden: Rainbow at the Fountain
 A rainbow dances with the fountain under the sun.
 #XiamenGardenExpo #FountainShow #RainbowView #SunnyDay #CityWalk #HiddenGem #PhotoSpot #FountainArt #UrbanScenery #ChinaTravel #Xiamen #XiamenTravel #Travel #TravelDiary
 #XiamenGardenExpo#FountainShow#RainbowView#SunnyDay#CityWalk#HiddenGem#PhotoSpot#FountainArt#UrbanScenery#ChinaTravel
@@ -223,7 +246,7 @@ en:
 
 Tsuen Wan & Sha Tin: Hong Kong’s Urban Nights
 Bright lights and lively streets define the city.
-#HongKong #TsuenWan #ShaTin #NightView #Park #Food #Bus #Mall #Street #UrbanStyle #Japan #JapanTravel #Travel #TravelDiary
+#HongKong #TsuenWan #ShaTin #NightView #Park #Food #Bus #Mall #Street #UrbanStyle #Travel #TravelDiary
 #HongKong#TsuenWan#ShaTin#NightView#Park#Food#Bus#Mall#Street#UrbanStyle
 
 ## 25-0217 Crab Hot Pot
