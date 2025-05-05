@@ -1,6 +1,7 @@
 # 旅行日记
 
 - [旅行日记](#旅行日记)
+  - [20250302 Yukawa Embankment](#20250302-yukawa-embankment)
   - [20250227 Tsuen Wan \& Sha Tin](#20250227-tsuen-wan--sha-tin)
   - [Crab Hot Pot](#crab-hot-pot)
   - [Kanemori Red Brick Warehouse](#kanemori-red-brick-warehouse)
@@ -30,6 +31,23 @@
   - [Walk in Wakayama](#walk-in-wakayama)
   - [王子ヶ浜](#王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
+
+## 20250302 Yukawa Embankment
+
+zh:
+
+湯川堤防｜函馆的静谧海岸风光
+阳光洒落，海天一色的绝美瞬间。
+#海边 #太阳 #北海道 #函馆 #自然风光 #摄影 #旅行目的地 #慢生活 #景点推荐 #放松时光 #旅游 #旅行 #旅行日记
+#海边#太阳#北海道#函馆#自然风光#摄影#旅行目的地#慢生活#景点推荐#放松时光
+#海边# #太阳# #北海道# #函馆# #自然风光# #摄影# #旅行目的地# #慢生活# #景点推荐# #放松时光#
+
+en:
+
+Yukawa Embankment: Tranquil Coastal Views in Hakodate
+Bask in serene beauty where the sea meets the sky.
+#Seaside #Sunshine #Hokkaido #Hakodate #NatureViews #Photography #TravelDestinations #SlowLife #ScenicSpot #RelaxingMoments #Japan #JapanTravel #Travel #TravelDiary
+#Seaside#Sunshine#Hokkaido#Hakodate#NatureViews#Photography#TravelDestinations#SlowLife#ScenicSpot#RelaxingMoments
 
 ## 20250227 Tsuen Wan & Sha Tin
 
