@@ -1,6 +1,8 @@
 # 旅行日记
 
 - [旅行日记](#旅行日记)
+  - [20250303 Toyokawa Wharf (豊川埠頭)](#20250303-toyokawa-wharf-豊川埠頭)
+  - [20250302 Yukawa Embankment](#20250302-yukawa-embankment)
   - [20250227 Tsuen Wan \& Sha Tin](#20250227-tsuen-wan--sha-tin)
   - [Crab Hot Pot](#crab-hot-pot)
   - [Kanemori Red Brick Warehouse](#kanemori-red-brick-warehouse)
@@ -30,6 +32,40 @@
   - [Walk in Wakayama](#walk-in-wakayama)
   - [王子ヶ浜](#王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
+
+## 20250303 Toyokawa Wharf (豊川埠頭)
+
+zh:
+
+丰川埠头｜海鸥翱翔其间
+海风吹拂，港口尽显优雅气息。
+#函馆港 #丰川埠头 #码头 #港口 #海边 #游艇 #海鸥 #北海道 #慢生活 #景点推荐 #旅游 #旅行 #旅行日记
+#函馆港#丰川埠头#码头#港口#海边#游艇#海鸥#北海道#慢生活#景点推荐
+#函馆港# #丰川埠头# #码头# #港口# #海边# #游艇# #海鸥# #北海道# #慢生活# #景点推荐#
+
+en:
+
+Hakodate Port: The Charm of Toyokawa Wharf
+A bustling harbor where seagulls and boats meet.
+#HakodatePort #ToyokawaWharf #Harbor #Seaside #Seagulls #Hokkaido #FishingBoats #CoastalViews #SlowLife #ScenicSpot #Japan #JapanTravel #Travel #TravelDiary
+#HakodatePort#ToyokawaWharf#Harbor#Seaside#Seagulls#Hokkaido#FishingBoats#CoastalViews#SlowLife#ScenicSpot
+
+## 20250302 Yukawa Embankment
+
+zh:
+
+湯川堤防｜函馆的静谧海岸风光
+阳光洒落，海天一色的绝美瞬间。
+#海边 #太阳 #北海道 #函馆 #自然风光 #摄影 #旅行目的地 #慢生活 #景点推荐 #放松时光 #旅游 #旅行 #旅行日记
+#海边#太阳#北海道#函馆#自然风光#摄影#旅行目的地#慢生活#景点推荐#放松时光
+#海边# #太阳# #北海道# #函馆# #自然风光# #摄影# #旅行目的地# #慢生活# #景点推荐# #放松时光#
+
+en:
+
+Yukawa Embankment: Tranquil Coastal Views in Hakodate
+Bask in serene beauty where the sea meets the sky.
+#Seaside #Sunshine #Hokkaido #Hakodate #NatureViews #Photography #TravelDestinations #SlowLife #ScenicSpot #RelaxingMoments #Japan #JapanTravel #Travel #TravelDiary
+#Seaside#Sunshine#Hokkaido#Hakodate#NatureViews#Photography#TravelDestinations#SlowLife#ScenicSpot#RelaxingMoments
 
 ## 20250227 Tsuen Wan & Sha Tin
 
