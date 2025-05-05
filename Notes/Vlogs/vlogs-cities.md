@@ -1,6 +1,12 @@
 # 旅行日记
 
 - [旅行日记](#旅行日记)
+  - [20250305 Hakodate Tropical Botanical Garden (函館市熱帯植物園)](#20250305-hakodate-tropical-botanical-garden-函館市熱帯植物園)
+  - [20250304 Kanemori Red Brick Warehouse](#20250304-kanemori-red-brick-warehouse)
+  - [20250303 Toyokawa Wharf (豊川埠頭)](#20250303-toyokawa-wharf-豊川埠頭)
+  - [20250302 Yukawa Embankment](#20250302-yukawa-embankment)
+  - [20250301 Lujiang (鹭江)](#20250301-lujiang-鹭江)
+  - [20250228 Shimao Emall](#20250228-shimao-emall)
   - [20250227 Tsuen Wan \& Sha Tin](#20250227-tsuen-wan--sha-tin)
   - [Crab Hot Pot](#crab-hot-pot)
   - [Kanemori Red Brick Warehouse](#kanemori-red-brick-warehouse)
@@ -30,6 +36,108 @@
   - [Walk in Wakayama](#walk-in-wakayama)
   - [王子ヶ浜](#王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
+
+## 20250305 Hakodate Tropical Botanical Garden (函館市熱帯植物園)
+
+zh:
+
+函馆市热带植物园｜河中锦鲤的灵动瞬间
+锦鲤游动如画，映衬自然的诗意美感。
+#锦鲤 #鲤鱼 #幸运 #植物园 #海边 #太阳 #北海道 #函馆 #自然风光 #摄影 #旅游 #旅行 #旅行日记
+#锦鲤#鲤鱼#幸运#植物园#海边#太阳#北海道#函馆#自然风光#摄影
+#锦鲤# #鲤鱼# #幸运# #植物园# #海边# #太阳# #北海道# #函馆# #自然风光# #摄影#
+
+en:
+
+Hakodate Tropical Botanical Garden: Koi Dancing in the Stream
+Gentle koi movements bring life to the serene waters.
+#Koi #KoiFish #Lucky #BotanicalGarden #Seaside #Sunlight #Hokkaido #Hakodate #NatureViews #Photography #Japan #JapanTravel #Travel #TravelDiary
+#Koi#KoiFish#Lucky#BotanicalGarden#Seaside#Sunlight#Hokkaido#Hakodate#NatureViews#Photography
+
+## 20250304 Kanemori Red Brick Warehouse
+
+zh:
+
+金森红砖仓库｜雨夜中的浪漫光影
+雨夜灯光映红墙，函馆海边别样风情。
+#金森红砖仓库 #雨夜 #船只 #下雨 #灯光 #海边 #海景 #北海道 #函馆 #浪漫 #旅游 #旅行 #旅行日记
+#金森红砖仓库#雨夜#船只#下雨#灯光#海边#海景#北海道#函馆#浪漫
+#金森红砖仓库# #雨夜# #船只# #下雨# #灯光# #海边# #海景# #北海道# #函馆# #浪漫#
+
+en:
+
+Kanemori Red Brick Warehouse: A Rainy Night Glow
+Rain and lights create a magical coastal evening.
+#KanemoriRedBrickWarehouse #RainyNight #Boats #Rainfall #Lights #Beach #Seaside #Hokkaido #Hakodate #Romantic #Japan #JapanTravel #Travel #TravelDiary
+#KanemoriRedBrickWarehouse#RainyNight#Boats#Rainfall#Lights#Beach#Seaside#Hokkaido#Hakodate#Romantic
+
+## 20250303 Toyokawa Wharf (豊川埠頭)
+
+zh:
+
+丰川埠头｜海鸥翱翔其间
+海风吹拂，港口尽显优雅气息。
+#函馆港 #丰川埠头 #码头 #港口 #海边 #游艇 #海鸥 #北海道 #慢生活 #景点推荐 #旅游 #旅行 #旅行日记
+#函馆港#丰川埠头#码头#港口#海边#游艇#海鸥#北海道#慢生活#景点推荐
+#函馆港# #丰川埠头# #码头# #港口# #海边# #游艇# #海鸥# #北海道# #慢生活# #景点推荐#
+
+en:
+
+Hakodate Port: The Charm of Toyokawa Wharf
+A bustling harbor where seagulls and boats meet.
+#HakodatePort #ToyokawaWharf #Harbor #Seaside #Seagulls #Hokkaido #FishingBoats #CoastalViews #SlowLife #ScenicSpot #Japan #JapanTravel #Travel #TravelDiary
+#HakodatePort#ToyokawaWharf#Harbor#Seaside#Seagulls#Hokkaido#FishingBoats#CoastalViews#SlowLife#ScenicSpot
+
+## 20250302 Yukawa Embankment
+
+zh:
+
+湯川堤防｜函馆的静谧海岸风光
+阳光洒落，海天一色的绝美瞬间。
+#海边 #太阳 #北海道 #函馆 #自然风光 #摄影 #旅行目的地 #慢生活 #景点推荐 #放松时光 #旅游 #旅行 #旅行日记
+#海边#太阳#北海道#函馆#自然风光#摄影#旅行目的地#慢生活#景点推荐#放松时光
+#海边# #太阳# #北海道# #函馆# #自然风光# #摄影# #旅行目的地# #慢生活# #景点推荐# #放松时光#
+
+en:
+
+Yukawa Embankment: Tranquil Coastal Views in Hakodate
+Bask in serene beauty where the sea meets the sky.
+#Seaside #Sunshine #Hokkaido #Hakodate #NatureViews #Photography #TravelDestinations #SlowLife #ScenicSpot #RelaxingMoments #Japan #JapanTravel #Travel #TravelDiary
+#Seaside#Sunshine#Hokkaido#Hakodate#NatureViews#Photography#TravelDestinations#SlowLife#ScenicSpot#RelaxingMoments
+
+## 20250301 Lujiang (鹭江)
+
+zh:
+
+鹭江｜日落
+夕阳西下，鹭江美景令人沉醉。
+#鹭江 #日落 #游船 #夕阳 #厦门 #思明区 #和平码头 #海景 #摄影 #码头 #旅游 #旅行 #旅行日记
+#鹭江#日落#游船#夕阳#厦门#思明区#和平码头#海景#摄影#码头
+#鹭江# #日落# #游船# #夕阳# #厦门# #思明区# #和平码头# #海景# #摄影# #码头#
+
+en:
+
+Lujiang: Sunset Glow Over the Water
+As the sun sets, Lujiang sparkles with golden hues.
+#Lujiang #Sunset #Cruise #EveningGlow #Xiamen #SimingDistrict #HepingPier #Seascape #Photography #Harbor #XiamenTravel #Travel #TravelDiary
+#Lujiang#Sunset#Cruise#EveningGlow#Xiamen#SimingDistrict#HepingPier#Seascape#Photography#Harbor
+
+## 20250228 Shimao Emall
+
+zh:
+
+世贸大厦｜夜游鹭江
+游船穿行灯影间，鹭江夜色美不胜收。
+#世贸大厦 #鹭江 #游船 #夜景 #思明区 #地标建筑 #出海 #摄影 #灯光 #城市风光 #旅游 #旅行 #旅行日记
+#世贸大厦#鹭江#游船#夜景#思明区#地标建筑#出海#摄影#灯光#城市风光
+#世贸大厦# #鹭江# #游船# #夜景# #思明区# #地标建筑# #出海# #摄影# #灯光# #城市风光#
+
+en:
+
+Shimao Emall: A Glittering Night Cruise on Lujiang
+Sailing through dazzling lights, Lujiang's beauty shines.
+#ShimaoEmall #Lujiang #NightCruise #NightView #SimingDistrict #LandmarkBuilding #Boating #Photography #CityLights #ScenicSpot #Xiamen #XiamenTravel #Travel #TravelDiary
+#ShimaoEmall#Lujiang#NightCruise#NightView#SimingDistrict#LandmarkBuilding#Boating#Photography#CityLights#ScenicSpot
 
 ## 20250227 Tsuen Wan & Sha Tin
 
