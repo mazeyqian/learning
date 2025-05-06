@@ -3,6 +3,7 @@
 
 **Table of Contents:**
 
+- [25-0503](#25-0503)
 - [25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea) To Publish](#25-0423-songdo-coastal-bolle-gil-trail-松岛半岛地质探访路busansouth-korea-to-publish)
 - [25-0204 Xiamen Horticulture Expo Garden (厦门园林博览园;Xiamen,China)](#25-0204-xiamen-horticulture-expo-garden-厦门园林博览园xiamenchina)
 - [25-0410 No Traffic Jam Today (今天不堵车;Hong Kong,China)](#25-0410-no-traffic-jam-today-今天不堵车hong-kongchina)
@@ -43,6 +44,28 @@
 - [24-1228 Walk in Wakayama (和歌山)](#24-1228-walk-in-wakayama-和歌山)
 - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
 - [24-1206 The Animals of Wakayama Castle](#24-1206-the-animals-of-wakayama-castle)
+
+## 25-0503
+
+zh:
+
+芦茨村｜富春江边的水光与犬影
+阳光洒在水面，小身影奔入江中，水花如画般飞溅。
+#桐庐 #芦茨村 #富春江 #江边村落 #狗狗 #自然村落 #河边风光 #日落水面 #江南风景 #乡村旅行 #旅游 #旅行 #旅行日记
+#桐庐#芦茨村#富春江#江边村落#狗狗日常#自然村落#河边风光#日落水面#江南风景#乡村旅行
+#桐庐#芦茨村#富春江#江边村落#狗狗日常#自然村落#河边风光#日落水面#江南风景#乡村旅行
+
+en:
+
+Luci Village, Tonglu｜A Dog's Splash Beneath the Golden Ripples
+A dog dashes through the sparkling river, chasing light and sending water into the air.
+#Tonglu #LuciVillage #FuchunRiver #RiversideScene #GoldenLight #VillageDog #NatureVibes #CountrysideChina #RiverSplash #SunlitWater #Xiamen #XiamenTravel #Travel #TravelDiary
+#Tonglu#LuciVillage#FuchunRiver#RiversideScene#GoldenLight#VillageDog#NatureVibes#CountrysideChina#RiverSplash#SunlitWater
+
+jp:
+
+芦茨村の川辺｜水面にきらめく犬の影
+一匹の犬が川を駆け、水しぶきが陽の光を跳ね返す。
 
 ## 25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea) To Publish
 
