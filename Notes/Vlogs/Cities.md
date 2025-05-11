@@ -3,6 +3,7 @@
 
 **Table of Contents:**
 
+- [25-0304 Maiko Park (舞子公園;Kobe,Japan)](#25-0304-maiko-park-舞子公園kobejapan)
 - [25-0503 Lucicun (芦茨村;Tonglu,China)](#25-0503-lucicun-芦茨村tongluchina)
 - [25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea) To Publish](#25-0423-songdo-coastal-bolle-gil-trail-松岛半岛地质探访路busansouth-korea-to-publish)
 - [25-0204 Xiamen Horticulture Expo Garden (厦门园林博览园;Xiamen,China)](#25-0204-xiamen-horticulture-expo-garden-厦门园林博览园xiamenchina)
@@ -44,6 +45,28 @@
 - [24-1228 Walk in Wakayama (和歌山)](#24-1228-walk-in-wakayama-和歌山)
 - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
 - [24-1206 The Animals of Wakayama Castle](#24-1206-the-animals-of-wakayama-castle)
+
+## 25-0304 Maiko Park (舞子公園;Kobe,Japan)
+
+zh:
+
+舞子公园｜步道之上看尽海桥街景
+海桥街景皆映眼中，宛如空中画卷缓缓展开。
+#神户 #兵库县 #舞子公园 #海上散步道 #明石海峡大桥 #城市风景 #海景视角 #高空漫步 #玻璃步道 #街道风光 #旅游 #旅行 #旅行日记
+#神户#兵库县#舞子公园#海上散步道#明石海峡大桥#城市风景#海景视角#高空漫步#玻璃步道#街道风光
+#神户# #兵库县# #舞子公园# #海上散步道# #明石海峡大桥# #城市风景# #海景视角# #高空漫步# #玻璃步道# #街道风光#
+
+en:
+
+Maiko Park & Promenade: City and Sea Unfold Beneath Your Feet
+City, sea, and bridge meet the eye—like a scroll slowly unfurling in the sky.
+#Hyogo #MaikoPark #MaikoPromenade #AkashiBridge #SeasideView #Cityscape #BridgeView #GlassWalk #SkywalkJapan #Kobe #JapanTravel #Travel #TravelDiary
+#Hyogo#MaikoPark#MaikoPromenade#AkashiBridge#SeasideView#Cityscape#BridgeView#GlassWalk#SkywalkJapan#Kobe
+
+jp:
+
+舞子公園のプロムナード｜海と街と橋を見渡して
+ガラスの遊歩道から、海、大橋、街並みが静かに広がる。
 
 ## 25-0503 Lucicun (芦茨村;Tonglu,China)
 
