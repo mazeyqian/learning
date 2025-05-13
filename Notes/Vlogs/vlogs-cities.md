@@ -1,6 +1,7 @@
 # 旅行日记
 
 - [旅行日记](#旅行日记)
+  - [20250303 Toyokawa Wharf (豊川埠頭)](#20250303-toyokawa-wharf-豊川埠頭)
   - [20250302 Yukawa Embankment](#20250302-yukawa-embankment)
   - [20250227 Tsuen Wan \& Sha Tin](#20250227-tsuen-wan--sha-tin)
   - [Crab Hot Pot](#crab-hot-pot)
@@ -31,6 +32,23 @@
   - [Walk in Wakayama](#walk-in-wakayama)
   - [王子ヶ浜](#王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
+
+## 20250303 Toyokawa Wharf (豊川埠頭)
+
+zh:
+
+丰川埠头｜海鸥翱翔其间
+海风吹拂，港口尽显优雅气息。
+#函馆港 #丰川埠头 #码头 #港口 #海边 #游艇 #海鸥 #北海道 #慢生活 #景点推荐 #旅游 #旅行 #旅行日记
+#函馆港#丰川埠头#码头#港口#海边#游艇#海鸥#北海道#慢生活#景点推荐
+#函馆港# #丰川埠头# #码头# #港口# #海边# #游艇# #海鸥# #北海道# #慢生活# #景点推荐#
+
+en:
+
+Hakodate Port: The Charm of Toyokawa Wharf
+A bustling harbor where seagulls and boats meet.
+#HakodatePort #ToyokawaWharf #Harbor #Seaside #Seagulls #Hokkaido #FishingBoats #CoastalViews #SlowLife #ScenicSpot #Japan #JapanTravel #Travel #TravelDiary
+#HakodatePort#ToyokawaWharf#Harbor#Seaside#Seagulls#Hokkaido#FishingBoats#CoastalViews#SlowLife#ScenicSpot
 
 ## 20250302 Yukawa Embankment
 
