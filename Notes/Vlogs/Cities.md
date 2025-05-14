@@ -3,6 +3,7 @@
 
 **Table of Contents:**
 
+- [25-0303 Mount Rokkō (六甲山天覧台;Kobe,Japan)](#25-0303-mount-rokkō-六甲山天覧台kobejapan)
 - [25-0304 Maiko Park (舞子公園;Kobe,Japan)](#25-0304-maiko-park-舞子公園kobejapan)
 - [25-0503 Lucicun (芦茨村;Tonglu,China)](#25-0503-lucicun-芦茨村tongluchina)
 - [25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea) To Publish](#25-0423-songdo-coastal-bolle-gil-trail-松岛半岛地质探访路busansouth-korea-to-publish)
@@ -45,6 +46,28 @@
 - [24-1228 Walk in Wakayama (和歌山)](#24-1228-walk-in-wakayama-和歌山)
 - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
 - [24-1206 The Animals of Wakayama Castle](#24-1206-the-animals-of-wakayama-castle)
+
+## 25-0303 Mount Rokkō (六甲山天覧台;Kobe,Japan)
+
+zh:
+
+六甲山｜天览台俯瞰神户夜色
+夜幕低垂，灯火在山巅一览无遗，宛如洒落人间的星河。
+#神户 #神户夜景 #日本三大夜景 #六甲山 #天览台 #夜景拍摄 #观景台 #城市夜色 #山顶视角 #旅行目的地 #旅游 #旅行 #旅行日记
+#神户#神户夜景#日本三大夜景#六甲山#天览台#夜景拍摄#观景台#城市夜色#山顶视角
+#神户# #神户夜景# #日本三大夜景# #六甲山# #天览台# #夜景拍摄# #观景台# #城市夜色# #山顶视角# #旅行目的地#
+
+en:
+
+Mount Rokko Nightscape: Kobe Lights from the Tenrandai Viewpoint
+From the mountaintop observatory, Kobe’s city lights stretch like a galaxy across the night.
+#Top3NightViews #MountRokko #KobeNightView #Kobe #Nightscape #CityLights #ObservationPoint #MountainView #EveningScene #TravelSpot #Travel #TravelDiary
+#Top3NightViews#MountRokko#KobeNightView#Kobe#Nightscape#CityLights#ObservationPoint#MountainView#EveningScene#TravelSpot
+
+jp:
+
+六甲山の天覧台｜神戸の夜を一望して
+天覧台から眺める神戸の夜景は、星空のように街がきらめいている。
 
 ## 25-0304 Maiko Park (舞子公園;Kobe,Japan)
 
