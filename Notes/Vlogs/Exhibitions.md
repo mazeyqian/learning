@@ -1,4 +1,5 @@
-## 生活碎片
+<!-- omit from toc -->
+# 生活碎片
 
 title: BILIBILIWorld｜前方拥挤，请稍等再试试
 
