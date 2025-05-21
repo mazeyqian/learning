@@ -1,6 +1,7 @@
 # 旅行日记
 
 - [旅行日记](#旅行日记)
+  - [20250304 Kanemori Red Brick Warehouse](#20250304-kanemori-red-brick-warehouse)
   - [20250303 Toyokawa Wharf (豊川埠頭)](#20250303-toyokawa-wharf-豊川埠頭)
   - [20250302 Yukawa Embankment](#20250302-yukawa-embankment)
   - [20250301 Lujiang (鹭江)](#20250301-lujiang-鹭江)
@@ -34,6 +35,23 @@
   - [Walk in Wakayama](#walk-in-wakayama)
   - [王子ヶ浜](#王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
+
+## 20250304 Kanemori Red Brick Warehouse
+
+zh:
+
+金森红砖仓库｜雨夜中的浪漫光影
+雨夜灯光映红墙，函馆海边别样风情。
+#金森红砖仓库 #雨夜 #船只 #下雨 #灯光 #海边 #海景 #北海道 #函馆 #浪漫 #旅游 #旅行 #旅行日记
+#金森红砖仓库#雨夜#船只#下雨#灯光#海边#海景#北海道#函馆#浪漫
+#金森红砖仓库# #雨夜# #船只# #下雨# #灯光# #海边# #海景# #北海道# #函馆# #浪漫#
+
+en:
+
+Kanemori Red Brick Warehouse: A Rainy Night Glow
+Rain and lights create a magical coastal evening.
+#KanemoriRedBrickWarehouse #RainyNight #Boats #Rainfall #Lights #Beach #Seaside #Hokkaido #Hakodate #Romantic #Japan #JapanTravel #Travel #TravelDiary
+#KanemoriRedBrickWarehouse#RainyNight#Boats#Rainfall#Lights#Beach#Seaside#Hokkaido#Hakodate#Romantic
 
 ## 20250303 Toyokawa Wharf (豊川埠頭)
 
