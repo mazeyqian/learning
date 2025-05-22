@@ -1,6 +1,7 @@
 # 旅行日记
 
 - [旅行日记](#旅行日记)
+  - [20250305 Hakodate Tropical Botanical Garden (函館市熱帯植物園)](#20250305-hakodate-tropical-botanical-garden-函館市熱帯植物園)
   - [20250304 Kanemori Red Brick Warehouse](#20250304-kanemori-red-brick-warehouse)
   - [20250303 Toyokawa Wharf (豊川埠頭)](#20250303-toyokawa-wharf-豊川埠頭)
   - [20250302 Yukawa Embankment](#20250302-yukawa-embankment)
@@ -35,6 +36,23 @@
   - [Walk in Wakayama](#walk-in-wakayama)
   - [王子ヶ浜](#王子ヶ浜)
   - [The Animals of Wakayama Castle](#the-animals-of-wakayama-castle)
+
+## 20250305 Hakodate Tropical Botanical Garden (函館市熱帯植物園)
+
+zh:
+
+函馆市热带植物园｜河中锦鲤的灵动瞬间
+锦鲤游动如画，映衬自然的诗意美感。
+#锦鲤 #鲤鱼 #幸运 #植物园 #海边 #太阳 #北海道 #函馆 #自然风光 #摄影 #旅游 #旅行 #旅行日记
+#锦鲤#鲤鱼#幸运#植物园#海边#太阳#北海道#函馆#自然风光#摄影
+#锦鲤# #鲤鱼# #幸运# #植物园# #海边# #太阳# #北海道# #函馆# #自然风光# #摄影#
+
+en:
+
+Hakodate Tropical Botanical Garden: Koi Dancing in the Stream
+Gentle koi movements bring life to the serene waters.
+#Koi #KoiFish #Lucky #BotanicalGarden #Seaside #Sunlight #Hokkaido #Hakodate #NatureViews #Photography #Japan #JapanTravel #Travel #TravelDiary
+#Koi#KoiFish#Lucky#BotanicalGarden#Seaside#Sunlight#Hokkaido#Hakodate#NatureViews#Photography
 
 ## 20250304 Kanemori Red Brick Warehouse
 
