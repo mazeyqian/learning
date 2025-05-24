@@ -3,6 +3,8 @@
 
 **Table of Contents:**
 
+- [25-0408 香港丽豪酒店](#25-0408-香港丽豪酒店)
+- [25-0519 lyf天神福冈酒店](#25-0519-lyf天神福冈酒店)
 - [25-0220 上海邮政博物馆](#25-0220-上海邮政博物馆)
 - [24-0709 国华广场](#24-0709-国华广场)
 - [24-0925 西塔老太太泥炉烤肉(杨浦国华广场店)](#24-0925-西塔老太太泥炉烤肉杨浦国华广场店)
@@ -43,6 +45,28 @@
 - [19-0808 黑牛の店(南翔印象城MEGA店)](#19-0808-黑牛の店南翔印象城mega店)
 - [19-0728 明泰谷泰国餐厅(正大广场店)](#19-0728-明泰谷泰国餐厅正大广场店)
 - [19-0602 上上谦串串香火锅(新梅联合广场店)](#19-0602-上上谦串串香火锅新梅联合广场店)
+
+## 25-0408 香港丽豪酒店
+
+Note:
+
+春夜河边丽豪小住
+
+香港丽豪酒店位于沙田，春天入住时感受特别好。交通便利，出行轻松，周边生活也很方便。
+
+酒店内部有不少餐厅可选，设施齐全，房间整洁。窗外风景很迷人，尤其夜晚灯光映着河水，氛围很好。吃完饭还能在门口河边散步，空气清新，节奏一下慢下来。
+
+#香港住宿 #沙田酒店 #丽豪酒店 #交通便利 #风景不错 #酒店餐厅多 #春季旅行 #河边散步
+
+Comment:
+
+香港丽豪酒店位于沙田，交通方便，周边生活便利。酒店内部餐厅选择多，设施齐全，房间整洁舒适。窗外就是河景，夜晚风景特别迷人。吃完晚饭可以在门口的河边散步，空气清新，节奏放缓，整个氛围安静惬意，是放松休息的好地方。
+
+## 25-0519 lyf天神福冈酒店
+
+在 lyf 天神福冈酒店住了 2 晚，是一家共享式酒店，位置很好，附近有拉面店和鳗鱼饭店，走路几分钟就到地铁站。冰箱和微波炉集中在三楼，使用方便。房间本身很安静，不过隔音其实一般，只是邻居刚好比较安静。晚上看电视的时候，建议调低音量，以免影响他人。在此为可能造成的打扰表示抱歉。
+
+Stayed 2 nights at lyf Tenjin Fukuoka, a co-living style hotel with a great location. There are ramen and eel restaurants nearby, and the subway station is just a few minutes' walk away. The fridge and microwave are on the third floor, which is convenient. The room itself was quiet, but the soundproofing is average — it was only quiet because the neighbors happened to be quiet. It's recommended to keep the TV volume low at night to avoid disturbing others. I apologize if I caused any inconvenience.
 
 ## 25-0220 上海邮政博物馆
 
