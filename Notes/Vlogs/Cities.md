@@ -3,6 +3,7 @@
 
 **Table of Contents:**
 
+- [25-0521 Gundam Statue](#25-0521-gundam-statue)
 - [25-0303 Mount Rokkō (六甲山天覧台;Kobe,Japan)](#25-0303-mount-rokkō-六甲山天覧台kobejapan)
 - [25-0304 Maiko Park (舞子公園;Kobe,Japan)](#25-0304-maiko-park-舞子公園kobejapan)
 - [25-0503 Lucicun (芦茨村;Tonglu,China)](#25-0503-lucicun-芦茨村tongluchina)
@@ -46,6 +47,39 @@
 - [24-1228 Walk in Wakayama (和歌山)](#24-1228-walk-in-wakayama-和歌山)
 - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
 - [24-1206 The Animals of Wakayama Castle](#24-1206-the-animals-of-wakayama-castle)
+
+## 25-0521 Gundam Statue
+
+Gundam Side-F 福岡
+
+zh:
+
+福冈｜高达
+
+风雨中，高达屹立如山。
+
+拍摄于福岡実物大 𝛎ガンダム 立像｜雨中的 2025 年 5 月
+
+#福冈 #高达 #高达立像 #高达基地 #模型 #模玩 #万代 #自由高达 #Lalaport #机甲 #二次元
+
+#福冈#高达#高达立像#高达基地#模型#模玩#万代#自由高达#Lalaport#机甲#二次元
+
+#福冈# #高达# #高达立像# #高达基地# #模型# #模玩# #万代# #自由高达# #Lalaport# #机甲# #二次元#
+
+en:
+
+Life-Size Gundam in the Rain: Looking Up at a Towering Icon
+
+Even under rain, the massive Gundam stands tall, majestic and surreal.
+
+#Fukuoka #LifeSizeGundam #GundamStatue #RX93ff #GundamLovers #UrbanLandmark #RainyDayView #LookingUp #JapanSpots #AnimeIcon #Travel #TravelDiary
+
+#Fukuoka#LifeSizeGundam#GundamStatue#RX93ff#GundamLovers#UrbanLandmark#RainyDayView#LookingUp#JapanSpots#AnimeIcon
+
+jp:
+
+雨の中のνガンダム｜見上げるたびに心が震える
+実物大のνガンダムは、雨の中でも圧倒的な存在感。
 
 ## 25-0303 Mount Rokkō (六甲山天覧台;Kobe,Japan)
 
