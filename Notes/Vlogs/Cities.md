@@ -3,6 +3,7 @@
 
 **Table of Contents:**
 
+- [25-0602](#25-0602)
 - [25-0521 Gundam Statue](#25-0521-gundam-statue)
 - [25-0303 Mount Rokkō (六甲山天覧台;Kobe,Japan)](#25-0303-mount-rokkō-六甲山天覧台kobejapan)
 - [25-0304 Maiko Park (舞子公園;Kobe,Japan)](#25-0304-maiko-park-舞子公園kobejapan)
@@ -47,6 +48,30 @@
 - [24-1228 Walk in Wakayama (和歌山)](#24-1228-walk-in-wakayama-和歌山)
 - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
 - [24-1206 The Animals of Wakayama Castle](#24-1206-the-animals-of-wakayama-castle)
+
+## 25-0602
+
+zh:
+
+嘟嘟｜我太累了
+
+打盹的小猫咪。
+
+#猫咪 #打盹 #小猫 #可爱 #宠物 #日常生活 #萌宠 #猫咪日常 #慵懒生活 #猫咪视频 #猫奴 #慢生活 #猫咪摄影
+
+#猫咪#打盹#小猫#可爱#宠物#日常生活#萌宠#猫咪日常#慵懒生活#猫咪视频#猫奴#慢生活#猫咪摄影
+
+en:
+
+Tired All the Day: A Cat’s Couch Routine
+All-day tiredness, perfectly embodied by one sleepy cat on a sofa.
+#Shanghai #TiredAllDay #SleepyCat #LazyMood #CatNap #AtHomeScene #DailyCatLife #CouchVibes #SlowVlog #CuteAnimals #Travel #Trip #TravelDiary
+#Shanghai#TiredAllDay#SleepyCat#LazyMood#CatNap#AtHomeScene#DailyCatLife#CouchVibes#SlowVlog#CuteAnimals
+
+jp:
+
+Tired All the Day｜ソファで一日中眠い猫
+「ずっと眠い」を体現する猫、上海の部屋で今日もぐっすり。
 
 ## 25-0521 Gundam Statue
 
