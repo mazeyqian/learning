@@ -3,7 +3,7 @@
 
 **Table of Contents:**
 
-- [25-0603](#25-0603)
+- [25-0603 Moments with a Little Cat](#25-0603-moments-with-a-little-cat)
 - [25-0602 Tired All the Day](#25-0602-tired-all-the-day)
 - [25-0521 Gundam Statue](#25-0521-gundam-statue)
 - [25-0303 Mount Rokkō (六甲山天覧台;Kobe,Japan)](#25-0303-mount-rokkō-六甲山天覧台kobejapan)
@@ -50,7 +50,7 @@
 - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
 - [24-1206 The Animals of Wakayama Castle](#24-1206-the-animals-of-wakayama-castle)
 
-## 25-0603
+## 25-0603 Moments with a Little Cat
 
 zh:
 
@@ -58,6 +58,18 @@ zh:
 温柔片刻缓缓流淌。
 #哈基米 #猫咪 #小猫 #可爱 #宠物 #日常生活 #萌宠 #猫咪日常 #猫奴 #慢生活 #家居生活
 #哈基米#猫咪#小猫#可爱#宠物#日常生活#萌宠#猫咪日常#猫奴#慢生活#家居生活
+
+en:
+
+Dudu: Moments with a Little Cat
+A gentle pause, flowing slowly with soft rhythm.
+#Hakimi #Kitten #CuteCat #PetLife #HomeVibes #CatLover #CozyScene #DailyCat #SlowLiving #CutenessOverload #Travel #TravelDiary
+#Hakimi#Kitten#CuteCat#PetLife#HomeVibes#CatLover#CozyScene#DailyCat#SlowLiving#CutenessOverload
+
+jp:
+
+ドゥドゥ｜子猫と過ごすやさしい時間
+音楽とともに、静かに流れるまどろみのひととき。
 
 ## 25-0602 Tired All the Day
 
