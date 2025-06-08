@@ -55,17 +55,25 @@ Gundam Side-F 福岡
 zh:
 
 福冈｜高达
+
 风雨中，高达屹立如山。
+
 拍摄于福岡実物大 𝛎ガンダム 立像｜雨中的 2025 年 5 月
+
 #福冈 #高达 #高达立像 #高达基地 #模型 #模玩 #万代 #自由高达 #Lalaport #机甲 #二次元
+
 #福冈#高达#高达立像#高达基地#模型#模玩#万代#自由高达#Lalaport#机甲#二次元
+
 #福冈# #高达# #高达立像# #高达基地# #模型# #模玩# #万代# #自由高达# #Lalaport# #机甲# #二次元#
 
 en:
 
 Life-Size Gundam in the Rain: Looking Up at a Towering Icon
-Even under rain, the massive Gundam stands tall—majestic and surreal.
+
+Even under rain, the massive Gundam stands tall, majestic and surreal.
+
 #Fukuoka #LifeSizeGundam #GundamStatue #RX93ff #GundamLovers #UrbanLandmark #RainyDayView #LookingUp #JapanSpots #AnimeIcon #Travel #TravelDiary
+
 #Fukuoka#LifeSizeGundam#GundamStatue#RX93ff#GundamLovers#UrbanLandmark#RainyDayView#LookingUp#JapanSpots#AnimeIcon
 
 jp:
