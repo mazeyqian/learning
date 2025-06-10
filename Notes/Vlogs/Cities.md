@@ -4,7 +4,7 @@
 **Table of Contents:**
 
 - [25-0603 Moments with a Little Cat](#25-0603-moments-with-a-little-cat)
-- [25-0602 Tired All the Day](#25-0602-tired-all-the-day)
+- [25-0602 Tired All the Time](#25-0602-tired-all-the-time)
 - [25-0521 Gundam Statue](#25-0521-gundam-statue)
 - [25-0303 Mount Rokkō (六甲山天覧台;Kobe,Japan)](#25-0303-mount-rokkō-六甲山天覧台kobejapan)
 - [25-0304 Maiko Park (舞子公園;Kobe,Japan)](#25-0304-maiko-park-舞子公園kobejapan)
@@ -71,7 +71,7 @@ jp:
 ドゥドゥ｜子猫と過ごすやさしい時間
 音楽とともに、静かに流れるまどろみのひととき。
 
-## 25-0602 Tired All the Day
+## 25-0602 Tired All the Time
 
 Guilin Park
 
@@ -87,7 +87,7 @@ zh:
 
 en:
 
-Tired All the Day: A Cat’s Couch Routine
+Tired All the Time: A Cat’s Couch Routine
 
 All-day tiredness, perfectly embodied by one sleepy cat on a sofa.
 
@@ -97,7 +97,7 @@ All-day tiredness, perfectly embodied by one sleepy cat on a sofa.
 
 jp:
 
-Tired All the Day｜ソファで一日中眠い猫
+Tired All the Time｜ソファで一日中眠い猫
 「ずっと眠い」を体現する猫、上海の部屋で今日もぐっすり。
 
 ## 25-0521 Gundam Statue
