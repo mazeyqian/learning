@@ -3,7 +3,7 @@
 
 **Table of Contents:**
 
-- [25-0605](#25-0605)
+- [25-0605 Don’t Even Think Once](#25-0605-dont-even-think-once)
 - [25-0603 Moments with a Little Cat](#25-0603-moments-with-a-little-cat)
 - [25-0602 Tired All the Time](#25-0602-tired-all-the-time)
 - [25-0521 Gundam Statue](#25-0521-gundam-statue)
@@ -51,7 +51,7 @@
 - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
 - [24-1206 The Animals of Wakayama Castle](#24-1206-the-animals-of-wakayama-castle)
 
-## 25-0605
+## 25-0605 Don’t Even Think Once
 
 嘟嘟｜小猫不想思考
 
@@ -63,6 +63,15 @@
 en:
 
 Dudu: I Don’t Even Think Once
+As if her thoughts just powered off.
+#ZonedOutCat #SpacingOut #Cat #Kitten #Cute #Pet #DailyLife #LovelyPet #CatRoutine #CatLover #SlowLiving
+#ZonedOutCat#SpacingOut#Cat#Kitten#Cute#Pet#DailyLife#LovelyPet#CatRoutine#CatLover
+
+jp：
+ドゥドゥ｜考えるのをやめた猫
+まるで思考が電源オフになったみたい。
+#猫ぼーっと #ぼーっと #猫 #子猫 #かわいい #ペット #日常生活 #癒しのペット #猫の毎日 #猫好き #スローライフ
+#猫ぼーっと#ぼーっと#猫#子猫#かわいい#ペット#日常生活#癒しのペット#猫の毎日#猫好き
 
 ## 25-0603 Moments with a Little Cat
 
