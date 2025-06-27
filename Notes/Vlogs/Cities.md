@@ -6,7 +6,7 @@
 - [25-0605 Don’t Even Think Once](#25-0605-dont-even-think-once)
 - [25-0603 Moments with a Little Cat](#25-0603-moments-with-a-little-cat)
 - [25-0602 Tired All the Time](#25-0602-tired-all-the-time)
-- [25-0521 Gundam Statue](#25-0521-gundam-statue)
+- [25-0521 Gundam Statue (福岡;Fukuoka,Kyushu,Japan)](#25-0521-gundam-statue-福岡fukuokakyushujapan)
 - [25-0303 Mount Rokkō (六甲山天覧台;Kobe,Japan)](#25-0303-mount-rokkō-六甲山天覧台kobejapan)
 - [25-0304 Maiko Park (舞子公園;Kobe,Japan)](#25-0304-maiko-park-舞子公園kobejapan)
 - [25-0503 Lucicun (芦茨村;Tonglu,China)](#25-0503-lucicun-芦茨村tongluchina)
@@ -123,7 +123,7 @@ jp:
 Tired All the Time｜ソファで一日中眠い猫
 「ずっと眠い」を体現する猫、上海の部屋で今日もぐっすり。
 
-## 25-0521 Gundam Statue
+## 25-0521 Gundam Statue (福岡;Fukuoka,Kyushu,Japan)
 
 Gundam Side-F 福岡
 
