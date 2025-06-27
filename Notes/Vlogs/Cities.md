@@ -3,9 +3,9 @@
 
 **Table of Contents:**
 
-- [25-0605 Don’t Even Think Once](#25-0605-dont-even-think-once)
-- [25-0603 Moments with a Little Cat](#25-0603-moments-with-a-little-cat)
-- [25-0602 Tired All the Time](#25-0602-tired-all-the-time)
+- [25-0605 Don't Even Think Once (嘟嘟;Shanghai,China)](#25-0605-dont-even-think-once-嘟嘟shanghaichina)
+- [25-0603 Moments with a Little Cat (嘟嘟;Shanghai,China)](#25-0603-moments-with-a-little-cat-嘟嘟shanghaichina)
+- [25-0602 Tired All the Time (嘟嘟;Shanghai,China)](#25-0602-tired-all-the-time-嘟嘟shanghaichina)
 - [25-0521 Gundam Statue (福岡;Fukuoka,Kyushu,Japan)](#25-0521-gundam-statue-福岡fukuokakyushujapan)
 - [25-0303 Mount Rokkō (六甲山天覧台;Kobe,Japan)](#25-0303-mount-rokkō-六甲山天覧台kobejapan)
 - [25-0304 Maiko Park (舞子公園;Kobe,Japan)](#25-0304-maiko-park-舞子公園kobejapan)
@@ -51,7 +51,9 @@
 - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
 - [24-1206 The Animals of Wakayama Castle](#24-1206-the-animals-of-wakayama-castle)
 
-## 25-0605 Don’t Even Think Once
+## 25-0605 Don't Even Think Once (嘟嘟;Shanghai,China)
+
+zh:
 
 嘟嘟｜小猫不想思考
 
@@ -62,7 +64,7 @@
 
 en:
 
-Dudu: I Don’t Even Think Once
+Dudu: I Don't Even Think Once
 As if her thoughts just powered off.
 #ZonedOutCat #SpacingOut #Cat #Kitten #Cute #Pet #DailyLife #LovelyPet #CatRoutine #CatLover #SlowLiving
 #ZonedOutCat#SpacingOut#Cat#Kitten#Cute#Pet#DailyLife#LovelyPet#CatRoutine#CatLover
@@ -73,7 +75,7 @@ jp：
 #猫ぼーっと #ぼーっと #猫 #子猫 #かわいい #ペット #日常生活 #癒しのペット #猫の毎日 #猫好き #スローライフ
 #猫ぼーっと#ぼーっと#猫#子猫#かわいい#ペット#日常生活#癒しのペット#猫の毎日#猫好き
 
-## 25-0603 Moments with a Little Cat
+## 25-0603 Moments with a Little Cat (嘟嘟;Shanghai,China)
 
 zh:
 
@@ -94,7 +96,7 @@ jp:
 ドゥドゥ｜子猫と過ごすやさしい時間
 音楽とともに、静かに流れるまどろみのひととき。
 
-## 25-0602 Tired All the Time
+## 25-0602 Tired All the Time (嘟嘟;Shanghai,China)
 
 Guilin Park
 
