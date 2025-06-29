@@ -3,6 +3,7 @@
 
 **Table of Contents:**
 
+- [25-0305 Gion (祇園;Kyoto,Kansai,Japan)](#25-0305-gion-祇園kyotokansaijapan)
 - [25-0605 Don't Even Think Once (嘟嘟;Shanghai,China)](#25-0605-dont-even-think-once-嘟嘟shanghaichina)
 - [25-0603 Moments with a Little Cat (嘟嘟;Shanghai,China)](#25-0603-moments-with-a-little-cat-嘟嘟shanghaichina)
 - [25-0602 Tired All the Time (嘟嘟;Shanghai,China)](#25-0602-tired-all-the-time-嘟嘟shanghaichina)
@@ -51,6 +52,29 @@
 - [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
 - [24-1206 The Animals of Wakayama Castle](#24-1206-the-animals-of-wakayama-castle)
 
+## 25-0305 Gion (祇園;Kyoto,Kansai,Japan)
+
+祇園町
+
+zh:
+
+祇园｜暮色中路过八坂神社
+灯光透出街角，傍晚的人影缓缓交错。
+#京都 #祇园枝垂坂 #八坂神社 #关西 #街头光影 #傍晚 #城市 #和风 #旅游 #旅行 #旅行日记
+#京都#祇园枝垂坂#八坂神社#关西#街头光影#傍晚#城市#和风#旅游#旅行#旅行日记
+
+en:
+
+Gion: Passing by Yasaka Shrine at Dusk
+Streetlights glow at the corners, as evening figures slowly cross paths.
+#Kyoto #GionShidarezakura #YasakaShrine #Kansai #StreetLights #EveningMood #UrbanScene #JapaneseStyle
+#Kyoto#GionShidarezakura#YasakaShrine#Kansai#StreetLights#EveningMood#UrbanScene#JapaneseStyle
+
+jp:
+
+祇園｜暮れゆく八坂神社を通りすがる
+街角の灯りが滲み、黄昏の人影がゆっくりとすれ違う。
+
 ## 25-0605 Don't Even Think Once (嘟嘟;Shanghai,China)
 
 zh:
@@ -69,13 +93,16 @@ As if her thoughts just powered off.
 #ZonedOutCat #SpacingOut #Cat #Kitten #Cute #Pet #DailyLife #LovelyPet #CatRoutine #CatLover #SlowLiving
 #ZonedOutCat#SpacingOut#Cat#Kitten#Cute#Pet#DailyLife#LovelyPet#CatRoutine#CatLover
 
-jp：
+jp:
+
 ドゥドゥ｜考えるのをやめた猫
 まるで思考が電源オフになったみたい。
 #猫ぼーっと #ぼーっと #猫 #子猫 #かわいい #ペット #日常生活 #癒しのペット #猫の毎日 #猫好き #スローライフ
 #猫ぼーっと#ぼーっと#猫#子猫#かわいい#ペット#日常生活#癒しのペット#猫の毎日#猫好き
 
 ## 25-0603 Moments with a Little Cat (嘟嘟;Shanghai,China)
+
+猫咪日常・嘟嘟
 
 zh:
 
@@ -88,7 +115,8 @@ en:
 
 Dudu: Moments with a Little Cat
 A gentle pause, flowing slowly with soft rhythm.
-#Hakimi #Kitten #CuteCat #PetLife #HomeVibes #CatLover #CozyScene #DailyCat #SlowLiving #CutenessOverload #Travel #TravelDiary
+#Hakimi #Kitten #CuteCat #PetLife #HomeVibes #CatLover #CozyScene #DailyCat #SlowLiving #CutenessOverload
+
 #Hakimi#Kitten#CuteCat#PetLife#HomeVibes#CatLover#CozyScene#DailyCat#SlowLiving#CutenessOverload
 
 jp:
