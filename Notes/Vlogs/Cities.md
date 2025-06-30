@@ -47,10 +47,10 @@
 - [24-1115 Cape Kure](#24-1115-cape-kure)
 - [24-1122 Tawara Beach](#24-1122-tawara-beach)
 - [24-1129 Kushimoto Sunrise (串本の日の出;Wakayama,Japan)](#24-1129-kushimoto-sunrise-串本の日の出wakayamajapan)
-- [24-1221 Kumano Hayatama Taisha](#24-1221-kumano-hayatama-taisha)
+- [24-1221 Kumano Hayatama Taisha (熊野速玉大社;Wakayama,Kansai,Japan)](#24-1221-kumano-hayatama-taisha-熊野速玉大社wakayamakansaijapan)
 - [24-1228 Walk in Wakayama (和歌山)](#24-1228-walk-in-wakayama-和歌山)
-- [24-1213 王子ヶ浜](#24-1213-王子ヶ浜)
-- [24-1206 The Animals of Wakayama Castle](#24-1206-the-animals-of-wakayama-castle)
+- [24-1213 王子ヶ浜 (王子町;Wakayama,Kansai,Japan)](#24-1213-王子ヶ浜-王子町wakayamakansaijapan)
+- [24-1206 The Animals of Wakayama Castle (和歌山城;Wakayama,Kansai,Japan)](#24-1206-the-animals-of-wakayama-castle-和歌山城wakayamakansaijapan)
 
 ## 25-0305 Gion (祇園;Kyoto,Kansai,Japan)
 
@@ -62,12 +62,14 @@ zh:
 灯光透出街角，傍晚的人影缓缓交错。
 #京都 #祇园枝垂坂 #八坂神社 #关西 #街头光影 #傍晚 #城市 #和风 #旅游 #旅行 #旅行日记
 #京都#祇园枝垂坂#八坂神社#关西#街头光影#傍晚#城市#和风#旅游#旅行#旅行日记
+#京都# #祇园枝垂坂# #八坂神社# #关西# #街头光影# #傍晚# #城市# #和风# #旅游# #旅行# #旅行日记#
 
 en:
 
 Gion: Passing by Yasaka Shrine at Dusk
 Streetlights glow at the corners, as evening figures slowly cross paths.
 #Kyoto #GionShidarezakura #YasakaShrine #Kansai #StreetLights #EveningMood #UrbanScene #JapaneseStyle
+
 #Kyoto#GionShidarezakura#YasakaShrine#Kansai#StreetLights#EveningMood#UrbanScene#JapaneseStyle
 
 jp:
@@ -76,6 +78,8 @@ jp:
 街角の灯りが滲み、黄昏の人影がゆっくりとすれ違う。
 
 ## 25-0605 Don't Even Think Once (嘟嘟;Shanghai,China)
+
+猫咪日常・嘟嘟
 
 zh:
 
@@ -91,6 +95,7 @@ en:
 Dudu: I Don't Even Think Once
 As if her thoughts just powered off.
 #ZonedOutCat #SpacingOut #Cat #Kitten #Cute #Pet #DailyLife #LovelyPet #CatRoutine #CatLover #SlowLiving
+
 #ZonedOutCat#SpacingOut#Cat#Kitten#Cute#Pet#DailyLife#LovelyPet#CatRoutine#CatLover
 
 jp:
@@ -914,14 +919,14 @@ Kushimoto Sunrise: A Stunning Coastal Morning
 Experience the serene beauty of a Kushimoto sunrise.
 #Sunrise #Beach #Coastline #Kansai #Wakayama #NaturePhotography #ScenicView #HiddenGem #TravelSpot #Japan #JapanTravel #Travel #TravelDiary
 
-## 24-1221 Kumano Hayatama Taisha
+## 24-1221 Kumano Hayatama Taisha (熊野速玉大社;Wakayama,Kansai,Japan)
 
 熊野速玉大社 #神社 #徒步 #世界遗产 #熊野古道 #关西 #和歌山 #新宫 #旅游 #旅行 #旅行日记
 
 zh:
 
 熊野速玉大社｜千年历史的神圣之地
-探访熊野速玉大社，走进世界遗产的文化魅力。
+沿熊野古道缓步而行，抵达世界遗产中静默千年的神殿。
 #神社 #徒步 #世界遗产 #熊野古道 #关西 #和歌山 #新宫 #文化旅行 #历史遗迹 #自然风光 #旅游 #旅行 #旅行日记
 
 en:
@@ -946,30 +951,30 @@ Walk in Wakayama: Sunset and Nature's Serenity
 Enjoy peaceful walks through Wakayama’s scenic spots.
 #Walk #Sunset #Park #Ojicho #Shingu #Kansai #Wakayama #Kushimoto #Taiji #NatureEscape #Japan #JapanTravel #Travel #TravelDiary
 
-## 24-1213 王子ヶ浜
+## 24-1213 王子ヶ浜 (王子町;Wakayama,Kansai,Japan)
 
 王子ヶ浜 #日落 #海滩 #海边 #Park #Ojicho #Shingu #王子町 #关西 #和歌山 #新宫 #旅游 #旅行 #旅行日记
 
 zh:
 
-王子ヶ浜｜迷人日落与海岸风光
-在王子ヶ浜欣赏日落，感受平静与美好。
+王子ヶ浜｜落日缓缓坠海，天光铺满长滩
+夕阳洒落海面，风静浪柔，一切都慢了下来。
 #日落 #海滩 #海边 #王子町 #关西 #和歌山 #新宫 #自然风光 #摄影打卡 #浪漫旅行 #旅游 #旅行 #旅行日记
 
 en:
 
-王子ヶ浜: A Tranquil Coastal Escape
+Ojicho: A Tranquil Coastal Escape
 Catch the serene sunset at the beach.
 #Sunset #Beach #Coastline #Park #Ojicho #Shingu #Wakayama #Kansai #NatureBeauty #RomanticTrip #Japan #JapanTravel #Travel #TravelDiary
 
-## 24-1206 The Animals of Wakayama Castle
+## 24-1206 The Animals of Wakayama Castle (和歌山城;Wakayama,Kansai,Japan)
 
 和歌山城的小动物们 #动物园 #童话园 #水禽园 #马 #鹦鹉 #城堡 #和歌山城公园 #关西 #和歌山 #旅游 #旅行 #旅行日记
 
 zh:
 
-和歌山城的小动物们｜童话般的奇妙乐园
-探索和歌山城，邂逅可爱动物。
+和歌山城｜童话城堡里的毛茸茸日常
+古城环抱下，小马、鹦鹉与水禽自在穿行。
 #动物园 #童话园 #水禽园 #马 #鹦鹉 #城堡 #和歌山城公园 #关西 #自然探索 #亲子游 #旅游 #旅行 #旅行日记
 
 en:
