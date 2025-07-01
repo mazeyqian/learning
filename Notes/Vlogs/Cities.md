@@ -3,6 +3,7 @@
 
 **Table of Contents:**
 
+- [25-0608 Kumamoto (熊本;Kumamoto,Kyushu,Japan)](#25-0608-kumamoto-熊本kumamotokyushujapan)
 - [25-0305 Gion (祇園;Kyoto,Kansai,Japan)](#25-0305-gion-祇園kyotokansaijapan)
 - [25-0605 Don't Even Think Once (嘟嘟;Shanghai,China)](#25-0605-dont-even-think-once-嘟嘟shanghaichina)
 - [25-0603 Moments with a Little Cat (嘟嘟;Shanghai,China)](#25-0603-moments-with-a-little-cat-嘟嘟shanghaichina)
@@ -51,6 +52,31 @@
 - [24-1228 Walk in Wakayama (和歌山)](#24-1228-walk-in-wakayama-和歌山)
 - [24-1213 王子ヶ浜 (王子町;Wakayama,Kansai,Japan)](#24-1213-王子ヶ浜-王子町wakayamakansaijapan)
 - [24-1206 The Animals of Wakayama Castle (和歌山城;Wakayama,Kansai,Japan)](#24-1206-the-animals-of-wakayama-castle-和歌山城wakayamakansaijapan)
+
+## 25-0608 Kumamoto (熊本;Kumamoto,Kyushu,Japan)
+
+zh:
+
+熊本｜街景与古迹
+漫步熊本城、水前寺庭园和城彩苑。
+#熊本 #熊本城 #水前寺成趣园 #城彩苑 #路飞像 #九州 #熊本熊 #樱之马场 #福冈 #熊本站 #稻荷神社
+
+#熊本#熊本城#水前寺成趣园#城彩苑#路飞像#九州#熊本熊#樱之马场#福冈#熊本站#稻荷神社
+#熊本# #熊本城# #水前寺成趣园# #城彩苑# #路飞像# #九州# #熊本熊# #樱之马场# #福冈# #熊本站# #稻荷神社#
+
+en:
+
+Kumamoto: Streets and Stories from the Past
+Strolling through Kumamoto Castle, Suizenji Garden, and Josaien.
+#Kumamoto #KumamotoCastle #SuizenjiGarden #Josaien #LuffyStatue #Kyushu #Kumamon #SakuraNoBaba #Fukuoka #KumamotoStation #InariShrine #JapanTravel #Travel #TravelDiary
+
+#Kumamoto#KumamotoCastle#SuizenjiGarden#Josaien#LuffyStatue#Kyushu#Kumamon#SakuraNoBaba#Fukuoka#KumamotoStation
+
+jp:
+
+熊本｜城下町の風景と昔日の記憶
+熊本城、水前寺庭園、城彩苑を歩きながら、歴史の余韻が街に溶け込んでいく。
+※「城下町」强调了熊本的历史地位，「昔日の記憶」传达了旧日情感和文化氛围，整体风格温柔而怀旧。
 
 ## 25-0305 Gion (祇園;Kyoto,Kansai,Japan)
 
