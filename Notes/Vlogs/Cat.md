@@ -5,10 +5,34 @@
 **Table of Contents:**
 
 - [Cat](#cat)
+  - [25-0626](#25-0626)
   - [25-0603 Rock That Body (嘟嘟)](#25-0603-rock-that-body-嘟嘟)
   - [25-0605 Don't Even Think Once (嘟嘟;Shanghai,China)](#25-0605-dont-even-think-once-嘟嘟shanghaichina)
   - [25-0603 Moments with a Little Cat (嘟嘟;Shanghai,China)](#25-0603-moments-with-a-little-cat-嘟嘟shanghaichina)
   - [25-0602 Tired All the Time (嘟嘟;Shanghai,China)](#25-0602-tired-all-the-time-嘟嘟shanghaichina)
+
+## 25-0626
+
+zh:
+
+我不是天才吗?
+小猫突然定格，像在认真思考宇宙的答案。
+#猫咪 #小猫 #可爱 #萌宠 #猫咪日常 #猫咪思考 #铲屎官日常 #吸猫时刻 #天才
+#猫咪#小猫#可爱#萌宠#猫咪日常#猫咪思考#铲屎官日常#吸猫时刻#天才
+
+en:
+
+Am I Not a Genius?
+Paused out of nowhere, as if pondering the secrets of the universe.
+#cat #kitten #cute #catlife #catthoughts #catownerlife #catmoments #genius
+#cat#kitten#cute#catlife#catthoughts#catownerlife#catmoments#genius
+
+jp:
+
+ボクって天才じゃニャい？
+突然ピタッと止まって、まるで宇宙の真理を考えているみたい。
+#猫 #子猫 #かわいい #ペット #猫の日常 #猫の思考 #飼い主の日常 #猫吸い #天才
+#猫#子猫#かわいい#ペット#猫の日常#猫の思考#飼い主の日常#猫吸い#天才
 
 ## 25-0603 Rock That Body (嘟嘟)
 
