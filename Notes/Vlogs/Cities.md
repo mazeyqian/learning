@@ -12,7 +12,7 @@
 - [25-0303 Mount Rokkō (六甲山天覧台;Kobe,Japan)](#25-0303-mount-rokkō-六甲山天覧台kobejapan)
 - [25-0304 Maiko Park (舞子公園;Kobe,Japan)](#25-0304-maiko-park-舞子公園kobejapan)
 - [25-0503 Lucicun (芦茨村;Tonglu,China)](#25-0503-lucicun-芦茨村tongluchina)
-- [25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea) To Publish](#25-0423-songdo-coastal-bolle-gil-trail-松岛半岛地质探访路busansouth-korea-to-publish)
+- [25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea)](#25-0423-songdo-coastal-bolle-gil-trail-松岛半岛地质探访路busansouth-korea)
 - [25-0204 Xiamen Horticulture Expo Garden (厦门园林博览园;Xiamen,China)](#25-0204-xiamen-horticulture-expo-garden-厦门园林博览园xiamenchina)
 - [25-0410 No Traffic Jam Today (今天不堵车;Hong Kong,China)](#25-0410-no-traffic-jam-today-今天不堵车hong-kongchina)
 - [25-0320 Senbon Torii (千本鳥居;Kyoto,Japan)](#25-0320-senbon-torii-千本鳥居kyotojapan)
@@ -269,21 +269,23 @@ jp:
 芦茨村の川辺｜水面にきらめく犬の影
 一匹の犬が川を駆け、水しぶきが陽の光を跳ね返す。
 
-## 25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea) To Publish
+## 25-0423 Songdo Coastal Bolle-Gil Trail (松岛半岛地质探访路;Busan,South Korea)
+
+岩南公园 Busan
 
 zh:
 
 松岛半岛地质探访路｜海岸步道看见澄澈蓝海
 走在海岸边，海蓝相随，海浪如歌拍岸。
-#釜山 #松岛半岛 #地质步道 #悬崖步道 #岩南公园 #海浪 #海岸线 #韩国旅行 #自然声音 #海边散步 #旅游 #旅行 #旅行日记
-#釜山#松岛半岛#地质步道#悬崖步道#岩南公园#海浪#海岸线#韩国旅行#自然声音#海边散步
-#釜山# #松岛半岛# #地质步道# #悬崖步道# #岩南公园# #海浪# #海岸线# #韩国旅行# #自然声音# #海边散步
+#釜山 #松岛 #地质步道 #悬崖步道 #岩南公园 #海浪 #海岸线 #韩国 #自然声音 #海边散步
+#釜山#松岛#地质步道#悬崖步道#岩南公园#海浪#海岸线#韩国#自然声音#海边散步
+#釜山# #松岛# #地质步道# #悬崖步道# #岩南公园# #海浪# #海岸线# #韩国# #自然声音# #海边散步#
 
 en:
 
 Songdo Coastal Bolle-Gil Trail: A Seaside Walk with Crystal Blue Views
 Walking by the coast, the blue sea follows, as waves sing against the shore.
-#Busan #SongdoTrail #CoastalWalk #CliffPath #AmnamPark #BlueSea #ClearWaters #PeacefulVibes #SeasideWalk #KoreaTravel #Travel #TravelDiary
+#Busan #SongdoTrail #CoastalWalk #CliffPath #AmnamPark #BlueSea #ClearWaters #PeacefulVibes #SeasideWalk #KoreaTravel
 #Busan#SongdoTrail#CoastalWalk#CliffPath#AmnamPark#BlueSea#ClearWaters#PeacefulVibes#SeasideWalk#KoreaTravel
 
 jp:
