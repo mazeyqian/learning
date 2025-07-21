@@ -6,7 +6,7 @@
 **Table of Contents:**
 
 - [Cat](#cat)
-  - [25-0616 Maximum Cuteness Alert](#25-0616-maximum-cuteness-alert)
+  - [25-0616 Kitten Wide-Eyed and Meowing](#25-0616-kitten-wide-eyed-and-meowing)
   - [25-0703 Head Massages Just for This Cat](#25-0703-head-massages-just-for-this-cat)
   - [25-0707 Sticky Little Baby](#25-0707-sticky-little-baby)
   - [25-0626 Am I Not a Genius (嘟嘟)](#25-0626-am-i-not-a-genius-嘟嘟)
@@ -15,7 +15,7 @@
   - [25-0603 Moments with a Little Cat (嘟嘟;Shanghai,China)](#25-0603-moments-with-a-little-cat-嘟嘟shanghaichina)
   - [25-0602 Tired All the Time (嘟嘟;Shanghai,China)](#25-0602-tired-all-the-time-嘟嘟shanghaichina)
 
-## 25-0616 Maximum Cuteness Alert
+## 25-0616 Kitten Wide-Eyed and Meowing
 
 zh:
 
@@ -23,6 +23,13 @@ zh:
 她是在呼唤我，还是发现了什么秘密？
 #猫咪 #小猫 #可爱 #萌宠 #猫咪日常 #猫叫 #猫表情 #铲屎官日常
 #猫咪#小猫#可爱#萌宠#猫咪日常#猫叫#猫表情#铲屎官日常
+
+en:
+
+Kitten Wide-Eyed and Meowing
+Is she calling out to me, or did she just uncover a secret?
+#cat #kitten #cute #pet #catlife #meowing #catexpression #catlover
+#cat#kitten#cute#pet#catlife#meowing#catexpression#catlover
 
 ## 25-0703 Head Massages Just for This Cat
 
