@@ -6,6 +6,7 @@
 **Table of Contents:**
 
 - [Cat](#cat)
+  - [25-0721 Kitten Hiccups](#25-0721-kitten-hiccups)
   - [25-0616 Kitten Wide-Eyed and Meowing](#25-0616-kitten-wide-eyed-and-meowing)
   - [25-0703 Head Massages Just for This Cat](#25-0703-head-massages-just-for-this-cat)
   - [25-0707 Sticky Little Baby](#25-0707-sticky-little-baby)
@@ -14,6 +15,21 @@
   - [25-0605 Don't Even Think Once (嘟嘟;Shanghai,China)](#25-0605-dont-even-think-once-嘟嘟shanghaichina)
   - [25-0603 Moments with a Little Cat (嘟嘟;Shanghai,China)](#25-0603-moments-with-a-little-cat-嘟嘟shanghaichina)
   - [25-0602 Tired All the Time (嘟嘟;Shanghai,China)](#25-0602-tired-all-the-time-嘟嘟shanghaichina)
+
+## 25-0721 Kitten Hiccups
+
+zh:
+
+小猫打嗝
+第一次吃鸡胸肉，好吃到停不下来，结果小肚子打起了嗝。
+#猫咪 #萌宠 #猫咪日常 #可爱 #小猫 #宠物猫 #吸猫日常 #猫咪生活 #打嗝
+#猫咪#萌宠#猫咪日常#猫吃播#可爱#小猫#宠物猫#吸猫日常#猫咪生活
+
+en:
+
+Kitten Hiccups
+She had chicken breast for the first time—loved it so much she couldn’t stop, and ended up with a tiny hiccup.
+#cat #kitten #cutepet #catvlog #adorable #petcat #meowtime #catlife #fluffypaws #funnycat
 
 ## 25-0616 Kitten Wide-Eyed and Meowing
 
