@@ -3,6 +3,7 @@
 
 **Table of Contents:**
 
+- [18-0413 Haikou (海口;Haikou,South China)](#18-0413-haikou-海口haikousouth-china)
 - [22-0312 Gongqing Forest Park (共青国家森林公园;Shanghai,East China)](#22-0312-gongqing-forest-park-共青国家森林公园shanghaieast-china)
 - [23-0430 Around the Torreya Forest Road (绍兴;Shaoxing,East China)](#23-0430-around-the-torreya-forest-road-绍兴shaoxingeast-china)
 - [25-0306 Universal Studios Japan (大阪;Osaka,Kansai,Japan)](#25-0306-universal-studios-japan-大阪osakakansaijapan)
@@ -53,6 +54,25 @@
 - [24-1228 Walk in Wakayama (和歌山)](#24-1228-walk-in-wakayama-和歌山)
 - [24-1213 王子ヶ浜 (王子町;Wakayama,Kansai,Japan)](#24-1213-王子ヶ浜-王子町wakayamakansaijapan)
 - [24-1206 The Animals of Wakayama Castle (和歌山城;Wakayama,Kansai,Japan)](#24-1206-the-animals-of-wakayama-castle-和歌山城wakayamakansaijapan)
+
+## 18-0413 Haikou (海口;Haikou,South China)
+
+address: 骑楼小吃街
+
+category: 旅行日记
+
+zh:
+
+海口｜夏天还是要去海边沙滩呀
+走在碧海大道吹海风，逛老街吃小吃，一起把夏天过成故事。
+#骑楼小吃街 #骑楼老街 #钟楼 #博物馆 #解放西路 #白沙门公园 #碧海大道 #美兰国际 #南方航空 #海南 #海口
+#骑楼小吃街#骑楼老街#钟楼#博物馆#解放西路#白沙门公园#碧海大道#美兰国际#南方航空#海南#海口
+
+en:
+
+Haikou: Summer Belongs to the Beach
+Walk along Bihai Avenue with the sea breeze, explore the old streets, and enjoy local snacks—let’s turn this summer into a story.
+#QilouSnackStreet #QilouOldStreet #ClockTower #Museum #JiefangWestRoad #BaishamenPark #BihaiAvenue #MeilanAirport #ChinaSouthern #Hainan #Haikou
 
 ## 22-0312 Gongqing Forest Park (共青国家森林公园;Shanghai,East China)
 
@@ -1098,16 +1118,6 @@ category: 旅行日记
 title: 阳台｜下雪了，冬天该有的样子
 
 description: #雪 #冬 #阳台 #春节 #balcony #下雪 #生活碎片
-
----
-
-title: 海口｜暖风和煦，夏天还是要去海边沙滩呀
-
-description: #骑楼小吃街 #骑楼老街 #钟楼 #博物馆 #解放西路 #白沙门公园 #碧海大道 #美兰国际 #南方航空 #海南 #海口 #旅游 #旅行 #旅行日记
-
-color: 51749c
-
-category: 旅行日记
 
 ---
 
