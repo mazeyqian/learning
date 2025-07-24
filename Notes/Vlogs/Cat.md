@@ -6,6 +6,7 @@
 **Table of Contents:**
 
 - [Cat](#cat)
+  - [25-0711 Loving Gaze from a Kitten](#25-0711-loving-gaze-from-a-kitten)
   - [25-0721 Kitten Hiccups](#25-0721-kitten-hiccups)
   - [25-0616 Kitten Wide-Eyed and Meowing](#25-0616-kitten-wide-eyed-and-meowing)
   - [25-0703 Head Massages Just for This Cat](#25-0703-head-massages-just-for-this-cat)
@@ -15,6 +16,21 @@
   - [25-0605 Don't Even Think Once (嘟嘟;Shanghai,China)](#25-0605-dont-even-think-once-嘟嘟shanghaichina)
   - [25-0603 Moments with a Little Cat (嘟嘟;Shanghai,China)](#25-0603-moments-with-a-little-cat-嘟嘟shanghaichina)
   - [25-0602 Tired All the Time (嘟嘟;Shanghai,China)](#25-0602-tired-all-the-time-嘟嘟shanghaichina)
+
+## 25-0711 Loving Gaze from a Kitten
+
+zh:
+
+小猫深情对视
+猫咪望着我，眼里藏着星星，悄悄握住了爪子。
+#猫咪 #萌宠 #猫咪日常 #可爱 #小猫 #宠物猫 #吸猫日常 #猫咪互动 #猫
+#猫咪#萌宠#猫咪日常#可爱#小猫#宠物猫#吸猫日常#猫咪互动#猫
+
+en:
+
+Loving Gaze from a Kitten
+The kitten looked at me with stars in its eyes and gently held my hand.
+#cat #cute #petcat #kitty #catlover #catdaily #cuddlycat #catinteraction #catgaze #catparent
 
 ## 25-0721 Kitten Hiccups
 
