@@ -22,7 +22,7 @@
 zh:
 
 小猫深情对视
-猫咪望着我，眼里藏着星星，悄悄握住了爪子。
+猫猫望着我，眼里藏着星星，悄悄握住了爪子。
 #猫咪 #萌宠 #猫咪日常 #可爱 #小猫 #宠物猫 #吸猫日常 #猫咪互动 #猫
 #猫咪#萌宠#猫咪日常#可爱#小猫#宠物猫#吸猫日常#猫咪互动#猫
 
@@ -30,7 +30,13 @@ en:
 
 Loving Gaze from a Kitten
 The kitten looked at me with stars in its eyes and gently held my hand.
-#cat #cute #petcat #kitty #catlover #catdaily #cuddlycat #catinteraction #catgaze #catparent
+#cat #cute #petcat #kitty #catlover #catdaily #cuddlycat #catparent
+#cat#cute#petcat#kitty#catlover#catdaily#cuddlycat#catparent
+
+jp:
+
+子猫の優しいまなざし
+子猫が星のような瞳で見つめて、そっと手を握ってくれた。
 
 ## 25-0721 Kitten Hiccups
 
