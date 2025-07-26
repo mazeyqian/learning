@@ -3,6 +3,7 @@
 
 **Table of Contents:**
 
+- [25-0305 Kyoto (京都;Kyoto,Kansai,Japan)](#25-0305-kyoto-京都kyotokansaijapan)
 - [18-0413 Haikou (海口;Haikou,South China)](#18-0413-haikou-海口haikousouth-china)
 - [22-0312 Gongqing Forest Park (共青国家森林公园;Shanghai,East China)](#22-0312-gongqing-forest-park-共青国家森林公园shanghaieast-china)
 - [23-0430 Around the Torreya Forest Road (绍兴;Shaoxing,East China)](#23-0430-around-the-torreya-forest-road-绍兴shaoxingeast-china)
@@ -54,6 +55,29 @@
 - [24-1228 Walk in Wakayama (和歌山)](#24-1228-walk-in-wakayama-和歌山)
 - [24-1213 王子ヶ浜 (王子町;Wakayama,Kansai,Japan)](#24-1213-王子ヶ浜-王子町wakayamakansaijapan)
 - [24-1206 The Animals of Wakayama Castle (和歌山城;Wakayama,Kansai,Japan)](#24-1206-the-animals-of-wakayama-castle-和歌山城wakayamakansaijapan)
+
+## 25-0305 Kyoto (京都;Kyoto,Kansai,Japan)
+
+address: 东福寺
+
+zh:
+
+京都｜清晨漫步
+京都的静谧在东福寺悄然展开。
+#东福寺 #清晨散步 #日本寺庙 #和风建筑 #古迹巡游 #京都旅行 #日本风景 #关西
+#京都#东福寺#清晨散步#日本寺庙#和风建筑#古迹巡游#京都旅行#日本风景#关西
+
+en:
+
+Kyoto: A Morning Stroll
+Kyoto’s tranquility quietly unfolds at Tofuku-ji in the early morning.
+#Tofukuji #MorningWalk #JapaneseTemple #WafuArchitecture #HistoricalSites #KyotoTrip #JapanScenery #Kansai
+
+jp:
+
+京都・朝の散歩
+東福寺で静かに始まる、京都の朝のひととき。
+#東福寺 #朝の散歩 #日本の寺 #和風建築 #史跡巡り #京都旅行 #日本の風景 #関西
 
 ## 18-0413 Haikou (海口;Haikou,South China)
 
