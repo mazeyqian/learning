@@ -1,26 +1,27 @@
 # Cat
 
-ドゥ
+ドゥドゥ
+猫猫
 猫咪日常・嘟嘟
 桂林公园
 
 **Table of Contents:**
 
 - [Cat](#cat)
-  - [25-0701](#25-0701)
+  - [25-0701 Healing Kitten Sleep Face](#25-0701-healing-kitten-sleep-face)
   - [25-0711 Loving Gaze from a Kitten](#25-0711-loving-gaze-from-a-kitten)
   - [25-0721 Kitten Hiccups](#25-0721-kitten-hiccups)
   - [25-0616 Kitten Wide-Eyed and Meowing](#25-0616-kitten-wide-eyed-and-meowing)
   - [25-0703 Head Massages Just for This Cat](#25-0703-head-massages-just-for-this-cat)
   - [25-0707 Sticky Little Baby](#25-0707-sticky-little-baby)
-  - [25-0626 Am I Not a Genius (嘟嘟)](#25-0626-am-i-not-a-genius-嘟嘟)
-  - [25-0603 Rock That Body (嘟嘟)](#25-0603-rock-that-body-嘟嘟)
-  - [25-0605 Don't Even Think Once (嘟嘟;Shanghai,China)](#25-0605-dont-even-think-once-嘟嘟shanghaichina)
-  - [25-0603 Moments with a Little Cat (嘟嘟;Shanghai,China)](#25-0603-moments-with-a-little-cat-嘟嘟shanghaichina)
-  - [25-0602 Tired All the Time (嘟嘟;Shanghai,China)](#25-0602-tired-all-the-time-嘟嘟shanghaichina)
+  - [25-0626 Am I Not a Genius](#25-0626-am-i-not-a-genius)
+  - [25-0603 Rock That Body](#25-0603-rock-that-body)
+  - [25-0605 Don't Even Think Once](#25-0605-dont-even-think-once)
+  - [25-0603 Moments with a Little Cat](#25-0603-moments-with-a-little-cat)
+  - [25-0602 Tired All the Time](#25-0602-tired-all-the-time)
 
 
-## 25-0701 
+## 25-0701 Healing Kitten Sleep Face
 
 zh:
 
@@ -31,13 +32,15 @@ zh:
 
 en:
 
-Adorable kittens will melt your heart.
-A cat’s sweet dreams captured in a soothing moment.
+Healing Kitten Sleep Face
+A cat lost in the sweetest dreams.
 #cat #kitten #cute #pet #catlife #sleepingcat #catownerlife #cuddlycat #lazycat #catboss
+#cat#kitten#cute#pet#catlife#sleepingcat#catownerlife#cuddlycat#lazycat#catboss
 
 jp:
 
-猫の癒やしのお昼寝
+子猫の癒しの寝顔
+甘い夢の中にいる子猫です。
 
 ## 25-0711 Loving Gaze from a Kitten
 
@@ -123,7 +126,7 @@ A soothing slice of daily life with a healing little cat.
 #cat #kitten #cute #catlife #relaxingtime #catownerlife #catmoments #lazycat #catboss
 #cat#kitten#cute#catlife#relaxingtime#catownerlife#catmoments#lazycat#catboss
 
-## 25-0626 Am I Not a Genius (嘟嘟)
+## 25-0626 Am I Not a Genius
 
 zh:
 
@@ -146,7 +149,7 @@ jp:
 #猫 #子猫 #かわいい #ペット #猫の日常 #猫の思考 #飼い主の日常 #猫吸い #天才
 #猫#子猫#かわいい#ペット#猫の日常#猫の思考#飼い主の日常#猫吸い#天才
 
-## 25-0603 Rock That Body (嘟嘟)
+## 25-0603 Rock That Body
 
 zh:
 
@@ -162,7 +165,7 @@ Under colorful lights, a rhythmic feline silhouette grooves.
 #Cat #Kitten #Groove #Cute #Rock #PetVibes #CatRoutine #CatLover #RockStyle
 #Cat#Kitten#Groove#Cute#Rock#PetVibes#CatRoutine#CatLover#RockStyle
 
-## 25-0605 Don't Even Think Once (嘟嘟;Shanghai,China)
+## 25-0605 Don't Even Think Once
 
 zh:
 
@@ -188,7 +191,7 @@ jp:
 #猫ぼーっと #ぼーっと #猫 #子猫 #かわいい #ペット #日常生活 #癒しのペット #猫の毎日 #猫好き #スローライフ
 #猫ぼーっと#ぼーっと#猫#子猫#かわいい#ペット#日常生活#癒しのペット#猫の毎日#猫好き
 
-## 25-0603 Moments with a Little Cat (嘟嘟;Shanghai,China)
+## 25-0603 Moments with a Little Cat
 
 猫咪日常・嘟嘟
 
@@ -212,7 +215,7 @@ jp:
 ドゥドゥ｜子猫と過ごすやさしい時間
 音楽とともに、静かに流れるまどろみのひととき。
 
-## 25-0602 Tired All the Time (嘟嘟;Shanghai,China)
+## 25-0602 Tired All the Time
 
 Guilin Park
 
