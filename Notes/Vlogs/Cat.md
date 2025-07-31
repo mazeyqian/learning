@@ -12,7 +12,7 @@
   - [25-0711 Loving Gaze from a Kitten](#25-0711-loving-gaze-from-a-kitten)
   - [25-0721 Kitten Hiccups](#25-0721-kitten-hiccups)
   - [25-0616 Kitten Wide-Eyed and Meowing](#25-0616-kitten-wide-eyed-and-meowing)
-  - [25-0703 Head Massages Just for This Cat](#25-0703-head-massages-just-for-this-cat)
+  - [25-0703 Relaxed Moments for This Cat](#25-0703-relaxed-moments-for-this-cat)
   - [25-0707 Sticky Little Baby](#25-0707-sticky-little-baby)
   - [25-0626 Am I Not a Genius](#25-0626-am-i-not-a-genius)
   - [25-0603 Rock That Body](#25-0603-rock-that-body)
@@ -94,7 +94,7 @@ Is she calling out to me, or did she just uncover a secret?
 #cat #kitten #cute #pet #catlife #meowing #catexpression #catlover
 #cat#kitten#cute#pet#catlife#meowing#catexpression#catlover
 
-## 25-0703 Head Massages Just for This Cat
+## 25-0703 Relaxed Moments for This Cat
 
 zh:
 
@@ -105,8 +105,8 @@ zh:
 
 en:
 
-Head Massages Just for This Cat
-A few gentle scratches and the cat completely melts in bliss.
+Relaxed Moments for This Cat
+Just a few gentle scratches, and the kitty becomes super relaxed.
 #cat #kitten #cute #catlife #headmassage #relaxedcat #catmoments #catownerlife #lazycat #dailycat
 #cat#kitten#cute#catlife#headmassage#relaxedcat#catmoments#catownerlife#lazycat#dailycat
 
