@@ -3,7 +3,7 @@
 
 **Table of Contents:**
 
-- [22-0307 Thousand\_Island\_Lake](#22-0307-thousand_island_lake)
+- [22-0307 Thousand Island Lake (千岛湖;Hangzhou,East China)](#22-0307-thousand-island-lake-千岛湖hangzhoueast-china)
 - [18-0428 Nanjing (南京;Nanjing,East China)](#18-0428-nanjing-南京nanjingeast-china)
 - [25-0305 Kyoto (京都;Kyoto,Kansai,Japan)](#25-0305-kyoto-京都kyotokansaijapan)
 - [18-0413 Haikou (海口;Haikou,South China)](#18-0413-haikou-海口haikousouth-china)
@@ -58,7 +58,7 @@
 - [24-1213 王子ヶ浜 (王子町;Wakayama,Kansai,Japan)](#24-1213-王子ヶ浜-王子町wakayamakansaijapan)
 - [24-1206 The Animals of Wakayama Castle (和歌山城;Wakayama,Kansai,Japan)](#24-1206-the-animals-of-wakayama-castle-和歌山城wakayamakansaijapan)
 
-## 22-0307 Thousand_Island_Lake
+## 22-0307 Thousand Island Lake (千岛湖;Hangzhou,East China)
 
 address: 千岛湖
 
