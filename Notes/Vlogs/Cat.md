@@ -8,6 +8,7 @@
 **Table of Contents:**
 
 - [Cat](#cat)
+  - [25-0714 Stay With Me](#25-0714-stay-with-me)
   - [25-0701 Healing Kitten Sleep Face](#25-0701-healing-kitten-sleep-face)
   - [25-0711 Loving Gaze from a Kitten](#25-0711-loving-gaze-from-a-kitten)
   - [25-0721 Kitten Hiccups](#25-0721-kitten-hiccups)
@@ -20,6 +21,25 @@
   - [25-0603 Moments with a Little Cat](#25-0603-moments-with-a-little-cat)
   - [25-0602 Tired All the Time](#25-0602-tired-all-the-time)
 
+
+## 25-0714 Stay With Me
+
+zh:
+
+小猫的陪伴
+猫猫不语，只是默默陪在我身边。
+#猫咪 #小猫 #可爱 #萌宠 #猫咪日常 #睡觉 #铲屎官日常 #吸猫时刻
+
+en:
+
+Stay With Me
+The cat says nothing, just quietly stays by my side.
+#cat #cute #kitty #petcat #catdaily #catvlog #shycat #catbehavior #catreaction #staywithme
+
+jp:
+
+猫のそばにいる時間
+猫は何も言わず、ただ静かにそばにいてくれる。
 
 ## 25-0701 Healing Kitten Sleep Face
 
