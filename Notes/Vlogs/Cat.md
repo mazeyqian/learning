@@ -8,6 +8,7 @@
 **Table of Contents:**
 
 - [Cat](#cat)
+  - [25-0805 A Cat Loves You](#25-0805-a-cat-loves-you)
   - [25-0803 This Is My Cat](#25-0803-this-is-my-cat)
   - [25-0714 Stay With Me](#25-0714-stay-with-me)
   - [25-0701 Healing Kitten Sleep Face](#25-0701-healing-kitten-sleep-face)
@@ -22,6 +23,24 @@
   - [25-0603 Moments with a Little Cat](#25-0603-moments-with-a-little-cat)
   - [25-0602 Tired All the Time](#25-0602-tired-all-the-time)
 
+## 25-0805 A Cat Loves You
+
+zh:
+
+小猫的告白
+她没有说出口，但每次靠近，都是爱的一种方式。
+#AiScReam #猫咪 #小猫 #宠物猫 #猫咪日常 #猫咪互动 #吸猫日常 #可爱 #黏人猫咪 #喵星人 #治愈系
+#AiScReam#猫咪#小猫#宠物猫#猫咪日常#猫咪互动#吸猫日常#可爱#黏人猫咪#喵星人#治愈系
+
+en:
+
+A Cat Loves You More Than You Know
+She never says a word, but every time she gets close, it's her way of saying "I love you".
+#AiScReam #cat #kitten #petcat #catdaily #catbonding #cutecat #clingycat #meow #healingpet
+
+jp:
+
+子猫の告白
 
 ## 25-0803 This Is My Cat
 
@@ -115,7 +134,7 @@ zh:
 en:
 
 Kitten Hiccups
-She had chicken breast for the first time—loved it so much she couldn’t stop, and ended up with a tiny hiccup.
+She had chicken breast for the first time—loved it so much she couldn't stop, and ended up with a tiny hiccup.
 #cat #kitten #cutepet #catvlog #adorable #petcat #meowtime #catlife #fluffypaws #funnycat
 
 ## 25-0616 Kitten Wide-Eyed and Meowing
@@ -271,7 +290,7 @@ zh:
 
 en:
 
-Tired All the Time: A Cat’s Couch Routine
+Tired All the Time: A Cat's Couch Routine
 
 All-day tiredness, perfectly embodied by one sleepy cat on a sofa.
 
