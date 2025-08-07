@@ -3,6 +3,7 @@
 
 **Table of Contents:**
 
+- [22-0619 Shanghai Haichang Ocean Park (上海海昌海洋公园;Shanghai,East China)](#22-0619-shanghai-haichang-ocean-park-上海海昌海洋公园shanghaieast-china)
 - [22-0307 Thousand Island Lake (千岛湖;Hangzhou,East China)](#22-0307-thousand-island-lake-千岛湖hangzhoueast-china)
 - [18-0428 Nanjing (南京;Nanjing,East China)](#18-0428-nanjing-南京nanjingeast-china)
 - [25-0305 Kyoto (京都;Kyoto,Kansai,Japan)](#25-0305-kyoto-京都kyotokansaijapan)
@@ -57,6 +58,20 @@
 - [24-1228 Walk in Wakayama (和歌山)](#24-1228-walk-in-wakayama-和歌山)
 - [24-1213 王子ヶ浜 (王子町;Wakayama,Kansai,Japan)](#24-1213-王子ヶ浜-王子町wakayamakansaijapan)
 - [24-1206 The Animals of Wakayama Castle (和歌山城;Wakayama,Kansai,Japan)](#24-1206-the-animals-of-wakayama-castle-和歌山城wakayamakansaijapan)
+
+## 22-0619 Shanghai Haichang Ocean Park (上海海昌海洋公园;Shanghai,East China)
+
+zh:
+
+上海海昌海洋公园｜奇妙海底世界之旅
+与虎鲸共舞，看海象打招呼，漫游五彩珊瑚海，开启属于海洋的童话一天。
+#海昌海洋公园 #虎鲸 #海象 #鲨鱼 #海底世界 #海象 #企鹅 #珊瑚 #水母 #临港 #上海
+
+en:
+
+Shanghai Haichang Ocean Park: Dive into a Magical Underwater World
+Watch orcas leap, wave at walruses, and journey through coral tunnels in a day full of marine wonder.
+#HaichangOceanPark #ShanghaiTravel #UnderwaterAdventure #SharkTunnel #OrcaShow #WalrusBay #MermaidPerformance #CoralWorld #PenguinHouse #JellyfishGarden
 
 ## 22-0307 Thousand Island Lake (千岛湖;Hangzhou,East China)
 
@@ -1101,12 +1116,6 @@ en:
 The Animals of Wakayama Castle: A Fairytale Adventure
 Meet charming animals at Wakayama Castle.
 #Zoo #FairytalePark #WaterfowlPark #Horses #Parrots #Castle #WakayamaCastlePark #Kansai #NatureAdventure #FamilyFun #Japan #JapanTravel #Travel #TravelDiary
-
----
-
-title: 上海海昌海洋公园｜奇妙海底世界之旅
-
-description: #海洋馆一日游 #海洋生物 #海昌海洋公园 #上海旅游 #海底探险 #鲨鱼奇观 #虎鲸表演 #海象乐园 #公园 #海洋 #鲨鱼 #虎鲸 #海底世界 #海象 #美人鱼 #企鹅 #珊瑚 #水母 #临港 #周末 #上海 #旅行 #旅游 #旅行日记
 
 ---
 
