@@ -3,6 +3,7 @@
 
 **Table of Contents:**
 
+- [22-0905 Shanghai Chongming Island (崇明岛;Shanghai,East China)](#22-0905-shanghai-chongming-island-崇明岛shanghaieast-china)
 - [22-0619 Shanghai Haichang Ocean Park (上海海昌海洋公园;Shanghai,East China)](#22-0619-shanghai-haichang-ocean-park-上海海昌海洋公园shanghaieast-china)
 - [22-0307 Thousand Island Lake (千岛湖;Hangzhou,East China)](#22-0307-thousand-island-lake-千岛湖hangzhoueast-china)
 - [18-0428 Nanjing (南京;Nanjing,East China)](#18-0428-nanjing-南京nanjingeast-china)
@@ -59,6 +60,25 @@
 - [24-1213 王子ヶ浜 (王子町;Wakayama,Kansai,Japan)](#24-1213-王子ヶ浜-王子町wakayamakansaijapan)
 - [24-1206 The Animals of Wakayama Castle (和歌山城;Wakayama,Kansai,Japan)](#24-1206-the-animals-of-wakayama-castle-和歌山城wakayamakansaijapan)
 
+## 22-0905 Shanghai Chongming Island (崇明岛;Shanghai,East China)
+
+zh:
+
+崇明岛｜夜幕下的篝火狂欢
+星光点缀夜空，篝火升温夏夜，笑声和舞步都刚刚好。
+#烟花 #篝火 #跳舞 #露营体验 #海岛风光 #夜间派对 #夏日晚风 #自然时光 #崇明岛 #上海郊游
+#烟花#篝火#跳舞#露营体验#海岛风光#夜间派对#夏日晚风#自然时光#崇明岛#上海郊游
+
+en:
+
+Shanghai Chongming Island: Bonfire Vibes Beneath the Stars
+A carefree summer night with dancing flames, ocean breeze, and laughter by the fire.
+#Fireworks #BonfireNight #Dancing #IslandEvening #CoastalVibes #NightCamp #SummerChill #NatureVibes #ChongmingIsland #ShanghaiEscape
+
+jp:
+
+崇明島｜夏の夜に火を囲んで
+
 ## 22-0619 Shanghai Haichang Ocean Park (上海海昌海洋公园;Shanghai,East China)
 
 zh:
@@ -66,6 +86,7 @@ zh:
 上海海昌海洋公园｜奇妙海底世界之旅
 与虎鲸共舞，看海象打招呼，漫游五彩珊瑚海，开启属于海洋的童话一天。
 #海昌海洋公园 #虎鲸 #海象 #鲨鱼 #海底世界 #海象 #企鹅 #珊瑚 #水母 #临港 #上海
+#海昌海洋公园#虎鲸#海象#鲨鱼#海底世界#海象#企鹅#珊瑚#水母#临港#上海
 
 en:
 
@@ -1152,14 +1173,6 @@ title: 厦门｜云水谣｜依山傍水
 description: #夏日气息 #青山绿水 #黑天鹅 #河流 #云水谣 #厦门大学 #厦门 #旅游 #旅行 #旅行日记
 
 color: 455f9a
-
----
-
-title: 崇明岛｜篝火晚会嗨起来
-
-description: #烟花 #篝火 #跳舞 #篝火晚会嗨起来 #跳舞使我快乐 #团建 #上海 #崇明岛 #旅游 #旅行 #旅行日记
-
-color: 300101
 
 ---
 
