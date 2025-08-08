@@ -59,6 +59,7 @@
 - [24-1228 Walk in Wakayama (和歌山)](#24-1228-walk-in-wakayama-和歌山)
 - [24-1213 王子ヶ浜 (王子町;Wakayama,Kansai,Japan)](#24-1213-王子ヶ浜-王子町wakayamakansaijapan)
 - [24-1206 The Animals of Wakayama Castle (和歌山城;Wakayama,Kansai,Japan)](#24-1206-the-animals-of-wakayama-castle-和歌山城wakayamakansaijapan)
+- [Others](#others)
 
 ## 22-0905 Shanghai Chongming Island (崇明岛;Shanghai,East China)
 
@@ -1138,7 +1139,7 @@ The Animals of Wakayama Castle: A Fairytale Adventure
 Meet charming animals at Wakayama Castle.
 #Zoo #FairytalePark #WaterfowlPark #Horses #Parrots #Castle #WakayamaCastlePark #Kansai #NatureAdventure #FamilyFun #Japan #JapanTravel #Travel #TravelDiary
 
----
+## Others
 
 title: 无锡｜每一帧都是热爱
 
